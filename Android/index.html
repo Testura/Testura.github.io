@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Install </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Install ">
+    <meta name="generator" content="docfx 2.10.2.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+              
+              <p><img src="http://testura.net/Content/Images/logo.png" alt="Testura Logo"></p>
+<p>Testura.Android is a lightweight test automation framework for Android built in C#. It contains tools and help classes to test, validate and interact with your Android device or emulator.</p>
+<h1 id="install">Install</h1>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li><a href="https://developer.android.com/studio/index.html">Android SDK</a></li>
+<li>Visual Studio</li>
+</ul>
+<h2 id="nuget-nuget-statushttpsimgshieldsionugetvtesturaandroidsvgstyleflathttpswwwnugetorgpackagestesturaandroid">NuGet <a href="https://www.nuget.org/packages/Testura.Android"><img src="https://img.shields.io/nuget/v/Testura.Android.svg?style=flat" alt="NuGet Status"></a></h2>
+<p><a href="https://www.nuget.org/packages/Testura.Android"><a href="https://www.nuget.org/packages/Testura.Android">https://www.nuget.org/packages/Testura.Android</a></a></p>
+<pre><code>PM&gt; Install-Package Testura.Android
+</code></pre><h2 id="nuget-with-page-object-helpers-optional-nuget-statushttpsimgshieldsionugetvtesturaandroidpageobjectsvgstyleflathttpswwwnugetorgpackagestesturaandroidpageobject">Nuget with page object helpers (optional) <a href="https://www.nuget.org/packages/Testura.Android.PageObject"><img src="https://img.shields.io/nuget/v/Testura.Android.PageObject.svg?style=flat" alt="NuGet Status"></a></h2>
+<p><a href="https://www.nuget.org/packages/Testura.Android.PageObject"><a href="https://www.nuget.org/packages/Testura.Android.PageObject">https://www.nuget.org/packages/Testura.Android.PageObject</a></a></p>
+<pre><code>PM&gt; Install-Package Testura.Android.PageObject
+</code></pre><h2 id="usage">Usage</h2>
+<p><a href="https://www.youtube.com/watch?v=x-U2F6mzcyc">Short introduction - Youtube</a></p>
+<p><a href="https://www.youtube.com/watch?v=0QhAcGdx65E">How to create a test automation project with testura - Youtube</a></p>
+<p>Testura.Android has been designed for the page object pattern. Here is a short example of a login view:</p>
+<pre><code class="lang-c#">using Testura.Android.Device;
+using Testura.Android.Device.Configurations;
+using Testura.Android.Device.Ui.Objects;
+using Testura.Android.Device.Ui.Search;
+
+namespace Testura.Android.Tests.Device
+{
+    public class ExampleView
+    {
+        private IAndroidDevice _androidDevice;
+
+        private readonly UiObject _usernameTextbox;
+        private readonly UiObject _passwordTextbox;
+        private readonly UiObject _logginButton;
+
+        public ExampleView()
+        {
+            _androidDevice = new AndroidDevice(new DeviceConfiguration());
+
+            // The device won&#39;t look for the node/UI object before we interact with it,
+            // so it&#39;s perfectly safe to set up everything inside the constructor.
+            _usernameTextbox = _androidDevice.Ui.CreateUiObject(With.ResourceId(&quot;usernameTextbox&quot;));
+            _passwordTextbox = _androidDevice.Ui.CreateUiObject(With.ContentDesc(&quot;passwordTextbox&quot;));
+            _logginButton = _androidDevice.Ui.CreateUiObject(With.Lambda(n =&gt; n.Text == &quot;Login&quot;));
+        }
+
+        public void Login(string username, string password)
+        {
+            _usernameTextbox.SendKeys(username);
+            _passwordTextbox.SendKeys(password);
+            _logginButton.Click();
+        }
+    }
+}
+</code></pre><p>In the example we can see how we map different nodes on the screen to &quot;UI objects&quot;. We can then interact with the nodes through the mapped UI object.</p>
+<h2 id="selecting-nodes-with-with">Selecting nodes with <code>With</code></h2>
+<p>If you have used Selenium, Appium or any other big test automation framework I&#39;m sure you are familiar with the <code>By</code> keyword. Testura.Android has something similiar called <code>With</code>.</p>
+<p>When mapping up a new UI object, you first have to decide how to find it, using one or more <code>With</code>:</p>
+<ul>
+<li><code>With.Text</code> - Find nodes that match the exact text</li>
+<li><code>With.ContainsText</code> - Find nodes that contain just a part of the text</li>
+<li><code>With.ResourceId</code> - Find nodes that contains the exact resource ID</li>
+<li><code>With.ContentDesc</code> - Find nodes that contains the exact content description</li>
+<li><code>With.Class</code> - Find nodes that contains the exact class</li>
+<li><code>With.Index</code> - Find nodes that have this index</li>
+<li><code>With.Package</code> - Find nodes that contains the exact package</li>
+<li><code>With.Lamba</code> - Find nodes with a lamba expression</li>
+</ul>
+<p><code>With.Lamba</code> is a powerful method to find nodes, and you can access both the node&#39;s parent and children:</p>
+<pre><code class="lang-c#">With.Lambda(n =&gt;
+    n.Text == &quot;Some text&quot;
+    &amp;&amp; n.Parent != null
+    &amp;&amp; n.Children.First().ContentDesc == &quot;My child&quot;);
+</code></pre><h2 id="services">Services</h2>
+<p>The Android device class consists of multiple &quot;services&quot; that handle different parts of the device:</p>
+<ul>
+<li>ADB service - Send shell commands, push and pull files, install APKs etc.</li>
+<li>UI service - Look for nodes or map UI objects (handles screen dumping)</li>
+<li>Settings service - Enable/disable different settings, for example wifi and airplane mode</li>
+<li>Activity service - Start activity or get the name of the current one</li>
+<li>Interaction service - Handle interaction with the device, for example swipe and click</li>
+</ul>
+<p>All services are accessible from the device class like this:</p>
+<pre><code class="lang-c#">var device = new AndroidDevice(new DeviceConfiguration());
+device.Adb.Shell(&quot;my shell commando&quot;);
+device.Settings.Wifi(State.Enable);
+</code></pre><h2 id="uiobject"><code>UiObject</code></h2>
+<p><code>UiObject</code> is one of the core components of Testura.Android. It wraps a node with all the necessary functions:</p>
+<pre><code class="lang-c#">var device = new AndroidDevice(new DeviceConfiguration());
+var uiObject = device.Ui.CreateUiObject(With.ContentDesc(&quot;..&quot;));
+uiObject.Click();
+uiObject.IsVisible();
+uiObject.IsHidden();
+uiObject.SendKeys(&quot;..&quot;);
+var node = uiObject.Values();
+</code></pre><h2 id="page-object-helpers">Page object helpers</h2>
+<p>For more information about page object helpers, visit the wiki: <a href="https://github.com/Testura/Testura.Android/wiki/10.-Page-Object">https://github.com/Testura/Testura.Android/wiki/10.-Page-Object</a></p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License. See the <a href="LICENSE.md">LICENSE.md</a> file for details.</p>
+<h2 id="contact">Contact</h2>
+<p>Visit <a href="http://www.testura.net">www.testura.net</a>, twitter at @testuranet or email at mille.bostrom@testura.net</p>
+
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

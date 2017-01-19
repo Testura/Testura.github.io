@@ -1,0 +1,2239 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Testura.Code
+  name: Testura.Code
+  href: api/Testura.Code.html
+  commentId: N:Testura.Code
+  fullName: Testura.Code
+  nameWithType: Testura.Code
+- uid: Testura.Code.AssertType
+  name: AssertType
+  href: api/Testura.Code.AssertType.html
+  commentId: T:Testura.Code.AssertType
+  fullName: Testura.Code.AssertType
+  nameWithType: AssertType
+- uid: Testura.Code.AssertType.AreEqual
+  name: AreEqual
+  href: api/Testura.Code.AssertType.html#Testura_Code_AssertType_AreEqual
+  commentId: F:Testura.Code.AssertType.AreEqual
+  fullName: Testura.Code.AssertType.AreEqual
+  nameWithType: AssertType.AreEqual
+- uid: Testura.Code.AssertType.AreNotEqual
+  name: AreNotEqual
+  href: api/Testura.Code.AssertType.html#Testura_Code_AssertType_AreNotEqual
+  commentId: F:Testura.Code.AssertType.AreNotEqual
+  fullName: Testura.Code.AssertType.AreNotEqual
+  nameWithType: AssertType.AreNotEqual
+- uid: Testura.Code.AssertType.AreNotSame
+  name: AreNotSame
+  href: api/Testura.Code.AssertType.html#Testura_Code_AssertType_AreNotSame
+  commentId: F:Testura.Code.AssertType.AreNotSame
+  fullName: Testura.Code.AssertType.AreNotSame
+  nameWithType: AssertType.AreNotSame
+- uid: Testura.Code.AssertType.AreSame
+  name: AreSame
+  href: api/Testura.Code.AssertType.html#Testura_Code_AssertType_AreSame
+  commentId: F:Testura.Code.AssertType.AreSame
+  fullName: Testura.Code.AssertType.AreSame
+  nameWithType: AssertType.AreSame
+- uid: Testura.Code.AssertType.Contains
+  name: Contains
+  href: api/Testura.Code.AssertType.html#Testura_Code_AssertType_Contains
+  commentId: F:Testura.Code.AssertType.Contains
+  fullName: Testura.Code.AssertType.Contains
+  nameWithType: AssertType.Contains
+- uid: Testura.Code.AssertType.IsFalse
+  name: IsFalse
+  href: api/Testura.Code.AssertType.html#Testura_Code_AssertType_IsFalse
+  commentId: F:Testura.Code.AssertType.IsFalse
+  fullName: Testura.Code.AssertType.IsFalse
+  nameWithType: AssertType.IsFalse
+- uid: Testura.Code.AssertType.IsTrue
+  name: IsTrue
+  href: api/Testura.Code.AssertType.html#Testura_Code_AssertType_IsTrue
+  commentId: F:Testura.Code.AssertType.IsTrue
+  fullName: Testura.Code.AssertType.IsTrue
+  nameWithType: AssertType.IsTrue
+- uid: Testura.Code.Builders
+  name: Testura.Code.Builders
+  href: api/Testura.Code.Builders.html
+  commentId: N:Testura.Code.Builders
+  fullName: Testura.Code.Builders
+  nameWithType: Testura.Code.Builders
+- uid: Testura.Code.Builders.ClassBuilder
+  name: ClassBuilder
+  href: api/Testura.Code.Builders.ClassBuilder.html
+  commentId: T:Testura.Code.Builders.ClassBuilder
+  fullName: Testura.Code.Builders.ClassBuilder
+  nameWithType: ClassBuilder
+- uid: Testura.Code.Builders.ClassBuilder.#ctor(System.String,System.String)
+  name: ClassBuilder(String, String)
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder__ctor_System_String_System_String_
+  commentId: M:Testura.Code.Builders.ClassBuilder.#ctor(System.String,System.String)
+  fullName: Testura.Code.Builders.ClassBuilder.ClassBuilder(System.String, System.String)
+  nameWithType: ClassBuilder.ClassBuilder(String, String)
+- uid: Testura.Code.Builders.ClassBuilder.#ctor*
+  name: ClassBuilder
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder__ctor_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.#ctor
+  fullName: Testura.Code.Builders.ClassBuilder.ClassBuilder
+  nameWithType: ClassBuilder.ClassBuilder
+- uid: Testura.Code.Builders.ClassBuilder.Build
+  name: Build()
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_Build
+  commentId: M:Testura.Code.Builders.ClassBuilder.Build
+  fullName: Testura.Code.Builders.ClassBuilder.Build()
+  nameWithType: ClassBuilder.Build()
+- uid: Testura.Code.Builders.ClassBuilder.Build*
+  name: Build
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_Build_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.Build
+  fullName: Testura.Code.Builders.ClassBuilder.Build
+  nameWithType: ClassBuilder.Build
+- uid: Testura.Code.Builders.ClassBuilder.ThatInheritFrom(System.Type[])
+  name: ThatInheritFrom(Type[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_ThatInheritFrom_System_Type___
+  commentId: M:Testura.Code.Builders.ClassBuilder.ThatInheritFrom(System.Type[])
+  name.vb: ThatInheritFrom(Type())
+  fullName: Testura.Code.Builders.ClassBuilder.ThatInheritFrom(System.Type[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.ThatInheritFrom(System.Type())
+  nameWithType: ClassBuilder.ThatInheritFrom(Type[])
+  nameWithType.vb: ThatInheritFrom(Type())
+- uid: Testura.Code.Builders.ClassBuilder.ThatInheritFrom*
+  name: ThatInheritFrom
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_ThatInheritFrom_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.ThatInheritFrom
+  fullName: Testura.Code.Builders.ClassBuilder.ThatInheritFrom
+  nameWithType: ClassBuilder.ThatInheritFrom
+- uid: Testura.Code.Builders.ClassBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  name: WithAttributes(SyntaxList<AttributeListSyntax>)
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithAttributes_Microsoft_CodeAnalysis_SyntaxList_Microsoft_CodeAnalysis_CSharp_Syntax_AttributeListSyntax__
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  name.vb: WithAttributes(SyntaxList(Of AttributeListSyntax))
+  fullName: Testura.Code.Builders.ClassBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax>)
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList(Of Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax))
+  nameWithType: ClassBuilder.WithAttributes(SyntaxList<AttributeListSyntax>)
+  nameWithType.vb: WithAttributes(SyntaxList(Of AttributeListSyntax))
+- uid: Testura.Code.Builders.ClassBuilder.WithAttributes(Testura.Code.Models.Attribute[])
+  name: WithAttributes(Attribute[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithAttributes_Testura_Code_Models_Attribute___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithAttributes(Testura.Code.Models.Attribute[])
+  name.vb: WithAttributes(Attribute())
+  fullName: Testura.Code.Builders.ClassBuilder.WithAttributes(Testura.Code.Models.Attribute[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithAttributes(Testura.Code.Models.Attribute())
+  nameWithType: ClassBuilder.WithAttributes(Attribute[])
+  nameWithType.vb: WithAttributes(Attribute())
+- uid: Testura.Code.Builders.ClassBuilder.WithAttributes*
+  name: WithAttributes
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithAttributes_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.WithAttributes
+  fullName: Testura.Code.Builders.ClassBuilder.WithAttributes
+  nameWithType: ClassBuilder.WithAttributes
+- uid: Testura.Code.Builders.ClassBuilder.WithConstructor(Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorDeclarationSyntax)
+  name: WithConstructor(ConstructorDeclarationSyntax)
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithConstructor_Microsoft_CodeAnalysis_CSharp_Syntax_ConstructorDeclarationSyntax_
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithConstructor(Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorDeclarationSyntax)
+  fullName: Testura.Code.Builders.ClassBuilder.WithConstructor(Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorDeclarationSyntax)
+  nameWithType: ClassBuilder.WithConstructor(ConstructorDeclarationSyntax)
+- uid: Testura.Code.Builders.ClassBuilder.WithConstructor*
+  name: WithConstructor
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithConstructor_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.WithConstructor
+  fullName: Testura.Code.Builders.ClassBuilder.WithConstructor
+  nameWithType: ClassBuilder.WithConstructor
+- uid: Testura.Code.Builders.ClassBuilder.WithFields(Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax[])
+  name: WithFields(FieldDeclarationSyntax[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithFields_Microsoft_CodeAnalysis_CSharp_Syntax_FieldDeclarationSyntax___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithFields(Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax[])
+  name.vb: WithFields(FieldDeclarationSyntax())
+  fullName: Testura.Code.Builders.ClassBuilder.WithFields(Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithFields(Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax())
+  nameWithType: ClassBuilder.WithFields(FieldDeclarationSyntax[])
+  nameWithType.vb: WithFields(FieldDeclarationSyntax())
+- uid: Testura.Code.Builders.ClassBuilder.WithFields(Testura.Code.Models.Field[])
+  name: WithFields(Field[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithFields_Testura_Code_Models_Field___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithFields(Testura.Code.Models.Field[])
+  name.vb: WithFields(Field())
+  fullName: Testura.Code.Builders.ClassBuilder.WithFields(Testura.Code.Models.Field[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithFields(Testura.Code.Models.Field())
+  nameWithType: ClassBuilder.WithFields(Field[])
+  nameWithType.vb: WithFields(Field())
+- uid: Testura.Code.Builders.ClassBuilder.WithFields*
+  name: WithFields
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithFields_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.WithFields
+  fullName: Testura.Code.Builders.ClassBuilder.WithFields
+  nameWithType: ClassBuilder.WithFields
+- uid: Testura.Code.Builders.ClassBuilder.WithMethods(Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax[])
+  name: WithMethods(MethodDeclarationSyntax[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithMethods_Microsoft_CodeAnalysis_CSharp_Syntax_MethodDeclarationSyntax___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithMethods(Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax[])
+  name.vb: WithMethods(MethodDeclarationSyntax())
+  fullName: Testura.Code.Builders.ClassBuilder.WithMethods(Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithMethods(Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax())
+  nameWithType: ClassBuilder.WithMethods(MethodDeclarationSyntax[])
+  nameWithType.vb: WithMethods(MethodDeclarationSyntax())
+- uid: Testura.Code.Builders.ClassBuilder.WithMethods*
+  name: WithMethods
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithMethods_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.WithMethods
+  fullName: Testura.Code.Builders.ClassBuilder.WithMethods
+  nameWithType: ClassBuilder.WithMethods
+- uid: Testura.Code.Builders.ClassBuilder.WithModifiers(Testura.Code.Modifiers[])
+  name: WithModifiers(Modifiers[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithModifiers_Testura_Code_Modifiers___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithModifiers(Testura.Code.Modifiers[])
+  name.vb: WithModifiers(Modifiers())
+  fullName: Testura.Code.Builders.ClassBuilder.WithModifiers(Testura.Code.Modifiers[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithModifiers(Testura.Code.Modifiers())
+  nameWithType: ClassBuilder.WithModifiers(Modifiers[])
+  nameWithType.vb: WithModifiers(Modifiers())
+- uid: Testura.Code.Builders.ClassBuilder.WithModifiers*
+  name: WithModifiers
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithModifiers_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.WithModifiers
+  fullName: Testura.Code.Builders.ClassBuilder.WithModifiers
+  nameWithType: ClassBuilder.WithModifiers
+- uid: Testura.Code.Builders.ClassBuilder.WithProperties(Microsoft.CodeAnalysis.CSharp.Syntax.PropertyDeclarationSyntax[])
+  name: WithProperties(PropertyDeclarationSyntax[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithProperties_Microsoft_CodeAnalysis_CSharp_Syntax_PropertyDeclarationSyntax___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithProperties(Microsoft.CodeAnalysis.CSharp.Syntax.PropertyDeclarationSyntax[])
+  name.vb: WithProperties(PropertyDeclarationSyntax())
+  fullName: Testura.Code.Builders.ClassBuilder.WithProperties(Microsoft.CodeAnalysis.CSharp.Syntax.PropertyDeclarationSyntax[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithProperties(Microsoft.CodeAnalysis.CSharp.Syntax.PropertyDeclarationSyntax())
+  nameWithType: ClassBuilder.WithProperties(PropertyDeclarationSyntax[])
+  nameWithType.vb: WithProperties(PropertyDeclarationSyntax())
+- uid: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property[])
+  name: WithProperties(Property[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithProperties_Testura_Code_Models_Property___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property[])
+  name.vb: WithProperties(Property())
+  fullName: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property())
+  nameWithType: ClassBuilder.WithProperties(Property[])
+  nameWithType.vb: WithProperties(Property())
+- uid: Testura.Code.Builders.ClassBuilder.WithProperties*
+  name: WithProperties
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithProperties_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.WithProperties
+  fullName: Testura.Code.Builders.ClassBuilder.WithProperties
+  nameWithType: ClassBuilder.WithProperties
+- uid: Testura.Code.Builders.ClassBuilder.WithUsings(System.String[])
+  name: WithUsings(String[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithUsings_System_String___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithUsings(System.String[])
+  name.vb: WithUsings(String())
+  fullName: Testura.Code.Builders.ClassBuilder.WithUsings(System.String[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithUsings(System.String())
+  nameWithType: ClassBuilder.WithUsings(String[])
+  nameWithType.vb: WithUsings(String())
+- uid: Testura.Code.Builders.ClassBuilder.WithUsings*
+  name: WithUsings
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithUsings_
+  commentId: Overload:Testura.Code.Builders.ClassBuilder.WithUsings
+  fullName: Testura.Code.Builders.ClassBuilder.WithUsings
+  nameWithType: ClassBuilder.WithUsings
+- uid: Testura.Code.Builders.MethodBuilder
+  name: MethodBuilder
+  href: api/Testura.Code.Builders.MethodBuilder.html
+  commentId: T:Testura.Code.Builders.MethodBuilder
+  fullName: Testura.Code.Builders.MethodBuilder
+  nameWithType: MethodBuilder
+- uid: Testura.Code.Builders.MethodBuilder.#ctor(System.String)
+  name: MethodBuilder(String)
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder__ctor_System_String_
+  commentId: M:Testura.Code.Builders.MethodBuilder.#ctor(System.String)
+  fullName: Testura.Code.Builders.MethodBuilder.MethodBuilder(System.String)
+  nameWithType: MethodBuilder.MethodBuilder(String)
+- uid: Testura.Code.Builders.MethodBuilder.#ctor*
+  name: MethodBuilder
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder__ctor_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.#ctor
+  fullName: Testura.Code.Builders.MethodBuilder.MethodBuilder
+  nameWithType: MethodBuilder.MethodBuilder
+- uid: Testura.Code.Builders.MethodBuilder.Build
+  name: Build()
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_Build
+  commentId: M:Testura.Code.Builders.MethodBuilder.Build
+  fullName: Testura.Code.Builders.MethodBuilder.Build()
+  nameWithType: MethodBuilder.Build()
+- uid: Testura.Code.Builders.MethodBuilder.Build*
+  name: Build
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_Build_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.Build
+  fullName: Testura.Code.Builders.MethodBuilder.Build
+  nameWithType: MethodBuilder.Build
+- uid: Testura.Code.Builders.MethodBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  name: WithAttributes(SyntaxList<AttributeListSyntax>)
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithAttributes_Microsoft_CodeAnalysis_SyntaxList_Microsoft_CodeAnalysis_CSharp_Syntax_AttributeListSyntax__
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})
+  name.vb: WithAttributes(SyntaxList(Of AttributeListSyntax))
+  fullName: Testura.Code.Builders.MethodBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax>)
+  fullName.vb: Testura.Code.Builders.MethodBuilder.WithAttributes(Microsoft.CodeAnalysis.SyntaxList(Of Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax))
+  nameWithType: MethodBuilder.WithAttributes(SyntaxList<AttributeListSyntax>)
+  nameWithType.vb: WithAttributes(SyntaxList(Of AttributeListSyntax))
+- uid: Testura.Code.Builders.MethodBuilder.WithAttributes(Testura.Code.Models.Attribute[])
+  name: WithAttributes(Attribute[])
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithAttributes_Testura_Code_Models_Attribute___
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithAttributes(Testura.Code.Models.Attribute[])
+  name.vb: WithAttributes(Attribute())
+  fullName: Testura.Code.Builders.MethodBuilder.WithAttributes(Testura.Code.Models.Attribute[])
+  fullName.vb: Testura.Code.Builders.MethodBuilder.WithAttributes(Testura.Code.Models.Attribute())
+  nameWithType: MethodBuilder.WithAttributes(Attribute[])
+  nameWithType.vb: WithAttributes(Attribute())
+- uid: Testura.Code.Builders.MethodBuilder.WithAttributes*
+  name: WithAttributes
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithAttributes_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.WithAttributes
+  fullName: Testura.Code.Builders.MethodBuilder.WithAttributes
+  nameWithType: MethodBuilder.WithAttributes
+- uid: Testura.Code.Builders.MethodBuilder.WithBody(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  name: WithBody(BlockSyntax)
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithBody_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithBody(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  fullName: Testura.Code.Builders.MethodBuilder.WithBody(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  nameWithType: MethodBuilder.WithBody(BlockSyntax)
+- uid: Testura.Code.Builders.MethodBuilder.WithBody*
+  name: WithBody
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithBody_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.WithBody
+  fullName: Testura.Code.Builders.MethodBuilder.WithBody
+  nameWithType: MethodBuilder.WithBody
+- uid: Testura.Code.Builders.MethodBuilder.WithModifiers(Testura.Code.Modifiers[])
+  name: WithModifiers(Modifiers[])
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithModifiers_Testura_Code_Modifiers___
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithModifiers(Testura.Code.Modifiers[])
+  name.vb: WithModifiers(Modifiers())
+  fullName: Testura.Code.Builders.MethodBuilder.WithModifiers(Testura.Code.Modifiers[])
+  fullName.vb: Testura.Code.Builders.MethodBuilder.WithModifiers(Testura.Code.Modifiers())
+  nameWithType: MethodBuilder.WithModifiers(Modifiers[])
+  nameWithType.vb: WithModifiers(Modifiers())
+- uid: Testura.Code.Builders.MethodBuilder.WithModifiers*
+  name: WithModifiers
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithModifiers_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.WithModifiers
+  fullName: Testura.Code.Builders.MethodBuilder.WithModifiers
+  nameWithType: MethodBuilder.WithModifiers
+- uid: Testura.Code.Builders.MethodBuilder.WithParameters(Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax[])
+  name: WithParameters(ParameterSyntax[])
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithParameters_Microsoft_CodeAnalysis_CSharp_Syntax_ParameterSyntax___
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithParameters(Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax[])
+  name.vb: WithParameters(ParameterSyntax())
+  fullName: Testura.Code.Builders.MethodBuilder.WithParameters(Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax[])
+  fullName.vb: Testura.Code.Builders.MethodBuilder.WithParameters(Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax())
+  nameWithType: MethodBuilder.WithParameters(ParameterSyntax[])
+  nameWithType.vb: WithParameters(ParameterSyntax())
+- uid: Testura.Code.Builders.MethodBuilder.WithParameters(Testura.Code.Models.Parameter[])
+  name: WithParameters(Parameter[])
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithParameters_Testura_Code_Models_Parameter___
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithParameters(Testura.Code.Models.Parameter[])
+  name.vb: WithParameters(Parameter())
+  fullName: Testura.Code.Builders.MethodBuilder.WithParameters(Testura.Code.Models.Parameter[])
+  fullName.vb: Testura.Code.Builders.MethodBuilder.WithParameters(Testura.Code.Models.Parameter())
+  nameWithType: MethodBuilder.WithParameters(Parameter[])
+  nameWithType.vb: WithParameters(Parameter())
+- uid: Testura.Code.Builders.MethodBuilder.WithParameters*
+  name: WithParameters
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithParameters_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.WithParameters
+  fullName: Testura.Code.Builders.MethodBuilder.WithParameters
+  nameWithType: MethodBuilder.WithParameters
+- uid: Testura.Code.Builders.MethodBuilder.WithReturnType(System.Type)
+  name: WithReturnType(Type)
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithReturnType_System_Type_
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithReturnType(System.Type)
+  fullName: Testura.Code.Builders.MethodBuilder.WithReturnType(System.Type)
+  nameWithType: MethodBuilder.WithReturnType(Type)
+- uid: Testura.Code.Builders.MethodBuilder.WithReturnType*
+  name: WithReturnType
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithReturnType_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.WithReturnType
+  fullName: Testura.Code.Builders.MethodBuilder.WithReturnType
+  nameWithType: MethodBuilder.WithReturnType
+- uid: Testura.Code.Builders.MethodBuilder.WithSummary(System.String)
+  name: WithSummary(String)
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithSummary_System_String_
+  commentId: M:Testura.Code.Builders.MethodBuilder.WithSummary(System.String)
+  fullName: Testura.Code.Builders.MethodBuilder.WithSummary(System.String)
+  nameWithType: MethodBuilder.WithSummary(String)
+- uid: Testura.Code.Builders.MethodBuilder.WithSummary*
+  name: WithSummary
+  href: api/Testura.Code.Builders.MethodBuilder.html#Testura_Code_Builders_MethodBuilder_WithSummary_
+  commentId: Overload:Testura.Code.Builders.MethodBuilder.WithSummary
+  fullName: Testura.Code.Builders.MethodBuilder.WithSummary
+  nameWithType: MethodBuilder.WithSummary
+- uid: Testura.Code.Compilations
+  name: Testura.Code.Compilations
+  href: api/Testura.Code.Compilations.html
+  commentId: N:Testura.Code.Compilations
+  fullName: Testura.Code.Compilations
+  nameWithType: Testura.Code.Compilations
+- uid: Testura.Code.Compilations.Compiler
+  name: Compiler
+  href: api/Testura.Code.Compilations.Compiler.html
+  commentId: T:Testura.Code.Compilations.Compiler
+  fullName: Testura.Code.Compilations.Compiler
+  nameWithType: Compiler
+- uid: Testura.Code.Compilations.Compiler.#ctor(System.String[],System.String)
+  name: Compiler(String[], String)
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler__ctor_System_String___System_String_
+  commentId: M:Testura.Code.Compilations.Compiler.#ctor(System.String[],System.String)
+  name.vb: Compiler(String(), String)
+  fullName: Testura.Code.Compilations.Compiler.Compiler(System.String[], System.String)
+  fullName.vb: Testura.Code.Compilations.Compiler.Compiler(System.String(), System.String)
+  nameWithType: Compiler.Compiler(String[], String)
+  nameWithType.vb: Compiler(String(), String)
+- uid: Testura.Code.Compilations.Compiler.#ctor*
+  name: Compiler
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler__ctor_
+  commentId: Overload:Testura.Code.Compilations.Compiler.#ctor
+  fullName: Testura.Code.Compilations.Compiler.Compiler
+  nameWithType: Compiler.Compiler
+- uid: Testura.Code.Compilations.Compiler.CompileFilesAsync(System.String,System.String[])
+  name: CompileFilesAsync(String, String[])
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileFilesAsync_System_String_System_String___
+  commentId: M:Testura.Code.Compilations.Compiler.CompileFilesAsync(System.String,System.String[])
+  name.vb: CompileFilesAsync(String, String())
+  fullName: Testura.Code.Compilations.Compiler.CompileFilesAsync(System.String, System.String[])
+  fullName.vb: Testura.Code.Compilations.Compiler.CompileFilesAsync(System.String, System.String())
+  nameWithType: Compiler.CompileFilesAsync(String, String[])
+  nameWithType.vb: CompileFilesAsync(String, String())
+- uid: Testura.Code.Compilations.Compiler.CompileFilesAsync*
+  name: CompileFilesAsync
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileFilesAsync_
+  commentId: Overload:Testura.Code.Compilations.Compiler.CompileFilesAsync
+  fullName: Testura.Code.Compilations.Compiler.CompileFilesAsync
+  nameWithType: Compiler.CompileFilesAsync
+- uid: Testura.Code.Compilations.Compiler.CompileSourceAsync(System.String,System.String[])
+  name: CompileSourceAsync(String, String[])
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileSourceAsync_System_String_System_String___
+  commentId: M:Testura.Code.Compilations.Compiler.CompileSourceAsync(System.String,System.String[])
+  name.vb: CompileSourceAsync(String, String())
+  fullName: Testura.Code.Compilations.Compiler.CompileSourceAsync(System.String, System.String[])
+  fullName.vb: Testura.Code.Compilations.Compiler.CompileSourceAsync(System.String, System.String())
+  nameWithType: Compiler.CompileSourceAsync(String, String[])
+  nameWithType.vb: CompileSourceAsync(String, String())
+- uid: Testura.Code.Compilations.Compiler.CompileSourceAsync*
+  name: CompileSourceAsync
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileSourceAsync_
+  commentId: Overload:Testura.Code.Compilations.Compiler.CompileSourceAsync
+  fullName: Testura.Code.Compilations.Compiler.CompileSourceAsync
+  nameWithType: Compiler.CompileSourceAsync
+- uid: Testura.Code.Compilations.CompileResult
+  name: CompileResult
+  href: api/Testura.Code.Compilations.CompileResult.html
+  commentId: T:Testura.Code.Compilations.CompileResult
+  fullName: Testura.Code.Compilations.CompileResult
+  nameWithType: CompileResult
+- uid: Testura.Code.Compilations.CompileResult.#ctor(System.String,System.Boolean,System.Collections.Generic.IList{Testura.Code.Compilations.OutputRow})
+  name: CompileResult(String, Boolean, IList<OutputRow>)
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult__ctor_System_String_System_Boolean_System_Collections_Generic_IList_Testura_Code_Compilations_OutputRow__
+  commentId: M:Testura.Code.Compilations.CompileResult.#ctor(System.String,System.Boolean,System.Collections.Generic.IList{Testura.Code.Compilations.OutputRow})
+  name.vb: CompileResult(String, Boolean, IList(Of OutputRow))
+  fullName: Testura.Code.Compilations.CompileResult.CompileResult(System.String, System.Boolean, System.Collections.Generic.IList<Testura.Code.Compilations.OutputRow>)
+  fullName.vb: Testura.Code.Compilations.CompileResult.CompileResult(System.String, System.Boolean, System.Collections.Generic.IList(Of Testura.Code.Compilations.OutputRow))
+  nameWithType: CompileResult.CompileResult(String, Boolean, IList<OutputRow>)
+  nameWithType.vb: CompileResult(String, Boolean, IList(Of OutputRow))
+- uid: Testura.Code.Compilations.CompileResult.#ctor*
+  name: CompileResult
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult__ctor_
+  commentId: Overload:Testura.Code.Compilations.CompileResult.#ctor
+  fullName: Testura.Code.Compilations.CompileResult.CompileResult
+  nameWithType: CompileResult.CompileResult
+- uid: Testura.Code.Compilations.CompileResult.OutputRows
+  name: OutputRows
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult_OutputRows
+  commentId: P:Testura.Code.Compilations.CompileResult.OutputRows
+  fullName: Testura.Code.Compilations.CompileResult.OutputRows
+  nameWithType: CompileResult.OutputRows
+- uid: Testura.Code.Compilations.CompileResult.OutputRows*
+  name: OutputRows
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult_OutputRows_
+  commentId: Overload:Testura.Code.Compilations.CompileResult.OutputRows
+  fullName: Testura.Code.Compilations.CompileResult.OutputRows
+  nameWithType: CompileResult.OutputRows
+- uid: Testura.Code.Compilations.CompileResult.PathToDll
+  name: PathToDll
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult_PathToDll
+  commentId: P:Testura.Code.Compilations.CompileResult.PathToDll
+  fullName: Testura.Code.Compilations.CompileResult.PathToDll
+  nameWithType: CompileResult.PathToDll
+- uid: Testura.Code.Compilations.CompileResult.PathToDll*
+  name: PathToDll
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult_PathToDll_
+  commentId: Overload:Testura.Code.Compilations.CompileResult.PathToDll
+  fullName: Testura.Code.Compilations.CompileResult.PathToDll
+  nameWithType: CompileResult.PathToDll
+- uid: Testura.Code.Compilations.CompileResult.Success
+  name: Success
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult_Success
+  commentId: P:Testura.Code.Compilations.CompileResult.Success
+  fullName: Testura.Code.Compilations.CompileResult.Success
+  nameWithType: CompileResult.Success
+- uid: Testura.Code.Compilations.CompileResult.Success*
+  name: Success
+  href: api/Testura.Code.Compilations.CompileResult.html#Testura_Code_Compilations_CompileResult_Success_
+  commentId: Overload:Testura.Code.Compilations.CompileResult.Success
+  fullName: Testura.Code.Compilations.CompileResult.Success
+  nameWithType: CompileResult.Success
+- uid: Testura.Code.Compilations.ICompiler
+  name: ICompiler
+  href: api/Testura.Code.Compilations.ICompiler.html
+  commentId: T:Testura.Code.Compilations.ICompiler
+  fullName: Testura.Code.Compilations.ICompiler
+  nameWithType: ICompiler
+- uid: Testura.Code.Compilations.ICompiler.CompileFilesAsync(System.String,System.String[])
+  name: CompileFilesAsync(String, String[])
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileFilesAsync_System_String_System_String___
+  commentId: M:Testura.Code.Compilations.ICompiler.CompileFilesAsync(System.String,System.String[])
+  name.vb: CompileFilesAsync(String, String())
+  fullName: Testura.Code.Compilations.ICompiler.CompileFilesAsync(System.String, System.String[])
+  fullName.vb: Testura.Code.Compilations.ICompiler.CompileFilesAsync(System.String, System.String())
+  nameWithType: ICompiler.CompileFilesAsync(String, String[])
+  nameWithType.vb: CompileFilesAsync(String, String())
+- uid: Testura.Code.Compilations.ICompiler.CompileFilesAsync*
+  name: CompileFilesAsync
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileFilesAsync_
+  commentId: Overload:Testura.Code.Compilations.ICompiler.CompileFilesAsync
+  fullName: Testura.Code.Compilations.ICompiler.CompileFilesAsync
+  nameWithType: ICompiler.CompileFilesAsync
+- uid: Testura.Code.Compilations.ICompiler.CompileSourceAsync(System.String,System.String[])
+  name: CompileSourceAsync(String, String[])
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileSourceAsync_System_String_System_String___
+  commentId: M:Testura.Code.Compilations.ICompiler.CompileSourceAsync(System.String,System.String[])
+  name.vb: CompileSourceAsync(String, String())
+  fullName: Testura.Code.Compilations.ICompiler.CompileSourceAsync(System.String, System.String[])
+  fullName.vb: Testura.Code.Compilations.ICompiler.CompileSourceAsync(System.String, System.String())
+  nameWithType: ICompiler.CompileSourceAsync(String, String[])
+  nameWithType.vb: CompileSourceAsync(String, String())
+- uid: Testura.Code.Compilations.ICompiler.CompileSourceAsync*
+  name: CompileSourceAsync
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileSourceAsync_
+  commentId: Overload:Testura.Code.Compilations.ICompiler.CompileSourceAsync
+  fullName: Testura.Code.Compilations.ICompiler.CompileSourceAsync
+  nameWithType: ICompiler.CompileSourceAsync
+- uid: Testura.Code.Compilations.OutputRow
+  name: OutputRow
+  href: api/Testura.Code.Compilations.OutputRow.html
+  commentId: T:Testura.Code.Compilations.OutputRow
+  fullName: Testura.Code.Compilations.OutputRow
+  nameWithType: OutputRow
+- uid: Testura.Code.Compilations.OutputRow.ClassName
+  name: ClassName
+  href: api/Testura.Code.Compilations.OutputRow.html#Testura_Code_Compilations_OutputRow_ClassName
+  commentId: P:Testura.Code.Compilations.OutputRow.ClassName
+  fullName: Testura.Code.Compilations.OutputRow.ClassName
+  nameWithType: OutputRow.ClassName
+- uid: Testura.Code.Compilations.OutputRow.ClassName*
+  name: ClassName
+  href: api/Testura.Code.Compilations.OutputRow.html#Testura_Code_Compilations_OutputRow_ClassName_
+  commentId: Overload:Testura.Code.Compilations.OutputRow.ClassName
+  fullName: Testura.Code.Compilations.OutputRow.ClassName
+  nameWithType: OutputRow.ClassName
+- uid: Testura.Code.Compilations.OutputRow.Description
+  name: Description
+  href: api/Testura.Code.Compilations.OutputRow.html#Testura_Code_Compilations_OutputRow_Description
+  commentId: P:Testura.Code.Compilations.OutputRow.Description
+  fullName: Testura.Code.Compilations.OutputRow.Description
+  nameWithType: OutputRow.Description
+- uid: Testura.Code.Compilations.OutputRow.Description*
+  name: Description
+  href: api/Testura.Code.Compilations.OutputRow.html#Testura_Code_Compilations_OutputRow_Description_
+  commentId: Overload:Testura.Code.Compilations.OutputRow.Description
+  fullName: Testura.Code.Compilations.OutputRow.Description
+  nameWithType: OutputRow.Description
+- uid: Testura.Code.Compilations.OutputRow.Severity
+  name: Severity
+  href: api/Testura.Code.Compilations.OutputRow.html#Testura_Code_Compilations_OutputRow_Severity
+  commentId: P:Testura.Code.Compilations.OutputRow.Severity
+  fullName: Testura.Code.Compilations.OutputRow.Severity
+  nameWithType: OutputRow.Severity
+- uid: Testura.Code.Compilations.OutputRow.Severity*
+  name: Severity
+  href: api/Testura.Code.Compilations.OutputRow.html#Testura_Code_Compilations_OutputRow_Severity_
+  commentId: Overload:Testura.Code.Compilations.OutputRow.Severity
+  fullName: Testura.Code.Compilations.OutputRow.Severity
+  nameWithType: OutputRow.Severity
+- uid: Testura.Code.ConditionalStatements
+  name: ConditionalStatements
+  href: api/Testura.Code.ConditionalStatements.html
+  commentId: T:Testura.Code.ConditionalStatements
+  fullName: Testura.Code.ConditionalStatements
+  nameWithType: ConditionalStatements
+- uid: Testura.Code.ConditionalStatements.Equal
+  name: Equal
+  href: api/Testura.Code.ConditionalStatements.html#Testura_Code_ConditionalStatements_Equal
+  commentId: F:Testura.Code.ConditionalStatements.Equal
+  fullName: Testura.Code.ConditionalStatements.Equal
+  nameWithType: ConditionalStatements.Equal
+- uid: Testura.Code.ConditionalStatements.GreaterThan
+  name: GreaterThan
+  href: api/Testura.Code.ConditionalStatements.html#Testura_Code_ConditionalStatements_GreaterThan
+  commentId: F:Testura.Code.ConditionalStatements.GreaterThan
+  fullName: Testura.Code.ConditionalStatements.GreaterThan
+  nameWithType: ConditionalStatements.GreaterThan
+- uid: Testura.Code.ConditionalStatements.GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  href: api/Testura.Code.ConditionalStatements.html#Testura_Code_ConditionalStatements_GreaterThanOrEqual
+  commentId: F:Testura.Code.ConditionalStatements.GreaterThanOrEqual
+  fullName: Testura.Code.ConditionalStatements.GreaterThanOrEqual
+  nameWithType: ConditionalStatements.GreaterThanOrEqual
+- uid: Testura.Code.ConditionalStatements.LessThan
+  name: LessThan
+  href: api/Testura.Code.ConditionalStatements.html#Testura_Code_ConditionalStatements_LessThan
+  commentId: F:Testura.Code.ConditionalStatements.LessThan
+  fullName: Testura.Code.ConditionalStatements.LessThan
+  nameWithType: ConditionalStatements.LessThan
+- uid: Testura.Code.ConditionalStatements.LessThanOrEqual
+  name: LessThanOrEqual
+  href: api/Testura.Code.ConditionalStatements.html#Testura_Code_ConditionalStatements_LessThanOrEqual
+  commentId: F:Testura.Code.ConditionalStatements.LessThanOrEqual
+  fullName: Testura.Code.ConditionalStatements.LessThanOrEqual
+  nameWithType: ConditionalStatements.LessThanOrEqual
+- uid: Testura.Code.ConditionalStatements.NotEqual
+  name: NotEqual
+  href: api/Testura.Code.ConditionalStatements.html#Testura_Code_ConditionalStatements_NotEqual
+  commentId: F:Testura.Code.ConditionalStatements.NotEqual
+  fullName: Testura.Code.ConditionalStatements.NotEqual
+  nameWithType: ConditionalStatements.NotEqual
+- uid: Testura.Code.Extensions
+  name: Testura.Code.Extensions
+  href: api/Testura.Code.Extensions.html
+  commentId: N:Testura.Code.Extensions
+  fullName: Testura.Code.Extensions
+  nameWithType: Testura.Code.Extensions
+- uid: Testura.Code.Extensions.ObjectExtensions
+  name: ObjectExtensions
+  href: api/Testura.Code.Extensions.ObjectExtensions.html
+  commentId: T:Testura.Code.Extensions.ObjectExtensions
+  fullName: Testura.Code.Extensions.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: Testura.Code.Extensions.ObjectExtensions.IsNumeric(System.Object)
+  name: IsNumeric(Object)
+  href: api/Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_
+  commentId: M:Testura.Code.Extensions.ObjectExtensions.IsNumeric(System.Object)
+  fullName: Testura.Code.Extensions.ObjectExtensions.IsNumeric(System.Object)
+  nameWithType: ObjectExtensions.IsNumeric(Object)
+- uid: Testura.Code.Extensions.ObjectExtensions.IsNumeric*
+  name: IsNumeric
+  href: api/Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_
+  commentId: Overload:Testura.Code.Extensions.ObjectExtensions.IsNumeric
+  fullName: Testura.Code.Extensions.ObjectExtensions.IsNumeric
+  nameWithType: ObjectExtensions.IsNumeric
+- uid: Testura.Code.Factories
+  name: Testura.Code.Factories
+  href: api/Testura.Code.Factories.html
+  commentId: N:Testura.Code.Factories
+  fullName: Testura.Code.Factories
+  nameWithType: Testura.Code.Factories
+- uid: Testura.Code.Factories.EqualsValueClauseFactory
+  name: EqualsValueClauseFactory
+  href: api/Testura.Code.Factories.EqualsValueClauseFactory.html
+  commentId: T:Testura.Code.Factories.EqualsValueClauseFactory
+  fullName: Testura.Code.Factories.EqualsValueClauseFactory
+  nameWithType: EqualsValueClauseFactory
+- uid: Testura.Code.Factories.EqualsValueClauseFactory.GetEqualsValueClause(System.Object)
+  name: GetEqualsValueClause(Object)
+  href: api/Testura.Code.Factories.EqualsValueClauseFactory.html#Testura_Code_Factories_EqualsValueClauseFactory_GetEqualsValueClause_System_Object_
+  commentId: M:Testura.Code.Factories.EqualsValueClauseFactory.GetEqualsValueClause(System.Object)
+  fullName: Testura.Code.Factories.EqualsValueClauseFactory.GetEqualsValueClause(System.Object)
+  nameWithType: EqualsValueClauseFactory.GetEqualsValueClause(Object)
+- uid: Testura.Code.Factories.EqualsValueClauseFactory.GetEqualsValueClause*
+  name: GetEqualsValueClause
+  href: api/Testura.Code.Factories.EqualsValueClauseFactory.html#Testura_Code_Factories_EqualsValueClauseFactory_GetEqualsValueClause_
+  commentId: Overload:Testura.Code.Factories.EqualsValueClauseFactory.GetEqualsValueClause
+  fullName: Testura.Code.Factories.EqualsValueClauseFactory.GetEqualsValueClause
+  nameWithType: EqualsValueClauseFactory.GetEqualsValueClause
+- uid: Testura.Code.Generators.Class
+  name: Testura.Code.Generators.Class
+  href: api/Testura.Code.Generators.Class.html
+  commentId: N:Testura.Code.Generators.Class
+  fullName: Testura.Code.Generators.Class
+  nameWithType: Testura.Code.Generators.Class
+- uid: Testura.Code.Generators.Class.ConstructorGenerator
+  name: ConstructorGenerator
+  href: api/Testura.Code.Generators.Class.ConstructorGenerator.html
+  commentId: T:Testura.Code.Generators.Class.ConstructorGenerator
+  fullName: Testura.Code.Generators.Class.ConstructorGenerator
+  nameWithType: ConstructorGenerator
+- uid: Testura.Code.Generators.Class.ConstructorGenerator.Create(System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Models.Parameter},System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name: Create(String, BlockSyntax, IEnumerable<Parameter>, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  href: api/Testura.Code.Generators.Class.ConstructorGenerator.html#Testura_Code_Generators_Class_ConstructorGenerator_Create_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Collections_Generic_IEnumerable_Testura_Code_Models_Parameter__System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__
+  commentId: M:Testura.Code.Generators.Class.ConstructorGenerator.Create(System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Models.Parameter},System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name.vb: Create(String, BlockSyntax, IEnumerable(Of Parameter), IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+  fullName: Testura.Code.Generators.Class.ConstructorGenerator.Create(System.String, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Collections.Generic.IEnumerable<Testura.Code.Models.Parameter>, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>, System.Collections.Generic.IEnumerable<Testura.Code.Models.Attribute>)
+  fullName.vb: Testura.Code.Generators.Class.ConstructorGenerator.Create(System.String, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Parameter), System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers), System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Attribute))
+  nameWithType: ConstructorGenerator.Create(String, BlockSyntax, IEnumerable<Parameter>, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  nameWithType.vb: Create(String, BlockSyntax, IEnumerable(Of Parameter), IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+- uid: Testura.Code.Generators.Class.ConstructorGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Class.ConstructorGenerator.html#Testura_Code_Generators_Class_ConstructorGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Class.ConstructorGenerator.Create
+  fullName: Testura.Code.Generators.Class.ConstructorGenerator.Create
+  nameWithType: ConstructorGenerator.Create
+- uid: Testura.Code.Generators.Class.FieldGenerator
+  name: FieldGenerator
+  href: api/Testura.Code.Generators.Class.FieldGenerator.html
+  commentId: T:Testura.Code.Generators.Class.FieldGenerator
+  fullName: Testura.Code.Generators.Class.FieldGenerator
+  nameWithType: FieldGenerator
+- uid: Testura.Code.Generators.Class.FieldGenerator.Create(Testura.Code.Models.Field)
+  name: Create(Field)
+  href: api/Testura.Code.Generators.Class.FieldGenerator.html#Testura_Code_Generators_Class_FieldGenerator_Create_Testura_Code_Models_Field_
+  commentId: M:Testura.Code.Generators.Class.FieldGenerator.Create(Testura.Code.Models.Field)
+  fullName: Testura.Code.Generators.Class.FieldGenerator.Create(Testura.Code.Models.Field)
+  nameWithType: FieldGenerator.Create(Field)
+- uid: Testura.Code.Generators.Class.FieldGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Class.FieldGenerator.html#Testura_Code_Generators_Class_FieldGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Class.FieldGenerator.Create
+  fullName: Testura.Code.Generators.Class.FieldGenerator.Create
+  nameWithType: FieldGenerator.Create
+- uid: Testura.Code.Generators.Class.PropertyGenerator
+  name: PropertyGenerator
+  href: api/Testura.Code.Generators.Class.PropertyGenerator.html
+  commentId: T:Testura.Code.Generators.Class.PropertyGenerator
+  fullName: Testura.Code.Generators.Class.PropertyGenerator
+  nameWithType: PropertyGenerator
+- uid: Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Property)
+  name: Create(Property)
+  href: api/Testura.Code.Generators.Class.PropertyGenerator.html#Testura_Code_Generators_Class_PropertyGenerator_Create_Testura_Code_Models_Property_
+  commentId: M:Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Property)
+  fullName: Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Property)
+  nameWithType: PropertyGenerator.Create(Property)
+- uid: Testura.Code.Generators.Class.PropertyGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Class.PropertyGenerator.html#Testura_Code_Generators_Class_PropertyGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Class.PropertyGenerator.Create
+  fullName: Testura.Code.Generators.Class.PropertyGenerator.Create
+  nameWithType: PropertyGenerator.Create
+- uid: Testura.Code.Generators.Common
+  name: Testura.Code.Generators.Common
+  href: api/Testura.Code.Generators.Common.html
+  commentId: N:Testura.Code.Generators.Common
+  fullName: Testura.Code.Generators.Common
+  nameWithType: Testura.Code.Generators.Common
+- uid: Testura.Code.Generators.Common.ArgumentGenerator
+  name: ArgumentGenerator
+  href: api/Testura.Code.Generators.Common.ArgumentGenerator.html
+  commentId: T:Testura.Code.Generators.Common.ArgumentGenerator
+  fullName: Testura.Code.Generators.Common.ArgumentGenerator
+  nameWithType: ArgumentGenerator
+- uid: Testura.Code.Generators.Common.ArgumentGenerator.Create(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument[])
+  name: Create(IArgument[])
+  href: api/Testura.Code.Generators.Common.ArgumentGenerator.html#Testura_Code_Generators_Common_ArgumentGenerator_Create_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument___
+  commentId: M:Testura.Code.Generators.Common.ArgumentGenerator.Create(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument[])
+  name.vb: Create(IArgument())
+  fullName: Testura.Code.Generators.Common.ArgumentGenerator.Create(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument[])
+  fullName.vb: Testura.Code.Generators.Common.ArgumentGenerator.Create(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument())
+  nameWithType: ArgumentGenerator.Create(IArgument[])
+  nameWithType.vb: Create(IArgument())
+- uid: Testura.Code.Generators.Common.ArgumentGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Common.ArgumentGenerator.html#Testura_Code_Generators_Common_ArgumentGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Common.ArgumentGenerator.Create
+  fullName: Testura.Code.Generators.Common.ArgumentGenerator.Create
+  nameWithType: ArgumentGenerator.Create
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes
+  name: Testura.Code.Generators.Common.Arguments.ArgumentTypes
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.html
+  commentId: N:Testura.Code.Generators.Common.Arguments.ArgumentTypes
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes
+  nameWithType: Testura.Code.Generators.Common.Arguments.ArgumentTypes
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument
+  name: ArrayInitializationArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument
+  nameWithType: ArrayInitializationArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.#ctor(System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument})
+  name: ArrayInitializationArgument(Type, IEnumerable<IArgument>)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument__ctor_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.#ctor(System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument})
+  name.vb: ArrayInitializationArgument(Type, IEnumerable(Of IArgument))
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.ArrayInitializationArgument(System.Type, System.Collections.Generic.IEnumerable<Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>)
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.ArrayInitializationArgument(System.Type, System.Collections.Generic.IEnumerable(Of Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument))
+  nameWithType: ArrayInitializationArgument.ArrayInitializationArgument(Type, IEnumerable<IArgument>)
+  nameWithType.vb: ArrayInitializationArgument(Type, IEnumerable(Of IArgument))
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.#ctor*
+  name: ArrayInitializationArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.ArrayInitializationArgument
+  nameWithType: ArrayInitializationArgument.ArrayInitializationArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax()
+  nameWithType: ArrayInitializationArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax
+  nameWithType: ArrayInitializationArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument
+  name: ClassInitializationArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument
+  nameWithType: ClassInitializationArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.#ctor(System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name: ClassInitializationArgument(Type, IEnumerable<IArgument>, IEnumerable<Type>)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ClassInitializationArgument__ctor_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.#ctor(System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: ClassInitializationArgument(Type, IEnumerable(Of IArgument), IEnumerable(Of Type))
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.ClassInitializationArgument(System.Type, System.Collections.Generic.IEnumerable<Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.ClassInitializationArgument(System.Type, System.Collections.Generic.IEnumerable(Of Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument), System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: ClassInitializationArgument.ClassInitializationArgument(Type, IEnumerable<IArgument>, IEnumerable<Type>)
+  nameWithType.vb: ClassInitializationArgument(Type, IEnumerable(Of IArgument), IEnumerable(Of Type))
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.#ctor*
+  name: ClassInitializationArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ClassInitializationArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.ClassInitializationArgument
+  nameWithType: ClassInitializationArgument.ClassInitializationArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ClassInitializationArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.GetArgumentSyntax()
+  nameWithType: ClassInitializationArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ClassInitializationArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.GetArgumentSyntax
+  nameWithType: ClassInitializationArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2
+  name: DictionaryInitializationArgument<T, T2>
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2
+  name.vb: DictionaryInitializationArgument(Of T, T2)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<T, T2>
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of T, T2)
+  nameWithType: DictionaryInitializationArgument<T, T2>
+  nameWithType.vb: DictionaryInitializationArgument(Of T, T2)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor(System.Collections.Generic.IDictionary{`0,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument})
+  name: DictionaryInitializationArgument(IDictionary<T, IArgument>)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2__ctor_System_Collections_Generic_IDictionary__0_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor(System.Collections.Generic.IDictionary{`0,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument})
+  name.vb: DictionaryInitializationArgument(IDictionary(Of T, IArgument))
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<T, T2>.DictionaryInitializationArgument(System.Collections.Generic.IDictionary<T, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>)
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of T, T2).DictionaryInitializationArgument(System.Collections.Generic.IDictionary(Of T, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument))
+  nameWithType: DictionaryInitializationArgument<T, T2>.DictionaryInitializationArgument(IDictionary<T, IArgument>)
+  nameWithType.vb: DictionaryInitializationArgument(IDictionary(Of T, IArgument))
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor*
+  name: DictionaryInitializationArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument.DictionaryInitializationArgument
+  nameWithType: DictionaryInitializationArgument.DictionaryInitializationArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<T, T2>.GetArgumentSyntax()
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of T, T2).GetArgumentSyntax()
+  nameWithType: DictionaryInitializationArgument<T, T2>.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument.GetArgumentSyntax
+  nameWithType: DictionaryInitializationArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument
+  name: IArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument
+  nameWithType: IArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.GetArgumentSyntax()
+  nameWithType: IArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.GetArgumentSyntax
+  nameWithType: IArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument
+  name: InvocationArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument
+  nameWithType: InvocationArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  name: InvocationArgument(ExpressionSyntax, Type)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_InvocationArgument__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.InvocationArgument(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type)
+  nameWithType: InvocationArgument.InvocationArgument(ExpressionSyntax, Type)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.#ctor(Testura.Code.Models.References.VariableReference,System.Type)
+  name: InvocationArgument(VariableReference, Type)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_InvocationArgument__ctor_Testura_Code_Models_References_VariableReference_System_Type_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.#ctor(Testura.Code.Models.References.VariableReference,System.Type)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.InvocationArgument(Testura.Code.Models.References.VariableReference, System.Type)
+  nameWithType: InvocationArgument.InvocationArgument(VariableReference, Type)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.#ctor*
+  name: InvocationArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_InvocationArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.InvocationArgument
+  nameWithType: InvocationArgument.InvocationArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_InvocationArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.GetArgumentSyntax()
+  nameWithType: InvocationArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_InvocationArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.GetArgumentSyntax
+  nameWithType: InvocationArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument
+  name: ParenthesizedLambdaArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument
+  nameWithType: ParenthesizedLambdaArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Models.Parameter})
+  name: ParenthesizedLambdaArgument(ExpressionSyntax, IEnumerable<Parameter>)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ParenthesizedLambdaArgument__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Collections_Generic_IEnumerable_Testura_Code_Models_Parameter__
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Models.Parameter})
+  name.vb: ParenthesizedLambdaArgument(ExpressionSyntax, IEnumerable(Of Parameter))
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.ParenthesizedLambdaArgument(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Collections.Generic.IEnumerable<Testura.Code.Models.Parameter>)
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.ParenthesizedLambdaArgument(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Parameter))
+  nameWithType: ParenthesizedLambdaArgument.ParenthesizedLambdaArgument(ExpressionSyntax, IEnumerable<Parameter>)
+  nameWithType.vb: ParenthesizedLambdaArgument(ExpressionSyntax, IEnumerable(Of Parameter))
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.#ctor*
+  name: ParenthesizedLambdaArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ParenthesizedLambdaArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.ParenthesizedLambdaArgument
+  nameWithType: ParenthesizedLambdaArgument.ParenthesizedLambdaArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ParenthesizedLambdaArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.GetArgumentSyntax()
+  nameWithType: ParenthesizedLambdaArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ParenthesizedLambdaArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.GetArgumentSyntax
+  nameWithType: ParenthesizedLambdaArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument
+  name: ReferenceArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument
+  nameWithType: ReferenceArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.#ctor(Testura.Code.Models.References.VariableReference)
+  name: ReferenceArgument(VariableReference)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ReferenceArgument__ctor_Testura_Code_Models_References_VariableReference_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.#ctor(Testura.Code.Models.References.VariableReference)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.ReferenceArgument(Testura.Code.Models.References.VariableReference)
+  nameWithType: ReferenceArgument.ReferenceArgument(VariableReference)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.#ctor*
+  name: ReferenceArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ReferenceArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.ReferenceArgument
+  nameWithType: ReferenceArgument.ReferenceArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ReferenceArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.GetArgumentSyntax()
+  nameWithType: ReferenceArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ReferenceArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.GetArgumentSyntax
+  nameWithType: ReferenceArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument
+  name: TypeOfArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument
+  nameWithType: TypeOfArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.#ctor(System.Type)
+  name: TypeOfArgument(Type)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_TypeOfArgument__ctor_System_Type_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.#ctor(System.Type)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.TypeOfArgument(System.Type)
+  nameWithType: TypeOfArgument.TypeOfArgument(Type)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.#ctor*
+  name: TypeOfArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_TypeOfArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.TypeOfArgument
+  nameWithType: TypeOfArgument.TypeOfArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_TypeOfArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.GetArgumentSyntax()
+  nameWithType: TypeOfArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_TypeOfArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.GetArgumentSyntax
+  nameWithType: TypeOfArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument
+  name: ValueArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument
+  nameWithType: ValueArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.#ctor(System.Object)
+  name: ValueArgument(Object)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument__ctor_System_Object_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.#ctor(System.Object)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.ValueArgument(System.Object)
+  nameWithType: ValueArgument.ValueArgument(Object)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.#ctor(System.String,Testura.Code.StringType)
+  name: ValueArgument(String, StringType)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument__ctor_System_String_Testura_Code_StringType_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.#ctor(System.String,Testura.Code.StringType)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.ValueArgument(System.String, Testura.Code.StringType)
+  nameWithType: ValueArgument.ValueArgument(String, StringType)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.#ctor*
+  name: ValueArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.ValueArgument
+  nameWithType: ValueArgument.ValueArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.GetArgumentSyntax()
+  nameWithType: ValueArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.GetArgumentSyntax
+  nameWithType: ValueArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
+  name: StringType
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_StringType
+  commentId: P:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
+  nameWithType: ValueArgument.StringType
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType*
+  name: StringType
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_StringType_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
+  nameWithType: ValueArgument.StringType
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.Value
+  name: Value
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_Value
+  commentId: P:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.Value
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.Value
+  nameWithType: ValueArgument.Value
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.Value*
+  name: Value
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_Value_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.Value
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.Value
+  nameWithType: ValueArgument.Value
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument
+  name: VariableArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument
+  nameWithType: VariableArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.#ctor(System.String)
+  name: VariableArgument(String)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_VariableArgument__ctor_System_String_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.#ctor(System.String)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.VariableArgument(System.String)
+  nameWithType: VariableArgument.VariableArgument(String)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.#ctor*
+  name: VariableArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_VariableArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.VariableArgument
+  nameWithType: VariableArgument.VariableArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_VariableArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.GetArgumentSyntax()
+  nameWithType: VariableArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_VariableArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.GetArgumentSyntax
+  nameWithType: VariableArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.Name
+  name: Name
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_VariableArgument_Name
+  commentId: P:Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.Name
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.Name
+  nameWithType: VariableArgument.Name
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.Name*
+  name: Name
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_VariableArgument_Name_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.Name
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.Name
+  nameWithType: VariableArgument.Name
+- uid: Testura.Code.Generators.Common.AttributeGenerator
+  name: AttributeGenerator
+  href: api/Testura.Code.Generators.Common.AttributeGenerator.html
+  commentId: T:Testura.Code.Generators.Common.AttributeGenerator
+  fullName: Testura.Code.Generators.Common.AttributeGenerator
+  nameWithType: AttributeGenerator
+- uid: Testura.Code.Generators.Common.AttributeGenerator.Create(Testura.Code.Models.Attribute[])
+  name: Create(Attribute[])
+  href: api/Testura.Code.Generators.Common.AttributeGenerator.html#Testura_Code_Generators_Common_AttributeGenerator_Create_Testura_Code_Models_Attribute___
+  commentId: M:Testura.Code.Generators.Common.AttributeGenerator.Create(Testura.Code.Models.Attribute[])
+  name.vb: Create(Attribute())
+  fullName: Testura.Code.Generators.Common.AttributeGenerator.Create(Testura.Code.Models.Attribute[])
+  fullName.vb: Testura.Code.Generators.Common.AttributeGenerator.Create(Testura.Code.Models.Attribute())
+  nameWithType: AttributeGenerator.Create(Attribute[])
+  nameWithType.vb: Create(Attribute())
+- uid: Testura.Code.Generators.Common.AttributeGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Common.AttributeGenerator.html#Testura_Code_Generators_Common_AttributeGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Common.AttributeGenerator.Create
+  fullName: Testura.Code.Generators.Common.AttributeGenerator.Create
+  nameWithType: AttributeGenerator.Create
+- uid: Testura.Code.Generators.Common.BodyGenerator
+  name: BodyGenerator
+  href: api/Testura.Code.Generators.Common.BodyGenerator.html
+  commentId: T:Testura.Code.Generators.Common.BodyGenerator
+  fullName: Testura.Code.Generators.Common.BodyGenerator
+  nameWithType: BodyGenerator
+- uid: Testura.Code.Generators.Common.BodyGenerator.Create(Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax[])
+  name: Create(StatementSyntax[])
+  href: api/Testura.Code.Generators.Common.BodyGenerator.html#Testura_Code_Generators_Common_BodyGenerator_Create_Microsoft_CodeAnalysis_CSharp_Syntax_StatementSyntax___
+  commentId: M:Testura.Code.Generators.Common.BodyGenerator.Create(Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax[])
+  name.vb: Create(StatementSyntax())
+  fullName: Testura.Code.Generators.Common.BodyGenerator.Create(Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax[])
+  fullName.vb: Testura.Code.Generators.Common.BodyGenerator.Create(Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax())
+  nameWithType: BodyGenerator.Create(StatementSyntax[])
+  nameWithType.vb: Create(StatementSyntax())
+- uid: Testura.Code.Generators.Common.BodyGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Common.BodyGenerator.html#Testura_Code_Generators_Common_BodyGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Common.BodyGenerator.Create
+  fullName: Testura.Code.Generators.Common.BodyGenerator.Create
+  nameWithType: BodyGenerator.Create
+- uid: Testura.Code.Generators.Common.ModifierGenerator
+  name: ModifierGenerator
+  href: api/Testura.Code.Generators.Common.ModifierGenerator.html
+  commentId: T:Testura.Code.Generators.Common.ModifierGenerator
+  fullName: Testura.Code.Generators.Common.ModifierGenerator
+  nameWithType: ModifierGenerator
+- uid: Testura.Code.Generators.Common.ModifierGenerator.Create(Testura.Code.Modifiers[])
+  name: Create(Modifiers[])
+  href: api/Testura.Code.Generators.Common.ModifierGenerator.html#Testura_Code_Generators_Common_ModifierGenerator_Create_Testura_Code_Modifiers___
+  commentId: M:Testura.Code.Generators.Common.ModifierGenerator.Create(Testura.Code.Modifiers[])
+  name.vb: Create(Modifiers())
+  fullName: Testura.Code.Generators.Common.ModifierGenerator.Create(Testura.Code.Modifiers[])
+  fullName.vb: Testura.Code.Generators.Common.ModifierGenerator.Create(Testura.Code.Modifiers())
+  nameWithType: ModifierGenerator.Create(Modifiers[])
+  nameWithType.vb: Create(Modifiers())
+- uid: Testura.Code.Generators.Common.ModifierGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Common.ModifierGenerator.html#Testura_Code_Generators_Common_ModifierGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Common.ModifierGenerator.Create
+  fullName: Testura.Code.Generators.Common.ModifierGenerator.Create
+  nameWithType: ModifierGenerator.Create
+- uid: Testura.Code.Generators.Common.ParameterGenerator
+  name: ParameterGenerator
+  href: api/Testura.Code.Generators.Common.ParameterGenerator.html
+  commentId: T:Testura.Code.Generators.Common.ParameterGenerator
+  fullName: Testura.Code.Generators.Common.ParameterGenerator
+  nameWithType: ParameterGenerator
+- uid: Testura.Code.Generators.Common.ParameterGenerator.Create(Testura.Code.Models.Parameter[])
+  name: Create(Parameter[])
+  href: api/Testura.Code.Generators.Common.ParameterGenerator.html#Testura_Code_Generators_Common_ParameterGenerator_Create_Testura_Code_Models_Parameter___
+  commentId: M:Testura.Code.Generators.Common.ParameterGenerator.Create(Testura.Code.Models.Parameter[])
+  name.vb: Create(Parameter())
+  fullName: Testura.Code.Generators.Common.ParameterGenerator.Create(Testura.Code.Models.Parameter[])
+  fullName.vb: Testura.Code.Generators.Common.ParameterGenerator.Create(Testura.Code.Models.Parameter())
+  nameWithType: ParameterGenerator.Create(Parameter[])
+  nameWithType.vb: Create(Parameter())
+- uid: Testura.Code.Generators.Common.ParameterGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Common.ParameterGenerator.html#Testura_Code_Generators_Common_ParameterGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Common.ParameterGenerator.Create
+  fullName: Testura.Code.Generators.Common.ParameterGenerator.Create
+  nameWithType: ParameterGenerator.Create
+- uid: Testura.Code.Generators.Common.ReferenceGenerator
+  name: ReferenceGenerator
+  href: api/Testura.Code.Generators.Common.ReferenceGenerator.html
+  commentId: T:Testura.Code.Generators.Common.ReferenceGenerator
+  fullName: Testura.Code.Generators.Common.ReferenceGenerator
+  nameWithType: ReferenceGenerator
+- uid: Testura.Code.Generators.Common.ReferenceGenerator.Create(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.Models.References.MemberReference)
+  name: Create(ExpressionSyntax, MemberReference)
+  href: api/Testura.Code.Generators.Common.ReferenceGenerator.html#Testura_Code_Generators_Common_ReferenceGenerator_Create_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Testura_Code_Models_References_MemberReference_
+  commentId: M:Testura.Code.Generators.Common.ReferenceGenerator.Create(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.Models.References.MemberReference)
+  fullName: Testura.Code.Generators.Common.ReferenceGenerator.Create(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Testura.Code.Models.References.MemberReference)
+  nameWithType: ReferenceGenerator.Create(ExpressionSyntax, MemberReference)
+- uid: Testura.Code.Generators.Common.ReferenceGenerator.Create(Testura.Code.Models.References.VariableReference)
+  name: Create(VariableReference)
+  href: api/Testura.Code.Generators.Common.ReferenceGenerator.html#Testura_Code_Generators_Common_ReferenceGenerator_Create_Testura_Code_Models_References_VariableReference_
+  commentId: M:Testura.Code.Generators.Common.ReferenceGenerator.Create(Testura.Code.Models.References.VariableReference)
+  fullName: Testura.Code.Generators.Common.ReferenceGenerator.Create(Testura.Code.Models.References.VariableReference)
+  nameWithType: ReferenceGenerator.Create(VariableReference)
+- uid: Testura.Code.Generators.Common.ReferenceGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Common.ReferenceGenerator.html#Testura_Code_Generators_Common_ReferenceGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Common.ReferenceGenerator.Create
+  fullName: Testura.Code.Generators.Common.ReferenceGenerator.Create
+  nameWithType: ReferenceGenerator.Create
+- uid: Testura.Code.Generators.Common.TypeGenerator
+  name: TypeGenerator
+  href: api/Testura.Code.Generators.Common.TypeGenerator.html
+  commentId: T:Testura.Code.Generators.Common.TypeGenerator
+  fullName: Testura.Code.Generators.Common.TypeGenerator
+  nameWithType: TypeGenerator
+- uid: Testura.Code.Generators.Common.TypeGenerator.Create(System.Type)
+  name: Create(Type)
+  href: api/Testura.Code.Generators.Common.TypeGenerator.html#Testura_Code_Generators_Common_TypeGenerator_Create_System_Type_
+  commentId: M:Testura.Code.Generators.Common.TypeGenerator.Create(System.Type)
+  fullName: Testura.Code.Generators.Common.TypeGenerator.Create(System.Type)
+  nameWithType: TypeGenerator.Create(Type)
+- uid: Testura.Code.Generators.Common.TypeGenerator.Create*
+  name: Create
+  href: api/Testura.Code.Generators.Common.TypeGenerator.html#Testura_Code_Generators_Common_TypeGenerator_Create_
+  commentId: Overload:Testura.Code.Generators.Common.TypeGenerator.Create
+  fullName: Testura.Code.Generators.Common.TypeGenerator.Create
+  nameWithType: TypeGenerator.Create
+- uid: Testura.Code.Generators.Special
+  name: Testura.Code.Generators.Special
+  href: api/Testura.Code.Generators.Special.html
+  commentId: N:Testura.Code.Generators.Special
+  fullName: Testura.Code.Generators.Special
+  nameWithType: Testura.Code.Generators.Special
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator
+  name: NunitAssertGenerator
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html
+  commentId: T:Testura.Code.Generators.Special.NunitAssertGenerator
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator
+  nameWithType: NunitAssertGenerator
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreEqual(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  name: AreEqual(IArgument, IArgument, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreEqual_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.AreEqual(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreEqual(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, System.String)
+  nameWithType: NunitAssertGenerator.AreEqual(IArgument, IArgument, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreEqual*
+  name: AreEqual
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreEqual_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.AreEqual
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreEqual
+  nameWithType: NunitAssertGenerator.AreEqual
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotEqual(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  name: AreNotEqual(IArgument, IArgument, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreNotEqual_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.AreNotEqual(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotEqual(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, System.String)
+  nameWithType: NunitAssertGenerator.AreNotEqual(IArgument, IArgument, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotEqual*
+  name: AreNotEqual
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreNotEqual_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.AreNotEqual
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotEqual
+  nameWithType: NunitAssertGenerator.AreNotEqual
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotSame(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  name: AreNotSame(IArgument, IArgument, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreNotSame_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.AreNotSame(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotSame(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, System.String)
+  nameWithType: NunitAssertGenerator.AreNotSame(IArgument, IArgument, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotSame*
+  name: AreNotSame
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreNotSame_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.AreNotSame
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreNotSame
+  nameWithType: NunitAssertGenerator.AreNotSame
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreSame(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  name: AreSame(IArgument, IArgument, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreSame_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.AreSame(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreSame(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, System.String)
+  nameWithType: NunitAssertGenerator.AreSame(IArgument, IArgument, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.AreSame*
+  name: AreSame
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_AreSame_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.AreSame
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.AreSame
+  nameWithType: NunitAssertGenerator.AreSame
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.Contains(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  name: Contains(IArgument, IArgument, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_Contains_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.Contains(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.Contains(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, System.String)
+  nameWithType: NunitAssertGenerator.Contains(IArgument, IArgument, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.Contains*
+  name: Contains
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_Contains_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.Contains
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.Contains
+  nameWithType: NunitAssertGenerator.Contains
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.IsFalse(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  name: IsFalse(IArgument, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_IsFalse_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.IsFalse(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.IsFalse(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, System.String)
+  nameWithType: NunitAssertGenerator.IsFalse(IArgument, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.IsFalse*
+  name: IsFalse
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_IsFalse_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.IsFalse
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.IsFalse
+  nameWithType: NunitAssertGenerator.IsFalse
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.IsTrue(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  name: IsTrue(IArgument, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_IsTrue_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.IsTrue(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.IsTrue(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, System.String)
+  nameWithType: NunitAssertGenerator.IsTrue(IArgument, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.IsTrue*
+  name: IsTrue
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_IsTrue_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.IsTrue
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.IsTrue
+  nameWithType: NunitAssertGenerator.IsTrue
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.Throws(Testura.Code.Models.References.VariableReference,System.Type,System.String)
+  name: Throws(VariableReference, Type, String)
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_Throws_Testura_Code_Models_References_VariableReference_System_Type_System_String_
+  commentId: M:Testura.Code.Generators.Special.NunitAssertGenerator.Throws(Testura.Code.Models.References.VariableReference,System.Type,System.String)
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.Throws(Testura.Code.Models.References.VariableReference, System.Type, System.String)
+  nameWithType: NunitAssertGenerator.Throws(VariableReference, Type, String)
+- uid: Testura.Code.Generators.Special.NunitAssertGenerator.Throws*
+  name: Throws
+  href: api/Testura.Code.Generators.Special.NunitAssertGenerator.html#Testura_Code_Generators_Special_NunitAssertGenerator_Throws_
+  commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.Throws
+  fullName: Testura.Code.Generators.Special.NunitAssertGenerator.Throws
+  nameWithType: NunitAssertGenerator.Throws
+- uid: Testura.Code.Models
+  name: Testura.Code.Models
+  href: api/Testura.Code.Models.html
+  commentId: N:Testura.Code.Models
+  fullName: Testura.Code.Models
+  nameWithType: Testura.Code.Models
+- uid: Testura.Code.Models.Attribute
+  name: Attribute
+  href: api/Testura.Code.Models.Attribute.html
+  commentId: T:Testura.Code.Models.Attribute
+  fullName: Testura.Code.Models.Attribute
+  nameWithType: Attribute
+- uid: Testura.Code.Models.Attribute.#ctor(System.String)
+  name: Attribute(String)
+  href: api/Testura.Code.Models.Attribute.html#Testura_Code_Models_Attribute__ctor_System_String_
+  commentId: M:Testura.Code.Models.Attribute.#ctor(System.String)
+  fullName: Testura.Code.Models.Attribute.Attribute(System.String)
+  nameWithType: Attribute.Attribute(String)
+- uid: Testura.Code.Models.Attribute.#ctor(System.String,System.Collections.Generic.List{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument})
+  name: Attribute(String, List<IArgument>)
+  href: api/Testura.Code.Models.Attribute.html#Testura_Code_Models_Attribute__ctor_System_String_System_Collections_Generic_List_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__
+  commentId: M:Testura.Code.Models.Attribute.#ctor(System.String,System.Collections.Generic.List{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument})
+  name.vb: Attribute(String, List(Of IArgument))
+  fullName: Testura.Code.Models.Attribute.Attribute(System.String, System.Collections.Generic.List<Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>)
+  fullName.vb: Testura.Code.Models.Attribute.Attribute(System.String, System.Collections.Generic.List(Of Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument))
+  nameWithType: Attribute.Attribute(String, List<IArgument>)
+  nameWithType.vb: Attribute(String, List(Of IArgument))
+- uid: Testura.Code.Models.Attribute.#ctor*
+  name: Attribute
+  href: api/Testura.Code.Models.Attribute.html#Testura_Code_Models_Attribute__ctor_
+  commentId: Overload:Testura.Code.Models.Attribute.#ctor
+  fullName: Testura.Code.Models.Attribute.Attribute
+  nameWithType: Attribute.Attribute
+- uid: Testura.Code.Models.Attribute.Arguments
+  name: Arguments
+  href: api/Testura.Code.Models.Attribute.html#Testura_Code_Models_Attribute_Arguments
+  commentId: P:Testura.Code.Models.Attribute.Arguments
+  fullName: Testura.Code.Models.Attribute.Arguments
+  nameWithType: Attribute.Arguments
+- uid: Testura.Code.Models.Attribute.Arguments*
+  name: Arguments
+  href: api/Testura.Code.Models.Attribute.html#Testura_Code_Models_Attribute_Arguments_
+  commentId: Overload:Testura.Code.Models.Attribute.Arguments
+  fullName: Testura.Code.Models.Attribute.Arguments
+  nameWithType: Attribute.Arguments
+- uid: Testura.Code.Models.Attribute.Name
+  name: Name
+  href: api/Testura.Code.Models.Attribute.html#Testura_Code_Models_Attribute_Name
+  commentId: P:Testura.Code.Models.Attribute.Name
+  fullName: Testura.Code.Models.Attribute.Name
+  nameWithType: Attribute.Name
+- uid: Testura.Code.Models.Attribute.Name*
+  name: Name
+  href: api/Testura.Code.Models.Attribute.html#Testura_Code_Models_Attribute_Name_
+  commentId: Overload:Testura.Code.Models.Attribute.Name
+  fullName: Testura.Code.Models.Attribute.Name
+  nameWithType: Attribute.Name
+- uid: Testura.Code.Models.Field
+  name: Field
+  href: api/Testura.Code.Models.Field.html
+  commentId: T:Testura.Code.Models.Field
+  fullName: Testura.Code.Models.Field
+  nameWithType: Field
+- uid: Testura.Code.Models.Field.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers})
+  name: Field(String, Type, IEnumerable<Modifiers>)
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field__ctor_System_String_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__
+  commentId: M:Testura.Code.Models.Field.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers})
+  name.vb: Field(String, Type, IEnumerable(Of Modifiers))
+  fullName: Testura.Code.Models.Field.Field(System.String, System.Type, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>)
+  fullName.vb: Testura.Code.Models.Field.Field(System.String, System.Type, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers))
+  nameWithType: Field.Field(String, Type, IEnumerable<Modifiers>)
+  nameWithType.vb: Field(String, Type, IEnumerable(Of Modifiers))
+- uid: Testura.Code.Models.Field.#ctor*
+  name: Field
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field__ctor_
+  commentId: Overload:Testura.Code.Models.Field.#ctor
+  fullName: Testura.Code.Models.Field.Field
+  nameWithType: Field.Field
+- uid: Testura.Code.Models.Field.Modifiers
+  name: Modifiers
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Modifiers
+  commentId: P:Testura.Code.Models.Field.Modifiers
+  fullName: Testura.Code.Models.Field.Modifiers
+  nameWithType: Field.Modifiers
+- uid: Testura.Code.Models.Field.Modifiers*
+  name: Modifiers
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Modifiers_
+  commentId: Overload:Testura.Code.Models.Field.Modifiers
+  fullName: Testura.Code.Models.Field.Modifiers
+  nameWithType: Field.Modifiers
+- uid: Testura.Code.Models.Field.Name
+  name: Name
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Name
+  commentId: P:Testura.Code.Models.Field.Name
+  fullName: Testura.Code.Models.Field.Name
+  nameWithType: Field.Name
+- uid: Testura.Code.Models.Field.Name*
+  name: Name
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Name_
+  commentId: Overload:Testura.Code.Models.Field.Name
+  fullName: Testura.Code.Models.Field.Name
+  nameWithType: Field.Name
+- uid: Testura.Code.Models.Field.Type
+  name: Type
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Type
+  commentId: P:Testura.Code.Models.Field.Type
+  fullName: Testura.Code.Models.Field.Type
+  nameWithType: Field.Type
+- uid: Testura.Code.Models.Field.Type*
+  name: Type
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Type_
+  commentId: Overload:Testura.Code.Models.Field.Type
+  fullName: Testura.Code.Models.Field.Type
+  nameWithType: Field.Type
+- uid: Testura.Code.Models.Invocation
+  name: Invocation
+  href: api/Testura.Code.Models.Invocation.html
+  commentId: T:Testura.Code.Models.Invocation
+  fullName: Testura.Code.Models.Invocation
+  nameWithType: Invocation
+- uid: Testura.Code.Models.Invocation.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax)
+  name: Invocation(InvocationExpressionSyntax)
+  href: api/Testura.Code.Models.Invocation.html#Testura_Code_Models_Invocation__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_InvocationExpressionSyntax_
+  commentId: M:Testura.Code.Models.Invocation.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax)
+  fullName: Testura.Code.Models.Invocation.Invocation(Microsoft.CodeAnalysis.CSharp.Syntax.InvocationExpressionSyntax)
+  nameWithType: Invocation.Invocation(InvocationExpressionSyntax)
+- uid: Testura.Code.Models.Invocation.#ctor*
+  name: Invocation
+  href: api/Testura.Code.Models.Invocation.html#Testura_Code_Models_Invocation__ctor_
+  commentId: Overload:Testura.Code.Models.Invocation.#ctor
+  fullName: Testura.Code.Models.Invocation.Invocation
+  nameWithType: Invocation.Invocation
+- uid: Testura.Code.Models.Invocation.AsExpression
+  name: AsExpression()
+  href: api/Testura.Code.Models.Invocation.html#Testura_Code_Models_Invocation_AsExpression
+  commentId: M:Testura.Code.Models.Invocation.AsExpression
+  fullName: Testura.Code.Models.Invocation.AsExpression()
+  nameWithType: Invocation.AsExpression()
+- uid: Testura.Code.Models.Invocation.AsExpression*
+  name: AsExpression
+  href: api/Testura.Code.Models.Invocation.html#Testura_Code_Models_Invocation_AsExpression_
+  commentId: Overload:Testura.Code.Models.Invocation.AsExpression
+  fullName: Testura.Code.Models.Invocation.AsExpression
+  nameWithType: Invocation.AsExpression
+- uid: Testura.Code.Models.Invocation.AsStatement
+  name: AsStatement()
+  href: api/Testura.Code.Models.Invocation.html#Testura_Code_Models_Invocation_AsStatement
+  commentId: M:Testura.Code.Models.Invocation.AsStatement
+  fullName: Testura.Code.Models.Invocation.AsStatement()
+  nameWithType: Invocation.AsStatement()
+- uid: Testura.Code.Models.Invocation.AsStatement*
+  name: AsStatement
+  href: api/Testura.Code.Models.Invocation.html#Testura_Code_Models_Invocation_AsStatement_
+  commentId: Overload:Testura.Code.Models.Invocation.AsStatement
+  fullName: Testura.Code.Models.Invocation.AsStatement
+  nameWithType: Invocation.AsStatement
+- uid: Testura.Code.Models.Parameter
+  name: Parameter
+  href: api/Testura.Code.Models.Parameter.html
+  commentId: T:Testura.Code.Models.Parameter
+  fullName: Testura.Code.Models.Parameter
+  nameWithType: Parameter
+- uid: Testura.Code.Models.Parameter.#ctor(System.String,System.Type)
+  name: Parameter(String, Type)
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter__ctor_System_String_System_Type_
+  commentId: M:Testura.Code.Models.Parameter.#ctor(System.String,System.Type)
+  fullName: Testura.Code.Models.Parameter.Parameter(System.String, System.Type)
+  nameWithType: Parameter.Parameter(String, Type)
+- uid: Testura.Code.Models.Parameter.#ctor*
+  name: Parameter
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter__ctor_
+  commentId: Overload:Testura.Code.Models.Parameter.#ctor
+  fullName: Testura.Code.Models.Parameter.Parameter
+  nameWithType: Parameter.Parameter
+- uid: Testura.Code.Models.Parameter.Name
+  name: Name
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter_Name
+  commentId: P:Testura.Code.Models.Parameter.Name
+  fullName: Testura.Code.Models.Parameter.Name
+  nameWithType: Parameter.Name
+- uid: Testura.Code.Models.Parameter.Name*
+  name: Name
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter_Name_
+  commentId: Overload:Testura.Code.Models.Parameter.Name
+  fullName: Testura.Code.Models.Parameter.Name
+  nameWithType: Parameter.Name
+- uid: Testura.Code.Models.Parameter.Type
+  name: Type
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter_Type
+  commentId: P:Testura.Code.Models.Parameter.Type
+  fullName: Testura.Code.Models.Parameter.Type
+  nameWithType: Parameter.Type
+- uid: Testura.Code.Models.Parameter.Type*
+  name: Type
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter_Type_
+  commentId: Overload:Testura.Code.Models.Parameter.Type
+  fullName: Testura.Code.Models.Parameter.Type
+  nameWithType: Parameter.Type
+- uid: Testura.Code.Models.Property
+  name: Property
+  href: api/Testura.Code.Models.Property.html
+  commentId: T:Testura.Code.Models.Property
+  fullName: Testura.Code.Models.Property
+  nameWithType: Property
+- uid: Testura.Code.Models.Property.#ctor(System.String,System.Type,Testura.Code.PropertyTypes,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name: Property(String, Type, PropertyTypes, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property__ctor_System_String_System_Type_Testura_Code_PropertyTypes_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__
+  commentId: M:Testura.Code.Models.Property.#ctor(System.String,System.Type,Testura.Code.PropertyTypes,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name.vb: Property(String, Type, PropertyTypes, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+  fullName: Testura.Code.Models.Property.Property(System.String, System.Type, Testura.Code.PropertyTypes, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>, System.Collections.Generic.IEnumerable<Testura.Code.Models.Attribute>)
+  fullName.vb: Testura.Code.Models.Property.Property(System.String, System.Type, Testura.Code.PropertyTypes, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers), System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Attribute))
+  nameWithType: Property.Property(String, Type, PropertyTypes, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  nameWithType.vb: Property(String, Type, PropertyTypes, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+- uid: Testura.Code.Models.Property.#ctor*
+  name: Property
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property__ctor_
+  commentId: Overload:Testura.Code.Models.Property.#ctor
+  fullName: Testura.Code.Models.Property.Property
+  nameWithType: Property.Property
+- uid: Testura.Code.Models.Property.Attributes
+  name: Attributes
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Attributes
+  commentId: P:Testura.Code.Models.Property.Attributes
+  fullName: Testura.Code.Models.Property.Attributes
+  nameWithType: Property.Attributes
+- uid: Testura.Code.Models.Property.Attributes*
+  name: Attributes
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Attributes_
+  commentId: Overload:Testura.Code.Models.Property.Attributes
+  fullName: Testura.Code.Models.Property.Attributes
+  nameWithType: Property.Attributes
+- uid: Testura.Code.Models.Property.Modifiers
+  name: Modifiers
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Modifiers
+  commentId: P:Testura.Code.Models.Property.Modifiers
+  fullName: Testura.Code.Models.Property.Modifiers
+  nameWithType: Property.Modifiers
+- uid: Testura.Code.Models.Property.Modifiers*
+  name: Modifiers
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Modifiers_
+  commentId: Overload:Testura.Code.Models.Property.Modifiers
+  fullName: Testura.Code.Models.Property.Modifiers
+  nameWithType: Property.Modifiers
+- uid: Testura.Code.Models.Property.Name
+  name: Name
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Name
+  commentId: P:Testura.Code.Models.Property.Name
+  fullName: Testura.Code.Models.Property.Name
+  nameWithType: Property.Name
+- uid: Testura.Code.Models.Property.Name*
+  name: Name
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Name_
+  commentId: Overload:Testura.Code.Models.Property.Name
+  fullName: Testura.Code.Models.Property.Name
+  nameWithType: Property.Name
+- uid: Testura.Code.Models.Property.PropertyType
+  name: PropertyType
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_PropertyType
+  commentId: P:Testura.Code.Models.Property.PropertyType
+  fullName: Testura.Code.Models.Property.PropertyType
+  nameWithType: Property.PropertyType
+- uid: Testura.Code.Models.Property.PropertyType*
+  name: PropertyType
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_PropertyType_
+  commentId: Overload:Testura.Code.Models.Property.PropertyType
+  fullName: Testura.Code.Models.Property.PropertyType
+  nameWithType: Property.PropertyType
+- uid: Testura.Code.Models.Property.Type
+  name: Type
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Type
+  commentId: P:Testura.Code.Models.Property.Type
+  fullName: Testura.Code.Models.Property.Type
+  nameWithType: Property.Type
+- uid: Testura.Code.Models.Property.Type*
+  name: Type
+  href: api/Testura.Code.Models.Property.html#Testura_Code_Models_Property_Type_
+  commentId: Overload:Testura.Code.Models.Property.Type
+  fullName: Testura.Code.Models.Property.Type
+  nameWithType: Property.Type
+- uid: Testura.Code.Models.References
+  name: Testura.Code.Models.References
+  href: api/Testura.Code.Models.References.html
+  commentId: N:Testura.Code.Models.References
+  fullName: Testura.Code.Models.References
+  nameWithType: Testura.Code.Models.References
+- uid: Testura.Code.Models.References.ConstantReference
+  name: ConstantReference
+  href: api/Testura.Code.Models.References.ConstantReference.html
+  commentId: T:Testura.Code.Models.References.ConstantReference
+  fullName: Testura.Code.Models.References.ConstantReference
+  nameWithType: ConstantReference
+- uid: Testura.Code.Models.References.ConstantReference.#ctor(System.Object)
+  name: ConstantReference(Object)
+  href: api/Testura.Code.Models.References.ConstantReference.html#Testura_Code_Models_References_ConstantReference__ctor_System_Object_
+  commentId: M:Testura.Code.Models.References.ConstantReference.#ctor(System.Object)
+  fullName: Testura.Code.Models.References.ConstantReference.ConstantReference(System.Object)
+  nameWithType: ConstantReference.ConstantReference(Object)
+- uid: Testura.Code.Models.References.ConstantReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)
+  name: ConstantReference(String, MemberReference)
+  href: api/Testura.Code.Models.References.ConstantReference.html#Testura_Code_Models_References_ConstantReference__ctor_System_String_Testura_Code_Models_References_MemberReference_
+  commentId: M:Testura.Code.Models.References.ConstantReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)
+  fullName: Testura.Code.Models.References.ConstantReference.ConstantReference(System.String, Testura.Code.Models.References.MemberReference)
+  nameWithType: ConstantReference.ConstantReference(String, MemberReference)
+- uid: Testura.Code.Models.References.ConstantReference.#ctor(System.String,Testura.Code.StringType)
+  name: ConstantReference(String, StringType)
+  href: api/Testura.Code.Models.References.ConstantReference.html#Testura_Code_Models_References_ConstantReference__ctor_System_String_Testura_Code_StringType_
+  commentId: M:Testura.Code.Models.References.ConstantReference.#ctor(System.String,Testura.Code.StringType)
+  fullName: Testura.Code.Models.References.ConstantReference.ConstantReference(System.String, Testura.Code.StringType)
+  nameWithType: ConstantReference.ConstantReference(String, StringType)
+- uid: Testura.Code.Models.References.ConstantReference.#ctor*
+  name: ConstantReference
+  href: api/Testura.Code.Models.References.ConstantReference.html#Testura_Code_Models_References_ConstantReference__ctor_
+  commentId: Overload:Testura.Code.Models.References.ConstantReference.#ctor
+  fullName: Testura.Code.Models.References.ConstantReference.ConstantReference
+  nameWithType: ConstantReference.ConstantReference
+- uid: Testura.Code.Models.References.MemberReference
+  name: MemberReference
+  href: api/Testura.Code.Models.References.MemberReference.html
+  commentId: T:Testura.Code.Models.References.MemberReference
+  fullName: Testura.Code.Models.References.MemberReference
+  nameWithType: MemberReference
+- uid: Testura.Code.Models.References.MemberReference.#ctor(System.String)
+  name: MemberReference(String)
+  href: api/Testura.Code.Models.References.MemberReference.html#Testura_Code_Models_References_MemberReference__ctor_System_String_
+  commentId: M:Testura.Code.Models.References.MemberReference.#ctor(System.String)
+  fullName: Testura.Code.Models.References.MemberReference.MemberReference(System.String)
+  nameWithType: MemberReference.MemberReference(String)
+- uid: Testura.Code.Models.References.MemberReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)
+  name: MemberReference(String, MemberReference)
+  href: api/Testura.Code.Models.References.MemberReference.html#Testura_Code_Models_References_MemberReference__ctor_System_String_Testura_Code_Models_References_MemberReference_
+  commentId: M:Testura.Code.Models.References.MemberReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)
+  fullName: Testura.Code.Models.References.MemberReference.MemberReference(System.String, Testura.Code.Models.References.MemberReference)
+  nameWithType: MemberReference.MemberReference(String, MemberReference)
+- uid: Testura.Code.Models.References.MemberReference.#ctor*
+  name: MemberReference
+  href: api/Testura.Code.Models.References.MemberReference.html#Testura_Code_Models_References_MemberReference__ctor_
+  commentId: Overload:Testura.Code.Models.References.MemberReference.#ctor
+  fullName: Testura.Code.Models.References.MemberReference.MemberReference
+  nameWithType: MemberReference.MemberReference
+- uid: Testura.Code.Models.References.MethodReference
+  name: MethodReference
+  href: api/Testura.Code.Models.References.MethodReference.html
+  commentId: T:Testura.Code.Models.References.MethodReference
+  fullName: Testura.Code.Models.References.MethodReference
+  nameWithType: MethodReference
+- uid: Testura.Code.Models.References.MethodReference.#ctor(System.String,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name: MethodReference(String, IEnumerable<IArgument>, IEnumerable<Type>)
+  href: api/Testura.Code.Models.References.MethodReference.html#Testura_Code_Models_References_MethodReference__ctor_System_String_System_Collections_Generic_IEnumerable_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:Testura.Code.Models.References.MethodReference.#ctor(System.String,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: MethodReference(String, IEnumerable(Of IArgument), IEnumerable(Of Type))
+  fullName: Testura.Code.Models.References.MethodReference.MethodReference(System.String, System.Collections.Generic.IEnumerable<Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: Testura.Code.Models.References.MethodReference.MethodReference(System.String, System.Collections.Generic.IEnumerable(Of Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument), System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: MethodReference.MethodReference(String, IEnumerable<IArgument>, IEnumerable<Type>)
+  nameWithType.vb: MethodReference(String, IEnumerable(Of IArgument), IEnumerable(Of Type))
+- uid: Testura.Code.Models.References.MethodReference.#ctor(System.String,Testura.Code.Models.References.MemberReference,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name: MethodReference(String, MemberReference, IEnumerable<IArgument>, IEnumerable<Type>)
+  href: api/Testura.Code.Models.References.MethodReference.html#Testura_Code_Models_References_MethodReference__ctor_System_String_Testura_Code_Models_References_MemberReference_System_Collections_Generic_IEnumerable_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:Testura.Code.Models.References.MethodReference.#ctor(System.String,Testura.Code.Models.References.MemberReference,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: MethodReference(String, MemberReference, IEnumerable(Of IArgument), IEnumerable(Of Type))
+  fullName: Testura.Code.Models.References.MethodReference.MethodReference(System.String, Testura.Code.Models.References.MemberReference, System.Collections.Generic.IEnumerable<Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: Testura.Code.Models.References.MethodReference.MethodReference(System.String, Testura.Code.Models.References.MemberReference, System.Collections.Generic.IEnumerable(Of Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument), System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: MethodReference.MethodReference(String, MemberReference, IEnumerable<IArgument>, IEnumerable<Type>)
+  nameWithType.vb: MethodReference(String, MemberReference, IEnumerable(Of IArgument), IEnumerable(Of Type))
+- uid: Testura.Code.Models.References.MethodReference.#ctor*
+  name: MethodReference
+  href: api/Testura.Code.Models.References.MethodReference.html#Testura_Code_Models_References_MethodReference__ctor_
+  commentId: Overload:Testura.Code.Models.References.MethodReference.#ctor
+  fullName: Testura.Code.Models.References.MethodReference.MethodReference
+  nameWithType: MethodReference.MethodReference
+- uid: Testura.Code.Models.References.MethodReference.Arguments
+  name: Arguments
+  href: api/Testura.Code.Models.References.MethodReference.html#Testura_Code_Models_References_MethodReference_Arguments
+  commentId: P:Testura.Code.Models.References.MethodReference.Arguments
+  fullName: Testura.Code.Models.References.MethodReference.Arguments
+  nameWithType: MethodReference.Arguments
+- uid: Testura.Code.Models.References.MethodReference.Arguments*
+  name: Arguments
+  href: api/Testura.Code.Models.References.MethodReference.html#Testura_Code_Models_References_MethodReference_Arguments_
+  commentId: Overload:Testura.Code.Models.References.MethodReference.Arguments
+  fullName: Testura.Code.Models.References.MethodReference.Arguments
+  nameWithType: MethodReference.Arguments
+- uid: Testura.Code.Models.References.MethodReference.GenericTypes
+  name: GenericTypes
+  href: api/Testura.Code.Models.References.MethodReference.html#Testura_Code_Models_References_MethodReference_GenericTypes
+  commentId: P:Testura.Code.Models.References.MethodReference.GenericTypes
+  fullName: Testura.Code.Models.References.MethodReference.GenericTypes
+  nameWithType: MethodReference.GenericTypes
+- uid: Testura.Code.Models.References.MethodReference.GenericTypes*
+  name: GenericTypes
+  href: api/Testura.Code.Models.References.MethodReference.html#Testura_Code_Models_References_MethodReference_GenericTypes_
+  commentId: Overload:Testura.Code.Models.References.MethodReference.GenericTypes
+  fullName: Testura.Code.Models.References.MethodReference.GenericTypes
+  nameWithType: MethodReference.GenericTypes
+- uid: Testura.Code.Models.References.NullReference
+  name: NullReference
+  href: api/Testura.Code.Models.References.NullReference.html
+  commentId: T:Testura.Code.Models.References.NullReference
+  fullName: Testura.Code.Models.References.NullReference
+  nameWithType: NullReference
+- uid: Testura.Code.Models.References.NullReference.#ctor
+  name: NullReference()
+  href: api/Testura.Code.Models.References.NullReference.html#Testura_Code_Models_References_NullReference__ctor
+  commentId: M:Testura.Code.Models.References.NullReference.#ctor
+  fullName: Testura.Code.Models.References.NullReference.NullReference()
+  nameWithType: NullReference.NullReference()
+- uid: Testura.Code.Models.References.NullReference.#ctor(Testura.Code.Models.References.MemberReference)
+  name: NullReference(MemberReference)
+  href: api/Testura.Code.Models.References.NullReference.html#Testura_Code_Models_References_NullReference__ctor_Testura_Code_Models_References_MemberReference_
+  commentId: M:Testura.Code.Models.References.NullReference.#ctor(Testura.Code.Models.References.MemberReference)
+  fullName: Testura.Code.Models.References.NullReference.NullReference(Testura.Code.Models.References.MemberReference)
+  nameWithType: NullReference.NullReference(MemberReference)
+- uid: Testura.Code.Models.References.NullReference.#ctor*
+  name: NullReference
+  href: api/Testura.Code.Models.References.NullReference.html#Testura_Code_Models_References_NullReference__ctor_
+  commentId: Overload:Testura.Code.Models.References.NullReference.#ctor
+  fullName: Testura.Code.Models.References.NullReference.NullReference
+  nameWithType: NullReference.NullReference
+- uid: Testura.Code.Models.References.VariableReference
+  name: VariableReference
+  href: api/Testura.Code.Models.References.VariableReference.html
+  commentId: T:Testura.Code.Models.References.VariableReference
+  fullName: Testura.Code.Models.References.VariableReference
+  nameWithType: VariableReference
+- uid: Testura.Code.Models.References.VariableReference.#ctor(System.String)
+  name: VariableReference(String)
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference__ctor_System_String_
+  commentId: M:Testura.Code.Models.References.VariableReference.#ctor(System.String)
+  fullName: Testura.Code.Models.References.VariableReference.VariableReference(System.String)
+  nameWithType: VariableReference.VariableReference(String)
+- uid: Testura.Code.Models.References.VariableReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)
+  name: VariableReference(String, MemberReference)
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference__ctor_System_String_Testura_Code_Models_References_MemberReference_
+  commentId: M:Testura.Code.Models.References.VariableReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)
+  fullName: Testura.Code.Models.References.VariableReference.VariableReference(System.String, Testura.Code.Models.References.MemberReference)
+  nameWithType: VariableReference.VariableReference(String, MemberReference)
+- uid: Testura.Code.Models.References.VariableReference.#ctor*
+  name: VariableReference
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference__ctor_
+  commentId: Overload:Testura.Code.Models.References.VariableReference.#ctor
+  fullName: Testura.Code.Models.References.VariableReference.VariableReference
+  nameWithType: VariableReference.VariableReference
+- uid: Testura.Code.Models.References.VariableReference.GetLastMember
+  name: GetLastMember()
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference_GetLastMember
+  commentId: M:Testura.Code.Models.References.VariableReference.GetLastMember
+  fullName: Testura.Code.Models.References.VariableReference.GetLastMember()
+  nameWithType: VariableReference.GetLastMember()
+- uid: Testura.Code.Models.References.VariableReference.GetLastMember*
+  name: GetLastMember
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference_GetLastMember_
+  commentId: Overload:Testura.Code.Models.References.VariableReference.GetLastMember
+  fullName: Testura.Code.Models.References.VariableReference.GetLastMember
+  nameWithType: VariableReference.GetLastMember
+- uid: Testura.Code.Models.References.VariableReference.Member
+  name: Member
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference_Member
+  commentId: P:Testura.Code.Models.References.VariableReference.Member
+  fullName: Testura.Code.Models.References.VariableReference.Member
+  nameWithType: VariableReference.Member
+- uid: Testura.Code.Models.References.VariableReference.Member*
+  name: Member
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference_Member_
+  commentId: Overload:Testura.Code.Models.References.VariableReference.Member
+  fullName: Testura.Code.Models.References.VariableReference.Member
+  nameWithType: VariableReference.Member
+- uid: Testura.Code.Models.References.VariableReference.Name
+  name: Name
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference_Name
+  commentId: P:Testura.Code.Models.References.VariableReference.Name
+  fullName: Testura.Code.Models.References.VariableReference.Name
+  nameWithType: VariableReference.Name
+- uid: Testura.Code.Models.References.VariableReference.Name*
+  name: Name
+  href: api/Testura.Code.Models.References.VariableReference.html#Testura_Code_Models_References_VariableReference_Name_
+  commentId: Overload:Testura.Code.Models.References.VariableReference.Name
+  fullName: Testura.Code.Models.References.VariableReference.Name
+  nameWithType: VariableReference.Name
+- uid: Testura.Code.Modifiers
+  name: Modifiers
+  href: api/Testura.Code.Modifiers.html
+  commentId: T:Testura.Code.Modifiers
+  fullName: Testura.Code.Modifiers
+  nameWithType: Modifiers
+- uid: Testura.Code.Modifiers.Abstract
+  name: Abstract
+  href: api/Testura.Code.Modifiers.html#Testura_Code_Modifiers_Abstract
+  commentId: F:Testura.Code.Modifiers.Abstract
+  fullName: Testura.Code.Modifiers.Abstract
+  nameWithType: Modifiers.Abstract
+- uid: Testura.Code.Modifiers.Private
+  name: Private
+  href: api/Testura.Code.Modifiers.html#Testura_Code_Modifiers_Private
+  commentId: F:Testura.Code.Modifiers.Private
+  fullName: Testura.Code.Modifiers.Private
+  nameWithType: Modifiers.Private
+- uid: Testura.Code.Modifiers.Public
+  name: Public
+  href: api/Testura.Code.Modifiers.html#Testura_Code_Modifiers_Public
+  commentId: F:Testura.Code.Modifiers.Public
+  fullName: Testura.Code.Modifiers.Public
+  nameWithType: Modifiers.Public
+- uid: Testura.Code.Modifiers.Static
+  name: Static
+  href: api/Testura.Code.Modifiers.html#Testura_Code_Modifiers_Static
+  commentId: F:Testura.Code.Modifiers.Static
+  fullName: Testura.Code.Modifiers.Static
+  nameWithType: Modifiers.Static
+- uid: Testura.Code.Modifiers.Virtual
+  name: Virtual
+  href: api/Testura.Code.Modifiers.html#Testura_Code_Modifiers_Virtual
+  commentId: F:Testura.Code.Modifiers.Virtual
+  fullName: Testura.Code.Modifiers.Virtual
+  nameWithType: Modifiers.Virtual
+- uid: Testura.Code.PropertyTypes
+  name: PropertyTypes
+  href: api/Testura.Code.PropertyTypes.html
+  commentId: T:Testura.Code.PropertyTypes
+  fullName: Testura.Code.PropertyTypes
+  nameWithType: PropertyTypes
+- uid: Testura.Code.PropertyTypes.Get
+  name: Get
+  href: api/Testura.Code.PropertyTypes.html#Testura_Code_PropertyTypes_Get
+  commentId: F:Testura.Code.PropertyTypes.Get
+  fullName: Testura.Code.PropertyTypes.Get
+  nameWithType: PropertyTypes.Get
+- uid: Testura.Code.PropertyTypes.GetAndSet
+  name: GetAndSet
+  href: api/Testura.Code.PropertyTypes.html#Testura_Code_PropertyTypes_GetAndSet
+  commentId: F:Testura.Code.PropertyTypes.GetAndSet
+  fullName: Testura.Code.PropertyTypes.GetAndSet
+  nameWithType: PropertyTypes.GetAndSet
+- uid: Testura.Code.Saver
+  name: Testura.Code.Saver
+  href: api/Testura.Code.Saver.html
+  commentId: N:Testura.Code.Saver
+  fullName: Testura.Code.Saver
+  nameWithType: Testura.Code.Saver
+- uid: Testura.Code.Saver.CodeSaver
+  name: CodeSaver
+  href: api/Testura.Code.Saver.CodeSaver.html
+  commentId: T:Testura.Code.Saver.CodeSaver
+  fullName: Testura.Code.Saver.CodeSaver
+  nameWithType: CodeSaver
+- uid: Testura.Code.Saver.CodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)
+  name: SaveCodeAsString(CompilationUnitSyntax)
+  href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver_SaveCodeAsString_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_
+  commentId: M:Testura.Code.Saver.CodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)
+  fullName: Testura.Code.Saver.CodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)
+  nameWithType: CodeSaver.SaveCodeAsString(CompilationUnitSyntax)
+- uid: Testura.Code.Saver.CodeSaver.SaveCodeAsString*
+  name: SaveCodeAsString
+  href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver_SaveCodeAsString_
+  commentId: Overload:Testura.Code.Saver.CodeSaver.SaveCodeAsString
+  fullName: Testura.Code.Saver.CodeSaver.SaveCodeAsString
+  nameWithType: CodeSaver.SaveCodeAsString
+- uid: Testura.Code.Saver.CodeSaver.SaveCodeToFile(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax,System.String)
+  name: SaveCodeToFile(CompilationUnitSyntax, String)
+  href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver_SaveCodeToFile_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_System_String_
+  commentId: M:Testura.Code.Saver.CodeSaver.SaveCodeToFile(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax,System.String)
+  fullName: Testura.Code.Saver.CodeSaver.SaveCodeToFile(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax, System.String)
+  nameWithType: CodeSaver.SaveCodeToFile(CompilationUnitSyntax, String)
+- uid: Testura.Code.Saver.CodeSaver.SaveCodeToFile*
+  name: SaveCodeToFile
+  href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver_SaveCodeToFile_
+  commentId: Overload:Testura.Code.Saver.CodeSaver.SaveCodeToFile
+  fullName: Testura.Code.Saver.CodeSaver.SaveCodeToFile
+  nameWithType: CodeSaver.SaveCodeToFile
+- uid: Testura.Code.Saver.ICodeSaver
+  name: ICodeSaver
+  href: api/Testura.Code.Saver.ICodeSaver.html
+  commentId: T:Testura.Code.Saver.ICodeSaver
+  fullName: Testura.Code.Saver.ICodeSaver
+  nameWithType: ICodeSaver
+- uid: Testura.Code.Saver.ICodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)
+  name: SaveCodeAsString(CompilationUnitSyntax)
+  href: api/Testura.Code.Saver.ICodeSaver.html#Testura_Code_Saver_ICodeSaver_SaveCodeAsString_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_
+  commentId: M:Testura.Code.Saver.ICodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)
+  fullName: Testura.Code.Saver.ICodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)
+  nameWithType: ICodeSaver.SaveCodeAsString(CompilationUnitSyntax)
+- uid: Testura.Code.Saver.ICodeSaver.SaveCodeAsString*
+  name: SaveCodeAsString
+  href: api/Testura.Code.Saver.ICodeSaver.html#Testura_Code_Saver_ICodeSaver_SaveCodeAsString_
+  commentId: Overload:Testura.Code.Saver.ICodeSaver.SaveCodeAsString
+  fullName: Testura.Code.Saver.ICodeSaver.SaveCodeAsString
+  nameWithType: ICodeSaver.SaveCodeAsString
+- uid: Testura.Code.Saver.ICodeSaver.SaveCodeToFile(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax,System.String)
+  name: SaveCodeToFile(CompilationUnitSyntax, String)
+  href: api/Testura.Code.Saver.ICodeSaver.html#Testura_Code_Saver_ICodeSaver_SaveCodeToFile_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_System_String_
+  commentId: M:Testura.Code.Saver.ICodeSaver.SaveCodeToFile(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax,System.String)
+  fullName: Testura.Code.Saver.ICodeSaver.SaveCodeToFile(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax, System.String)
+  nameWithType: ICodeSaver.SaveCodeToFile(CompilationUnitSyntax, String)
+- uid: Testura.Code.Saver.ICodeSaver.SaveCodeToFile*
+  name: SaveCodeToFile
+  href: api/Testura.Code.Saver.ICodeSaver.html#Testura_Code_Saver_ICodeSaver_SaveCodeToFile_
+  commentId: Overload:Testura.Code.Saver.ICodeSaver.SaveCodeToFile
+  fullName: Testura.Code.Saver.ICodeSaver.SaveCodeToFile
+  nameWithType: ICodeSaver.SaveCodeToFile
+- uid: Testura.Code.Statements
+  name: Testura.Code.Statements
+  href: api/Testura.Code.Statements.html
+  commentId: N:Testura.Code.Statements
+  fullName: Testura.Code.Statements
+  nameWithType: Testura.Code.Statements
+- uid: Testura.Code.Statements.DeclerationStatement
+  name: DeclerationStatement
+  href: api/Testura.Code.Statements.DeclerationStatement.html
+  commentId: T:Testura.Code.Statements.DeclerationStatement
+  fullName: Testura.Code.Statements.DeclerationStatement
+  nameWithType: DeclerationStatement
+- uid: Testura.Code.Statements.DeclerationStatement.Assign(System.String,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  name: Assign(String, ExpressionSyntax, Type)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Assign_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.Assign(System.String,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  fullName: Testura.Code.Statements.DeclerationStatement.Assign(System.String, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type)
+  nameWithType: DeclerationStatement.Assign(String, ExpressionSyntax, Type)
+- uid: Testura.Code.Statements.DeclerationStatement.Assign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax)
+  name: Assign(String, Type, ArgumentListSyntax)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Assign_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentListSyntax_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.Assign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax)
+  fullName: Testura.Code.Statements.DeclerationStatement.Assign(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax)
+  nameWithType: DeclerationStatement.Assign(String, Type, ArgumentListSyntax)
+- uid: Testura.Code.Statements.DeclerationStatement.Assign(System.String,Testura.Code.Models.References.VariableReference,System.Type)
+  name: Assign(String, VariableReference, Type)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Assign_System_String_Testura_Code_Models_References_VariableReference_System_Type_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.Assign(System.String,Testura.Code.Models.References.VariableReference,System.Type)
+  fullName: Testura.Code.Statements.DeclerationStatement.Assign(System.String, Testura.Code.Models.References.VariableReference, System.Type)
+  nameWithType: DeclerationStatement.Assign(String, VariableReference, Type)
+- uid: Testura.Code.Statements.DeclerationStatement.Assign(Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  name: Assign(VariableReference, ExpressionSyntax, Type)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Assign_Testura_Code_Models_References_VariableReference_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.Assign(Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  fullName: Testura.Code.Statements.DeclerationStatement.Assign(Testura.Code.Models.References.VariableReference, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type)
+  nameWithType: DeclerationStatement.Assign(VariableReference, ExpressionSyntax, Type)
+- uid: Testura.Code.Statements.DeclerationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.Type)
+  name: Assign(VariableReference, VariableReference, Type)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Assign_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_System_Type_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.Type)
+  fullName: Testura.Code.Statements.DeclerationStatement.Assign(Testura.Code.Models.References.VariableReference, Testura.Code.Models.References.VariableReference, System.Type)
+  nameWithType: DeclerationStatement.Assign(VariableReference, VariableReference, Type)
+- uid: Testura.Code.Statements.DeclerationStatement.Assign*
+  name: Assign
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Assign_
+  commentId: Overload:Testura.Code.Statements.DeclerationStatement.Assign
+  fullName: Testura.Code.Statements.DeclerationStatement.Assign
+  nameWithType: DeclerationStatement.Assign
+- uid: Testura.Code.Statements.DeclerationStatement.Declare(System.String,System.Type)
+  name: Declare(String, Type)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Declare_System_String_System_Type_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.Declare(System.String,System.Type)
+  fullName: Testura.Code.Statements.DeclerationStatement.Declare(System.String, System.Type)
+  nameWithType: DeclerationStatement.Declare(String, Type)
+- uid: Testura.Code.Statements.DeclerationStatement.Declare*
+  name: Declare
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_Declare_
+  commentId: Overload:Testura.Code.Statements.DeclerationStatement.Declare
+  fullName: Testura.Code.Statements.DeclerationStatement.Declare
+  nameWithType: DeclerationStatement.Declare
+- uid: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.String,System.Boolean)
+  name: DeclareAndAssign(String, String, Boolean)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_DeclareAndAssign_System_String_System_String_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.String,System.Boolean)
+  fullName: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String, System.String, System.Boolean)
+  nameWithType: DeclerationStatement.DeclareAndAssign(String, String, Boolean)
+- uid: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax,System.Boolean)
+  name: DeclareAndAssign(String, Type, ArgumentListSyntax, Boolean)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_DeclareAndAssign_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentListSyntax_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax,System.Boolean)
+  fullName: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax, System.Boolean)
+  nameWithType: DeclerationStatement.DeclareAndAssign(String, Type, ArgumentListSyntax, Boolean)
+- uid: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type,System.Boolean)
+  name: DeclareAndAssign(String, Type, ExpressionSyntax, Type, Boolean)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_DeclareAndAssign_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type,System.Boolean)
+  fullName: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type, System.Boolean)
+  nameWithType: DeclerationStatement.DeclareAndAssign(String, Type, ExpressionSyntax, Type, Boolean)
+- uid: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Models.References.VariableReference,System.Boolean)
+  name: DeclareAndAssign(String, Type, VariableReference, Boolean)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_DeclareAndAssign_System_String_System_Type_Testura_Code_Models_References_VariableReference_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Models.References.VariableReference,System.Boolean)
+  fullName: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(System.String, System.Type, Testura.Code.Models.References.VariableReference, System.Boolean)
+  nameWithType: DeclerationStatement.DeclareAndAssign(String, Type, VariableReference, Boolean)
+- uid: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign*
+  name: DeclareAndAssign<T>
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_DeclareAndAssign_
+  commentId: Overload:Testura.Code.Statements.DeclerationStatement.DeclareAndAssign
+  name.vb: DeclareAndAssign(Of T)
+  fullName: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign<T>
+  fullName.vb: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(Of T)
+  nameWithType: DeclerationStatement.DeclareAndAssign<T>
+  nameWithType.vb: DeclerationStatement.DeclareAndAssign(Of T)
+- uid: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign``1(System.String,``0,System.Boolean)
+  name: DeclareAndAssign<T>(String, T, Boolean)
+  href: api/Testura.Code.Statements.DeclerationStatement.html#Testura_Code_Statements_DeclerationStatement_DeclareAndAssign__1_System_String___0_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclerationStatement.DeclareAndAssign``1(System.String,``0,System.Boolean)
+  name.vb: DeclareAndAssign(Of T)(String, T, Boolean)
+  fullName: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign<T>(System.String, T, System.Boolean)
+  fullName.vb: Testura.Code.Statements.DeclerationStatement.DeclareAndAssign(Of T)(System.String, T, System.Boolean)
+  nameWithType: DeclerationStatement.DeclareAndAssign<T>(String, T, Boolean)
+  nameWithType.vb: DeclareAndAssign(Of T)(String, T, Boolean)
+- uid: Testura.Code.Statements.ExpressionStatement
+  name: ExpressionStatement
+  href: api/Testura.Code.Statements.ExpressionStatement.html
+  commentId: T:Testura.Code.Statements.ExpressionStatement
+  fullName: Testura.Code.Statements.ExpressionStatement
+  nameWithType: ExpressionStatement
+- uid: Testura.Code.Statements.ExpressionStatement.Invoke(System.String,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name: Invoke(String, IEnumerable<IArgument>, IEnumerable<Type>)
+  href: api/Testura.Code.Statements.ExpressionStatement.html#Testura_Code_Statements_ExpressionStatement_Invoke_System_String_System_Collections_Generic_IEnumerable_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:Testura.Code.Statements.ExpressionStatement.Invoke(System.String,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: Invoke(String, IEnumerable(Of IArgument), IEnumerable(Of Type))
+  fullName: Testura.Code.Statements.ExpressionStatement.Invoke(System.String, System.Collections.Generic.IEnumerable<Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: Testura.Code.Statements.ExpressionStatement.Invoke(System.String, System.Collections.Generic.IEnumerable(Of Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument), System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: ExpressionStatement.Invoke(String, IEnumerable<IArgument>, IEnumerable<Type>)
+  nameWithType.vb: Invoke(String, IEnumerable(Of IArgument), IEnumerable(Of Type))
+- uid: Testura.Code.Statements.ExpressionStatement.Invoke(System.String,System.String,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name: Invoke(String, String, IEnumerable<IArgument>, IEnumerable<Type>)
+  href: api/Testura.Code.Statements.ExpressionStatement.html#Testura_Code_Statements_ExpressionStatement_Invoke_System_String_System_String_System_Collections_Generic_IEnumerable_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:Testura.Code.Statements.ExpressionStatement.Invoke(System.String,System.String,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: Invoke(String, String, IEnumerable(Of IArgument), IEnumerable(Of Type))
+  fullName: Testura.Code.Statements.ExpressionStatement.Invoke(System.String, System.String, System.Collections.Generic.IEnumerable<Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: Testura.Code.Statements.ExpressionStatement.Invoke(System.String, System.String, System.Collections.Generic.IEnumerable(Of Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument), System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: ExpressionStatement.Invoke(String, String, IEnumerable<IArgument>, IEnumerable<Type>)
+  nameWithType.vb: Invoke(String, String, IEnumerable(Of IArgument), IEnumerable(Of Type))
+- uid: Testura.Code.Statements.ExpressionStatement.Invoke(Testura.Code.Models.References.VariableReference)
+  name: Invoke(VariableReference)
+  href: api/Testura.Code.Statements.ExpressionStatement.html#Testura_Code_Statements_ExpressionStatement_Invoke_Testura_Code_Models_References_VariableReference_
+  commentId: M:Testura.Code.Statements.ExpressionStatement.Invoke(Testura.Code.Models.References.VariableReference)
+  fullName: Testura.Code.Statements.ExpressionStatement.Invoke(Testura.Code.Models.References.VariableReference)
+  nameWithType: ExpressionStatement.Invoke(VariableReference)
+- uid: Testura.Code.Statements.ExpressionStatement.Invoke*
+  name: Invoke
+  href: api/Testura.Code.Statements.ExpressionStatement.html#Testura_Code_Statements_ExpressionStatement_Invoke_
+  commentId: Overload:Testura.Code.Statements.ExpressionStatement.Invoke
+  fullName: Testura.Code.Statements.ExpressionStatement.Invoke
+  nameWithType: ExpressionStatement.Invoke
+- uid: Testura.Code.Statements.IterationStatement
+  name: IterationStatement
+  href: api/Testura.Code.Statements.IterationStatement.html
+  commentId: T:Testura.Code.Statements.IterationStatement
+  fullName: Testura.Code.Statements.IterationStatement
+  nameWithType: IterationStatement
+- uid: Testura.Code.Statements.IterationStatement.For(System.Int32,System.Int32,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  name: For(Int32, Int32, String, BlockSyntax)
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_For_System_Int32_System_Int32_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_
+  commentId: M:Testura.Code.Statements.IterationStatement.For(System.Int32,System.Int32,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  fullName: Testura.Code.Statements.IterationStatement.For(System.Int32, System.Int32, System.String, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  nameWithType: IterationStatement.For(Int32, Int32, String, BlockSyntax)
+- uid: Testura.Code.Statements.IterationStatement.For(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  name: For(VariableReference, VariableReference, String, BlockSyntax)
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_For_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_
+  commentId: M:Testura.Code.Statements.IterationStatement.For(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  fullName: Testura.Code.Statements.IterationStatement.For(Testura.Code.Models.References.VariableReference, Testura.Code.Models.References.VariableReference, System.String, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  nameWithType: IterationStatement.For(VariableReference, VariableReference, String, BlockSyntax)
+- uid: Testura.Code.Statements.IterationStatement.For*
+  name: For
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_For_
+  commentId: Overload:Testura.Code.Statements.IterationStatement.For
+  fullName: Testura.Code.Statements.IterationStatement.For
+  nameWithType: IterationStatement.For
+- uid: Testura.Code.Statements.JumpStatement
+  name: JumpStatement
+  href: api/Testura.Code.Statements.JumpStatement.html
+  commentId: T:Testura.Code.Statements.JumpStatement
+  fullName: Testura.Code.Statements.JumpStatement
+  nameWithType: JumpStatement
+- uid: Testura.Code.Statements.JumpStatement.Return(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  name: Return(ExpressionSyntax)
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_Return_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_
+  commentId: M:Testura.Code.Statements.JumpStatement.Return(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  fullName: Testura.Code.Statements.JumpStatement.Return(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  nameWithType: JumpStatement.Return(ExpressionSyntax)
+- uid: Testura.Code.Statements.JumpStatement.Return(Testura.Code.Models.References.VariableReference)
+  name: Return(VariableReference)
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_Return_Testura_Code_Models_References_VariableReference_
+  commentId: M:Testura.Code.Statements.JumpStatement.Return(Testura.Code.Models.References.VariableReference)
+  fullName: Testura.Code.Statements.JumpStatement.Return(Testura.Code.Models.References.VariableReference)
+  nameWithType: JumpStatement.Return(VariableReference)
+- uid: Testura.Code.Statements.JumpStatement.Return*
+  name: Return
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_Return_
+  commentId: Overload:Testura.Code.Statements.JumpStatement.Return
+  fullName: Testura.Code.Statements.JumpStatement.Return
+  nameWithType: JumpStatement.Return
+- uid: Testura.Code.Statements.JumpStatement.ReturnFalse
+  name: ReturnFalse()
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_ReturnFalse
+  commentId: M:Testura.Code.Statements.JumpStatement.ReturnFalse
+  fullName: Testura.Code.Statements.JumpStatement.ReturnFalse()
+  nameWithType: JumpStatement.ReturnFalse()
+- uid: Testura.Code.Statements.JumpStatement.ReturnFalse*
+  name: ReturnFalse
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_ReturnFalse_
+  commentId: Overload:Testura.Code.Statements.JumpStatement.ReturnFalse
+  fullName: Testura.Code.Statements.JumpStatement.ReturnFalse
+  nameWithType: JumpStatement.ReturnFalse
+- uid: Testura.Code.Statements.JumpStatement.ReturnTrue
+  name: ReturnTrue()
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_ReturnTrue
+  commentId: M:Testura.Code.Statements.JumpStatement.ReturnTrue
+  fullName: Testura.Code.Statements.JumpStatement.ReturnTrue()
+  nameWithType: JumpStatement.ReturnTrue()
+- uid: Testura.Code.Statements.JumpStatement.ReturnTrue*
+  name: ReturnTrue
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_ReturnTrue_
+  commentId: Overload:Testura.Code.Statements.JumpStatement.ReturnTrue
+  fullName: Testura.Code.Statements.JumpStatement.ReturnTrue
+  nameWithType: JumpStatement.ReturnTrue
+- uid: Testura.Code.Statements.SelectionStatement
+  name: SelectionStatement
+  href: api/Testura.Code.Statements.SelectionStatement.html
+  commentId: T:Testura.Code.Statements.SelectionStatement
+  fullName: Testura.Code.Statements.SelectionStatement
+  nameWithType: SelectionStatement
+- uid: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.ConditionalStatements,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  name: If(IArgument, IArgument, ConditionalStatements, BlockSyntax)
+  href: api/Testura.Code.Statements.SelectionStatement.html#Testura_Code_Statements_SelectionStatement_If_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_ConditionalStatements_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_
+  commentId: M:Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.ConditionalStatements,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  fullName: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.ConditionalStatements, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  nameWithType: SelectionStatement.If(IArgument, IArgument, ConditionalStatements, BlockSyntax)
+- uid: Testura.Code.Statements.SelectionStatement.If*
+  name: If
+  href: api/Testura.Code.Statements.SelectionStatement.html#Testura_Code_Statements_SelectionStatement_If_
+  commentId: Overload:Testura.Code.Statements.SelectionStatement.If
+  fullName: Testura.Code.Statements.SelectionStatement.If
+  nameWithType: SelectionStatement.If
+- uid: Testura.Code.Statements.Statement
+  name: Statement
+  href: api/Testura.Code.Statements.Statement.html
+  commentId: T:Testura.Code.Statements.Statement
+  fullName: Testura.Code.Statements.Statement
+  nameWithType: Statement
+- uid: Testura.Code.Statements.Statement.Decleration
+  name: Decleration
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Decleration
+  commentId: P:Testura.Code.Statements.Statement.Decleration
+  fullName: Testura.Code.Statements.Statement.Decleration
+  nameWithType: Statement.Decleration
+- uid: Testura.Code.Statements.Statement.Decleration*
+  name: Decleration
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Decleration_
+  commentId: Overload:Testura.Code.Statements.Statement.Decleration
+  fullName: Testura.Code.Statements.Statement.Decleration
+  nameWithType: Statement.Decleration
+- uid: Testura.Code.Statements.Statement.Expression
+  name: Expression
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Expression
+  commentId: P:Testura.Code.Statements.Statement.Expression
+  fullName: Testura.Code.Statements.Statement.Expression
+  nameWithType: Statement.Expression
+- uid: Testura.Code.Statements.Statement.Expression*
+  name: Expression
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Expression_
+  commentId: Overload:Testura.Code.Statements.Statement.Expression
+  fullName: Testura.Code.Statements.Statement.Expression
+  nameWithType: Statement.Expression
+- uid: Testura.Code.Statements.Statement.Iteration
+  name: Iteration
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Iteration
+  commentId: P:Testura.Code.Statements.Statement.Iteration
+  fullName: Testura.Code.Statements.Statement.Iteration
+  nameWithType: Statement.Iteration
+- uid: Testura.Code.Statements.Statement.Iteration*
+  name: Iteration
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Iteration_
+  commentId: Overload:Testura.Code.Statements.Statement.Iteration
+  fullName: Testura.Code.Statements.Statement.Iteration
+  nameWithType: Statement.Iteration
+- uid: Testura.Code.Statements.Statement.Jump
+  name: Jump
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Jump
+  commentId: P:Testura.Code.Statements.Statement.Jump
+  fullName: Testura.Code.Statements.Statement.Jump
+  nameWithType: Statement.Jump
+- uid: Testura.Code.Statements.Statement.Jump*
+  name: Jump
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Jump_
+  commentId: Overload:Testura.Code.Statements.Statement.Jump
+  fullName: Testura.Code.Statements.Statement.Jump
+  nameWithType: Statement.Jump
+- uid: Testura.Code.Statements.Statement.Selection
+  name: Selection
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Selection
+  commentId: P:Testura.Code.Statements.Statement.Selection
+  fullName: Testura.Code.Statements.Statement.Selection
+  nameWithType: Statement.Selection
+- uid: Testura.Code.Statements.Statement.Selection*
+  name: Selection
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Selection_
+  commentId: Overload:Testura.Code.Statements.Statement.Selection
+  fullName: Testura.Code.Statements.Statement.Selection
+  nameWithType: Statement.Selection
+- uid: Testura.Code.StringType
+  name: StringType
+  href: api/Testura.Code.StringType.html
+  commentId: T:Testura.Code.StringType
+  fullName: Testura.Code.StringType
+  nameWithType: StringType
+- uid: Testura.Code.StringType.Normal
+  name: Normal
+  href: api/Testura.Code.StringType.html#Testura_Code_StringType_Normal
+  commentId: F:Testura.Code.StringType.Normal
+  fullName: Testura.Code.StringType.Normal
+  nameWithType: StringType.Normal
+- uid: Testura.Code.StringType.Path
+  name: Path
+  href: api/Testura.Code.StringType.html#Testura_Code_StringType_Path
+  commentId: F:Testura.Code.StringType.Path
+  fullName: Testura.Code.StringType.Path
+  nameWithType: StringType.Path

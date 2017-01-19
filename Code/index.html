@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Install </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Install ">
+    <meta name="generator" content="docfx 2.10.2.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+              
+              <p><img src="http://testura.net/Content/Images/logo.png" alt="Testura Logo"></p>
+<p>Testura.Code is a wrapper around the Roslyn API and used for generation, saving and and compiling C# code. It provides methods and helpers to generate classes, methods, statements and expressions.</p>
+<p>It provide helpers to generate:</p>
+<ul>
+<li>Classes </li>
+<li>Methods </li>
+<li>Parameters </li>
+<li>Arguments </li>
+<li>Attributes</li>
+<li>Fields </li>
+<li>Properties</li>
+</ul>
+<p>But also simple statements like: </p>
+<ul>
+<li>Decleration statements (for example declare and assign variables)</li>
+<li>Iterations statements (for example for-loop)</li>
+<li>Jump statements (for example return)</li>
+<li>Selection statement (for example if-statements)</li>
+<li>Expression statements (for example invoke methods)</li>
+</ul>
+<h1 id="install">Install</h1>
+<h2 id="nuget-nuget-statushttpsimgshieldsionugetvtesturacodesvgstyleflathttpswwwnugetorgpackagestesturacode">NuGet <a href="https://www.nuget.org/packages/Testura.Code"><img src="https://img.shields.io/nuget/v/Testura.Code.svg?style=flat" alt="NuGet Status"></a></h2>
+<p><a href="https://www.nuget.org/packages/Testura.Code"><a href="https://www.nuget.org/packages/Testura.Code">https://www.nuget.org/packages/Testura.Code</a></a></p>
+<pre><code>PM&gt; Install-Package Testura.Code
+</code></pre><h2 id="usage">Usage</h2>
+<p>Testura.Code have three different types of helpers: </p>
+<ul>
+<li><code>Generators</code> - The most basic kinds of code generators, for example fields, properties and modifiers. </li>
+<li><code>Statement</code> - Helpers for regular statements and expressions, for example declare and assign a variable or invoke a method. </li>
+<li><code>Builders</code> - Currently we have two builder - One class builder and one method builder. These have the highest  abstraction and are easy to use. </li>
+</ul>
+<p>For more details, check out the wiki: <a href="https://github.com/Testura/Testura.Code/wiki"><a href="https://github.com/Testura/Testura.Code/wiki">https://github.com/Testura/Testura.Code/wiki</a></a></p>
+<h2 id="examples">Examples</h2>
+<h3 id="hello-world">Hello world</h3>
+<p>Here is an example on how to generate, save and compile a simple hello world. </p>
+<h4 id="generate">Generate</h4>
+<pre><code class="lang-c#">var @class = new ClassBuilder(&quot;Program&quot;, &quot;HelloWorld&quot;)
+    .WithUsings(&quot;System&quot;) 
+    .WithModifiers(Modifiers.Public)
+    .WithMethods(
+        new MethodBuilder(&quot;Main&quot;)
+        .WithModifiers(Modifiers.Public, Modifiers.Static)
+        .WithParameters(new Parameter(&quot;args&quot;, typeof(string[])))
+        .WithBody(
+            BodyGenerator.Create(
+                Statement.Expression.Invoke(&quot;Console&quot;, &quot;WriteLine&quot;, new List&lt;IArgument&gt;() { new ValueArgument(&quot;Hello world&quot;) }).AsStatement(),
+                Statement.Expression.Invoke(&quot;Console&quot;, &quot;ReadLine&quot;).AsStatement()
+                ))
+        .Build())
+    .Build();
+</code></pre><p> This code will generate following code: </p>
+<pre><code class="lang-c#">using System;
+
+namespace HelloWorld
+{
+    public class Program
+    {
+        public static void Main(String[] args)
+        {
+            Console.WriteLine(&quot;Hello world&quot;);
+            Console.ReadLine();
+        }
+    }
+}
+</code></pre><h4 id="save">Save</h4>
+<pre><code class="lang-c#">var saver = new CodeSaver();
+
+// As a string
+var generatedCode = saver.SaveCodeAsString(@class);
+
+// Or to file
+saver.SaveCodeToFile(@class, @&quot;/path/HelloWorld.cs&quot;);
+</code></pre><h4 id="compile">Compile</h4>
+<pre><code class="lang-c#">var compiler = new Compiler();
+
+// From string
+var result = await compiler.CompileSourceAsync(@&quot;/path/HelloWorld.dll&quot;, code);
+
+// From file
+var result = await compiler.CompileSourceAsync(@&quot;/path/HelloWorld.dll&quot;,  @&quot;/path/HelloWorld.cs&quot;);
+</code></pre><h2 id="missing-anything">Missing anything?</h2>
+<p>If we miss a feature, syntax or statements - just create an issue or contact us and I&#39;m sure we can add it.</p>
+<p>It is also possible for you to contribute with your own feature. Simply add a pull request and we will look at it. </p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License. See the <a href="LICENSE.md">LICENSE.md</a> file for details.</p>
+<h2 id="contact">Contact</h2>
+<p>Visit <a href="http://www.testura.net">www.testura.net</a>, twitter at @testuranet or email at mille.bostrom@testura.net</p>
+
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
