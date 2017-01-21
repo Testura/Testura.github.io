@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class VariableReference
+    <title>Class BodyProperty
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class VariableReference
+    <meta name="title" content="Class BodyProperty
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,26 +69,30 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Models_References_VariableReference" data-uid="Testura.Code.Models.References.VariableReference">Class VariableReference
+              <h1 id="Testura_Code_Models_Properties_BodyProperty" data-uid="Testura.Code.Models.Properties.BodyProperty">Class BodyProperty
               </h1>
-              <div class="markdown level0 summary"><p>The reference classes are used to simpify call to methods, fields, properties etc.</p>
-<p>An example of this could be this:</p>
-<p>myVariable.MyMethod().AProperty;</p>
-<p>This could be represented like this:
-new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod&quot;,new MemberReference(&quot;AProperty&quot;);</p>
-</div>
+              <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">VariableReference</span></div>
-                  <div class="level2"><a class="xref" href="Testura.Code.Models.References.ConstantReference.html">ConstantReference</a></div>
-                  <div class="level2"><a class="xref" href="Testura.Code.Models.References.MemberReference.html">MemberReference</a></div>
-                  <div class="level2"><a class="xref" href="Testura.Code.Models.References.NullReference.html">NullReference</a></div>
-                  <div class="level2"><a class="xref" href="Testura.Code.Models.References.ValueKeywordReference.html">ValueKeywordReference</a></div>
+                  <div class="level1"><a class="xref" href="Testura.Code.Models.Properties.Property.html">Property</a></div>
+                  <div class="level2"><span class="xref">BodyProperty</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Name">Property.Name</a>
+                </div>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Type">Property.Type</a>
+                </div>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Modifiers">Property.Modifiers</a>
+                </div>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Attributes">Property.Attributes</a>
+                </div>
                 <div>
                   <span class="xref">System.Object.ToString()</span>
                 </div>
@@ -111,23 +115,23 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                   <span class="xref">System.Object.MemberwiseClone()</span>
                 </div>
               </div>
-              <h6><strong>Namespace</strong>:Testura.Code.Models.References</h6>
+              <h6><strong>Namespace</strong>:Testura.Code.Models.Properties</h6>
               <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
-              <h5 id="Testura_Code_Models_References_VariableReference_syntax">Syntax</h5>
+              <h5 id="Testura_Code_Models_Properties_BodyProperty_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class VariableReference</code></pre>
+                <pre><code class="lang-csharp hljs">public class BodyProperty : Property</code></pre>
               </div>
               <h3 id="constructors">Constructors
               </h3>
               
               
-              <a id="Testura_Code_Models_References_VariableReference__ctor_" data-uid="Testura.Code.Models.References.VariableReference.#ctor*"></a>
-              <h4 id="Testura_Code_Models_References_VariableReference__ctor_System_String_" data-uid="Testura.Code.Models.References.VariableReference.#ctor(System.String)">VariableReference(String)</h4>
+              <a id="Testura_Code_Models_Properties_BodyProperty__ctor_" data-uid="Testura.Code.Models.Properties.BodyProperty.#ctor*"></a>
+              <h4 id="Testura_Code_Models_Properties_BodyProperty__ctor_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__" data-uid="Testura.Code.Models.Properties.BodyProperty.#ctor(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})">BodyProperty(String, Type, BlockSyntax, BlockSyntax, IEnumerable&lt;Modifiers&gt;, IEnumerable&lt;Attribute&gt;)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public VariableReference(string variableName)</code></pre>
+                <pre><code class="lang-csharp hljs">public BodyProperty(string name, Type type, BlockSyntax getBody, BlockSyntax setBody, IEnumerable&lt;Modifiers&gt; modifiers = null, IEnumerable&lt;Attribute&gt; attributes = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -141,20 +145,45 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">variableName</span></td>
+                    <td><span class="parametername">name</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><span class="parametername">type</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">getBody</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">setBody</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Modifiers.html">Modifiers</a>&gt;</td>
+                    <td><span class="parametername">modifiers</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Models.Attribute.html">Attribute</a>&gt;</td>
+                    <td><span class="parametername">attributes</span></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               
               
-              <a id="Testura_Code_Models_References_VariableReference__ctor_" data-uid="Testura.Code.Models.References.VariableReference.#ctor*"></a>
-              <h4 id="Testura_Code_Models_References_VariableReference__ctor_System_String_Testura_Code_Models_References_MemberReference_" data-uid="Testura.Code.Models.References.VariableReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)">VariableReference(String, MemberReference)</h4>
+              <a id="Testura_Code_Models_Properties_BodyProperty__ctor_" data-uid="Testura.Code.Models.Properties.BodyProperty.#ctor*"></a>
+              <h4 id="Testura_Code_Models_Properties_BodyProperty__ctor_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__" data-uid="Testura.Code.Models.Properties.BodyProperty.#ctor(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})">BodyProperty(String, Type, BlockSyntax, IEnumerable&lt;Modifiers&gt;, IEnumerable&lt;Attribute&gt;)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public VariableReference(string variableName, MemberReference member)</code></pre>
+                <pre><code class="lang-csharp hljs">public BodyProperty(string name, Type type, BlockSyntax getBody, IEnumerable&lt;Modifiers&gt; modifiers = null, IEnumerable&lt;Attribute&gt; attributes = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -168,12 +197,27 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">variableName</span></td>
+                    <td><span class="parametername">name</span></td>
                     <td></td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Testura.Code.Models.References.MemberReference.html">MemberReference</a></td>
-                    <td><span class="parametername">member</span></td>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><span class="parametername">type</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">getBody</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Modifiers.html">Modifiers</a>&gt;</td>
+                    <td><span class="parametername">modifiers</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Models.Attribute.html">Attribute</a>&gt;</td>
+                    <td><span class="parametername">attributes</span></td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -182,14 +226,13 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
               </h3>
               
               
-              <a id="Testura_Code_Models_References_VariableReference_Member_" data-uid="Testura.Code.Models.References.VariableReference.Member*"></a>
-              <h4 id="Testura_Code_Models_References_VariableReference_Member" data-uid="Testura.Code.Models.References.VariableReference.Member">Member</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the memeber references</p>
-</div>
+              <a id="Testura_Code_Models_Properties_BodyProperty_GetBody_" data-uid="Testura.Code.Models.Properties.BodyProperty.GetBody*"></a>
+              <h4 id="Testura_Code_Models_Properties_BodyProperty_GetBody" data-uid="Testura.Code.Models.Properties.BodyProperty.GetBody">GetBody</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public MemberReference Member { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">public BlockSyntax GetBody { get; }</code></pre>
               </div>
               <h5 class="propertyValue">Property Value</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -201,21 +244,20 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Code.Models.References.MemberReference.html">MemberReference</a></td>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               
               
-              <a id="Testura_Code_Models_References_VariableReference_Name_" data-uid="Testura.Code.Models.References.VariableReference.Name*"></a>
-              <h4 id="Testura_Code_Models_References_VariableReference_Name" data-uid="Testura.Code.Models.References.VariableReference.Name">Name</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the name of the refence</p>
-</div>
+              <a id="Testura_Code_Models_Properties_BodyProperty_SetBody_" data-uid="Testura.Code.Models.Properties.BodyProperty.SetBody*"></a>
+              <h4 id="Testura_Code_Models_Properties_BodyProperty_SetBody" data-uid="Testura.Code.Models.Properties.BodyProperty.SetBody">SetBody</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">public BlockSyntax SetBody { get; }</code></pre>
               </div>
               <h5 class="propertyValue">Property Value</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -227,37 +269,8 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.String</span></td>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
                     <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              <h3 id="methods">Methods
-              </h3>
-              
-              
-              <a id="Testura_Code_Models_References_VariableReference_GetLastMember_" data-uid="Testura.Code.Models.References.VariableReference.GetLastMember*"></a>
-              <h4 id="Testura_Code_Models_References_VariableReference_GetLastMember" data-uid="Testura.Code.Models.References.VariableReference.GetLastMember">GetLastMember()</h4>
-              <div class="markdown level1 summary"><p>Go through the chain of members and return last.</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public VariableReference GetLastMember()</code></pre>
-              </div>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Testura.Code.Models.References.VariableReference.html">VariableReference</a></td>
-                    <td><p>Returns last member in the reference chain</p>
-</td>
                   </tr>
                 </tbody>
               </table>

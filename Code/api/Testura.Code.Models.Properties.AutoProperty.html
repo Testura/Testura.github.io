@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ModelClassTests
+    <title>Class AutoProperty
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ModelClassTests
+    <meta name="title" content="Class AutoProperty
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,17 +69,30 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Tests_Integration_ModelClassTests" data-uid="Testura.Code.Tests.Integration.ModelClassTests">Class ModelClassTests
+              <h1 id="Testura_Code_Models_Properties_AutoProperty" data-uid="Testura.Code.Models.Properties.AutoProperty">Class AutoProperty
               </h1>
               <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">ModelClassTests</span></div>
+                  <div class="level1"><a class="xref" href="Testura.Code.Models.Properties.Property.html">Property</a></div>
+                  <div class="level2"><span class="xref">AutoProperty</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Name">Property.Name</a>
+                </div>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Type">Property.Type</a>
+                </div>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Modifiers">Property.Modifiers</a>
+                </div>
+                <div>
+                  <a class="xref" href="Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Attributes">Property.Attributes</a>
+                </div>
                 <div>
                   <span class="xref">System.Object.ToString()</span>
                 </div>
@@ -102,28 +115,89 @@
                   <span class="xref">System.Object.MemberwiseClone()</span>
                 </div>
               </div>
-              <h6><strong>Namespace</strong>:Testura.Code.Tests.Integration</h6>
-              <h6><strong>Assembly</strong>:Testura.Code.Tests.dll</h6>
-              <h5 id="Testura_Code_Tests_Integration_ModelClassTests_syntax">Syntax</h5>
+              <h6><strong>Namespace</strong>:Testura.Code.Models.Properties</h6>
+              <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
+              <h5 id="Testura_Code_Models_Properties_AutoProperty_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">[TestFixture]
-public class ModelClassTests</code></pre>
+                <pre><code class="lang-csharp hljs">public class AutoProperty : Property</code></pre>
               </div>
-              <h3 id="methods">Methods
+              <h3 id="constructors">Constructors
               </h3>
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Testura/Testura.Code/blob/master/src/Testura.Code.Tests/Integration/ModelClassTests.cs/#L16">View Source</a>
-              </span>
-              <a id="Testura_Code_Tests_Integration_ModelClassTests_Test_CreateModelClass_" data-uid="Testura.Code.Tests.Integration.ModelClassTests.Test_CreateModelClass*"></a>
-              <h4 id="Testura_Code_Tests_Integration_ModelClassTests_Test_CreateModelClass" data-uid="Testura.Code.Tests.Integration.ModelClassTests.Test_CreateModelClass">Test_CreateModelClass()</h4>
+              
+              <a id="Testura_Code_Models_Properties_AutoProperty__ctor_" data-uid="Testura.Code.Models.Properties.AutoProperty.#ctor*"></a>
+              <h4 id="Testura_Code_Models_Properties_AutoProperty__ctor_System_String_System_Type_Testura_Code_PropertyTypes_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__" data-uid="Testura.Code.Models.Properties.AutoProperty.#ctor(System.String,System.Type,Testura.Code.PropertyTypes,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})">AutoProperty(String, Type, PropertyTypes, IEnumerable&lt;Modifiers&gt;, IEnumerable&lt;Attribute&gt;)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">[Test]
-public void Test_CreateModelClass()</code></pre>
+                <pre><code class="lang-csharp hljs">public AutoProperty(string name, Type type, PropertyTypes propertyType, IEnumerable&lt;Modifiers&gt; modifiers = null, IEnumerable&lt;Attribute&gt; attributes = null)</code></pre>
               </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">name</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><span class="parametername">type</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.PropertyTypes.html">PropertyTypes</a></td>
+                    <td><span class="parametername">propertyType</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Modifiers.html">Modifiers</a>&gt;</td>
+                    <td><span class="parametername">modifiers</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Models.Attribute.html">Attribute</a>&gt;</td>
+                    <td><span class="parametername">attributes</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              
+              
+              <a id="Testura_Code_Models_Properties_AutoProperty_PropertyType_" data-uid="Testura.Code.Models.Properties.AutoProperty.PropertyType*"></a>
+              <h4 id="Testura_Code_Models_Properties_AutoProperty_PropertyType" data-uid="Testura.Code.Models.Properties.AutoProperty.PropertyType">PropertyType</h4>
+              <div class="markdown level1 summary"><p>Gets or sets if the property is a get or set.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public PropertyTypes PropertyType { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.PropertyTypes.html">PropertyTypes</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
               <h3 id="extensionmethods">Extension Methods</h3>
               <div>
                   <a class="xref" href="Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_">ObjectExtensions.IsNumeric(Object)</a>
@@ -135,9 +209,6 @@ public void Test_CreateModelClass()</code></pre>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Testura/Testura.Code/blob/master/src/Testura.Code.Tests/Integration/ModelClassTests.cs/#L13" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

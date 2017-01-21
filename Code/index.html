@@ -90,7 +90,11 @@
 <li><code>Statement</code> - Helpers for regular statements and expressions, for example declare and assign a variable or invoke a method. </li>
 <li><code>Builders</code> - Currently we have two builder - One class builder and one method builder. These have the highest  abstraction and are easy to use. </li>
 </ul>
-<p>For more details, check out the wiki: <a href="https://github.com/Testura/Testura.Code/wiki"><a href="https://github.com/Testura/Testura.Code/wiki">https://github.com/Testura/Testura.Code/wiki</a></a></p>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li>Wiki -<a href="https://github.com/Testura/Testura.Code/wiki"><a href="https://github.com/Testura/Testura.Code/wiki">https://github.com/Testura/Testura.Code/wiki</a></a></li>
+<li>Api - <a href="https://testura.github.io/Code/api/index.html"><a href="https://testura.github.io/Code/api/index.html">https://testura.github.io/Code/api/index.html</a></a></li>
+</ul>
 <h2 id="examples">Examples</h2>
 <h3 id="hello-world">Hello world</h3>
 <p>Here is an example on how to generate, save and compile a simple hello world. </p>
@@ -135,10 +139,10 @@ saver.SaveCodeToFile(@class, @&quot;/path/HelloWorld.cs&quot;);
 <pre><code class="lang-c#">var compiler = new Compiler();
 
 // From string
-var result = await compiler.CompileSourceAsync(@&quot;/path/HelloWorld.dll&quot;, code);
+var result = await compiler.CompileSourceAsync(@&quot;/path/HelloWorld.dll&quot;, generatedCode);
 
 // From file
-var result = await compiler.CompileSourceAsync(@&quot;/path/HelloWorld.dll&quot;,  @&quot;/path/HelloWorld.cs&quot;);
+var result = await compiler.CompileFilesAsync(@&quot;/path/HelloWorld.dll&quot;,  @&quot;/path/HelloWorld.cs&quot;);
 </code></pre><h2 id="missing-anything">Missing anything?</h2>
 <p>If we miss a feature, syntax or statements - just create an issue or contact us and I&#39;m sure we can add it.</p>
 <p>It is also possible for you to contribute with your own feature. Simply add a pull request and we will look at it. </p>

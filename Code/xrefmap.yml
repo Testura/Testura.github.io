@@ -205,13 +205,13 @@ references:
   fullName.vb: Testura.Code.Builders.ClassBuilder.WithProperties(Microsoft.CodeAnalysis.CSharp.Syntax.PropertyDeclarationSyntax())
   nameWithType: ClassBuilder.WithProperties(PropertyDeclarationSyntax[])
   nameWithType.vb: WithProperties(PropertyDeclarationSyntax())
-- uid: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property[])
+- uid: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Properties.Property[])
   name: WithProperties(Property[])
-  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithProperties_Testura_Code_Models_Property___
-  commentId: M:Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property[])
+  href: api/Testura.Code.Builders.ClassBuilder.html#Testura_Code_Builders_ClassBuilder_WithProperties_Testura_Code_Models_Properties_Property___
+  commentId: M:Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Properties.Property[])
   name.vb: WithProperties(Property())
-  fullName: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property[])
-  fullName.vb: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Property())
+  fullName: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Properties.Property[])
+  fullName.vb: Testura.Code.Builders.ClassBuilder.WithProperties(Testura.Code.Models.Properties.Property())
   nameWithType: ClassBuilder.WithProperties(Property[])
   nameWithType.vb: WithProperties(Property())
 - uid: Testura.Code.Builders.ClassBuilder.WithProperties*
@@ -697,11 +697,11 @@ references:
   commentId: T:Testura.Code.Generators.Class.PropertyGenerator
   fullName: Testura.Code.Generators.Class.PropertyGenerator
   nameWithType: PropertyGenerator
-- uid: Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Property)
+- uid: Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Properties.Property)
   name: Create(Property)
-  href: api/Testura.Code.Generators.Class.PropertyGenerator.html#Testura_Code_Generators_Class_PropertyGenerator_Create_Testura_Code_Models_Property_
-  commentId: M:Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Property)
-  fullName: Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Property)
+  href: api/Testura.Code.Generators.Class.PropertyGenerator.html#Testura_Code_Generators_Class_PropertyGenerator_Create_Testura_Code_Models_Properties_Property_
+  commentId: M:Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Properties.Property)
+  fullName: Testura.Code.Generators.Class.PropertyGenerator.Create(Testura.Code.Models.Properties.Property)
   nameWithType: PropertyGenerator.Create(Property)
 - uid: Testura.Code.Generators.Class.PropertyGenerator.Create*
   name: Create
@@ -1484,6 +1484,57 @@ references:
   commentId: Overload:Testura.Code.Models.Invocation.AsStatement
   fullName: Testura.Code.Models.Invocation.AsStatement
   nameWithType: Invocation.AsStatement
+- uid: Testura.Code.Models.Options
+  name: Testura.Code.Models.Options
+  href: api/Testura.Code.Models.Options.html
+  commentId: N:Testura.Code.Models.Options
+  fullName: Testura.Code.Models.Options
+  nameWithType: Testura.Code.Models.Options
+- uid: Testura.Code.Models.Options.OptionKeyValue
+  name: OptionKeyValue
+  href: api/Testura.Code.Models.Options.OptionKeyValue.html
+  commentId: T:Testura.Code.Models.Options.OptionKeyValue
+  fullName: Testura.Code.Models.Options.OptionKeyValue
+  nameWithType: OptionKeyValue
+- uid: Testura.Code.Models.Options.OptionKeyValue.#ctor(Microsoft.CodeAnalysis.Options.Option{System.Boolean},System.Boolean)
+  name: OptionKeyValue(Option<Boolean>, Boolean)
+  href: api/Testura.Code.Models.Options.OptionKeyValue.html#Testura_Code_Models_Options_OptionKeyValue__ctor_Microsoft_CodeAnalysis_Options_Option_System_Boolean__System_Boolean_
+  commentId: M:Testura.Code.Models.Options.OptionKeyValue.#ctor(Microsoft.CodeAnalysis.Options.Option{System.Boolean},System.Boolean)
+  name.vb: OptionKeyValue(Option(Of Boolean), Boolean)
+  fullName: Testura.Code.Models.Options.OptionKeyValue.OptionKeyValue(Microsoft.CodeAnalysis.Options.Option<System.Boolean>, System.Boolean)
+  fullName.vb: Testura.Code.Models.Options.OptionKeyValue.OptionKeyValue(Microsoft.CodeAnalysis.Options.Option(Of System.Boolean), System.Boolean)
+  nameWithType: OptionKeyValue.OptionKeyValue(Option<Boolean>, Boolean)
+  nameWithType.vb: OptionKeyValue(Option(Of Boolean), Boolean)
+- uid: Testura.Code.Models.Options.OptionKeyValue.#ctor*
+  name: OptionKeyValue
+  href: api/Testura.Code.Models.Options.OptionKeyValue.html#Testura_Code_Models_Options_OptionKeyValue__ctor_
+  commentId: Overload:Testura.Code.Models.Options.OptionKeyValue.#ctor
+  fullName: Testura.Code.Models.Options.OptionKeyValue.OptionKeyValue
+  nameWithType: OptionKeyValue.OptionKeyValue
+- uid: Testura.Code.Models.Options.OptionKeyValue.FormattingOption
+  name: FormattingOption
+  href: api/Testura.Code.Models.Options.OptionKeyValue.html#Testura_Code_Models_Options_OptionKeyValue_FormattingOption
+  commentId: P:Testura.Code.Models.Options.OptionKeyValue.FormattingOption
+  fullName: Testura.Code.Models.Options.OptionKeyValue.FormattingOption
+  nameWithType: OptionKeyValue.FormattingOption
+- uid: Testura.Code.Models.Options.OptionKeyValue.FormattingOption*
+  name: FormattingOption
+  href: api/Testura.Code.Models.Options.OptionKeyValue.html#Testura_Code_Models_Options_OptionKeyValue_FormattingOption_
+  commentId: Overload:Testura.Code.Models.Options.OptionKeyValue.FormattingOption
+  fullName: Testura.Code.Models.Options.OptionKeyValue.FormattingOption
+  nameWithType: OptionKeyValue.FormattingOption
+- uid: Testura.Code.Models.Options.OptionKeyValue.Value
+  name: Value
+  href: api/Testura.Code.Models.Options.OptionKeyValue.html#Testura_Code_Models_Options_OptionKeyValue_Value
+  commentId: P:Testura.Code.Models.Options.OptionKeyValue.Value
+  fullName: Testura.Code.Models.Options.OptionKeyValue.Value
+  nameWithType: OptionKeyValue.Value
+- uid: Testura.Code.Models.Options.OptionKeyValue.Value*
+  name: Value
+  href: api/Testura.Code.Models.Options.OptionKeyValue.html#Testura_Code_Models_Options_OptionKeyValue_Value_
+  commentId: Overload:Testura.Code.Models.Options.OptionKeyValue.Value
+  fullName: Testura.Code.Models.Options.OptionKeyValue.Value
+  nameWithType: OptionKeyValue.Value
 - uid: Testura.Code.Models.Parameter
   name: Parameter
   href: api/Testura.Code.Models.Parameter.html
@@ -1526,6 +1577,168 @@ references:
   commentId: Overload:Testura.Code.Models.Parameter.Type
   fullName: Testura.Code.Models.Parameter.Type
   nameWithType: Parameter.Type
+- uid: Testura.Code.Models.Properties
+  name: Testura.Code.Models.Properties
+  href: api/Testura.Code.Models.Properties.html
+  commentId: N:Testura.Code.Models.Properties
+  fullName: Testura.Code.Models.Properties
+  nameWithType: Testura.Code.Models.Properties
+- uid: Testura.Code.Models.Properties.AutoProperty
+  name: AutoProperty
+  href: api/Testura.Code.Models.Properties.AutoProperty.html
+  commentId: T:Testura.Code.Models.Properties.AutoProperty
+  fullName: Testura.Code.Models.Properties.AutoProperty
+  nameWithType: AutoProperty
+- uid: Testura.Code.Models.Properties.AutoProperty.#ctor(System.String,System.Type,Testura.Code.PropertyTypes,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name: AutoProperty(String, Type, PropertyTypes, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  href: api/Testura.Code.Models.Properties.AutoProperty.html#Testura_Code_Models_Properties_AutoProperty__ctor_System_String_System_Type_Testura_Code_PropertyTypes_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__
+  commentId: M:Testura.Code.Models.Properties.AutoProperty.#ctor(System.String,System.Type,Testura.Code.PropertyTypes,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name.vb: AutoProperty(String, Type, PropertyTypes, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+  fullName: Testura.Code.Models.Properties.AutoProperty.AutoProperty(System.String, System.Type, Testura.Code.PropertyTypes, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>, System.Collections.Generic.IEnumerable<Testura.Code.Models.Attribute>)
+  fullName.vb: Testura.Code.Models.Properties.AutoProperty.AutoProperty(System.String, System.Type, Testura.Code.PropertyTypes, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers), System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Attribute))
+  nameWithType: AutoProperty.AutoProperty(String, Type, PropertyTypes, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  nameWithType.vb: AutoProperty(String, Type, PropertyTypes, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+- uid: Testura.Code.Models.Properties.AutoProperty.#ctor*
+  name: AutoProperty
+  href: api/Testura.Code.Models.Properties.AutoProperty.html#Testura_Code_Models_Properties_AutoProperty__ctor_
+  commentId: Overload:Testura.Code.Models.Properties.AutoProperty.#ctor
+  fullName: Testura.Code.Models.Properties.AutoProperty.AutoProperty
+  nameWithType: AutoProperty.AutoProperty
+- uid: Testura.Code.Models.Properties.AutoProperty.PropertyType
+  name: PropertyType
+  href: api/Testura.Code.Models.Properties.AutoProperty.html#Testura_Code_Models_Properties_AutoProperty_PropertyType
+  commentId: P:Testura.Code.Models.Properties.AutoProperty.PropertyType
+  fullName: Testura.Code.Models.Properties.AutoProperty.PropertyType
+  nameWithType: AutoProperty.PropertyType
+- uid: Testura.Code.Models.Properties.AutoProperty.PropertyType*
+  name: PropertyType
+  href: api/Testura.Code.Models.Properties.AutoProperty.html#Testura_Code_Models_Properties_AutoProperty_PropertyType_
+  commentId: Overload:Testura.Code.Models.Properties.AutoProperty.PropertyType
+  fullName: Testura.Code.Models.Properties.AutoProperty.PropertyType
+  nameWithType: AutoProperty.PropertyType
+- uid: Testura.Code.Models.Properties.BodyProperty
+  name: BodyProperty
+  href: api/Testura.Code.Models.Properties.BodyProperty.html
+  commentId: T:Testura.Code.Models.Properties.BodyProperty
+  fullName: Testura.Code.Models.Properties.BodyProperty
+  nameWithType: BodyProperty
+- uid: Testura.Code.Models.Properties.BodyProperty.#ctor(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name: BodyProperty(String, Type, BlockSyntax, BlockSyntax, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  href: api/Testura.Code.Models.Properties.BodyProperty.html#Testura_Code_Models_Properties_BodyProperty__ctor_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__
+  commentId: M:Testura.Code.Models.Properties.BodyProperty.#ctor(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name.vb: BodyProperty(String, Type, BlockSyntax, BlockSyntax, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+  fullName: Testura.Code.Models.Properties.BodyProperty.BodyProperty(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>, System.Collections.Generic.IEnumerable<Testura.Code.Models.Attribute>)
+  fullName.vb: Testura.Code.Models.Properties.BodyProperty.BodyProperty(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers), System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Attribute))
+  nameWithType: BodyProperty.BodyProperty(String, Type, BlockSyntax, BlockSyntax, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  nameWithType.vb: BodyProperty(String, Type, BlockSyntax, BlockSyntax, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+- uid: Testura.Code.Models.Properties.BodyProperty.#ctor(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name: BodyProperty(String, Type, BlockSyntax, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  href: api/Testura.Code.Models.Properties.BodyProperty.html#Testura_Code_Models_Properties_BodyProperty__ctor_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__
+  commentId: M:Testura.Code.Models.Properties.BodyProperty.#ctor(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name.vb: BodyProperty(String, Type, BlockSyntax, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+  fullName: Testura.Code.Models.Properties.BodyProperty.BodyProperty(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>, System.Collections.Generic.IEnumerable<Testura.Code.Models.Attribute>)
+  fullName.vb: Testura.Code.Models.Properties.BodyProperty.BodyProperty(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers), System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Attribute))
+  nameWithType: BodyProperty.BodyProperty(String, Type, BlockSyntax, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  nameWithType.vb: BodyProperty(String, Type, BlockSyntax, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+- uid: Testura.Code.Models.Properties.BodyProperty.#ctor*
+  name: BodyProperty
+  href: api/Testura.Code.Models.Properties.BodyProperty.html#Testura_Code_Models_Properties_BodyProperty__ctor_
+  commentId: Overload:Testura.Code.Models.Properties.BodyProperty.#ctor
+  fullName: Testura.Code.Models.Properties.BodyProperty.BodyProperty
+  nameWithType: BodyProperty.BodyProperty
+- uid: Testura.Code.Models.Properties.BodyProperty.GetBody
+  name: GetBody
+  href: api/Testura.Code.Models.Properties.BodyProperty.html#Testura_Code_Models_Properties_BodyProperty_GetBody
+  commentId: P:Testura.Code.Models.Properties.BodyProperty.GetBody
+  fullName: Testura.Code.Models.Properties.BodyProperty.GetBody
+  nameWithType: BodyProperty.GetBody
+- uid: Testura.Code.Models.Properties.BodyProperty.GetBody*
+  name: GetBody
+  href: api/Testura.Code.Models.Properties.BodyProperty.html#Testura_Code_Models_Properties_BodyProperty_GetBody_
+  commentId: Overload:Testura.Code.Models.Properties.BodyProperty.GetBody
+  fullName: Testura.Code.Models.Properties.BodyProperty.GetBody
+  nameWithType: BodyProperty.GetBody
+- uid: Testura.Code.Models.Properties.BodyProperty.SetBody
+  name: SetBody
+  href: api/Testura.Code.Models.Properties.BodyProperty.html#Testura_Code_Models_Properties_BodyProperty_SetBody
+  commentId: P:Testura.Code.Models.Properties.BodyProperty.SetBody
+  fullName: Testura.Code.Models.Properties.BodyProperty.SetBody
+  nameWithType: BodyProperty.SetBody
+- uid: Testura.Code.Models.Properties.BodyProperty.SetBody*
+  name: SetBody
+  href: api/Testura.Code.Models.Properties.BodyProperty.html#Testura_Code_Models_Properties_BodyProperty_SetBody_
+  commentId: Overload:Testura.Code.Models.Properties.BodyProperty.SetBody
+  fullName: Testura.Code.Models.Properties.BodyProperty.SetBody
+  nameWithType: BodyProperty.SetBody
+- uid: Testura.Code.Models.Properties.Property
+  name: Property
+  href: api/Testura.Code.Models.Properties.Property.html
+  commentId: T:Testura.Code.Models.Properties.Property
+  fullName: Testura.Code.Models.Properties.Property
+  nameWithType: Property
+- uid: Testura.Code.Models.Properties.Property.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name: Property(String, Type, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property__ctor_System_String_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__
+  commentId: M:Testura.Code.Models.Properties.Property.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name.vb: Property(String, Type, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+  fullName: Testura.Code.Models.Properties.Property.Property(System.String, System.Type, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>, System.Collections.Generic.IEnumerable<Testura.Code.Models.Attribute>)
+  fullName.vb: Testura.Code.Models.Properties.Property.Property(System.String, System.Type, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers), System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Attribute))
+  nameWithType: Property.Property(String, Type, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  nameWithType.vb: Property(String, Type, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+- uid: Testura.Code.Models.Properties.Property.#ctor*
+  name: Property
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property__ctor_
+  commentId: Overload:Testura.Code.Models.Properties.Property.#ctor
+  fullName: Testura.Code.Models.Properties.Property.Property
+  nameWithType: Property.Property
+- uid: Testura.Code.Models.Properties.Property.Attributes
+  name: Attributes
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Attributes
+  commentId: P:Testura.Code.Models.Properties.Property.Attributes
+  fullName: Testura.Code.Models.Properties.Property.Attributes
+  nameWithType: Property.Attributes
+- uid: Testura.Code.Models.Properties.Property.Attributes*
+  name: Attributes
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Attributes_
+  commentId: Overload:Testura.Code.Models.Properties.Property.Attributes
+  fullName: Testura.Code.Models.Properties.Property.Attributes
+  nameWithType: Property.Attributes
+- uid: Testura.Code.Models.Properties.Property.Modifiers
+  name: Modifiers
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Modifiers
+  commentId: P:Testura.Code.Models.Properties.Property.Modifiers
+  fullName: Testura.Code.Models.Properties.Property.Modifiers
+  nameWithType: Property.Modifiers
+- uid: Testura.Code.Models.Properties.Property.Modifiers*
+  name: Modifiers
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Modifiers_
+  commentId: Overload:Testura.Code.Models.Properties.Property.Modifiers
+  fullName: Testura.Code.Models.Properties.Property.Modifiers
+  nameWithType: Property.Modifiers
+- uid: Testura.Code.Models.Properties.Property.Name
+  name: Name
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Name
+  commentId: P:Testura.Code.Models.Properties.Property.Name
+  fullName: Testura.Code.Models.Properties.Property.Name
+  nameWithType: Property.Name
+- uid: Testura.Code.Models.Properties.Property.Name*
+  name: Name
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Name_
+  commentId: Overload:Testura.Code.Models.Properties.Property.Name
+  fullName: Testura.Code.Models.Properties.Property.Name
+  nameWithType: Property.Name
+- uid: Testura.Code.Models.Properties.Property.Type
+  name: Type
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Type
+  commentId: P:Testura.Code.Models.Properties.Property.Type
+  fullName: Testura.Code.Models.Properties.Property.Type
+  nameWithType: Property.Type
+- uid: Testura.Code.Models.Properties.Property.Type*
+  name: Type
+  href: api/Testura.Code.Models.Properties.Property.html#Testura_Code_Models_Properties_Property_Type_
+  commentId: Overload:Testura.Code.Models.Properties.Property.Type
+  fullName: Testura.Code.Models.Properties.Property.Type
+  nameWithType: Property.Type
 - uid: Testura.Code.Models.Property
   name: Property
   href: api/Testura.Code.Models.Property.html
@@ -1745,6 +1958,30 @@ references:
   commentId: Overload:Testura.Code.Models.References.NullReference.#ctor
   fullName: Testura.Code.Models.References.NullReference.NullReference
   nameWithType: NullReference.NullReference
+- uid: Testura.Code.Models.References.ValueKeywordReference
+  name: ValueKeywordReference
+  href: api/Testura.Code.Models.References.ValueKeywordReference.html
+  commentId: T:Testura.Code.Models.References.ValueKeywordReference
+  fullName: Testura.Code.Models.References.ValueKeywordReference
+  nameWithType: ValueKeywordReference
+- uid: Testura.Code.Models.References.ValueKeywordReference.#ctor
+  name: ValueKeywordReference()
+  href: api/Testura.Code.Models.References.ValueKeywordReference.html#Testura_Code_Models_References_ValueKeywordReference__ctor
+  commentId: M:Testura.Code.Models.References.ValueKeywordReference.#ctor
+  fullName: Testura.Code.Models.References.ValueKeywordReference.ValueKeywordReference()
+  nameWithType: ValueKeywordReference.ValueKeywordReference()
+- uid: Testura.Code.Models.References.ValueKeywordReference.#ctor(Testura.Code.Models.References.MemberReference)
+  name: ValueKeywordReference(MemberReference)
+  href: api/Testura.Code.Models.References.ValueKeywordReference.html#Testura_Code_Models_References_ValueKeywordReference__ctor_Testura_Code_Models_References_MemberReference_
+  commentId: M:Testura.Code.Models.References.ValueKeywordReference.#ctor(Testura.Code.Models.References.MemberReference)
+  fullName: Testura.Code.Models.References.ValueKeywordReference.ValueKeywordReference(Testura.Code.Models.References.MemberReference)
+  nameWithType: ValueKeywordReference.ValueKeywordReference(MemberReference)
+- uid: Testura.Code.Models.References.ValueKeywordReference.#ctor*
+  name: ValueKeywordReference
+  href: api/Testura.Code.Models.References.ValueKeywordReference.html#Testura_Code_Models_References_ValueKeywordReference__ctor_
+  commentId: Overload:Testura.Code.Models.References.ValueKeywordReference.#ctor
+  fullName: Testura.Code.Models.References.ValueKeywordReference.ValueKeywordReference
+  nameWithType: ValueKeywordReference.ValueKeywordReference
 - uid: Testura.Code.Models.References.VariableReference
   name: VariableReference
   href: api/Testura.Code.Models.References.VariableReference.html
@@ -1871,6 +2108,27 @@ references:
   commentId: T:Testura.Code.Saver.CodeSaver
   fullName: Testura.Code.Saver.CodeSaver
   nameWithType: CodeSaver
+- uid: Testura.Code.Saver.CodeSaver.#ctor
+  name: CodeSaver()
+  href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver__ctor
+  commentId: M:Testura.Code.Saver.CodeSaver.#ctor
+  fullName: Testura.Code.Saver.CodeSaver.CodeSaver()
+  nameWithType: CodeSaver.CodeSaver()
+- uid: Testura.Code.Saver.CodeSaver.#ctor(System.Collections.Generic.IEnumerable{Testura.Code.Models.Options.OptionKeyValue})
+  name: CodeSaver(IEnumerable<OptionKeyValue>)
+  href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver__ctor_System_Collections_Generic_IEnumerable_Testura_Code_Models_Options_OptionKeyValue__
+  commentId: M:Testura.Code.Saver.CodeSaver.#ctor(System.Collections.Generic.IEnumerable{Testura.Code.Models.Options.OptionKeyValue})
+  name.vb: CodeSaver(IEnumerable(Of OptionKeyValue))
+  fullName: Testura.Code.Saver.CodeSaver.CodeSaver(System.Collections.Generic.IEnumerable<Testura.Code.Models.Options.OptionKeyValue>)
+  fullName.vb: Testura.Code.Saver.CodeSaver.CodeSaver(System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Options.OptionKeyValue))
+  nameWithType: CodeSaver.CodeSaver(IEnumerable<OptionKeyValue>)
+  nameWithType.vb: CodeSaver(IEnumerable(Of OptionKeyValue))
+- uid: Testura.Code.Saver.CodeSaver.#ctor*
+  name: CodeSaver
+  href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver__ctor_
+  commentId: Overload:Testura.Code.Saver.CodeSaver.#ctor
+  fullName: Testura.Code.Saver.CodeSaver.CodeSaver
+  nameWithType: CodeSaver.CodeSaver
 - uid: Testura.Code.Saver.CodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)
   name: SaveCodeAsString(CompilationUnitSyntax)
   href: api/Testura.Code.Saver.CodeSaver.html#Testura_Code_Saver_CodeSaver_SaveCodeAsString_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_
@@ -2147,6 +2405,12 @@ references:
   commentId: M:Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.ConditionalStatements,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
   fullName: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.ConditionalStatements, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
   nameWithType: SelectionStatement.If(IArgument, IArgument, ConditionalStatements, BlockSyntax)
+- uid: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.ConditionalStatements,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
+  name: If(IArgument, IArgument, ConditionalStatements, ExpressionStatementSyntax)
+  href: api/Testura.Code.Statements.SelectionStatement.html#Testura_Code_Statements_SelectionStatement_If_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_ConditionalStatements_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionStatementSyntax_
+  commentId: M:Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.ConditionalStatements,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
+  fullName: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.ConditionalStatements, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
+  nameWithType: SelectionStatement.If(IArgument, IArgument, ConditionalStatements, ExpressionStatementSyntax)
 - uid: Testura.Code.Statements.SelectionStatement.If*
   name: If
   href: api/Testura.Code.Statements.SelectionStatement.html#Testura_Code_Statements_SelectionStatement_If_

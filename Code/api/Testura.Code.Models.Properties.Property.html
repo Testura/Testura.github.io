@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CodeSaver
+    <title>Class Property
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CodeSaver
+    <meta name="title" content="Class Property
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,14 +69,16 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Saver_CodeSaver" data-uid="Testura.Code.Saver.CodeSaver">Class CodeSaver
+              <h1 id="Testura_Code_Models_Properties_Property" data-uid="Testura.Code.Models.Properties.Property">Class Property
               </h1>
               <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">CodeSaver</span></div>
+                  <div class="level1"><span class="xref">Property</span></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Models.Properties.AutoProperty.html">AutoProperty</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Models.Properties.BodyProperty.html">BodyProperty</a></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
@@ -102,33 +104,23 @@
                   <span class="xref">System.Object.MemberwiseClone()</span>
                 </div>
               </div>
-              <h6><strong>Namespace</strong>:Testura.Code.Saver</h6>
+              <h6><strong>Namespace</strong>:Testura.Code.Models.Properties</h6>
               <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
-              <h5 id="Testura_Code_Saver_CodeSaver_syntax">Syntax</h5>
+              <h5 id="Testura_Code_Models_Properties_Property_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class CodeSaver : ICodeSaver</code></pre>
+                <pre><code class="lang-csharp hljs">public abstract class Property</code></pre>
               </div>
               <h3 id="constructors">Constructors
               </h3>
               
               
-              <a id="Testura_Code_Saver_CodeSaver__ctor_" data-uid="Testura.Code.Saver.CodeSaver.#ctor*"></a>
-              <h4 id="Testura_Code_Saver_CodeSaver__ctor" data-uid="Testura.Code.Saver.CodeSaver.#ctor">CodeSaver()</h4>
+              <a id="Testura_Code_Models_Properties_Property__ctor_" data-uid="Testura.Code.Models.Properties.Property.#ctor*"></a>
+              <h4 id="Testura_Code_Models_Properties_Property__ctor_System_String_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__" data-uid="Testura.Code.Models.Properties.Property.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})">Property(String, Type, IEnumerable&lt;Modifiers&gt;, IEnumerable&lt;Attribute&gt;)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public CodeSaver()</code></pre>
-              </div>
-              
-              
-              <a id="Testura_Code_Saver_CodeSaver__ctor_" data-uid="Testura.Code.Saver.CodeSaver.#ctor*"></a>
-              <h4 id="Testura_Code_Saver_CodeSaver__ctor_System_Collections_Generic_IEnumerable_Testura_Code_Models_Options_OptionKeyValue__" data-uid="Testura.Code.Saver.CodeSaver.#ctor(System.Collections.Generic.IEnumerable{Testura.Code.Models.Options.OptionKeyValue})">CodeSaver(IEnumerable&lt;OptionKeyValue&gt;)</h4>
-              <div class="markdown level1 summary"></div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public CodeSaver(IEnumerable&lt;OptionKeyValue&gt; options)</code></pre>
+                <pre><code class="lang-csharp hljs">protected Property(string name, Type type, IEnumerable&lt;Modifiers&gt; modifiers = null, IEnumerable&lt;Attribute&gt; attributes = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -141,44 +133,93 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Models.Options.OptionKeyValue.html">OptionKeyValue</a>&gt;</td>
-                    <td><span class="parametername">options</span></td>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">name</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><span class="parametername">type</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Modifiers.html">Modifiers</a>&gt;</td>
+                    <td><span class="parametername">modifiers</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Models.Attribute.html">Attribute</a>&gt;</td>
+                    <td><span class="parametername">attributes</span></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
-              <h3 id="methods">Methods
+              <h3 id="properties">Properties
               </h3>
               
               
-              <a id="Testura_Code_Saver_CodeSaver_SaveCodeAsString_" data-uid="Testura.Code.Saver.CodeSaver.SaveCodeAsString*"></a>
-              <h4 id="Testura_Code_Saver_CodeSaver_SaveCodeAsString_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_" data-uid="Testura.Code.Saver.CodeSaver.SaveCodeAsString(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax)">SaveCodeAsString(CompilationUnitSyntax)</h4>
-              <div class="markdown level1 summary"><p>Save generated code as a string</p>
+              <a id="Testura_Code_Models_Properties_Property_Attributes_" data-uid="Testura.Code.Models.Properties.Property.Attributes*"></a>
+              <h4 id="Testura_Code_Models_Properties_Property_Attributes" data-uid="Testura.Code.Models.Properties.Property.Attributes">Attributes</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the attrbites of a property</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string SaveCodeAsString(CompilationUnitSyntax cu)</code></pre>
+                <pre><code class="lang-csharp hljs">public IEnumerable&lt;Attribute&gt; Attributes { get; set; }</code></pre>
               </div>
-              <h5 class="parameters">Parameters</h5>
+              <h5 class="propertyValue">Property Value</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
                     <th>Type</th>
-                    <th>Name</th>
                     <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax</span></td>
-                    <td><span class="parametername">cu</span></td>
-                    <td><p>Generated code</p>
-</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Models.Attribute.html">Attribute</a>&gt;</td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
+              
+              
+              <a id="Testura_Code_Models_Properties_Property_Modifiers_" data-uid="Testura.Code.Models.Properties.Property.Modifiers*"></a>
+              <h4 id="Testura_Code_Models_Properties_Property_Modifiers" data-uid="Testura.Code.Models.Properties.Property.Modifiers">Modifiers</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the modifiers of the property</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IEnumerable&lt;Modifiers&gt; Modifiers { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Modifiers.html">Modifiers</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Models_Properties_Property_Name_" data-uid="Testura.Code.Models.Properties.Property.Name*"></a>
+              <h4 id="Testura_Code_Models_Properties_Property_Name" data-uid="Testura.Code.Models.Properties.Property.Name">Name</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the name of the property</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -189,50 +230,36 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><p>Generated code as a string</p>
-</td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Code.Saver.ICodeSaver.html#Testura_Code_Saver_ICodeSaver_SaveCodeAsString_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_">ICodeSaver.SaveCodeAsString(CompilationUnitSyntax)</a></div>
               
               
-              <a id="Testura_Code_Saver_CodeSaver_SaveCodeToFile_" data-uid="Testura.Code.Saver.CodeSaver.SaveCodeToFile*"></a>
-              <h4 id="Testura_Code_Saver_CodeSaver_SaveCodeToFile_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_System_String_" data-uid="Testura.Code.Saver.CodeSaver.SaveCodeToFile(Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax,System.String)">SaveCodeToFile(CompilationUnitSyntax, String)</h4>
-              <div class="markdown level1 summary"><p>Save generated code to a file</p>
+              <a id="Testura_Code_Models_Properties_Property_Type_" data-uid="Testura.Code.Models.Properties.Property.Type*"></a>
+              <h4 id="Testura_Code_Models_Properties_Property_Type" data-uid="Testura.Code.Models.Properties.Property.Type">Type</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the type of the property</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void SaveCodeToFile(CompilationUnitSyntax cu, string path)</code></pre>
+                <pre><code class="lang-csharp hljs">public Type Type { get; set; }</code></pre>
               </div>
-              <h5 class="parameters">Parameters</h5>
+              <h5 class="propertyValue">Property Value</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
                     <th>Type</th>
-                    <th>Name</th>
                     <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax</span></td>
-                    <td><span class="parametername">cu</span></td>
-                    <td><p>Generated code</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">path</span></td>
-                    <td><p>Full output path</p>
-</td>
+                    <td><span class="xref">System.Type</span></td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Code.Saver.ICodeSaver.html#Testura_Code_Saver_ICodeSaver_SaveCodeToFile_Microsoft_CodeAnalysis_CSharp_Syntax_CompilationUnitSyntax_System_String_">ICodeSaver.SaveCodeToFile(CompilationUnitSyntax, String)</a></div>
               <h3 id="extensionmethods">Extension Methods</h3>
               <div>
                   <a class="xref" href="Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_">ObjectExtensions.IsNumeric(Object)</a>
