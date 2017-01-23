@@ -2189,6 +2189,102 @@ references:
   commentId: N:Testura.Code.Statements
   fullName: Testura.Code.Statements
   nameWithType: Testura.Code.Statements
+- uid: Testura.Code.Statements.DeclarationStatement
+  name: DeclarationStatement
+  href: api/Testura.Code.Statements.DeclarationStatement.html
+  commentId: T:Testura.Code.Statements.DeclarationStatement
+  fullName: Testura.Code.Statements.DeclarationStatement
+  nameWithType: DeclarationStatement
+- uid: Testura.Code.Statements.DeclarationStatement.Assign(System.String,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  name: Assign(String, ExpressionSyntax, Type)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.Assign(System.String,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  fullName: Testura.Code.Statements.DeclarationStatement.Assign(System.String, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type)
+  nameWithType: DeclarationStatement.Assign(String, ExpressionSyntax, Type)
+- uid: Testura.Code.Statements.DeclarationStatement.Assign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax)
+  name: Assign(String, Type, ArgumentListSyntax)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentListSyntax_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.Assign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax)
+  fullName: Testura.Code.Statements.DeclarationStatement.Assign(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax)
+  nameWithType: DeclarationStatement.Assign(String, Type, ArgumentListSyntax)
+- uid: Testura.Code.Statements.DeclarationStatement.Assign(System.String,Testura.Code.Models.References.VariableReference,System.Type)
+  name: Assign(String, VariableReference, Type)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_System_String_Testura_Code_Models_References_VariableReference_System_Type_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.Assign(System.String,Testura.Code.Models.References.VariableReference,System.Type)
+  fullName: Testura.Code.Statements.DeclarationStatement.Assign(System.String, Testura.Code.Models.References.VariableReference, System.Type)
+  nameWithType: DeclarationStatement.Assign(String, VariableReference, Type)
+- uid: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  name: Assign(VariableReference, ExpressionSyntax, Type)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_Testura_Code_Models_References_VariableReference_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
+  fullName: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type)
+  nameWithType: DeclarationStatement.Assign(VariableReference, ExpressionSyntax, Type)
+- uid: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.Type)
+  name: Assign(VariableReference, VariableReference, Type)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_System_Type_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.Type)
+  fullName: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference, Testura.Code.Models.References.VariableReference, System.Type)
+  nameWithType: DeclarationStatement.Assign(VariableReference, VariableReference, Type)
+- uid: Testura.Code.Statements.DeclarationStatement.Assign*
+  name: Assign
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_
+  commentId: Overload:Testura.Code.Statements.DeclarationStatement.Assign
+  fullName: Testura.Code.Statements.DeclarationStatement.Assign
+  nameWithType: DeclarationStatement.Assign
+- uid: Testura.Code.Statements.DeclarationStatement.Declare(System.String,System.Type)
+  name: Declare(String, Type)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Declare_System_String_System_Type_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.Declare(System.String,System.Type)
+  fullName: Testura.Code.Statements.DeclarationStatement.Declare(System.String, System.Type)
+  nameWithType: DeclarationStatement.Declare(String, Type)
+- uid: Testura.Code.Statements.DeclarationStatement.Declare*
+  name: Declare
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Declare_
+  commentId: Overload:Testura.Code.Statements.DeclarationStatement.Declare
+  fullName: Testura.Code.Statements.DeclarationStatement.Declare
+  nameWithType: DeclarationStatement.Declare
+- uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.String,System.Boolean)
+  name: DeclareAndAssign(String, String, Boolean)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_System_String_System_String_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.String,System.Boolean)
+  fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String, System.String, System.Boolean)
+  nameWithType: DeclarationStatement.DeclareAndAssign(String, String, Boolean)
+- uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax,System.Boolean)
+  name: DeclareAndAssign(String, Type, ArgumentListSyntax, Boolean)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_ArgumentListSyntax_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax,System.Boolean)
+  fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentListSyntax, System.Boolean)
+  nameWithType: DeclarationStatement.DeclareAndAssign(String, Type, ArgumentListSyntax, Boolean)
+- uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type,System.Boolean)
+  name: DeclareAndAssign(String, Type, ExpressionSyntax, Type, Boolean)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_System_String_System_Type_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type,System.Boolean)
+  fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type, System.Boolean)
+  nameWithType: DeclarationStatement.DeclareAndAssign(String, Type, ExpressionSyntax, Type, Boolean)
+- uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Models.References.VariableReference,System.Boolean)
+  name: DeclareAndAssign(String, Type, VariableReference, Boolean)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_System_String_System_Type_Testura_Code_Models_References_VariableReference_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Models.References.VariableReference,System.Boolean)
+  fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String, System.Type, Testura.Code.Models.References.VariableReference, System.Boolean)
+  nameWithType: DeclarationStatement.DeclareAndAssign(String, Type, VariableReference, Boolean)
+- uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign*
+  name: DeclareAndAssign<T>
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_
+  commentId: Overload:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign
+  name.vb: DeclareAndAssign(Of T)
+  fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign<T>
+  fullName.vb: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(Of T)
+  nameWithType: DeclarationStatement.DeclareAndAssign<T>
+  nameWithType.vb: DeclarationStatement.DeclareAndAssign(Of T)
+- uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign``1(System.String,``0,System.Boolean)
+  name: DeclareAndAssign<T>(String, T, Boolean)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign__1_System_String___0_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign``1(System.String,``0,System.Boolean)
+  name.vb: DeclareAndAssign(Of T)(String, T, Boolean)
+  fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign<T>(System.String, T, System.Boolean)
+  fullName.vb: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(Of T)(System.String, T, System.Boolean)
+  nameWithType: DeclarationStatement.DeclareAndAssign<T>(String, T, Boolean)
+  nameWithType.vb: DeclareAndAssign(Of T)(String, T, Boolean)
 - uid: Testura.Code.Statements.DeclerationStatement
   name: DeclerationStatement
   href: api/Testura.Code.Statements.DeclerationStatement.html
@@ -2423,18 +2519,18 @@ references:
   commentId: T:Testura.Code.Statements.Statement
   fullName: Testura.Code.Statements.Statement
   nameWithType: Statement
-- uid: Testura.Code.Statements.Statement.Decleration
-  name: Decleration
-  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Decleration
-  commentId: P:Testura.Code.Statements.Statement.Decleration
-  fullName: Testura.Code.Statements.Statement.Decleration
-  nameWithType: Statement.Decleration
-- uid: Testura.Code.Statements.Statement.Decleration*
-  name: Decleration
-  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Decleration_
-  commentId: Overload:Testura.Code.Statements.Statement.Decleration
-  fullName: Testura.Code.Statements.Statement.Decleration
-  nameWithType: Statement.Decleration
+- uid: Testura.Code.Statements.Statement.Declaration
+  name: Declaration
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Declaration
+  commentId: P:Testura.Code.Statements.Statement.Declaration
+  fullName: Testura.Code.Statements.Statement.Declaration
+  nameWithType: Statement.Declaration
+- uid: Testura.Code.Statements.Statement.Declaration*
+  name: Declaration
+  href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Declaration_
+  commentId: Overload:Testura.Code.Statements.Statement.Declaration
+  fullName: Testura.Code.Statements.Statement.Declaration
+  nameWithType: Statement.Declaration
 - uid: Testura.Code.Statements.Statement.Expression
   name: Expression
   href: api/Testura.Code.Statements.Statement.html#Testura_Code_Statements_Statement_Expression
