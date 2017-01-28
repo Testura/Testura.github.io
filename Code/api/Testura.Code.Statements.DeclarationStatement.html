@@ -114,7 +114,7 @@
               
               <a id="Testura_Code_Statements_DeclarationStatement_Assign_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign*"></a>
               <h4 id="Testura_Code_Statements_DeclarationStatement_Assign_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Type_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign(System.String,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)">Assign(String, ExpressionSyntax, Type)</h4>
-              <div class="markdown level1 summary"><p>Create the expression statement syntax to assign a variable another expression</p>
+              <div class="markdown level1 summary"><p>Create the expression statement syntax to assign a variable to another expression</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -228,7 +228,7 @@
               
               <a id="Testura_Code_Statements_DeclarationStatement_Assign_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign*"></a>
               <h4 id="Testura_Code_Statements_DeclarationStatement_Assign_System_String_Testura_Code_Models_References_VariableReference_System_Type_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign(System.String,Testura.Code.Models.References.VariableReference,System.Type)">Assign(String, VariableReference, Type)</h4>
-              <div class="markdown level1 summary"><p>Create the expression statement syntax to assign a variable another reference</p>
+              <div class="markdown level1 summary"><p>Create the expression statement syntax to assign a variable to another reference</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -336,8 +336,55 @@
               
               
               <a id="Testura_Code_Statements_DeclarationStatement_Assign_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign*"></a>
+              <h4 id="Testura_Code_Statements_DeclarationStatement_Assign_Testura_Code_Models_References_VariableReference_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)">Assign(VariableReference, IBinaryExpression)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ExpressionStatementSyntax Assign(VariableReference reference, IBinaryExpression binaryExpression)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.Models.References.VariableReference.html">VariableReference</a></td>
+                    <td><span class="parametername">reference</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html">IBinaryExpression</a></td>
+                    <td><span class="parametername">binaryExpression</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_DeclarationStatement_Assign_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign*"></a>
               <h4 id="Testura_Code_Statements_DeclarationStatement_Assign_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_System_Type_" data-uid="Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.Type)">Assign(VariableReference, VariableReference, Type)</h4>
-              <div class="markdown level1 summary"><p>Create the expression statement syntax to assign a reference another reference. For example a property to a property</p>
+              <div class="markdown level1 summary"><p>Create the expression statement syntax to assign a reference to another reference. For example a property to a property</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -604,6 +651,69 @@
                     <td><span class="xref">System.Type</span></td>
                     <td><span class="parametername">castTo</span></td>
                     <td><p>Cast the expression to this type</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">useVarKeyword</span></td>
+                    <td><p>Will use &quot;var&quot; keyword if true, otherwise the type</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.LocalDeclarationStatementSyntax</span></td>
+                    <td><p>The generated local declaration statement</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_" data-uid="Testura.Code.Statements.DeclarationStatement.DeclareAndAssign*"></a>
+              <h4 id="Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_System_String_System_Type_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_System_Boolean_" data-uid="Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,System.Boolean)">DeclareAndAssign(String, Type, IBinaryExpression, Boolean)</h4>
+              <div class="markdown level1 summary"><p>Create the local declaration statement syntax to declare a local variable and assign it to a binary expression</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public LocalDeclarationStatementSyntax DeclareAndAssign(string name, Type type, IBinaryExpression binaryExpression, bool useVarKeyword = true)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">name</span></td>
+                    <td><p>Name of the variable</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><span class="parametername">type</span></td>
+                    <td><p>Type of the variable </p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html">IBinaryExpression</a></td>
+                    <td><span class="parametername">binaryExpression</span></td>
+                    <td><p>The binary expression</p>
 </td>
                   </tr>
                   <tr>

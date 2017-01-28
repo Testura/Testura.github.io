@@ -152,7 +152,7 @@
                   <tr>
                     <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
                     <td><span class="parametername">block</span></td>
-                    <td><p>The if block</p>
+                    <td><p>The block containing all statements</p>
 </td>
                   </tr>
                 </tbody>
@@ -177,7 +177,7 @@
               
               <a id="Testura_Code_Statements_SelectionStatement_If_" data-uid="Testura.Code.Statements.SelectionStatement.If*"></a>
               <h4 id="Testura_Code_Statements_SelectionStatement_If_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_Testura_Code_ConditionalStatements_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionStatementSyntax_" data-uid="Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.ConditionalStatements,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)">If(IArgument, IArgument, ConditionalStatements, ExpressionStatementSyntax)</h4>
-              <div class="markdown level1 summary"><p>Create the statement syntax for a if-conditional with braces</p>
+              <div class="markdown level1 summary"><p>Create the statement syntax for a if-conditional with a single statement</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -215,7 +215,109 @@
                   <tr>
                     <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax</span></td>
                     <td><span class="parametername">expressionStatement</span></td>
-                    <td><p>Statement in the if</p>
+                    <td><p>Statement inside the if</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+                    <td><p>The declared statement syntax</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_SelectionStatement_If_" data-uid="Testura.Code.Statements.SelectionStatement.If*"></a>
+              <h4 id="Testura_Code_Statements_SelectionStatement_If_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_" data-uid="Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)">If(IBinaryExpression, BlockSyntax)</h4>
+              <div class="markdown level1 summary"><p>Create the statement syntax for a if-conditional</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public StatementSyntax If(IBinaryExpression binaryExpression, BlockSyntax block)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html">IBinaryExpression</a></td>
+                    <td><span class="parametername">binaryExpression</span></td>
+                    <td><p>The binary expression to generate</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">block</span></td>
+                    <td><p>The block containing all statements</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+                    <td><p>The declared statement syntax</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_SelectionStatement_If_" data-uid="Testura.Code.Statements.SelectionStatement.If*"></a>
+              <h4 id="Testura_Code_Statements_SelectionStatement_If_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionStatementSyntax_" data-uid="Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)">If(IBinaryExpression, ExpressionStatementSyntax)</h4>
+              <div class="markdown level1 summary"><p>Create the statement syntax for a if-conditional with a single statement</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public StatementSyntax If(IBinaryExpression binaryExpression, ExpressionStatementSyntax expressionStatement)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html">IBinaryExpression</a></td>
+                    <td><span class="parametername">binaryExpression</span></td>
+                    <td><p>The binary expression to generate</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax</span></td>
+                    <td><span class="parametername">expressionStatement</span></td>
+                    <td><p>Statement inside the if</p>
 </td>
                   </tr>
                 </tbody>

@@ -775,6 +775,36 @@ references:
   commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax
   fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.GetArgumentSyntax
   nameWithType: ArrayInitializationArgument.GetArgumentSyntax
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument
+  name: BinaryExpressionArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.html
+  commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument
+  nameWithType: BinaryExpressionArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  name: BinaryExpressionArgument(IBinaryExpression)
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument__ctor_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.BinaryExpressionArgument(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  nameWithType: BinaryExpressionArgument.BinaryExpressionArgument(IBinaryExpression)
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.#ctor*
+  name: BinaryExpressionArgument
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.#ctor
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.BinaryExpressionArgument
+  nameWithType: BinaryExpressionArgument.BinaryExpressionArgument
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax
+  name: GetArgumentSyntax()
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument_GetArgumentSyntax
+  commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax()
+  nameWithType: BinaryExpressionArgument.GetArgumentSyntax()
+- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax*
+  name: GetArgumentSyntax
+  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument_GetArgumentSyntax_
+  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax
+  nameWithType: BinaryExpressionArgument.GetArgumentSyntax
 - uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument
   name: ClassInitializationArgument
   href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.html
@@ -1115,6 +1145,240 @@ references:
   commentId: Overload:Testura.Code.Generators.Common.AttributeGenerator.Create
   fullName: Testura.Code.Generators.Common.AttributeGenerator.Create
   nameWithType: AttributeGenerator.Create
+- uid: Testura.Code.Generators.Common.Binaries
+  name: Testura.Code.Generators.Common.Binaries
+  href: api/Testura.Code.Generators.Common.Binaries.html
+  commentId: N:Testura.Code.Generators.Common.Binaries
+  fullName: Testura.Code.Generators.Common.Binaries
+  nameWithType: Testura.Code.Generators.Common.Binaries
+- uid: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression
+  name: ConditionalBinaryExpression
+  href: api/Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.html
+  commentId: T:Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression
+  fullName: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression
+  nameWithType: ConditionalBinaryExpression
+- uid: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.ConditionalStatements)
+  name: ConditionalBinaryExpression(ExpressionSyntax, ExpressionSyntax, ConditionalStatements)
+  href: api/Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_Binaries_ConditionalBinaryExpression__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Testura_Code_ConditionalStatements_
+  commentId: M:Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.ConditionalStatements)
+  fullName: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.ConditionalBinaryExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Testura.Code.ConditionalStatements)
+  nameWithType: ConditionalBinaryExpression.ConditionalBinaryExpression(ExpressionSyntax, ExpressionSyntax, ConditionalStatements)
+- uid: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,Testura.Code.ConditionalStatements)
+  name: ConditionalBinaryExpression(VariableReference, VariableReference, ConditionalStatements)
+  href: api/Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_Binaries_ConditionalBinaryExpression__ctor_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_Testura_Code_ConditionalStatements_
+  commentId: M:Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,Testura.Code.ConditionalStatements)
+  fullName: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.ConditionalBinaryExpression(Testura.Code.Models.References.VariableReference, Testura.Code.Models.References.VariableReference, Testura.Code.ConditionalStatements)
+  nameWithType: ConditionalBinaryExpression.ConditionalBinaryExpression(VariableReference, VariableReference, ConditionalStatements)
+- uid: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.#ctor*
+  name: ConditionalBinaryExpression
+  href: api/Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_Binaries_ConditionalBinaryExpression__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.#ctor
+  fullName: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.ConditionalBinaryExpression
+  nameWithType: ConditionalBinaryExpression.ConditionalBinaryExpression
+- uid: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.GetBinaryExpression
+  name: GetBinaryExpression()
+  href: api/Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_Binaries_ConditionalBinaryExpression_GetBinaryExpression
+  commentId: M:Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.GetBinaryExpression()
+  nameWithType: ConditionalBinaryExpression.GetBinaryExpression()
+- uid: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.GetBinaryExpression*
+  name: GetBinaryExpression
+  href: api/Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_Binaries_ConditionalBinaryExpression_GetBinaryExpression_
+  commentId: Overload:Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.Binaries.ConditionalBinaryExpression.GetBinaryExpression
+  nameWithType: ConditionalBinaryExpression.GetBinaryExpression
+- uid: Testura.Code.Generators.Common.Binaries.IBinaryExpression
+  name: IBinaryExpression
+  href: api/Testura.Code.Generators.Common.Binaries.IBinaryExpression.html
+  commentId: T:Testura.Code.Generators.Common.Binaries.IBinaryExpression
+  fullName: Testura.Code.Generators.Common.Binaries.IBinaryExpression
+  nameWithType: IBinaryExpression
+- uid: Testura.Code.Generators.Common.Binaries.IBinaryExpression.GetBinaryExpression
+  name: GetBinaryExpression()
+  href: api/Testura.Code.Generators.Common.Binaries.IBinaryExpression.html#Testura_Code_Generators_Common_Binaries_IBinaryExpression_GetBinaryExpression
+  commentId: M:Testura.Code.Generators.Common.Binaries.IBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.Binaries.IBinaryExpression.GetBinaryExpression()
+  nameWithType: IBinaryExpression.GetBinaryExpression()
+- uid: Testura.Code.Generators.Common.Binaries.IBinaryExpression.GetBinaryExpression*
+  name: GetBinaryExpression
+  href: api/Testura.Code.Generators.Common.Binaries.IBinaryExpression.html#Testura_Code_Generators_Common_Binaries_IBinaryExpression_GetBinaryExpression_
+  commentId: Overload:Testura.Code.Generators.Common.Binaries.IBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.Binaries.IBinaryExpression.GetBinaryExpression
+  nameWithType: IBinaryExpression.GetBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions
+  name: Testura.Code.Generators.Common.BinaryExpressions
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.html
+  commentId: N:Testura.Code.Generators.Common.BinaryExpressions
+  fullName: Testura.Code.Generators.Common.BinaryExpressions
+  nameWithType: Testura.Code.Generators.Common.BinaryExpressions
+- uid: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression
+  name: AndBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.html
+  commentId: T:Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression
+  nameWithType: AndBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  name: AndBinaryExpression(ExpressionSyntax, ExpressionSyntax)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_AndBinaryExpression__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.AndBinaryExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  nameWithType: AndBinaryExpression.AndBinaryExpression(ExpressionSyntax, ExpressionSyntax)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  name: AndBinaryExpression(IBinaryExpression, IBinaryExpression)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_AndBinaryExpression__ctor_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.AndBinaryExpression(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression, Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  nameWithType: AndBinaryExpression.AndBinaryExpression(IBinaryExpression, IBinaryExpression)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.#ctor*
+  name: AndBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_AndBinaryExpression__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.#ctor
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.AndBinaryExpression
+  nameWithType: AndBinaryExpression.AndBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.GetBinaryExpression
+  name: GetBinaryExpression()
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_AndBinaryExpression_GetBinaryExpression
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.GetBinaryExpression()
+  nameWithType: AndBinaryExpression.GetBinaryExpression()
+- uid: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.GetBinaryExpression*
+  name: GetBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_AndBinaryExpression_GetBinaryExpression_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.AndBinaryExpression.GetBinaryExpression
+  nameWithType: AndBinaryExpression.GetBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression
+  name: ConditionalBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.html
+  commentId: T:Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression
+  nameWithType: ConditionalBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.ConditionalStatements)
+  name: ConditionalBinaryExpression(ExpressionSyntax, ExpressionSyntax, ConditionalStatements)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_ConditionalBinaryExpression__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Testura_Code_ConditionalStatements_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.ConditionalStatements)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.ConditionalBinaryExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Testura.Code.ConditionalStatements)
+  nameWithType: ConditionalBinaryExpression.ConditionalBinaryExpression(ExpressionSyntax, ExpressionSyntax, ConditionalStatements)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,Testura.Code.ConditionalStatements)
+  name: ConditionalBinaryExpression(VariableReference, VariableReference, ConditionalStatements)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_ConditionalBinaryExpression__ctor_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_Testura_Code_ConditionalStatements_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,Testura.Code.ConditionalStatements)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.ConditionalBinaryExpression(Testura.Code.Models.References.VariableReference, Testura.Code.Models.References.VariableReference, Testura.Code.ConditionalStatements)
+  nameWithType: ConditionalBinaryExpression.ConditionalBinaryExpression(VariableReference, VariableReference, ConditionalStatements)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.#ctor*
+  name: ConditionalBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_ConditionalBinaryExpression__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.#ctor
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.ConditionalBinaryExpression
+  nameWithType: ConditionalBinaryExpression.ConditionalBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.GetBinaryExpression
+  name: GetBinaryExpression()
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_ConditionalBinaryExpression_GetBinaryExpression
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.GetBinaryExpression()
+  nameWithType: ConditionalBinaryExpression.GetBinaryExpression()
+- uid: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.GetBinaryExpression*
+  name: GetBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_ConditionalBinaryExpression_GetBinaryExpression_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.ConditionalBinaryExpression.GetBinaryExpression
+  nameWithType: ConditionalBinaryExpression.GetBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression
+  name: IBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html
+  commentId: T:Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression
+  nameWithType: IBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.GetBinaryExpression
+  name: GetBinaryExpression()
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_GetBinaryExpression
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.GetBinaryExpression()
+  nameWithType: IBinaryExpression.GetBinaryExpression()
+- uid: Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.GetBinaryExpression*
+  name: GetBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_GetBinaryExpression_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.GetBinaryExpression
+  nameWithType: IBinaryExpression.GetBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression
+  name: MathBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.html
+  commentId: T:Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression
+  nameWithType: MathBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.MathOperators,System.Boolean)
+  name: MathBinaryExpression(ExpressionSyntax, ExpressionSyntax, MathOperators, Boolean)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_MathBinaryExpression__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Testura_Code_MathOperators_System_Boolean_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Testura.Code.MathOperators,System.Boolean)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.MathBinaryExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Testura.Code.MathOperators, System.Boolean)
+  nameWithType: MathBinaryExpression.MathBinaryExpression(ExpressionSyntax, ExpressionSyntax, MathOperators, Boolean)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression,Testura.Code.MathOperators,System.Boolean)
+  name: MathBinaryExpression(VariableReference, MathBinaryExpression, MathOperators, Boolean)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_MathBinaryExpression__ctor_Testura_Code_Models_References_VariableReference_Testura_Code_Generators_Common_BinaryExpressions_MathBinaryExpression_Testura_Code_MathOperators_System_Boolean_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression,Testura.Code.MathOperators,System.Boolean)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.MathBinaryExpression(Testura.Code.Models.References.VariableReference, Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression, Testura.Code.MathOperators, System.Boolean)
+  nameWithType: MathBinaryExpression.MathBinaryExpression(VariableReference, MathBinaryExpression, MathOperators, Boolean)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,Testura.Code.MathOperators,System.Boolean)
+  name: MathBinaryExpression(VariableReference, VariableReference, MathOperators, Boolean)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_MathBinaryExpression__ctor_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_Testura_Code_MathOperators_System_Boolean_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,Testura.Code.MathOperators,System.Boolean)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.MathBinaryExpression(Testura.Code.Models.References.VariableReference, Testura.Code.Models.References.VariableReference, Testura.Code.MathOperators, System.Boolean)
+  nameWithType: MathBinaryExpression.MathBinaryExpression(VariableReference, VariableReference, MathOperators, Boolean)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor*
+  name: MathBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_MathBinaryExpression__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.#ctor
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.MathBinaryExpression
+  nameWithType: MathBinaryExpression.MathBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.GetBinaryExpression
+  name: GetBinaryExpression()
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_MathBinaryExpression_GetBinaryExpression
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.GetBinaryExpression()
+  nameWithType: MathBinaryExpression.GetBinaryExpression()
+- uid: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.GetBinaryExpression*
+  name: GetBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_MathBinaryExpression_GetBinaryExpression_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.MathBinaryExpression.GetBinaryExpression
+  nameWithType: MathBinaryExpression.GetBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression
+  name: OrBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.html
+  commentId: T:Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression
+  nameWithType: OrBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  name: OrBinaryExpression(ExpressionSyntax, ExpressionSyntax)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_OrBinaryExpression__ctor_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.#ctor(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.OrBinaryExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)
+  nameWithType: OrBinaryExpression.OrBinaryExpression(ExpressionSyntax, ExpressionSyntax)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  name: OrBinaryExpression(IBinaryExpression, IBinaryExpression)
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_OrBinaryExpression__ctor_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.OrBinaryExpression(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression, Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  nameWithType: OrBinaryExpression.OrBinaryExpression(IBinaryExpression, IBinaryExpression)
+- uid: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.#ctor*
+  name: OrBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_OrBinaryExpression__ctor_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.#ctor
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.OrBinaryExpression
+  nameWithType: OrBinaryExpression.OrBinaryExpression
+- uid: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.GetBinaryExpression
+  name: GetBinaryExpression()
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_OrBinaryExpression_GetBinaryExpression
+  commentId: M:Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.GetBinaryExpression()
+  nameWithType: OrBinaryExpression.GetBinaryExpression()
+- uid: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.GetBinaryExpression*
+  name: GetBinaryExpression
+  href: api/Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.html#Testura_Code_Generators_Common_BinaryExpressions_OrBinaryExpression_GetBinaryExpression_
+  commentId: Overload:Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.GetBinaryExpression
+  fullName: Testura.Code.Generators.Common.BinaryExpressions.OrBinaryExpression.GetBinaryExpression
+  nameWithType: OrBinaryExpression.GetBinaryExpression
 - uid: Testura.Code.Generators.Common.BodyGenerator
   name: BodyGenerator
   href: api/Testura.Code.Generators.Common.BodyGenerator.html
@@ -1328,6 +1592,36 @@ references:
   commentId: Overload:Testura.Code.Generators.Special.NunitAssertGenerator.Throws
   fullName: Testura.Code.Generators.Special.NunitAssertGenerator.Throws
   nameWithType: NunitAssertGenerator.Throws
+- uid: Testura.Code.MathOperators
+  name: MathOperators
+  href: api/Testura.Code.MathOperators.html
+  commentId: T:Testura.Code.MathOperators
+  fullName: Testura.Code.MathOperators
+  nameWithType: MathOperators
+- uid: Testura.Code.MathOperators.Add
+  name: Add
+  href: api/Testura.Code.MathOperators.html#Testura_Code_MathOperators_Add
+  commentId: F:Testura.Code.MathOperators.Add
+  fullName: Testura.Code.MathOperators.Add
+  nameWithType: MathOperators.Add
+- uid: Testura.Code.MathOperators.Divide
+  name: Divide
+  href: api/Testura.Code.MathOperators.html#Testura_Code_MathOperators_Divide
+  commentId: F:Testura.Code.MathOperators.Divide
+  fullName: Testura.Code.MathOperators.Divide
+  nameWithType: MathOperators.Divide
+- uid: Testura.Code.MathOperators.Multiply
+  name: Multiply
+  href: api/Testura.Code.MathOperators.html#Testura_Code_MathOperators_Multiply
+  commentId: F:Testura.Code.MathOperators.Multiply
+  fullName: Testura.Code.MathOperators.Multiply
+  nameWithType: MathOperators.Multiply
+- uid: Testura.Code.MathOperators.Subtract
+  name: Subtract
+  href: api/Testura.Code.MathOperators.html#Testura_Code_MathOperators_Subtract
+  commentId: F:Testura.Code.MathOperators.Subtract
+  fullName: Testura.Code.MathOperators.Subtract
+  nameWithType: MathOperators.Subtract
 - uid: Testura.Code.Models
   name: Testura.Code.Models
   href: api/Testura.Code.Models.html
@@ -2219,6 +2513,12 @@ references:
   commentId: M:Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type)
   fullName: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type)
   nameWithType: DeclarationStatement.Assign(VariableReference, ExpressionSyntax, Type)
+- uid: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  name: Assign(VariableReference, IBinaryExpression)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_Testura_Code_Models_References_VariableReference_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  fullName: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference, Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)
+  nameWithType: DeclarationStatement.Assign(VariableReference, IBinaryExpression)
 - uid: Testura.Code.Statements.DeclarationStatement.Assign(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.Type)
   name: Assign(VariableReference, VariableReference, Type)
   href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_Assign_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_System_Type_
@@ -2261,6 +2561,12 @@ references:
   commentId: M:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Type,System.Boolean)
   fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String, System.Type, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax, System.Type, System.Boolean)
   nameWithType: DeclarationStatement.DeclareAndAssign(String, Type, ExpressionSyntax, Type, Boolean)
+- uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,System.Boolean)
+  name: DeclareAndAssign(String, Type, IBinaryExpression, Boolean)
+  href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_System_String_System_Type_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_System_Boolean_
+  commentId: M:Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,System.Boolean)
+  fullName: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String, System.Type, Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression, System.Boolean)
+  nameWithType: DeclarationStatement.DeclareAndAssign(String, Type, IBinaryExpression, Boolean)
 - uid: Testura.Code.Statements.DeclarationStatement.DeclareAndAssign(System.String,System.Type,Testura.Code.Models.References.VariableReference,System.Boolean)
   name: DeclareAndAssign(String, Type, VariableReference, Boolean)
   href: api/Testura.Code.Statements.DeclarationStatement.html#Testura_Code_Statements_DeclarationStatement_DeclareAndAssign_System_String_System_Type_Testura_Code_Models_References_VariableReference_System_Boolean_
@@ -2441,6 +2747,48 @@ references:
   commentId: Overload:Testura.Code.Statements.IterationStatement.For
   fullName: Testura.Code.Statements.IterationStatement.For
   nameWithType: IterationStatement.For
+- uid: Testura.Code.Statements.IterationStatement.ForEach(System.String,System.Type,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Boolean)
+  name: ForEach(String, Type, String, BlockSyntax, Boolean)
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_ForEach_System_String_System_Type_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Boolean_
+  commentId: M:Testura.Code.Statements.IterationStatement.ForEach(System.String,System.Type,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Boolean)
+  fullName: Testura.Code.Statements.IterationStatement.ForEach(System.String, System.Type, System.String, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Boolean)
+  nameWithType: IterationStatement.ForEach(String, Type, String, BlockSyntax, Boolean)
+- uid: Testura.Code.Statements.IterationStatement.ForEach(System.String,System.Type,Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Boolean)
+  name: ForEach(String, Type, VariableReference, BlockSyntax, Boolean)
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_ForEach_System_String_System_Type_Testura_Code_Models_References_VariableReference_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Boolean_
+  commentId: M:Testura.Code.Statements.IterationStatement.ForEach(System.String,System.Type,Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Boolean)
+  fullName: Testura.Code.Statements.IterationStatement.ForEach(System.String, System.Type, Testura.Code.Models.References.VariableReference, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, System.Boolean)
+  nameWithType: IterationStatement.ForEach(String, Type, VariableReference, BlockSyntax, Boolean)
+- uid: Testura.Code.Statements.IterationStatement.ForEach*
+  name: ForEach
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_ForEach_
+  commentId: Overload:Testura.Code.Statements.IterationStatement.ForEach
+  fullName: Testura.Code.Statements.IterationStatement.ForEach
+  nameWithType: IterationStatement.ForEach
+- uid: Testura.Code.Statements.IterationStatement.While(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  name: While(IBinaryExpression, BlockSyntax)
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_While_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_
+  commentId: M:Testura.Code.Statements.IterationStatement.While(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  fullName: Testura.Code.Statements.IterationStatement.While(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  nameWithType: IterationStatement.While(IBinaryExpression, BlockSyntax)
+- uid: Testura.Code.Statements.IterationStatement.While*
+  name: While
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_While_
+  commentId: Overload:Testura.Code.Statements.IterationStatement.While
+  fullName: Testura.Code.Statements.IterationStatement.While
+  nameWithType: IterationStatement.While
+- uid: Testura.Code.Statements.IterationStatement.WhileTrue(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  name: WhileTrue(BlockSyntax)
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_WhileTrue_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_
+  commentId: M:Testura.Code.Statements.IterationStatement.WhileTrue(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  fullName: Testura.Code.Statements.IterationStatement.WhileTrue(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  nameWithType: IterationStatement.WhileTrue(BlockSyntax)
+- uid: Testura.Code.Statements.IterationStatement.WhileTrue*
+  name: WhileTrue
+  href: api/Testura.Code.Statements.IterationStatement.html#Testura_Code_Statements_IterationStatement_WhileTrue_
+  commentId: Overload:Testura.Code.Statements.IterationStatement.WhileTrue
+  fullName: Testura.Code.Statements.IterationStatement.WhileTrue
+  nameWithType: IterationStatement.WhileTrue
 - uid: Testura.Code.Statements.JumpStatement
   name: JumpStatement
   href: api/Testura.Code.Statements.JumpStatement.html
@@ -2507,6 +2855,18 @@ references:
   commentId: M:Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument,Testura.Code.ConditionalStatements,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
   fullName: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument, Testura.Code.ConditionalStatements, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
   nameWithType: SelectionStatement.If(IArgument, IArgument, ConditionalStatements, ExpressionStatementSyntax)
+- uid: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  name: If(IBinaryExpression, BlockSyntax)
+  href: api/Testura.Code.Statements.SelectionStatement.html#Testura_Code_Statements_SelectionStatement_If_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_
+  commentId: M:Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  fullName: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression, Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)
+  nameWithType: SelectionStatement.If(IBinaryExpression, BlockSyntax)
+- uid: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
+  name: If(IBinaryExpression, ExpressionStatementSyntax)
+  href: api/Testura.Code.Statements.SelectionStatement.html#Testura_Code_Statements_SelectionStatement_If_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionStatementSyntax_
+  commentId: M:Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
+  fullName: Testura.Code.Statements.SelectionStatement.If(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression, Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionStatementSyntax)
+  nameWithType: SelectionStatement.If(IBinaryExpression, ExpressionStatementSyntax)
 - uid: Testura.Code.Statements.SelectionStatement.If*
   name: If
   href: api/Testura.Code.Statements.SelectionStatement.html#Testura_Code_Statements_SelectionStatement_If_

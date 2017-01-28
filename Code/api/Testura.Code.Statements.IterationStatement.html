@@ -114,7 +114,7 @@
               
               <a id="Testura_Code_Statements_IterationStatement_For_" data-uid="Testura.Code.Statements.IterationStatement.For*"></a>
               <h4 id="Testura_Code_Statements_IterationStatement_For_System_Int32_System_Int32_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_" data-uid="Testura.Code.Statements.IterationStatement.For(System.Int32,System.Int32,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)">For(Int32, Int32, String, BlockSyntax)</h4>
-              <div class="markdown level1 summary"><p>Create the for-statement syntax for a for-loop with fixed start and stop</p>
+              <div class="markdown level1 summary"><p>Create the for statement syntax for a for loop with fixed start and stop</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -177,7 +177,7 @@
               
               <a id="Testura_Code_Statements_IterationStatement_For_" data-uid="Testura.Code.Statements.IterationStatement.For*"></a>
               <h4 id="Testura_Code_Statements_IterationStatement_For_Testura_Code_Models_References_VariableReference_Testura_Code_Models_References_VariableReference_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_" data-uid="Testura.Code.Statements.IterationStatement.For(Testura.Code.Models.References.VariableReference,Testura.Code.Models.References.VariableReference,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)">For(VariableReference, VariableReference, String, BlockSyntax)</h4>
-              <div class="markdown level1 summary"><p>Create the for-statement syntax for a for-loop with a reference for start and stop</p>
+              <div class="markdown level1 summary"><p>Create the for statement syntax for a for loop with a reference for start and stop</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -233,6 +233,237 @@
                     <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ForStatementSyntax</span></td>
                     <td><p>The declared for statement syntax</p>
 </td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_IterationStatement_ForEach_" data-uid="Testura.Code.Statements.IterationStatement.ForEach*"></a>
+              <h4 id="Testura_Code_Statements_IterationStatement_ForEach_System_String_System_Type_System_String_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Boolean_" data-uid="Testura.Code.Statements.IterationStatement.ForEach(System.String,System.Type,System.String,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Boolean)">ForEach(String, Type, String, BlockSyntax, Boolean)</h4>
+              <div class="markdown level1 summary"><p>Create the foreach statement syntax for a foreach loop with a reference as enumerable</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ForEachStatementSyntax ForEach(string variableName, Type varialeType, string enumerableName, BlockSyntax body, bool useVar = true)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">variableName</span></td>
+                    <td><p>Name of the variable</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><span class="parametername">varialeType</span></td>
+                    <td><p>The variable type</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">enumerableName</span></td>
+                    <td><p>Name of the enumerable variable</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">body</span></td>
+                    <td><p>Body of the foreach loop</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">useVar</span></td>
+                    <td><p>If we should use the var keyword instead of the type</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ForEachStatementSyntax</span></td>
+                    <td><p>The declared foreach statement syntax</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_IterationStatement_ForEach_" data-uid="Testura.Code.Statements.IterationStatement.ForEach*"></a>
+              <h4 id="Testura_Code_Statements_IterationStatement_ForEach_System_String_System_Type_Testura_Code_Models_References_VariableReference_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Boolean_" data-uid="Testura.Code.Statements.IterationStatement.ForEach(System.String,System.Type,Testura.Code.Models.References.VariableReference,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Boolean)">ForEach(String, Type, VariableReference, BlockSyntax, Boolean)</h4>
+              <div class="markdown level1 summary"><p>Create the foreach statement syntax for a foreach loop with a reference as enumerable</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ForEachStatementSyntax ForEach(string variableName, Type varialeType, VariableReference enumerableReference, BlockSyntax body, bool useVar = true)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">variableName</span></td>
+                    <td><p>Name of the variable</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><span class="parametername">varialeType</span></td>
+                    <td><p>The variable type</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.Models.References.VariableReference.html">VariableReference</a></td>
+                    <td><span class="parametername">enumerableReference</span></td>
+                    <td><p>Reference to the enumerable</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">body</span></td>
+                    <td><p>Body of the foreach loop</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">useVar</span></td>
+                    <td><p>If we should use the var keyword instead of the type</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ForEachStatementSyntax</span></td>
+                    <td><p>The declared foreach statement syntax</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_IterationStatement_While_" data-uid="Testura.Code.Statements.IterationStatement.While*"></a>
+              <h4 id="Testura_Code_Statements_IterationStatement_While_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_" data-uid="Testura.Code.Statements.IterationStatement.While(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)">While(IBinaryExpression, BlockSyntax)</h4>
+              <div class="markdown level1 summary"><p>Create the while statement syntax for a while loop with a binary expression</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public WhileStatementSyntax While(IBinaryExpression binaryExpression, BlockSyntax body)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression.html">IBinaryExpression</a></td>
+                    <td><span class="parametername">binaryExpression</span></td>
+                    <td><p>The binary expression</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">body</span></td>
+                    <td><p>Body of the while loop</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.WhileStatementSyntax</span></td>
+                    <td><p>The declared while statement</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Statements_IterationStatement_WhileTrue_" data-uid="Testura.Code.Statements.IterationStatement.WhileTrue*"></a>
+              <h4 id="Testura_Code_Statements_IterationStatement_WhileTrue_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_" data-uid="Testura.Code.Statements.IterationStatement.WhileTrue(Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax)">WhileTrue(BlockSyntax)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public WhileStatementSyntax WhileTrue(BlockSyntax body)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+                    <td><span class="parametername">body</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.WhileStatementSyntax</span></td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
