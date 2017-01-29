@@ -121,7 +121,7 @@
               
               <a id="Testura_Android_Device_Services_Default_ActivityService_GetCurrent_" data-uid="Testura.Android.Device.Services.Default.ActivityService.GetCurrent*"></a>
               <h4 id="Testura_Android_Device_Services_Default_ActivityService_GetCurrent" data-uid="Testura.Android.Device.Services.Default.ActivityService.GetCurrent">GetCurrent()</h4>
-              <div class="markdown level1 summary"><p>Get the current open acitivity</p>
+              <div class="markdown level1 summary"><p>Get the current open activity</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -146,6 +146,82 @@
               </table>
               <h5 class="implements">Implements</h5>
                   <div><a class="xref" href="Testura.Android.Device.Services.IActivityService.html#Testura_Android_Device_Services_IActivityService_GetCurrent">IActivityService.GetCurrent()</a></div>
+              
+              
+              <a id="Testura_Android_Device_Services_Default_ActivityService_GetPackages_" data-uid="Testura.Android.Device.Services.Default.ActivityService.GetPackages*"></a>
+              <h4 id="Testura_Android_Device_Services_Default_ActivityService_GetPackages" data-uid="Testura.Android.Device.Services.Default.ActivityService.GetPackages">GetPackages()</h4>
+              <div class="markdown level1 summary"><p>Get a list with all installed packages on the android device</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IList&lt;string&gt; GetPackages()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><p>A list with all installed packages</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.Services.IActivityService.html#Testura_Android_Device_Services_IActivityService_GetPackages">IActivityService.GetPackages()</a></div>
+              
+              
+              <a id="Testura_Android_Device_Services_Default_ActivityService_IsPackagedInstalled_" data-uid="Testura.Android.Device.Services.Default.ActivityService.IsPackagedInstalled*"></a>
+              <h4 id="Testura_Android_Device_Services_Default_ActivityService_IsPackagedInstalled_System_String_" data-uid="Testura.Android.Device.Services.Default.ActivityService.IsPackagedInstalled(System.String)">IsPackagedInstalled(String)</h4>
+              <div class="markdown level1 summary"><p>Check if a specific package is installed</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsPackagedInstalled(string packageName)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">packageName</span></td>
+                    <td><p>Name of the package</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True if package are installed, otherwise false</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.Services.IActivityService.html#Testura_Android_Device_Services_IActivityService_IsPackagedInstalled_System_String_">IActivityService.IsPackagedInstalled(String)</a></div>
               
               
               <a id="Testura_Android_Device_Services_Default_ActivityService_Start_" data-uid="Testura.Android.Device.Services.Default.ActivityService.Start*"></a>
@@ -182,7 +258,7 @@
                   <tr>
                     <td><span class="xref">System.Boolean</span></td>
                     <td><span class="parametername">forceStopActivity</span></td>
-                    <td><p>Force stop the target app before starting the activity.</p>
+                    <td><p>Force stop the target application before starting the activity.</p>
 </td>
                   </tr>
                   <tr>
