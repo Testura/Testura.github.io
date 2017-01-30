@@ -148,7 +148,7 @@
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string ExecuteAdbCommand(string[] arguments)</code></pre>
+                <pre><code class="lang-csharp hljs">public string ExecuteAdbCommand(params string[] arguments)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -195,7 +195,7 @@
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Command StartAdbProcess(string[] arguments)</code></pre>
+                <pre><code class="lang-csharp hljs">public Command StartAdbProcess(params string[] arguments)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -233,6 +233,53 @@
               </table>
               <h5 class="implements">Implements</h5>
                   <div><a class="xref" href="Testura.Android.Util.Terminal.ITerminal.html#Testura_Android_Util_Terminal_ITerminal_StartAdbProcess_System_String___">ITerminal.StartAdbProcess(String[])</a></div>
+              
+              
+              <a id="Testura_Android_Util_Terminal_Terminal_StartAdbProcessWithoutShell_" data-uid="Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell*"></a>
+              <h4 id="Testura_Android_Util_Terminal_Terminal_StartAdbProcessWithoutShell_System_String___" data-uid="Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell(System.String[])">StartAdbProcessWithoutShell(String[])</h4>
+              <div class="markdown level1 summary"><p>Start the adb process without shell and no window and return the command</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Command StartAdbProcessWithoutShell(params string[] arguments)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td><span class="parametername">arguments</span></td>
+                    <td><p>Arguments that should be provided to adb</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Medallion.Shell.Command</span></td>
+                    <td><p>The command that contains the started process</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Util.Terminal.ITerminal.html#Testura_Android_Util_Terminal_ITerminal_StartAdbProcessWithoutShell_System_String___">ITerminal.StartAdbProcessWithoutShell(String[])</a></div>
             </article>
           </div>
           

@@ -2932,6 +2932,108 @@ references:
   commentId: F:Testura.Android.Util.Keyevents.Z
   fullName: Testura.Android.Util.Keyevents.Z
   nameWithType: Keyevents.Z
+- uid: Testura.Android.Util.LogcatWatchers
+  name: Testura.Android.Util.LogcatWatchers
+  href: api/Testura.Android.Util.LogcatWatchers.html
+  commentId: N:Testura.Android.Util.LogcatWatchers
+  fullName: Testura.Android.Util.LogcatWatchers
+  nameWithType: Testura.Android.Util.LogcatWatchers
+- uid: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher
+  name: EventLogcatWatcher
+  href: api/Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html
+  commentId: T:Testura.Android.Util.LogcatWatchers.EventLogcatWatcher
+  fullName: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher
+  nameWithType: EventLogcatWatcher
+- uid: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,System.String[],System.Boolean)
+  name: EventLogcatWatcher(DeviceConfiguration, String[], Boolean)
+  href: api/Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html#Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_System_String___System_Boolean_
+  commentId: M:Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,System.String[],System.Boolean)
+  name.vb: EventLogcatWatcher(DeviceConfiguration, String(), Boolean)
+  fullName: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.EventLogcatWatcher(Testura.Android.Device.Configurations.DeviceConfiguration, System.String[], System.Boolean)
+  fullName.vb: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.EventLogcatWatcher(Testura.Android.Device.Configurations.DeviceConfiguration, System.String(), System.Boolean)
+  nameWithType: EventLogcatWatcher.EventLogcatWatcher(DeviceConfiguration, String[], Boolean)
+  nameWithType.vb: EventLogcatWatcher(DeviceConfiguration, String(), Boolean)
+- uid: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor*
+  name: EventLogcatWatcher
+  href: api/Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html#Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_
+  commentId: Overload:Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor
+  fullName: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.EventLogcatWatcher
+  nameWithType: EventLogcatWatcher.EventLogcatWatcher
+- uid: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput(System.String)
+  name: NewOutput(String)
+  href: api/Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html#Testura_Android_Util_LogcatWatchers_EventLogcatWatcher_NewOutput_System_String_
+  commentId: M:Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput(System.String)
+  fullName: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput(System.String)
+  nameWithType: EventLogcatWatcher.NewOutput(String)
+- uid: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput*
+  name: NewOutput
+  href: api/Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html#Testura_Android_Util_LogcatWatchers_EventLogcatWatcher_NewOutput_
+  commentId: Overload:Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput
+  fullName: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput
+  nameWithType: EventLogcatWatcher.NewOutput
+- uid: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutputEvent
+  name: NewOutputEvent
+  href: api/Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html#Testura_Android_Util_LogcatWatchers_EventLogcatWatcher_NewOutputEvent
+  commentId: E:Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutputEvent
+  fullName: Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutputEvent
+  nameWithType: EventLogcatWatcher.NewOutputEvent
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher
+  name: LogcatWatcher
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html
+  commentId: T:Testura.Android.Util.LogcatWatchers.LogcatWatcher
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher
+  nameWithType: LogcatWatcher
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  name: LogcatWatcher(DeviceConfiguration, IEnumerable<String>, Boolean)
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_System_Collections_Generic_IEnumerable_System_String__System_Boolean_
+  commentId: M:Testura.Android.Util.LogcatWatchers.LogcatWatcher.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  name.vb: LogcatWatcher(DeviceConfiguration, IEnumerable(Of String), Boolean)
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.LogcatWatcher(Testura.Android.Device.Configurations.DeviceConfiguration, System.Collections.Generic.IEnumerable<System.String>, System.Boolean)
+  fullName.vb: Testura.Android.Util.LogcatWatchers.LogcatWatcher.LogcatWatcher(Testura.Android.Device.Configurations.DeviceConfiguration, System.Collections.Generic.IEnumerable(Of System.String), System.Boolean)
+  nameWithType: LogcatWatcher.LogcatWatcher(DeviceConfiguration, IEnumerable<String>, Boolean)
+  nameWithType.vb: LogcatWatcher(DeviceConfiguration, IEnumerable(Of String), Boolean)
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.#ctor*
+  name: LogcatWatcher
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher__ctor_
+  commentId: Overload:Testura.Android.Util.LogcatWatchers.LogcatWatcher.#ctor
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.LogcatWatcher
+  nameWithType: LogcatWatcher.LogcatWatcher
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.NewOutput(System.String)
+  name: NewOutput(String)
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_NewOutput_System_String_
+  commentId: M:Testura.Android.Util.LogcatWatchers.LogcatWatcher.NewOutput(System.String)
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.NewOutput(System.String)
+  nameWithType: LogcatWatcher.NewOutput(String)
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.NewOutput*
+  name: NewOutput
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_NewOutput_
+  commentId: Overload:Testura.Android.Util.LogcatWatchers.LogcatWatcher.NewOutput
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.NewOutput
+  nameWithType: LogcatWatcher.NewOutput
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Start
+  name: Start()
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_Start
+  commentId: M:Testura.Android.Util.LogcatWatchers.LogcatWatcher.Start
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Start()
+  nameWithType: LogcatWatcher.Start()
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Start*
+  name: Start
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_Start_
+  commentId: Overload:Testura.Android.Util.LogcatWatchers.LogcatWatcher.Start
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Start
+  nameWithType: LogcatWatcher.Start
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Stop
+  name: Stop()
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_Stop
+  commentId: M:Testura.Android.Util.LogcatWatchers.LogcatWatcher.Stop
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Stop()
+  nameWithType: LogcatWatcher.Stop()
+- uid: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Stop*
+  name: Stop
+  href: api/Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_Stop_
+  commentId: Overload:Testura.Android.Util.LogcatWatchers.LogcatWatcher.Stop
+  fullName: Testura.Android.Util.LogcatWatchers.LogcatWatcher.Stop
+  nameWithType: LogcatWatcher.Stop
 - uid: Testura.Android.Util.Logging
   name: Testura.Android.Util.Logging
   href: api/Testura.Android.Util.Logging.html
@@ -3106,6 +3208,21 @@ references:
   commentId: Overload:Testura.Android.Util.Terminal.ITerminal.StartAdbProcess
   fullName: Testura.Android.Util.Terminal.ITerminal.StartAdbProcess
   nameWithType: ITerminal.StartAdbProcess
+- uid: Testura.Android.Util.Terminal.ITerminal.StartAdbProcessWithoutShell(System.String[])
+  name: StartAdbProcessWithoutShell(String[])
+  href: api/Testura.Android.Util.Terminal.ITerminal.html#Testura_Android_Util_Terminal_ITerminal_StartAdbProcessWithoutShell_System_String___
+  commentId: M:Testura.Android.Util.Terminal.ITerminal.StartAdbProcessWithoutShell(System.String[])
+  name.vb: StartAdbProcessWithoutShell(String())
+  fullName: Testura.Android.Util.Terminal.ITerminal.StartAdbProcessWithoutShell(System.String[])
+  fullName.vb: Testura.Android.Util.Terminal.ITerminal.StartAdbProcessWithoutShell(System.String())
+  nameWithType: ITerminal.StartAdbProcessWithoutShell(String[])
+  nameWithType.vb: StartAdbProcessWithoutShell(String())
+- uid: Testura.Android.Util.Terminal.ITerminal.StartAdbProcessWithoutShell*
+  name: StartAdbProcessWithoutShell
+  href: api/Testura.Android.Util.Terminal.ITerminal.html#Testura_Android_Util_Terminal_ITerminal_StartAdbProcessWithoutShell_
+  commentId: Overload:Testura.Android.Util.Terminal.ITerminal.StartAdbProcessWithoutShell
+  fullName: Testura.Android.Util.Terminal.ITerminal.StartAdbProcessWithoutShell
+  nameWithType: ITerminal.StartAdbProcessWithoutShell
 - uid: Testura.Android.Util.Terminal.Terminal
   name: Terminal
   href: api/Testura.Android.Util.Terminal.Terminal.html
@@ -3154,3 +3271,18 @@ references:
   commentId: Overload:Testura.Android.Util.Terminal.Terminal.StartAdbProcess
   fullName: Testura.Android.Util.Terminal.Terminal.StartAdbProcess
   nameWithType: Terminal.StartAdbProcess
+- uid: Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell(System.String[])
+  name: StartAdbProcessWithoutShell(String[])
+  href: api/Testura.Android.Util.Terminal.Terminal.html#Testura_Android_Util_Terminal_Terminal_StartAdbProcessWithoutShell_System_String___
+  commentId: M:Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell(System.String[])
+  name.vb: StartAdbProcessWithoutShell(String())
+  fullName: Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell(System.String[])
+  fullName.vb: Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell(System.String())
+  nameWithType: Terminal.StartAdbProcessWithoutShell(String[])
+  nameWithType.vb: StartAdbProcessWithoutShell(String())
+- uid: Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell*
+  name: StartAdbProcessWithoutShell
+  href: api/Testura.Android.Util.Terminal.Terminal.html#Testura_Android_Util_Terminal_Terminal_StartAdbProcessWithoutShell_
+  commentId: Overload:Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell
+  fullName: Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell
+  nameWithType: Terminal.StartAdbProcessWithoutShell

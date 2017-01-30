@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Field
+    <title>Class EventLogcatWatcher
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Field
+    <meta name="title" content="Class EventLogcatWatcher
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,17 +69,24 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Models_Field" data-uid="Testura.Code.Models.Field">Class Field
+              <h1 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher">Class EventLogcatWatcher
               </h1>
               <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">Field</span></div>
+                  <div class="level1"><a class="xref" href="Testura.Android.Util.LogcatWatchers.LogcatWatcher.html">LogcatWatcher</a></div>
+                  <div class="level2"><span class="xref">EventLogcatWatcher</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_Start">LogcatWatcher.Start()</a>
+                </div>
+                <div>
+                  <a class="xref" href="Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_Stop">LogcatWatcher.Stop()</a>
+                </div>
                 <div>
                   <span class="xref">System.Object.ToString()</span>
                 </div>
@@ -102,25 +109,63 @@
                   <span class="xref">System.Object.MemberwiseClone()</span>
                 </div>
               </div>
-              <h6><strong>Namespace</strong>:Testura.Code.Models</h6>
-              <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
-              <h5 id="Testura_Code_Models_Field_syntax">Syntax</h5>
+              <h6><strong>Namespace</strong>:Testura.Android.Util.LogcatWatchers</h6>
+              <h6><strong>Assembly</strong>:Testura.Android.dll</h6>
+              <h5 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class Field</code></pre>
+                <pre><code class="lang-csharp hljs">public class EventLogcatWatcher : LogcatWatcher</code></pre>
               </div>
               <h3 id="constructors">Constructors
               </h3>
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Testura/Testura.Code/blob/master/src/Testura.Code/Models/Field.cs/#L8">View Source</a>
-              </span>
-              <a id="Testura_Code_Models_Field__ctor_" data-uid="Testura.Code.Models.Field.#ctor*"></a>
-              <h4 id="Testura_Code_Models_Field__ctor_System_String_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__" data-uid="Testura.Code.Models.Field.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers})">Field(String, Type, IEnumerable&lt;Modifiers&gt;)</h4>
+              
+              <a id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor*"></a>
+              <h4 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_System_String___System_Boolean_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,System.String[],System.Boolean)">EventLogcatWatcher(DeviceConfiguration, String[], Boolean)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Field(string name, Type type, IEnumerable&lt;Modifiers&gt; modifiers = null)</code></pre>
+                <pre><code class="lang-csharp hljs">public EventLogcatWatcher(DeviceConfiguration deviceConfiguration, string[] tags, bool flushLogcat = false)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Configurations.DeviceConfiguration.html">DeviceConfiguration</a></td>
+                    <td><span class="parametername">deviceConfiguration</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td><span class="parametername">tags</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">flushLogcat</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              
+              
+              <a id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher_NewOutput_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput*"></a>
+              <h4 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher_NewOutput_System_String_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutput(System.String)">NewOutput(String)</h4>
+              <div class="markdown level1 summary"><p>Called when we receive another matching line from logcat</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected override void NewOutput(string output)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -134,65 +179,27 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">name</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Type</span></td>
-                    <td><span class="parametername">type</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Modifiers.html">Modifiers</a>&gt;</td>
-                    <td><span class="parametername">modifiers</span></td>
-                    <td></td>
+                    <td><span class="parametername">output</span></td>
+                    <td><p>Last matching line from logcat</p>
+</td>
                   </tr>
                 </tbody>
               </table>
-              <h3 id="properties">Properties
+              <h5 class="overrides">Overrides</h5>
+              <div><a class="xref" href="Testura.Android.Util.LogcatWatchers.LogcatWatcher.html#Testura_Android_Util_LogcatWatchers_LogcatWatcher_NewOutput_System_String_">LogcatWatcher.NewOutput(String)</a></div>
+              <h3 id="events">Events
               </h3>
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Testura/Testura.Code/blob/master/src/Testura.Code/Models/Field.cs/#L41">View Source</a>
-              </span>
-              <a id="Testura_Code_Models_Field_Modifiers_" data-uid="Testura.Code.Models.Field.Modifiers*"></a>
-              <h4 id="Testura_Code_Models_Field_Modifiers" data-uid="Testura.Code.Models.Field.Modifiers">Modifiers</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the modifier(s) of the field</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public IEnumerable&lt;Modifiers&gt; Modifiers { get; set; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Modifiers.html">Modifiers</a>&gt;</td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Testura/Testura.Code/blob/master/src/Testura.Code/Models/Field.cs/#L31">View Source</a>
-              </span>
-              <a id="Testura_Code_Models_Field_Name_" data-uid="Testura.Code.Models.Field.Name*"></a>
-              <h4 id="Testura_Code_Models_Field_Name" data-uid="Testura.Code.Models.Field.Name">Name</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the name of the fileds</p>
+              <h4 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher_NewOutputEvent" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.NewOutputEvent">NewOutputEvent</h4>
+              <div class="markdown level1 summary"><p>NewOutputEvent is raised every time we receive another matching line from logcat</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">public event EventHandler&lt;string&gt; NewOutputEvent</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="eventType">Event Type</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -202,43 +209,11 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.String</span></td>
+                    <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.String</span>&gt;</td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
-              
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/Testura/Testura.Code/blob/master/src/Testura.Code/Models/Field.cs/#L36">View Source</a>
-              </span>
-              <a id="Testura_Code_Models_Field_Type_" data-uid="Testura.Code.Models.Field.Type*"></a>
-              <h4 id="Testura_Code_Models_Field_Type" data-uid="Testura.Code.Models.Field.Type">Type</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the type of the field</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Type Type { get; set; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Type</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              <h3 id="extensionmethods">Extension Methods</h3>
-              <div>
-                  <a class="xref" href="Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_">ObjectExtensions.IsNumeric(Object)</a>
-              </div>
             </article>
           </div>
           
@@ -246,9 +221,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Testura/Testura.Code/blob/master/src/Testura.Code/Models/Field.cs/#L6" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
