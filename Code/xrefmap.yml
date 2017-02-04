@@ -406,6 +406,21 @@ references:
   commentId: Overload:Testura.Code.Compilations.Compiler.CompileFilesAsync
   fullName: Testura.Code.Compilations.Compiler.CompileFilesAsync
   nameWithType: Compiler.CompileFilesAsync
+- uid: Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync(System.String[])
+  name: CompileFilesInMemoryAsync(String[])
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileFilesInMemoryAsync_System_String___
+  commentId: M:Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync(System.String[])
+  name.vb: CompileFilesInMemoryAsync(String())
+  fullName: Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync(System.String[])
+  fullName.vb: Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync(System.String())
+  nameWithType: Compiler.CompileFilesInMemoryAsync(String[])
+  nameWithType.vb: CompileFilesInMemoryAsync(String())
+- uid: Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync*
+  name: CompileFilesInMemoryAsync
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileFilesInMemoryAsync_
+  commentId: Overload:Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync
+  fullName: Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync
+  nameWithType: Compiler.CompileFilesInMemoryAsync
 - uid: Testura.Code.Compilations.Compiler.CompileSourceAsync(System.String,System.String[])
   name: CompileSourceAsync(String, String[])
   href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileSourceAsync_System_String_System_String___
@@ -421,6 +436,21 @@ references:
   commentId: Overload:Testura.Code.Compilations.Compiler.CompileSourceAsync
   fullName: Testura.Code.Compilations.Compiler.CompileSourceAsync
   nameWithType: Compiler.CompileSourceAsync
+- uid: Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync(System.String[])
+  name: CompileSourceInMemoryAsync(String[])
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileSourceInMemoryAsync_System_String___
+  commentId: M:Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync(System.String[])
+  name.vb: CompileSourceInMemoryAsync(String())
+  fullName: Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync(System.String[])
+  fullName.vb: Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync(System.String())
+  nameWithType: Compiler.CompileSourceInMemoryAsync(String[])
+  nameWithType.vb: CompileSourceInMemoryAsync(String())
+- uid: Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync*
+  name: CompileSourceInMemoryAsync
+  href: api/Testura.Code.Compilations.Compiler.html#Testura_Code_Compilations_Compiler_CompileSourceInMemoryAsync_
+  commentId: Overload:Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync
+  fullName: Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync
+  nameWithType: Compiler.CompileSourceInMemoryAsync
 - uid: Testura.Code.Compilations.CompileResult
   name: CompileResult
   href: api/Testura.Code.Compilations.CompileResult.html
@@ -499,6 +529,21 @@ references:
   commentId: Overload:Testura.Code.Compilations.ICompiler.CompileFilesAsync
   fullName: Testura.Code.Compilations.ICompiler.CompileFilesAsync
   nameWithType: ICompiler.CompileFilesAsync
+- uid: Testura.Code.Compilations.ICompiler.CompileFilesInMemoryAsync(System.String[])
+  name: CompileFilesInMemoryAsync(String[])
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileFilesInMemoryAsync_System_String___
+  commentId: M:Testura.Code.Compilations.ICompiler.CompileFilesInMemoryAsync(System.String[])
+  name.vb: CompileFilesInMemoryAsync(String())
+  fullName: Testura.Code.Compilations.ICompiler.CompileFilesInMemoryAsync(System.String[])
+  fullName.vb: Testura.Code.Compilations.ICompiler.CompileFilesInMemoryAsync(System.String())
+  nameWithType: ICompiler.CompileFilesInMemoryAsync(String[])
+  nameWithType.vb: CompileFilesInMemoryAsync(String())
+- uid: Testura.Code.Compilations.ICompiler.CompileFilesInMemoryAsync*
+  name: CompileFilesInMemoryAsync
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileFilesInMemoryAsync_
+  commentId: Overload:Testura.Code.Compilations.ICompiler.CompileFilesInMemoryAsync
+  fullName: Testura.Code.Compilations.ICompiler.CompileFilesInMemoryAsync
+  nameWithType: ICompiler.CompileFilesInMemoryAsync
 - uid: Testura.Code.Compilations.ICompiler.CompileSourceAsync(System.String,System.String[])
   name: CompileSourceAsync(String, String[])
   href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileSourceAsync_System_String_System_String___
@@ -514,6 +559,21 @@ references:
   commentId: Overload:Testura.Code.Compilations.ICompiler.CompileSourceAsync
   fullName: Testura.Code.Compilations.ICompiler.CompileSourceAsync
   nameWithType: ICompiler.CompileSourceAsync
+- uid: Testura.Code.Compilations.ICompiler.CompileSourceInMemoryAsync(System.String[])
+  name: CompileSourceInMemoryAsync(String[])
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileSourceInMemoryAsync_System_String___
+  commentId: M:Testura.Code.Compilations.ICompiler.CompileSourceInMemoryAsync(System.String[])
+  name.vb: CompileSourceInMemoryAsync(String())
+  fullName: Testura.Code.Compilations.ICompiler.CompileSourceInMemoryAsync(System.String[])
+  fullName.vb: Testura.Code.Compilations.ICompiler.CompileSourceInMemoryAsync(System.String())
+  nameWithType: ICompiler.CompileSourceInMemoryAsync(String[])
+  nameWithType.vb: CompileSourceInMemoryAsync(String())
+- uid: Testura.Code.Compilations.ICompiler.CompileSourceInMemoryAsync*
+  name: CompileSourceInMemoryAsync
+  href: api/Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileSourceInMemoryAsync_
+  commentId: Overload:Testura.Code.Compilations.ICompiler.CompileSourceInMemoryAsync
+  fullName: Testura.Code.Compilations.ICompiler.CompileSourceInMemoryAsync
+  nameWithType: ICompiler.CompileSourceInMemoryAsync
 - uid: Testura.Code.Compilations.OutputRow
   name: OutputRow
   href: api/Testura.Code.Compilations.OutputRow.html

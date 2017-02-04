@@ -148,7 +148,8 @@
               
               <a id="Testura_Code_Compilations_Compiler_CompileFilesAsync_" data-uid="Testura.Code.Compilations.Compiler.CompileFilesAsync*"></a>
               <h4 id="Testura_Code_Compilations_Compiler_CompileFilesAsync_System_String_System_String___" data-uid="Testura.Code.Compilations.Compiler.CompileFilesAsync(System.String,System.String[])">CompileFilesAsync(String, String[])</h4>
-              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 summary"><p>Compile code from a file into a dll</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -167,12 +168,14 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">outputPath</span></td>
-                    <td></td>
+                    <td><p>Where we should save the dlls</p>
+</td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span>[]</td>
                     <td><span class="parametername">pathsToCsFiles</span></td>
-                    <td></td>
+                    <td><p>Path to the cs files</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -187,7 +190,8 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Testura.Code.Compilations.CompileResult.html">CompileResult</a>&gt;</td>
-                    <td></td>
+                    <td><p>The result from the compilation</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -195,9 +199,57 @@
                   <div><a class="xref" href="Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileFilesAsync_System_String_System_String___">ICompiler.CompileFilesAsync(String, String[])</a></div>
               
               
+              <a id="Testura_Code_Compilations_Compiler_CompileFilesInMemoryAsync_" data-uid="Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync*"></a>
+              <h4 id="Testura_Code_Compilations_Compiler_CompileFilesInMemoryAsync_System_String___" data-uid="Testura.Code.Compilations.Compiler.CompileFilesInMemoryAsync(System.String[])">CompileFilesInMemoryAsync(String[])</h4>
+              <div class="markdown level1 summary"><p>Compile code from a file without creating a dll</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;CompileResult&gt; CompileFilesInMemoryAsync(params string[] pathsToCsFiles)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td><span class="parametername">pathsToCsFiles</span></td>
+                    <td><p>Paths to cs files</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Testura.Code.Compilations.CompileResult.html">CompileResult</a>&gt;</td>
+                    <td><p>The result from the compilation</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileFilesInMemoryAsync_System_String___">ICompiler.CompileFilesInMemoryAsync(String[])</a></div>
+              
+              
               <a id="Testura_Code_Compilations_Compiler_CompileSourceAsync_" data-uid="Testura.Code.Compilations.Compiler.CompileSourceAsync*"></a>
               <h4 id="Testura_Code_Compilations_Compiler_CompileSourceAsync_System_String_System_String___" data-uid="Testura.Code.Compilations.Compiler.CompileSourceAsync(System.String,System.String[])">CompileSourceAsync(String, String[])</h4>
-              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 summary"><p>Compile code from a string source into a dll</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -216,12 +268,14 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">outputPath</span></td>
-                    <td></td>
+                    <td><p>Where we should save the dlls</p>
+</td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span>[]</td>
                     <td><span class="parametername">source</span></td>
-                    <td></td>
+                    <td><p>Source string to compile</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -236,12 +290,60 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Testura.Code.Compilations.CompileResult.html">CompileResult</a>&gt;</td>
-                    <td></td>
+                    <td><p>The result of the compilation</p>
+</td>
                   </tr>
                 </tbody>
               </table>
               <h5 class="implements">Implements</h5>
                   <div><a class="xref" href="Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileSourceAsync_System_String_System_String___">ICompiler.CompileSourceAsync(String, String[])</a></div>
+              
+              
+              <a id="Testura_Code_Compilations_Compiler_CompileSourceInMemoryAsync_" data-uid="Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync*"></a>
+              <h4 id="Testura_Code_Compilations_Compiler_CompileSourceInMemoryAsync_System_String___" data-uid="Testura.Code.Compilations.Compiler.CompileSourceInMemoryAsync(System.String[])">CompileSourceInMemoryAsync(String[])</h4>
+              <div class="markdown level1 summary"><p>Compile code from a string source without creating a dll</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task&lt;CompileResult&gt; CompileSourceInMemoryAsync(params string[] source)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td><span class="parametername">source</span></td>
+                    <td><p>Source strings to compile</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Testura.Code.Compilations.CompileResult.html">CompileResult</a>&gt;</td>
+                    <td><p>The result from the compilation</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Code.Compilations.ICompiler.html#Testura_Code_Compilations_ICompiler_CompileSourceInMemoryAsync_System_String___">ICompiler.CompileSourceInMemoryAsync(String[])</a></div>
               <h3 id="extensionmethods">Extension Methods</h3>
               <div>
                   <a class="xref" href="Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_">ObjectExtensions.IsNumeric(Object)</a>
