@@ -2396,6 +2396,480 @@ references:
   commentId: Overload:Testura.Code.Models.References.VariableReference.Name
   fullName: Testura.Code.Models.References.VariableReference.Name
   nameWithType: VariableReference.Name
+- uid: Testura.Code.Models.Types
+  name: Testura.Code.Models.Types
+  href: api/Testura.Code.Models.Types.html
+  commentId: N:Testura.Code.Models.Types
+  fullName: Testura.Code.Models.Types
+  nameWithType: Testura.Code.Models.Types
+- uid: Testura.Code.Models.Types.CustomType
+  name: CustomType
+  href: api/Testura.Code.Models.Types.CustomType.html
+  commentId: T:Testura.Code.Models.Types.CustomType
+  fullName: Testura.Code.Models.Types.CustomType
+  nameWithType: CustomType
+- uid: Testura.Code.Models.Types.CustomType.Assembly
+  name: Assembly
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Assembly
+  commentId: P:Testura.Code.Models.Types.CustomType.Assembly
+  fullName: Testura.Code.Models.Types.CustomType.Assembly
+  nameWithType: CustomType.Assembly
+- uid: Testura.Code.Models.Types.CustomType.Assembly*
+  name: Assembly
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Assembly_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.Assembly
+  fullName: Testura.Code.Models.Types.CustomType.Assembly
+  nameWithType: CustomType.Assembly
+- uid: Testura.Code.Models.Types.CustomType.AssemblyQualifiedName
+  name: AssemblyQualifiedName
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_AssemblyQualifiedName
+  commentId: P:Testura.Code.Models.Types.CustomType.AssemblyQualifiedName
+  fullName: Testura.Code.Models.Types.CustomType.AssemblyQualifiedName
+  nameWithType: CustomType.AssemblyQualifiedName
+- uid: Testura.Code.Models.Types.CustomType.AssemblyQualifiedName*
+  name: AssemblyQualifiedName
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_AssemblyQualifiedName_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.AssemblyQualifiedName
+  fullName: Testura.Code.Models.Types.CustomType.AssemblyQualifiedName
+  nameWithType: CustomType.AssemblyQualifiedName
+- uid: Testura.Code.Models.Types.CustomType.BaseType
+  name: BaseType
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_BaseType
+  commentId: P:Testura.Code.Models.Types.CustomType.BaseType
+  fullName: Testura.Code.Models.Types.CustomType.BaseType
+  nameWithType: CustomType.BaseType
+- uid: Testura.Code.Models.Types.CustomType.BaseType*
+  name: BaseType
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_BaseType_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.BaseType
+  fullName: Testura.Code.Models.Types.CustomType.BaseType
+  nameWithType: CustomType.BaseType
+- uid: Testura.Code.Models.Types.CustomType.Create(System.String)
+  name: Create(String)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Create_System_String_
+  commentId: M:Testura.Code.Models.Types.CustomType.Create(System.String)
+  fullName: Testura.Code.Models.Types.CustomType.Create(System.String)
+  nameWithType: CustomType.Create(String)
+- uid: Testura.Code.Models.Types.CustomType.Create*
+  name: Create
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Create_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.Create
+  fullName: Testura.Code.Models.Types.CustomType.Create
+  nameWithType: CustomType.Create
+- uid: Testura.Code.Models.Types.CustomType.FullName
+  name: FullName
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_FullName
+  commentId: P:Testura.Code.Models.Types.CustomType.FullName
+  fullName: Testura.Code.Models.Types.CustomType.FullName
+  nameWithType: CustomType.FullName
+- uid: Testura.Code.Models.Types.CustomType.FullName*
+  name: FullName
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_FullName_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.FullName
+  fullName: Testura.Code.Models.Types.CustomType.FullName
+  nameWithType: CustomType.FullName
+- uid: Testura.Code.Models.Types.CustomType.GetAttributeFlagsImpl
+  name: GetAttributeFlagsImpl()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetAttributeFlagsImpl
+  commentId: M:Testura.Code.Models.Types.CustomType.GetAttributeFlagsImpl
+  fullName: Testura.Code.Models.Types.CustomType.GetAttributeFlagsImpl()
+  nameWithType: CustomType.GetAttributeFlagsImpl()
+- uid: Testura.Code.Models.Types.CustomType.GetAttributeFlagsImpl*
+  name: GetAttributeFlagsImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetAttributeFlagsImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetAttributeFlagsImpl
+  fullName: Testura.Code.Models.Types.CustomType.GetAttributeFlagsImpl
+  nameWithType: CustomType.GetAttributeFlagsImpl
+- uid: Testura.Code.Models.Types.CustomType.GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
+  name: GetConstructorImpl(BindingFlags, Binder, CallingConventions, Type[], ParameterModifier[])
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetConstructorImpl_System_Reflection_BindingFlags_System_Reflection_Binder_System_Reflection_CallingConventions_System_Type___System_Reflection_ParameterModifier___
+  commentId: M:Testura.Code.Models.Types.CustomType.GetConstructorImpl(System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
+  name.vb: GetConstructorImpl(BindingFlags, Binder, CallingConventions, Type(), ParameterModifier())
+  fullName: Testura.Code.Models.Types.CustomType.GetConstructorImpl(System.Reflection.BindingFlags, System.Reflection.Binder, System.Reflection.CallingConventions, System.Type[], System.Reflection.ParameterModifier[])
+  fullName.vb: Testura.Code.Models.Types.CustomType.GetConstructorImpl(System.Reflection.BindingFlags, System.Reflection.Binder, System.Reflection.CallingConventions, System.Type(), System.Reflection.ParameterModifier())
+  nameWithType: CustomType.GetConstructorImpl(BindingFlags, Binder, CallingConventions, Type[], ParameterModifier[])
+  nameWithType.vb: GetConstructorImpl(BindingFlags, Binder, CallingConventions, Type(), ParameterModifier())
+- uid: Testura.Code.Models.Types.CustomType.GetConstructorImpl*
+  name: GetConstructorImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetConstructorImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetConstructorImpl
+  fullName: Testura.Code.Models.Types.CustomType.GetConstructorImpl
+  nameWithType: CustomType.GetConstructorImpl
+- uid: Testura.Code.Models.Types.CustomType.GetConstructors(System.Reflection.BindingFlags)
+  name: GetConstructors(BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetConstructors_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetConstructors(System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetConstructors(System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetConstructors(BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetConstructors*
+  name: GetConstructors
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetConstructors_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetConstructors
+  fullName: Testura.Code.Models.Types.CustomType.GetConstructors
+  nameWithType: CustomType.GetConstructors
+- uid: Testura.Code.Models.Types.CustomType.GetCustomAttributes(System.Boolean)
+  name: GetCustomAttributes(Boolean)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetCustomAttributes_System_Boolean_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetCustomAttributes(System.Boolean)
+  fullName: Testura.Code.Models.Types.CustomType.GetCustomAttributes(System.Boolean)
+  nameWithType: CustomType.GetCustomAttributes(Boolean)
+- uid: Testura.Code.Models.Types.CustomType.GetCustomAttributes(System.Type,System.Boolean)
+  name: GetCustomAttributes(Type, Boolean)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetCustomAttributes_System_Type_System_Boolean_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetCustomAttributes(System.Type,System.Boolean)
+  fullName: Testura.Code.Models.Types.CustomType.GetCustomAttributes(System.Type, System.Boolean)
+  nameWithType: CustomType.GetCustomAttributes(Type, Boolean)
+- uid: Testura.Code.Models.Types.CustomType.GetCustomAttributes*
+  name: GetCustomAttributes
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetCustomAttributes_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetCustomAttributes
+  fullName: Testura.Code.Models.Types.CustomType.GetCustomAttributes
+  nameWithType: CustomType.GetCustomAttributes
+- uid: Testura.Code.Models.Types.CustomType.GetElementType
+  name: GetElementType()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetElementType
+  commentId: M:Testura.Code.Models.Types.CustomType.GetElementType
+  fullName: Testura.Code.Models.Types.CustomType.GetElementType()
+  nameWithType: CustomType.GetElementType()
+- uid: Testura.Code.Models.Types.CustomType.GetElementType*
+  name: GetElementType
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetElementType_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetElementType
+  fullName: Testura.Code.Models.Types.CustomType.GetElementType
+  nameWithType: CustomType.GetElementType
+- uid: Testura.Code.Models.Types.CustomType.GetEvent(System.String,System.Reflection.BindingFlags)
+  name: GetEvent(String, BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetEvent_System_String_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetEvent(System.String,System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetEvent(System.String, System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetEvent(String, BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetEvent*
+  name: GetEvent
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetEvent_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetEvent
+  fullName: Testura.Code.Models.Types.CustomType.GetEvent
+  nameWithType: CustomType.GetEvent
+- uid: Testura.Code.Models.Types.CustomType.GetEvents(System.Reflection.BindingFlags)
+  name: GetEvents(BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetEvents_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetEvents(System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetEvents(System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetEvents(BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetEvents*
+  name: GetEvents
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetEvents_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetEvents
+  fullName: Testura.Code.Models.Types.CustomType.GetEvents
+  nameWithType: CustomType.GetEvents
+- uid: Testura.Code.Models.Types.CustomType.GetField(System.String,System.Reflection.BindingFlags)
+  name: GetField(String, BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetField_System_String_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetField(System.String,System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetField(System.String, System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetField(String, BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetField*
+  name: GetField
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetField_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetField
+  fullName: Testura.Code.Models.Types.CustomType.GetField
+  nameWithType: CustomType.GetField
+- uid: Testura.Code.Models.Types.CustomType.GetFields(System.Reflection.BindingFlags)
+  name: GetFields(BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetFields_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetFields(System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetFields(System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetFields(BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetFields*
+  name: GetFields
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetFields_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetFields
+  fullName: Testura.Code.Models.Types.CustomType.GetFields
+  nameWithType: CustomType.GetFields
+- uid: Testura.Code.Models.Types.CustomType.GetInterface(System.String,System.Boolean)
+  name: GetInterface(String, Boolean)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetInterface_System_String_System_Boolean_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetInterface(System.String,System.Boolean)
+  fullName: Testura.Code.Models.Types.CustomType.GetInterface(System.String, System.Boolean)
+  nameWithType: CustomType.GetInterface(String, Boolean)
+- uid: Testura.Code.Models.Types.CustomType.GetInterface*
+  name: GetInterface
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetInterface_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetInterface
+  fullName: Testura.Code.Models.Types.CustomType.GetInterface
+  nameWithType: CustomType.GetInterface
+- uid: Testura.Code.Models.Types.CustomType.GetInterfaces
+  name: GetInterfaces()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetInterfaces
+  commentId: M:Testura.Code.Models.Types.CustomType.GetInterfaces
+  fullName: Testura.Code.Models.Types.CustomType.GetInterfaces()
+  nameWithType: CustomType.GetInterfaces()
+- uid: Testura.Code.Models.Types.CustomType.GetInterfaces*
+  name: GetInterfaces
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetInterfaces_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetInterfaces
+  fullName: Testura.Code.Models.Types.CustomType.GetInterfaces
+  nameWithType: CustomType.GetInterfaces
+- uid: Testura.Code.Models.Types.CustomType.GetMembers(System.Reflection.BindingFlags)
+  name: GetMembers(BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetMembers_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetMembers(System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetMembers(System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetMembers(BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetMembers*
+  name: GetMembers
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetMembers_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetMembers
+  fullName: Testura.Code.Models.Types.CustomType.GetMembers
+  nameWithType: CustomType.GetMembers
+- uid: Testura.Code.Models.Types.CustomType.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
+  name: GetMethodImpl(String, BindingFlags, Binder, CallingConventions, Type[], ParameterModifier[])
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetMethodImpl_System_String_System_Reflection_BindingFlags_System_Reflection_Binder_System_Reflection_CallingConventions_System_Type___System_Reflection_ParameterModifier___
+  commentId: M:Testura.Code.Models.Types.CustomType.GetMethodImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
+  name.vb: GetMethodImpl(String, BindingFlags, Binder, CallingConventions, Type(), ParameterModifier())
+  fullName: Testura.Code.Models.Types.CustomType.GetMethodImpl(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Reflection.CallingConventions, System.Type[], System.Reflection.ParameterModifier[])
+  fullName.vb: Testura.Code.Models.Types.CustomType.GetMethodImpl(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Reflection.CallingConventions, System.Type(), System.Reflection.ParameterModifier())
+  nameWithType: CustomType.GetMethodImpl(String, BindingFlags, Binder, CallingConventions, Type[], ParameterModifier[])
+  nameWithType.vb: GetMethodImpl(String, BindingFlags, Binder, CallingConventions, Type(), ParameterModifier())
+- uid: Testura.Code.Models.Types.CustomType.GetMethodImpl*
+  name: GetMethodImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetMethodImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetMethodImpl
+  fullName: Testura.Code.Models.Types.CustomType.GetMethodImpl
+  nameWithType: CustomType.GetMethodImpl
+- uid: Testura.Code.Models.Types.CustomType.GetMethods(System.Reflection.BindingFlags)
+  name: GetMethods(BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetMethods_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetMethods(System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetMethods(System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetMethods(BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetMethods*
+  name: GetMethods
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetMethods_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetMethods
+  fullName: Testura.Code.Models.Types.CustomType.GetMethods
+  nameWithType: CustomType.GetMethods
+- uid: Testura.Code.Models.Types.CustomType.GetNestedType(System.String,System.Reflection.BindingFlags)
+  name: GetNestedType(String, BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetNestedType_System_String_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetNestedType(System.String,System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetNestedType(System.String, System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetNestedType(String, BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetNestedType*
+  name: GetNestedType
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetNestedType_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetNestedType
+  fullName: Testura.Code.Models.Types.CustomType.GetNestedType
+  nameWithType: CustomType.GetNestedType
+- uid: Testura.Code.Models.Types.CustomType.GetNestedTypes(System.Reflection.BindingFlags)
+  name: GetNestedTypes(BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetNestedTypes_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetNestedTypes(System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetNestedTypes(System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetNestedTypes(BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetNestedTypes*
+  name: GetNestedTypes
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetNestedTypes_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetNestedTypes
+  fullName: Testura.Code.Models.Types.CustomType.GetNestedTypes
+  nameWithType: CustomType.GetNestedTypes
+- uid: Testura.Code.Models.Types.CustomType.GetProperties(System.Reflection.BindingFlags)
+  name: GetProperties(BindingFlags)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetProperties_System_Reflection_BindingFlags_
+  commentId: M:Testura.Code.Models.Types.CustomType.GetProperties(System.Reflection.BindingFlags)
+  fullName: Testura.Code.Models.Types.CustomType.GetProperties(System.Reflection.BindingFlags)
+  nameWithType: CustomType.GetProperties(BindingFlags)
+- uid: Testura.Code.Models.Types.CustomType.GetProperties*
+  name: GetProperties
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetProperties_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetProperties
+  fullName: Testura.Code.Models.Types.CustomType.GetProperties
+  nameWithType: CustomType.GetProperties
+- uid: Testura.Code.Models.Types.CustomType.GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
+  name: GetPropertyImpl(String, BindingFlags, Binder, Type, Type[], ParameterModifier[])
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetPropertyImpl_System_String_System_Reflection_BindingFlags_System_Reflection_Binder_System_Type_System_Type___System_Reflection_ParameterModifier___
+  commentId: M:Testura.Code.Models.Types.CustomType.GetPropertyImpl(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
+  name.vb: GetPropertyImpl(String, BindingFlags, Binder, Type, Type(), ParameterModifier())
+  fullName: Testura.Code.Models.Types.CustomType.GetPropertyImpl(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Type, System.Type[], System.Reflection.ParameterModifier[])
+  fullName.vb: Testura.Code.Models.Types.CustomType.GetPropertyImpl(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Type, System.Type(), System.Reflection.ParameterModifier())
+  nameWithType: CustomType.GetPropertyImpl(String, BindingFlags, Binder, Type, Type[], ParameterModifier[])
+  nameWithType.vb: GetPropertyImpl(String, BindingFlags, Binder, Type, Type(), ParameterModifier())
+- uid: Testura.Code.Models.Types.CustomType.GetPropertyImpl*
+  name: GetPropertyImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GetPropertyImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GetPropertyImpl
+  fullName: Testura.Code.Models.Types.CustomType.GetPropertyImpl
+  nameWithType: CustomType.GetPropertyImpl
+- uid: Testura.Code.Models.Types.CustomType.GUID
+  name: GUID
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GUID
+  commentId: P:Testura.Code.Models.Types.CustomType.GUID
+  fullName: Testura.Code.Models.Types.CustomType.GUID
+  nameWithType: CustomType.GUID
+- uid: Testura.Code.Models.Types.CustomType.GUID*
+  name: GUID
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_GUID_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.GUID
+  fullName: Testura.Code.Models.Types.CustomType.GUID
+  nameWithType: CustomType.GUID
+- uid: Testura.Code.Models.Types.CustomType.HasElementTypeImpl
+  name: HasElementTypeImpl()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_HasElementTypeImpl
+  commentId: M:Testura.Code.Models.Types.CustomType.HasElementTypeImpl
+  fullName: Testura.Code.Models.Types.CustomType.HasElementTypeImpl()
+  nameWithType: CustomType.HasElementTypeImpl()
+- uid: Testura.Code.Models.Types.CustomType.HasElementTypeImpl*
+  name: HasElementTypeImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_HasElementTypeImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.HasElementTypeImpl
+  fullName: Testura.Code.Models.Types.CustomType.HasElementTypeImpl
+  nameWithType: CustomType.HasElementTypeImpl
+- uid: Testura.Code.Models.Types.CustomType.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
+  name: InvokeMember(String, BindingFlags, Binder, Object, Object[], ParameterModifier[], CultureInfo, String[])
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_InvokeMember_System_String_System_Reflection_BindingFlags_System_Reflection_Binder_System_Object_System_Object___System_Reflection_ParameterModifier___System_Globalization_CultureInfo_System_String___
+  commentId: M:Testura.Code.Models.Types.CustomType.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
+  name.vb: InvokeMember(String, BindingFlags, Binder, Object, Object(), ParameterModifier(), CultureInfo, String())
+  fullName: Testura.Code.Models.Types.CustomType.InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+  fullName.vb: Testura.Code.Models.Types.CustomType.InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object(), System.Reflection.ParameterModifier(), System.Globalization.CultureInfo, System.String())
+  nameWithType: CustomType.InvokeMember(String, BindingFlags, Binder, Object, Object[], ParameterModifier[], CultureInfo, String[])
+  nameWithType.vb: InvokeMember(String, BindingFlags, Binder, Object, Object(), ParameterModifier(), CultureInfo, String())
+- uid: Testura.Code.Models.Types.CustomType.InvokeMember*
+  name: InvokeMember
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_InvokeMember_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.InvokeMember
+  fullName: Testura.Code.Models.Types.CustomType.InvokeMember
+  nameWithType: CustomType.InvokeMember
+- uid: Testura.Code.Models.Types.CustomType.IsArrayImpl
+  name: IsArrayImpl()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsArrayImpl
+  commentId: M:Testura.Code.Models.Types.CustomType.IsArrayImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsArrayImpl()
+  nameWithType: CustomType.IsArrayImpl()
+- uid: Testura.Code.Models.Types.CustomType.IsArrayImpl*
+  name: IsArrayImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsArrayImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.IsArrayImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsArrayImpl
+  nameWithType: CustomType.IsArrayImpl
+- uid: Testura.Code.Models.Types.CustomType.IsByRefImpl
+  name: IsByRefImpl()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsByRefImpl
+  commentId: M:Testura.Code.Models.Types.CustomType.IsByRefImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsByRefImpl()
+  nameWithType: CustomType.IsByRefImpl()
+- uid: Testura.Code.Models.Types.CustomType.IsByRefImpl*
+  name: IsByRefImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsByRefImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.IsByRefImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsByRefImpl
+  nameWithType: CustomType.IsByRefImpl
+- uid: Testura.Code.Models.Types.CustomType.IsCOMObjectImpl
+  name: IsCOMObjectImpl()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsCOMObjectImpl
+  commentId: M:Testura.Code.Models.Types.CustomType.IsCOMObjectImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsCOMObjectImpl()
+  nameWithType: CustomType.IsCOMObjectImpl()
+- uid: Testura.Code.Models.Types.CustomType.IsCOMObjectImpl*
+  name: IsCOMObjectImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsCOMObjectImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.IsCOMObjectImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsCOMObjectImpl
+  nameWithType: CustomType.IsCOMObjectImpl
+- uid: Testura.Code.Models.Types.CustomType.IsDefined(System.Type,System.Boolean)
+  name: IsDefined(Type, Boolean)
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsDefined_System_Type_System_Boolean_
+  commentId: M:Testura.Code.Models.Types.CustomType.IsDefined(System.Type,System.Boolean)
+  fullName: Testura.Code.Models.Types.CustomType.IsDefined(System.Type, System.Boolean)
+  nameWithType: CustomType.IsDefined(Type, Boolean)
+- uid: Testura.Code.Models.Types.CustomType.IsDefined*
+  name: IsDefined
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsDefined_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.IsDefined
+  fullName: Testura.Code.Models.Types.CustomType.IsDefined
+  nameWithType: CustomType.IsDefined
+- uid: Testura.Code.Models.Types.CustomType.IsPointerImpl
+  name: IsPointerImpl()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsPointerImpl
+  commentId: M:Testura.Code.Models.Types.CustomType.IsPointerImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsPointerImpl()
+  nameWithType: CustomType.IsPointerImpl()
+- uid: Testura.Code.Models.Types.CustomType.IsPointerImpl*
+  name: IsPointerImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsPointerImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.IsPointerImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsPointerImpl
+  nameWithType: CustomType.IsPointerImpl
+- uid: Testura.Code.Models.Types.CustomType.IsPrimitiveImpl
+  name: IsPrimitiveImpl()
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsPrimitiveImpl
+  commentId: M:Testura.Code.Models.Types.CustomType.IsPrimitiveImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsPrimitiveImpl()
+  nameWithType: CustomType.IsPrimitiveImpl()
+- uid: Testura.Code.Models.Types.CustomType.IsPrimitiveImpl*
+  name: IsPrimitiveImpl
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_IsPrimitiveImpl_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.IsPrimitiveImpl
+  fullName: Testura.Code.Models.Types.CustomType.IsPrimitiveImpl
+  nameWithType: CustomType.IsPrimitiveImpl
+- uid: Testura.Code.Models.Types.CustomType.Module
+  name: Module
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Module
+  commentId: P:Testura.Code.Models.Types.CustomType.Module
+  fullName: Testura.Code.Models.Types.CustomType.Module
+  nameWithType: CustomType.Module
+- uid: Testura.Code.Models.Types.CustomType.Module*
+  name: Module
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Module_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.Module
+  fullName: Testura.Code.Models.Types.CustomType.Module
+  nameWithType: CustomType.Module
+- uid: Testura.Code.Models.Types.CustomType.Name
+  name: Name
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Name
+  commentId: P:Testura.Code.Models.Types.CustomType.Name
+  fullName: Testura.Code.Models.Types.CustomType.Name
+  nameWithType: CustomType.Name
+- uid: Testura.Code.Models.Types.CustomType.Name*
+  name: Name
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Name_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.Name
+  fullName: Testura.Code.Models.Types.CustomType.Name
+  nameWithType: CustomType.Name
+- uid: Testura.Code.Models.Types.CustomType.Namespace
+  name: Namespace
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Namespace
+  commentId: P:Testura.Code.Models.Types.CustomType.Namespace
+  fullName: Testura.Code.Models.Types.CustomType.Namespace
+  nameWithType: CustomType.Namespace
+- uid: Testura.Code.Models.Types.CustomType.Namespace*
+  name: Namespace
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_Namespace_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.Namespace
+  fullName: Testura.Code.Models.Types.CustomType.Namespace
+  nameWithType: CustomType.Namespace
+- uid: Testura.Code.Models.Types.CustomType.TypeName
+  name: TypeName
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_TypeName
+  commentId: P:Testura.Code.Models.Types.CustomType.TypeName
+  fullName: Testura.Code.Models.Types.CustomType.TypeName
+  nameWithType: CustomType.TypeName
+- uid: Testura.Code.Models.Types.CustomType.TypeName*
+  name: TypeName
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_TypeName_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.TypeName
+  fullName: Testura.Code.Models.Types.CustomType.TypeName
+  nameWithType: CustomType.TypeName
+- uid: Testura.Code.Models.Types.CustomType.UnderlyingSystemType
+  name: UnderlyingSystemType
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_UnderlyingSystemType
+  commentId: P:Testura.Code.Models.Types.CustomType.UnderlyingSystemType
+  fullName: Testura.Code.Models.Types.CustomType.UnderlyingSystemType
+  nameWithType: CustomType.UnderlyingSystemType
+- uid: Testura.Code.Models.Types.CustomType.UnderlyingSystemType*
+  name: UnderlyingSystemType
+  href: api/Testura.Code.Models.Types.CustomType.html#Testura_Code_Models_Types_CustomType_UnderlyingSystemType_
+  commentId: Overload:Testura.Code.Models.Types.CustomType.UnderlyingSystemType
+  fullName: Testura.Code.Models.Types.CustomType.UnderlyingSystemType
+  nameWithType: CustomType.UnderlyingSystemType
 - uid: Testura.Code.Modifiers
   name: Modifiers
   href: api/Testura.Code.Modifiers.html
@@ -2885,6 +3359,18 @@ references:
   commentId: Overload:Testura.Code.Statements.JumpStatement.ReturnFalse
   fullName: Testura.Code.Statements.JumpStatement.ReturnFalse
   nameWithType: JumpStatement.ReturnFalse
+- uid: Testura.Code.Statements.JumpStatement.ReturnThis
+  name: ReturnThis()
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_ReturnThis
+  commentId: M:Testura.Code.Statements.JumpStatement.ReturnThis
+  fullName: Testura.Code.Statements.JumpStatement.ReturnThis()
+  nameWithType: JumpStatement.ReturnThis()
+- uid: Testura.Code.Statements.JumpStatement.ReturnThis*
+  name: ReturnThis
+  href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_ReturnThis_
+  commentId: Overload:Testura.Code.Statements.JumpStatement.ReturnThis
+  fullName: Testura.Code.Statements.JumpStatement.ReturnThis
+  nameWithType: JumpStatement.ReturnThis
 - uid: Testura.Code.Statements.JumpStatement.ReturnTrue
   name: ReturnTrue()
   href: api/Testura.Code.Statements.JumpStatement.html#Testura_Code_Statements_JumpStatement_ReturnTrue
