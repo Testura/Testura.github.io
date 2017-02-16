@@ -1249,6 +1249,30 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.#ctor
   fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Node
   nameWithType: Node.Node
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Checkable
+  name: Checkable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Checkable
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Checkable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Checkable
+  nameWithType: Node.Checkable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Checkable*
+  name: Checkable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Checkable_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Checkable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Checkable
+  nameWithType: Node.Checkable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Checked
+  name: Checked
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Checked
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Checked
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Checked
+  nameWithType: Node.Checked
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Checked*
+  name: Checked
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Checked_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Checked
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Checked
+  nameWithType: Node.Checked
 - uid: Testura.Android.Device.Ui.Nodes.Data.Node.Children
   name: Children
   href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Children
@@ -1273,6 +1297,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Class
   fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Class
   nameWithType: Node.Class
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Clickable
+  name: Clickable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Clickable
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Clickable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Clickable
+  nameWithType: Node.Clickable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Clickable*
+  name: Clickable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Clickable_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Clickable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Clickable
+  nameWithType: Node.Clickable
 - uid: Testura.Android.Device.Ui.Nodes.Data.Node.ContentDesc
   name: ContentDesc
   href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_ContentDesc
@@ -1297,6 +1333,42 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Element
   fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Element
   nameWithType: Node.Element
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Enabled
+  name: Enabled
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Enabled
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Enabled
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Enabled
+  nameWithType: Node.Enabled
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Enabled*
+  name: Enabled
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Enabled_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Enabled
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Enabled
+  nameWithType: Node.Enabled
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Focusable
+  name: Focusable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Focusable
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Focusable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Focusable
+  nameWithType: Node.Focusable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Focusable*
+  name: Focusable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Focusable_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Focusable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Focusable
+  nameWithType: Node.Focusable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Focused
+  name: Focused
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Focused
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Focused
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Focused
+  nameWithType: Node.Focused
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Focused*
+  name: Focused
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Focused_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Focused
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Focused
+  nameWithType: Node.Focused
 - uid: Testura.Android.Device.Ui.Nodes.Data.Node.GetNodeBounds
   name: GetNodeBounds()
   href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_GetNodeBounds
@@ -1333,6 +1405,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Index
   fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Index
   nameWithType: Node.Index
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.LongClickable
+  name: LongClickable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_LongClickable
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.LongClickable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.LongClickable
+  nameWithType: Node.LongClickable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.LongClickable*
+  name: LongClickable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_LongClickable_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.LongClickable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.LongClickable
+  nameWithType: Node.LongClickable
 - uid: Testura.Android.Device.Ui.Nodes.Data.Node.Package
   name: Package
   href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Package
@@ -1357,6 +1441,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Parent
   fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Parent
   nameWithType: Node.Parent
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Password
+  name: Password
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Password
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Password
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Password
+  nameWithType: Node.Password
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Password*
+  name: Password
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Password_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Password
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Password
+  nameWithType: Node.Password
 - uid: Testura.Android.Device.Ui.Nodes.Data.Node.ResourceId
   name: ResourceId
   href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_ResourceId
@@ -1369,6 +1465,30 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.ResourceId
   fullName: Testura.Android.Device.Ui.Nodes.Data.Node.ResourceId
   nameWithType: Node.ResourceId
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Scrollable
+  name: Scrollable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Scrollable
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Scrollable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Scrollable
+  nameWithType: Node.Scrollable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Scrollable*
+  name: Scrollable
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Scrollable_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Scrollable
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Scrollable
+  nameWithType: Node.Scrollable
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Selected
+  name: Selected
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Selected
+  commentId: P:Testura.Android.Device.Ui.Nodes.Data.Node.Selected
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Selected
+  nameWithType: Node.Selected
+- uid: Testura.Android.Device.Ui.Nodes.Data.Node.Selected*
+  name: Selected
+  href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Selected_
+  commentId: Overload:Testura.Android.Device.Ui.Nodes.Data.Node.Selected
+  fullName: Testura.Android.Device.Ui.Nodes.Data.Node.Selected
+  nameWithType: Node.Selected
 - uid: Testura.Android.Device.Ui.Nodes.Data.Node.Text
   name: Text
   href: api/Testura.Android.Device.Ui.Nodes.Data.Node.html#Testura_Android_Device_Ui_Nodes_Data_Node_Text
