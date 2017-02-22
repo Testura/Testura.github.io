@@ -1876,6 +1876,21 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.TryFindNode
   fullName: Testura.Android.Device.Ui.Objects.UiObject.TryFindNode
   nameWithType: UiObject.TryFindNode
+- uid: Testura.Android.Device.Ui.Objects.UiObject.WaitForValue(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.Int32)
+  name: WaitForValue(Func<Node, Boolean>, Int32)
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_WaitForValue_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__System_Int32_
+  commentId: M:Testura.Android.Device.Ui.Objects.UiObject.WaitForValue(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.Int32)
+  name.vb: WaitForValue(Func(Of Node, Boolean), Int32)
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.WaitForValue(System.Func<Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean>, System.Int32)
+  fullName.vb: Testura.Android.Device.Ui.Objects.UiObject.WaitForValue(System.Func(Of Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean), System.Int32)
+  nameWithType: UiObject.WaitForValue(Func<Node, Boolean>, Int32)
+  nameWithType.vb: WaitForValue(Func(Of Node, Boolean), Int32)
+- uid: Testura.Android.Device.Ui.Objects.UiObject.WaitForValue*
+  name: WaitForValue
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_WaitForValue_
+  commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.WaitForValue
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.WaitForValue
+  nameWithType: UiObject.WaitForValue
 - uid: Testura.Android.Device.Ui.Objects.UiObject.Values(System.Int32)
   name: Values(Int32)
   href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_Values_System_Int32_
