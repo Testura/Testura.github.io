@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CustomType
+    <title>Class CodeGeneratorProxy
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CustomType
+    <meta name="title" content="Class CodeGeneratorProxy
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,17 +69,30 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Models_Types_CustomType" data-uid="Testura.Code.Models.Types.CustomType">Class CustomType
+              <h1 id="Testura_Code_Util_AppDomains_Proxies_CodeGeneratorProxy" data-uid="Testura.Code.Util.AppDomains.Proxies.CodeGeneratorProxy">Class CodeGeneratorProxy
               </h1>
               <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">CustomType</span></div>
+                  <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
+                  <div class="level2"><span class="xref">CodeGeneratorProxy</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
+                </div>
+                <div>
+                  <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
+                </div>
+                <div>
+                  <span class="xref">System.MarshalByRefObject.InitializeLifetimeService()</span>
+                </div>
+                <div>
+                  <span class="xref">System.MarshalByRefObject.CreateObjRef(System.Type)</span>
+                </div>
                 <div>
                   <span class="xref">System.Object.ToString()</span>
                 </div>
@@ -102,24 +115,59 @@
                   <span class="xref">System.Object.MemberwiseClone()</span>
                 </div>
               </div>
-              <h6><strong>Namespace</strong>:Testura.Code.Models.Types</h6>
+              <h6><strong>Namespace</strong>:Testura.Code.Util.AppDomains.Proxies</h6>
               <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
-              <h5 id="Testura_Code_Models_Types_CustomType_syntax">Syntax</h5>
+              <h5 id="Testura_Code_Util_AppDomains_Proxies_CodeGeneratorProxy_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static class CustomType</code></pre>
+                <pre><code class="lang-csharp hljs">public abstract class CodeGeneratorProxy : MarshalByRefObject</code></pre>
               </div>
               <h3 id="methods">Methods
               </h3>
               
               
-              <a id="Testura_Code_Models_Types_CustomType_Create_" data-uid="Testura.Code.Models.Types.CustomType.Create*"></a>
-              <h4 id="Testura_Code_Models_Types_CustomType_Create_System_String_" data-uid="Testura.Code.Models.Types.CustomType.Create(System.String)">Create(String)</h4>
-              <div class="markdown level1 summary"><p>Create a custom type with a specific name</p>
+              <a id="Testura_Code_Util_AppDomains_Proxies_CodeGeneratorProxy_GenerateCode_" data-uid="Testura.Code.Util.AppDomains.Proxies.CodeGeneratorProxy.GenerateCode*"></a>
+              <h4 id="Testura_Code_Util_AppDomains_Proxies_CodeGeneratorProxy_GenerateCode_System_Reflection_Assembly_System_Collections_Generic_IDictionary_System_String_System_Object__" data-uid="Testura.Code.Util.AppDomains.Proxies.CodeGeneratorProxy.GenerateCode(System.Reflection.Assembly,System.Collections.Generic.IDictionary{System.String,System.Object})">GenerateCode(Assembly, IDictionary&lt;String, Object&gt;)</h4>
+              <div class="markdown level1 summary"><p>Generate code</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static Type Create(string typeName)</code></pre>
+                <pre><code class="lang-csharp hljs">protected abstract void GenerateCode(Assembly assembly, IDictionary&lt;string, object&gt; extraData)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Reflection.Assembly</span></td>
+                    <td><span class="parametername">assembly</span></td>
+                    <td><p>Assembly that we loaded inside the app domain</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="parametername">extraData</span></td>
+                    <td><p>Extra data sent to the proxy</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Util_AppDomains_Proxies_CodeGeneratorProxy_GenerateCode_" data-uid="Testura.Code.Util.AppDomains.Proxies.CodeGeneratorProxy.GenerateCode*"></a>
+              <h4 id="Testura_Code_Util_AppDomains_Proxies_CodeGeneratorProxy_GenerateCode_System_String_System_Collections_Generic_IDictionary_System_String_System_Object__" data-uid="Testura.Code.Util.AppDomains.Proxies.CodeGeneratorProxy.GenerateCode(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">GenerateCode(String, IDictionary&lt;String, Object&gt;)</h4>
+              <div class="markdown level1 summary"><p>Load an external assembly and generate code</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void GenerateCode(string assemblyPath, IDictionary&lt;string, object&gt; extraData)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -133,28 +181,22 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">typeName</span></td>
-                    <td><p>Name of the custom type</p>
+                    <td><span class="parametername">assemblyPath</span></td>
+                    <td><p>Path to external assembly</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="parametername">extraData</span></td>
+                    <td><p>Extra data</p>
 </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Type</span></td>
-                    <td><p>Return a custom type</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
+              <h3 id="extensionmethods">Extension Methods</h3>
+              <div>
+                  <a class="xref" href="Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_">ObjectExtensions.IsNumeric(Object)</a>
+              </div>
             </article>
           </div>
           

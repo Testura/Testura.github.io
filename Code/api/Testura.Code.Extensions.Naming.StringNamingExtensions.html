@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CustomType
+    <title>Class StringNamingExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CustomType
+    <meta name="title" content="Class StringNamingExtensions
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,14 +69,14 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Models_Types_CustomType" data-uid="Testura.Code.Models.Types.CustomType">Class CustomType
+              <h1 id="Testura_Code_Extensions_Naming_StringNamingExtensions" data-uid="Testura.Code.Extensions.Naming.StringNamingExtensions">Class StringNamingExtensions
               </h1>
               <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">CustomType</span></div>
+                  <div class="level1"><span class="xref">StringNamingExtensions</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
@@ -102,24 +102,24 @@
                   <span class="xref">System.Object.MemberwiseClone()</span>
                 </div>
               </div>
-              <h6><strong>Namespace</strong>:Testura.Code.Models.Types</h6>
+              <h6><strong>Namespace</strong>:Testura.Code.Extensions.Naming</h6>
               <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
-              <h5 id="Testura_Code_Models_Types_CustomType_syntax">Syntax</h5>
+              <h5 id="Testura_Code_Extensions_Naming_StringNamingExtensions_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static class CustomType</code></pre>
+                <pre><code class="lang-csharp hljs">public static class StringNamingExtensions</code></pre>
               </div>
               <h3 id="methods">Methods
               </h3>
               
               
-              <a id="Testura_Code_Models_Types_CustomType_Create_" data-uid="Testura.Code.Models.Types.CustomType.Create*"></a>
-              <h4 id="Testura_Code_Models_Types_CustomType_Create_System_String_" data-uid="Testura.Code.Models.Types.CustomType.Create(System.String)">Create(String)</h4>
-              <div class="markdown level1 summary"><p>Create a custom type with a specific name</p>
+              <a id="Testura_Code_Extensions_Naming_StringNamingExtensions_FirstLetterToLowerCase_" data-uid="Testura.Code.Extensions.Naming.StringNamingExtensions.FirstLetterToLowerCase*"></a>
+              <h4 id="Testura_Code_Extensions_Naming_StringNamingExtensions_FirstLetterToLowerCase_System_String_" data-uid="Testura.Code.Extensions.Naming.StringNamingExtensions.FirstLetterToLowerCase(System.String)">FirstLetterToLowerCase(String)</h4>
+              <div class="markdown level1 summary"><p>Turn the first letter in a string to lower case</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static Type Create(string typeName)</code></pre>
+                <pre><code class="lang-csharp hljs">public static string FirstLetterToLowerCase(this string value)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -133,8 +133,8 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">typeName</span></td>
-                    <td><p>Name of the custom type</p>
+                    <td><span class="parametername">value</span></td>
+                    <td><p>String to change</p>
 </td>
                   </tr>
                 </tbody>
@@ -149,8 +149,53 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Type</span></td>
-                    <td><p>Return a custom type</p>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>A new string with the first letter in lower case</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Code_Extensions_Naming_StringNamingExtensions_FirstLetterToUpperCase_" data-uid="Testura.Code.Extensions.Naming.StringNamingExtensions.FirstLetterToUpperCase*"></a>
+              <h4 id="Testura_Code_Extensions_Naming_StringNamingExtensions_FirstLetterToUpperCase_System_String_" data-uid="Testura.Code.Extensions.Naming.StringNamingExtensions.FirstLetterToUpperCase(System.String)">FirstLetterToUpperCase(String)</h4>
+              <div class="markdown level1 summary"><p>Turn the first letter in a string to upper case</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string FirstLetterToUpperCase(this string value)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">value</span></td>
+                    <td><p>String to change</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>A new string with the first letter in upper case</p>
 </td>
                   </tr>
                 </tbody>
