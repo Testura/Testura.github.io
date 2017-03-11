@@ -59,13 +59,12 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
               
-              <p><img src="http://testura.net/Content/Images/logo.png" alt="Testura Logo"></p>
+              <p><img src="http://testura.net/Content/Images/logo2.png" alt="Testura Logo"></p>
 <p>Testura.Android is a lightweight test automation framework for Android built in C#. It contains tools and help classes to test, validate and interact with your Android device or emulator.</p>
 <h1 id="install">Install</h1>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li><a href="https://developer.android.com/studio/index.html">Android SDK</a></li>
-<li>Visual Studio</li>
+<li><a href="https://developer.android.com/studio/index.html">Android SDK</a> (also recommended to add adb to environment variables)</li>
 </ul>
 <h2 id="nuget-nuget-statushttpsimgshieldsionugetvtesturaandroidsvgstyleflathttpswwwnugetorgpackagestesturaandroid">NuGet <a href="https://www.nuget.org/packages/Testura.Android"><img src="https://img.shields.io/nuget/v/Testura.Android.svg?style=flat" alt="NuGet Status"></a></h2>
 <p><a href="https://www.nuget.org/packages/Testura.Android"><a href="https://www.nuget.org/packages/Testura.Android">https://www.nuget.org/packages/Testura.Android</a></a></p>
@@ -90,7 +89,7 @@ namespace Testura.Android.Tests.Device
 
         private readonly UiObject _usernameTextbox;
         private readonly UiObject _passwordTextbox;
-        private readonly UiObject _logginButton;
+        private readonly UiObject _logInButton;
 
         public ExampleView()
         {
@@ -100,14 +99,14 @@ namespace Testura.Android.Tests.Device
             // so it&#39;s perfectly safe to set up everything inside the constructor.
             _usernameTextbox = _androidDevice.Ui.CreateUiObject(With.ResourceId(&quot;usernameTextbox&quot;));
             _passwordTextbox = _androidDevice.Ui.CreateUiObject(With.ContentDesc(&quot;passwordTextbox&quot;));
-            _logginButton = _androidDevice.Ui.CreateUiObject(With.Lambda(n =&gt; n.Text == &quot;Login&quot;));
+            _logInButton = _androidDevice.Ui.CreateUiObject(With.Lambda(n =&gt; n.Text == &quot;Login&quot;));
         }
 
         public void Login(string username, string password)
         {
-            _usernameTextbox.SendKeys(username);
-            _passwordTextbox.SendKeys(password);
-            _logginButton.Click();
+            _usernameTextbox.InputText(username);
+            _passwordTextbox.InputText(password);
+            _logInButton.Tap();
         }
     }
 }
@@ -125,7 +124,7 @@ namespace Testura.Android.Tests.Device
 <li><code>With.Package</code> - Find nodes that contains the exact package</li>
 <li><code>With.Lamba</code> - Find nodes with a lamba expression</li>
 </ul>
-<p><code>With.Lamba</code> is a powerful method to find nodes, and you can access both the node&#39;s parent and children:</p>
+<p><code>With.Lamba</code> is a powerful method to find nodes and you can access both the node&#39;s parent and children:</p>
 <pre><code class="lang-c#">With.Lambda(n =&gt;
     n.Text == &quot;Some text&quot;
     &amp;&amp; n.Parent != null
@@ -147,13 +146,20 @@ device.Settings.Wifi(State.Enable);
 <p><code>UiObject</code> is one of the core components of Testura.Android. It wraps a node with all the necessary functions:</p>
 <pre><code class="lang-c#">var device = new AndroidDevice(new DeviceConfiguration());
 var uiObject = device.Ui.CreateUiObject(With.ContentDesc(&quot;..&quot;));
-uiObject.Click();
+uiObject.Tap();
 uiObject.IsVisible();
 uiObject.IsHidden();
-uiObject.SendKeys(&quot;..&quot;);
+uiObject.InputText(&quot;..&quot;);
+uiObject.WaitForValue(n =&gt; n.Enabled);
 var node = uiObject.Values();
 </code></pre><h2 id="page-object-helpers">Page object helpers</h2>
-<p>For more information about page object helpers, visit the wiki: <a href="https://github.com/Testura/Testura.Android/wiki/10.-Page-Object">https://github.com/Testura/Testura.Android/wiki/10.-Page-Object</a></p>
+<p>For more information about page object helpers, visit the wiki: <a href="https://github.com/Testura/Testura.Android/wiki/Page-Object">https://github.com/Testura/Testura.Android/wiki/Page-Object</a></p>
+<p>We also have a help tool to generate page objects: <a href="https://github.com/Testura/Testura.Android.PageObjectCreator">https://github.com/Testura/Testura.Android.PageObjectCreator</a></p>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li>Wiki - <a href="https://github.com/Testura/Testura.Android/wiki"><a href="https://github.com/Testura/Testura.Android/wiki">https://github.com/Testura/Testura.Android/wiki</a></a></li>
+<li>API <a href="https://testura.github.io/Android/api/index.html"><a href="https://testura.github.io/Android/api/index.html">https://testura.github.io/Android/api/index.html</a></a></li>
+</ul>
 <h2 id="license">License</h2>
 <p>This project is licensed under the MIT License. See the <a href="LICENSE.md">LICENSE.md</a> file for details.</p>
 <h2 id="contact">Contact</h2>

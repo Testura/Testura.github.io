@@ -13,6 +13,12 @@ references:
   commentId: T:Testura.Android.Device.AndroidDevice
   fullName: Testura.Android.Device.AndroidDevice
   nameWithType: AndroidDevice
+- uid: Testura.Android.Device.AndroidDevice.#ctor
+  name: AndroidDevice()
+  href: api/Testura.Android.Device.AndroidDevice.html#Testura_Android_Device_AndroidDevice__ctor
+  commentId: M:Testura.Android.Device.AndroidDevice.#ctor
+  fullName: Testura.Android.Device.AndroidDevice.AndroidDevice()
+  nameWithType: AndroidDevice.AndroidDevice()
 - uid: Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration)
   name: AndroidDevice(DeviceConfiguration)
   href: api/Testura.Android.Device.AndroidDevice.html#Testura_Android_Device_AndroidDevice__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_
@@ -643,48 +649,30 @@ references:
   commentId: T:Testura.Android.Device.Services.Default.InteractionService
   fullName: Testura.Android.Device.Services.Default.InteractionService
   nameWithType: InteractionService
-- uid: Testura.Android.Device.Services.Default.InteractionService.Click(System.Int32,System.Int32)
-  name: Click(Int32, Int32)
-  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_Click_System_Int32_System_Int32_
-  commentId: M:Testura.Android.Device.Services.Default.InteractionService.Click(System.Int32,System.Int32)
-  fullName: Testura.Android.Device.Services.Default.InteractionService.Click(System.Int32, System.Int32)
-  nameWithType: InteractionService.Click(Int32, Int32)
-- uid: Testura.Android.Device.Services.Default.InteractionService.Click(Testura.Android.Device.Ui.Nodes.Data.Node)
-  name: Click(Node)
-  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_Click_Testura_Android_Device_Ui_Nodes_Data_Node_
-  commentId: M:Testura.Android.Device.Services.Default.InteractionService.Click(Testura.Android.Device.Ui.Nodes.Data.Node)
-  fullName: Testura.Android.Device.Services.Default.InteractionService.Click(Testura.Android.Device.Ui.Nodes.Data.Node)
-  nameWithType: InteractionService.Click(Node)
-- uid: Testura.Android.Device.Services.Default.InteractionService.Click*
-  name: Click
-  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_Click_
-  commentId: Overload:Testura.Android.Device.Services.Default.InteractionService.Click
-  fullName: Testura.Android.Device.Services.Default.InteractionService.Click
-  nameWithType: InteractionService.Click
-- uid: Testura.Android.Device.Services.Default.InteractionService.SendInputKeyEvent(Testura.Android.Util.Keyevents)
-  name: SendInputKeyEvent(Keyevents)
-  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_SendInputKeyEvent_Testura_Android_Util_Keyevents_
-  commentId: M:Testura.Android.Device.Services.Default.InteractionService.SendInputKeyEvent(Testura.Android.Util.Keyevents)
-  fullName: Testura.Android.Device.Services.Default.InteractionService.SendInputKeyEvent(Testura.Android.Util.Keyevents)
-  nameWithType: InteractionService.SendInputKeyEvent(Keyevents)
-- uid: Testura.Android.Device.Services.Default.InteractionService.SendInputKeyEvent*
-  name: SendInputKeyEvent
-  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_SendInputKeyEvent_
-  commentId: Overload:Testura.Android.Device.Services.Default.InteractionService.SendInputKeyEvent
-  fullName: Testura.Android.Device.Services.Default.InteractionService.SendInputKeyEvent
-  nameWithType: InteractionService.SendInputKeyEvent
-- uid: Testura.Android.Device.Services.Default.InteractionService.SendKeys(System.String)
-  name: SendKeys(String)
-  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_SendKeys_System_String_
-  commentId: M:Testura.Android.Device.Services.Default.InteractionService.SendKeys(System.String)
-  fullName: Testura.Android.Device.Services.Default.InteractionService.SendKeys(System.String)
-  nameWithType: InteractionService.SendKeys(String)
-- uid: Testura.Android.Device.Services.Default.InteractionService.SendKeys*
-  name: SendKeys
-  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_SendKeys_
-  commentId: Overload:Testura.Android.Device.Services.Default.InteractionService.SendKeys
-  fullName: Testura.Android.Device.Services.Default.InteractionService.SendKeys
-  nameWithType: InteractionService.SendKeys
+- uid: Testura.Android.Device.Services.Default.InteractionService.InputKeyEvent(Testura.Android.Util.KeyEvents)
+  name: InputKeyEvent(KeyEvents)
+  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_InputKeyEvent_Testura_Android_Util_KeyEvents_
+  commentId: M:Testura.Android.Device.Services.Default.InteractionService.InputKeyEvent(Testura.Android.Util.KeyEvents)
+  fullName: Testura.Android.Device.Services.Default.InteractionService.InputKeyEvent(Testura.Android.Util.KeyEvents)
+  nameWithType: InteractionService.InputKeyEvent(KeyEvents)
+- uid: Testura.Android.Device.Services.Default.InteractionService.InputKeyEvent*
+  name: InputKeyEvent
+  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_InputKeyEvent_
+  commentId: Overload:Testura.Android.Device.Services.Default.InteractionService.InputKeyEvent
+  fullName: Testura.Android.Device.Services.Default.InteractionService.InputKeyEvent
+  nameWithType: InteractionService.InputKeyEvent
+- uid: Testura.Android.Device.Services.Default.InteractionService.InputText(System.String)
+  name: InputText(String)
+  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_InputText_System_String_
+  commentId: M:Testura.Android.Device.Services.Default.InteractionService.InputText(System.String)
+  fullName: Testura.Android.Device.Services.Default.InteractionService.InputText(System.String)
+  nameWithType: InteractionService.InputText(String)
+- uid: Testura.Android.Device.Services.Default.InteractionService.InputText*
+  name: InputText
+  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_InputText_
+  commentId: Overload:Testura.Android.Device.Services.Default.InteractionService.InputText
+  fullName: Testura.Android.Device.Services.Default.InteractionService.InputText
+  nameWithType: InteractionService.InputText
 - uid: Testura.Android.Device.Services.Default.InteractionService.Swipe(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   name: Swipe(Int32, Int32, Int32, Int32, Int32)
   href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_Swipe_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -703,6 +691,24 @@ references:
   commentId: Overload:Testura.Android.Device.Services.Default.InteractionService.Swipe
   fullName: Testura.Android.Device.Services.Default.InteractionService.Swipe
   nameWithType: InteractionService.Swipe
+- uid: Testura.Android.Device.Services.Default.InteractionService.Tap(System.Int32,System.Int32)
+  name: Tap(Int32, Int32)
+  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_Tap_System_Int32_System_Int32_
+  commentId: M:Testura.Android.Device.Services.Default.InteractionService.Tap(System.Int32,System.Int32)
+  fullName: Testura.Android.Device.Services.Default.InteractionService.Tap(System.Int32, System.Int32)
+  nameWithType: InteractionService.Tap(Int32, Int32)
+- uid: Testura.Android.Device.Services.Default.InteractionService.Tap(Testura.Android.Device.Ui.Nodes.Data.Node)
+  name: Tap(Node)
+  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_Tap_Testura_Android_Device_Ui_Nodes_Data_Node_
+  commentId: M:Testura.Android.Device.Services.Default.InteractionService.Tap(Testura.Android.Device.Ui.Nodes.Data.Node)
+  fullName: Testura.Android.Device.Services.Default.InteractionService.Tap(Testura.Android.Device.Ui.Nodes.Data.Node)
+  nameWithType: InteractionService.Tap(Node)
+- uid: Testura.Android.Device.Services.Default.InteractionService.Tap*
+  name: Tap
+  href: api/Testura.Android.Device.Services.Default.InteractionService.html#Testura_Android_Device_Services_Default_InteractionService_Tap_
+  commentId: Overload:Testura.Android.Device.Services.Default.InteractionService.Tap
+  fullName: Testura.Android.Device.Services.Default.InteractionService.Tap
+  nameWithType: InteractionService.Tap
 - uid: Testura.Android.Device.Services.Default.SettingsService
   name: SettingsService
   href: api/Testura.Android.Device.Services.Default.SettingsService.html
@@ -985,48 +991,30 @@ references:
   commentId: T:Testura.Android.Device.Services.IInteractionService
   fullName: Testura.Android.Device.Services.IInteractionService
   nameWithType: IInteractionService
-- uid: Testura.Android.Device.Services.IInteractionService.Click(System.Int32,System.Int32)
-  name: Click(Int32, Int32)
-  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_Click_System_Int32_System_Int32_
-  commentId: M:Testura.Android.Device.Services.IInteractionService.Click(System.Int32,System.Int32)
-  fullName: Testura.Android.Device.Services.IInteractionService.Click(System.Int32, System.Int32)
-  nameWithType: IInteractionService.Click(Int32, Int32)
-- uid: Testura.Android.Device.Services.IInteractionService.Click(Testura.Android.Device.Ui.Nodes.Data.Node)
-  name: Click(Node)
-  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_Click_Testura_Android_Device_Ui_Nodes_Data_Node_
-  commentId: M:Testura.Android.Device.Services.IInteractionService.Click(Testura.Android.Device.Ui.Nodes.Data.Node)
-  fullName: Testura.Android.Device.Services.IInteractionService.Click(Testura.Android.Device.Ui.Nodes.Data.Node)
-  nameWithType: IInteractionService.Click(Node)
-- uid: Testura.Android.Device.Services.IInteractionService.Click*
-  name: Click
-  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_Click_
-  commentId: Overload:Testura.Android.Device.Services.IInteractionService.Click
-  fullName: Testura.Android.Device.Services.IInteractionService.Click
-  nameWithType: IInteractionService.Click
-- uid: Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent(Testura.Android.Util.Keyevents)
-  name: SendInputKeyEvent(Keyevents)
-  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_SendInputKeyEvent_Testura_Android_Util_Keyevents_
-  commentId: M:Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent(Testura.Android.Util.Keyevents)
-  fullName: Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent(Testura.Android.Util.Keyevents)
-  nameWithType: IInteractionService.SendInputKeyEvent(Keyevents)
-- uid: Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent*
-  name: SendInputKeyEvent
-  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_SendInputKeyEvent_
-  commentId: Overload:Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent
-  fullName: Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent
-  nameWithType: IInteractionService.SendInputKeyEvent
-- uid: Testura.Android.Device.Services.IInteractionService.SendKeys(System.String)
-  name: SendKeys(String)
-  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_SendKeys_System_String_
-  commentId: M:Testura.Android.Device.Services.IInteractionService.SendKeys(System.String)
-  fullName: Testura.Android.Device.Services.IInteractionService.SendKeys(System.String)
-  nameWithType: IInteractionService.SendKeys(String)
-- uid: Testura.Android.Device.Services.IInteractionService.SendKeys*
-  name: SendKeys
-  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_SendKeys_
-  commentId: Overload:Testura.Android.Device.Services.IInteractionService.SendKeys
-  fullName: Testura.Android.Device.Services.IInteractionService.SendKeys
-  nameWithType: IInteractionService.SendKeys
+- uid: Testura.Android.Device.Services.IInteractionService.InputKeyEvent(Testura.Android.Util.KeyEvents)
+  name: InputKeyEvent(KeyEvents)
+  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_InputKeyEvent_Testura_Android_Util_KeyEvents_
+  commentId: M:Testura.Android.Device.Services.IInteractionService.InputKeyEvent(Testura.Android.Util.KeyEvents)
+  fullName: Testura.Android.Device.Services.IInteractionService.InputKeyEvent(Testura.Android.Util.KeyEvents)
+  nameWithType: IInteractionService.InputKeyEvent(KeyEvents)
+- uid: Testura.Android.Device.Services.IInteractionService.InputKeyEvent*
+  name: InputKeyEvent
+  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_InputKeyEvent_
+  commentId: Overload:Testura.Android.Device.Services.IInteractionService.InputKeyEvent
+  fullName: Testura.Android.Device.Services.IInteractionService.InputKeyEvent
+  nameWithType: IInteractionService.InputKeyEvent
+- uid: Testura.Android.Device.Services.IInteractionService.InputText(System.String)
+  name: InputText(String)
+  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_InputText_System_String_
+  commentId: M:Testura.Android.Device.Services.IInteractionService.InputText(System.String)
+  fullName: Testura.Android.Device.Services.IInteractionService.InputText(System.String)
+  nameWithType: IInteractionService.InputText(String)
+- uid: Testura.Android.Device.Services.IInteractionService.InputText*
+  name: InputText
+  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_InputText_
+  commentId: Overload:Testura.Android.Device.Services.IInteractionService.InputText
+  fullName: Testura.Android.Device.Services.IInteractionService.InputText
+  nameWithType: IInteractionService.InputText
 - uid: Testura.Android.Device.Services.IInteractionService.Swipe(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   name: Swipe(Int32, Int32, Int32, Int32, Int32)
   href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_Swipe_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -1045,6 +1033,24 @@ references:
   commentId: Overload:Testura.Android.Device.Services.IInteractionService.Swipe
   fullName: Testura.Android.Device.Services.IInteractionService.Swipe
   nameWithType: IInteractionService.Swipe
+- uid: Testura.Android.Device.Services.IInteractionService.Tap(System.Int32,System.Int32)
+  name: Tap(Int32, Int32)
+  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_Tap_System_Int32_System_Int32_
+  commentId: M:Testura.Android.Device.Services.IInteractionService.Tap(System.Int32,System.Int32)
+  fullName: Testura.Android.Device.Services.IInteractionService.Tap(System.Int32, System.Int32)
+  nameWithType: IInteractionService.Tap(Int32, Int32)
+- uid: Testura.Android.Device.Services.IInteractionService.Tap(Testura.Android.Device.Ui.Nodes.Data.Node)
+  name: Tap(Node)
+  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_Tap_Testura_Android_Device_Ui_Nodes_Data_Node_
+  commentId: M:Testura.Android.Device.Services.IInteractionService.Tap(Testura.Android.Device.Ui.Nodes.Data.Node)
+  fullName: Testura.Android.Device.Services.IInteractionService.Tap(Testura.Android.Device.Ui.Nodes.Data.Node)
+  nameWithType: IInteractionService.Tap(Node)
+- uid: Testura.Android.Device.Services.IInteractionService.Tap*
+  name: Tap
+  href: api/Testura.Android.Device.Services.IInteractionService.html#Testura_Android_Device_Services_IInteractionService_Tap_
+  commentId: Overload:Testura.Android.Device.Services.IInteractionService.Tap
+  fullName: Testura.Android.Device.Services.IInteractionService.Tap
+  nameWithType: IInteractionService.Tap
 - uid: Testura.Android.Device.Services.ISettingsService
   name: ISettingsService
   href: api/Testura.Android.Device.Services.ISettingsService.html
@@ -1822,48 +1828,36 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Objects.BaseUiObject.TryFindNode
   fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.TryFindNode
   nameWithType: BaseUiObject.TryFindNode
-- uid: Testura.Android.Device.Ui.Objects.BaseUiObject.With
-  name: With
-  href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_With
-  commentId: P:Testura.Android.Device.Ui.Objects.BaseUiObject.With
-  fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.With
-  nameWithType: BaseUiObject.With
-- uid: Testura.Android.Device.Ui.Objects.BaseUiObject.With*
-  name: With
-  href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_With_
-  commentId: Overload:Testura.Android.Device.Ui.Objects.BaseUiObject.With
-  fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.With
-  nameWithType: BaseUiObject.With
 - uid: Testura.Android.Device.Ui.Objects.UiObject
   name: UiObject
   href: api/Testura.Android.Device.Ui.Objects.UiObject.html
   commentId: T:Testura.Android.Device.Ui.Objects.UiObject
   fullName: Testura.Android.Device.Ui.Objects.UiObject
   nameWithType: UiObject
-- uid: Testura.Android.Device.Ui.Objects.UiObject.Click(System.Int32)
-  name: Click(Int32)
-  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_Click_System_Int32_
-  commentId: M:Testura.Android.Device.Ui.Objects.UiObject.Click(System.Int32)
-  fullName: Testura.Android.Device.Ui.Objects.UiObject.Click(System.Int32)
-  nameWithType: UiObject.Click(Int32)
-- uid: Testura.Android.Device.Ui.Objects.UiObject.Click*
-  name: Click
-  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_Click_
-  commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.Click
-  fullName: Testura.Android.Device.Ui.Objects.UiObject.Click
-  nameWithType: UiObject.Click
-- uid: Testura.Android.Device.Ui.Objects.UiObject.SendKeys(System.String,System.Int32)
-  name: SendKeys(String, Int32)
-  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_SendKeys_System_String_System_Int32_
-  commentId: M:Testura.Android.Device.Ui.Objects.UiObject.SendKeys(System.String,System.Int32)
-  fullName: Testura.Android.Device.Ui.Objects.UiObject.SendKeys(System.String, System.Int32)
-  nameWithType: UiObject.SendKeys(String, Int32)
-- uid: Testura.Android.Device.Ui.Objects.UiObject.SendKeys*
-  name: SendKeys
-  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_SendKeys_
-  commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.SendKeys
-  fullName: Testura.Android.Device.Ui.Objects.UiObject.SendKeys
-  nameWithType: UiObject.SendKeys
+- uid: Testura.Android.Device.Ui.Objects.UiObject.InputText(System.String,System.Int32)
+  name: InputText(String, Int32)
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_InputText_System_String_System_Int32_
+  commentId: M:Testura.Android.Device.Ui.Objects.UiObject.InputText(System.String,System.Int32)
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.InputText(System.String, System.Int32)
+  nameWithType: UiObject.InputText(String, Int32)
+- uid: Testura.Android.Device.Ui.Objects.UiObject.InputText*
+  name: InputText
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_InputText_
+  commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.InputText
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.InputText
+  nameWithType: UiObject.InputText
+- uid: Testura.Android.Device.Ui.Objects.UiObject.Tap(System.Int32)
+  name: Tap(Int32)
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_Tap_System_Int32_
+  commentId: M:Testura.Android.Device.Ui.Objects.UiObject.Tap(System.Int32)
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.Tap(System.Int32)
+  nameWithType: UiObject.Tap(Int32)
+- uid: Testura.Android.Device.Ui.Objects.UiObject.Tap*
+  name: Tap
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_Tap_
+  commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.Tap
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.Tap
+  nameWithType: UiObject.Tap
 - uid: Testura.Android.Device.Ui.Objects.UiObject.TryFindNode(System.Int32)
   name: TryFindNode(Int32)
   href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_TryFindNode_System_Int32_
@@ -1981,6 +1975,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Search.With.ContentDesc
   fullName: Testura.Android.Device.Ui.Search.With.ContentDesc
   nameWithType: With.ContentDesc
+- uid: Testura.Android.Device.Ui.Search.With.ErrorMessage
+  name: ErrorMessage
+  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_ErrorMessage
+  commentId: P:Testura.Android.Device.Ui.Search.With.ErrorMessage
+  fullName: Testura.Android.Device.Ui.Search.With.ErrorMessage
+  nameWithType: With.ErrorMessage
+- uid: Testura.Android.Device.Ui.Search.With.ErrorMessage*
+  name: ErrorMessage
+  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_ErrorMessage_
+  commentId: Overload:Testura.Android.Device.Ui.Search.With.ErrorMessage
+  fullName: Testura.Android.Device.Ui.Search.With.ErrorMessage
+  nameWithType: With.ErrorMessage
 - uid: Testura.Android.Device.Ui.Search.With.Index(System.Int32)
   name: Index(Int32)
   href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_Index_System_Int32_
@@ -1993,33 +1999,33 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Search.With.Index
   fullName: Testura.Android.Device.Ui.Search.With.Index
   nameWithType: With.Index
-- uid: Testura.Android.Device.Ui.Search.With.Lambda(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean})
-  name: Lambda(Func<Node, Boolean>)
-  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_Lambda_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__
-  commentId: M:Testura.Android.Device.Ui.Search.With.Lambda(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean})
-  name.vb: Lambda(Func(Of Node, Boolean))
-  fullName: Testura.Android.Device.Ui.Search.With.Lambda(System.Func<Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean>)
-  fullName.vb: Testura.Android.Device.Ui.Search.With.Lambda(System.Func(Of Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean))
-  nameWithType: With.Lambda(Func<Node, Boolean>)
-  nameWithType.vb: Lambda(Func(Of Node, Boolean))
+- uid: Testura.Android.Device.Ui.Search.With.Lambda(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.String)
+  name: Lambda(Func<Node, Boolean>, String)
+  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_Lambda_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__System_String_
+  commentId: M:Testura.Android.Device.Ui.Search.With.Lambda(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.String)
+  name.vb: Lambda(Func(Of Node, Boolean), String)
+  fullName: Testura.Android.Device.Ui.Search.With.Lambda(System.Func<Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean>, System.String)
+  fullName.vb: Testura.Android.Device.Ui.Search.With.Lambda(System.Func(Of Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean), System.String)
+  nameWithType: With.Lambda(Func<Node, Boolean>, String)
+  nameWithType.vb: Lambda(Func(Of Node, Boolean), String)
 - uid: Testura.Android.Device.Ui.Search.With.Lambda*
   name: Lambda
   href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_Lambda_
   commentId: Overload:Testura.Android.Device.Ui.Search.With.Lambda
   fullName: Testura.Android.Device.Ui.Search.With.Lambda
   nameWithType: With.Lambda
-- uid: Testura.Android.Device.Ui.Search.With.NodeSearche
-  name: NodeSearche
-  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_NodeSearche
-  commentId: P:Testura.Android.Device.Ui.Search.With.NodeSearche
-  fullName: Testura.Android.Device.Ui.Search.With.NodeSearche
-  nameWithType: With.NodeSearche
-- uid: Testura.Android.Device.Ui.Search.With.NodeSearche*
-  name: NodeSearche
-  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_NodeSearche_
-  commentId: Overload:Testura.Android.Device.Ui.Search.With.NodeSearche
-  fullName: Testura.Android.Device.Ui.Search.With.NodeSearche
-  nameWithType: With.NodeSearche
+- uid: Testura.Android.Device.Ui.Search.With.NodeSearch
+  name: NodeSearch
+  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_NodeSearch
+  commentId: P:Testura.Android.Device.Ui.Search.With.NodeSearch
+  fullName: Testura.Android.Device.Ui.Search.With.NodeSearch
+  nameWithType: With.NodeSearch
+- uid: Testura.Android.Device.Ui.Search.With.NodeSearch*
+  name: NodeSearch
+  href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_NodeSearch_
+  commentId: Overload:Testura.Android.Device.Ui.Search.With.NodeSearch
+  fullName: Testura.Android.Device.Ui.Search.With.NodeSearch
+  nameWithType: With.NodeSearch
 - uid: Testura.Android.Device.Ui.Search.With.Package(System.String)
   name: Package(String)
   href: api/Testura.Android.Device.Ui.Search.With.html#Testura_Android_Device_Ui_Search_With_Package_System_String_
@@ -2476,6 +2482,15 @@ references:
   commentId: M:Testura.Android.Util.Exceptions.UiNodeNotFoundException.#ctor
   fullName: Testura.Android.Util.Exceptions.UiNodeNotFoundException.UiNodeNotFoundException()
   nameWithType: UiNodeNotFoundException.UiNodeNotFoundException()
+- uid: Testura.Android.Util.Exceptions.UiNodeNotFoundException.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With})
+  name: UiNodeNotFoundException(IList<With>)
+  href: api/Testura.Android.Util.Exceptions.UiNodeNotFoundException.html#Testura_Android_Util_Exceptions_UiNodeNotFoundException__ctor_System_Collections_Generic_IList_Testura_Android_Device_Ui_Search_With__
+  commentId: M:Testura.Android.Util.Exceptions.UiNodeNotFoundException.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With})
+  name.vb: UiNodeNotFoundException(IList(Of With))
+  fullName: Testura.Android.Util.Exceptions.UiNodeNotFoundException.UiNodeNotFoundException(System.Collections.Generic.IList<Testura.Android.Device.Ui.Search.With>)
+  fullName.vb: Testura.Android.Util.Exceptions.UiNodeNotFoundException.UiNodeNotFoundException(System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Search.With))
+  nameWithType: UiNodeNotFoundException.UiNodeNotFoundException(IList<With>)
+  nameWithType.vb: UiNodeNotFoundException(IList(Of With))
 - uid: Testura.Android.Util.Exceptions.UiNodeNotFoundException.#ctor(System.String)
   name: UiNodeNotFoundException(String)
   href: api/Testura.Android.Util.Exceptions.UiNodeNotFoundException.html#Testura_Android_Util_Exceptions_UiNodeNotFoundException__ctor_System_String_
@@ -2530,6 +2545,21 @@ references:
   commentId: T:Testura.Android.Util.Helpers.UiWait
   fullName: Testura.Android.Util.Helpers.UiWait
   nameWithType: UiWait
+- uid: Testura.Android.Util.Helpers.UiWait.ForAll(System.Int32,System.Func{System.Int32,System.Boolean}[])
+  name: ForAll(Int32, Func<Int32, Boolean>[])
+  href: api/Testura.Android.Util.Helpers.UiWait.html#Testura_Android_Util_Helpers_UiWait_ForAll_System_Int32_System_Func_System_Int32_System_Boolean____
+  commentId: M:Testura.Android.Util.Helpers.UiWait.ForAll(System.Int32,System.Func{System.Int32,System.Boolean}[])
+  name.vb: ForAll(Int32, Func(Of Int32, Boolean)())
+  fullName: Testura.Android.Util.Helpers.UiWait.ForAll(System.Int32, System.Func<System.Int32, System.Boolean>[])
+  fullName.vb: Testura.Android.Util.Helpers.UiWait.ForAll(System.Int32, System.Func(Of System.Int32, System.Boolean)())
+  nameWithType: UiWait.ForAll(Int32, Func<Int32, Boolean>[])
+  nameWithType.vb: ForAll(Int32, Func(Of Int32, Boolean)())
+- uid: Testura.Android.Util.Helpers.UiWait.ForAll*
+  name: ForAll
+  href: api/Testura.Android.Util.Helpers.UiWait.html#Testura_Android_Util_Helpers_UiWait_ForAll_
+  commentId: Overload:Testura.Android.Util.Helpers.UiWait.ForAll
+  fullName: Testura.Android.Util.Helpers.UiWait.ForAll
+  nameWithType: UiWait.ForAll
 - uid: Testura.Android.Util.Helpers.UiWait.ForAny(System.Int32,System.Func{System.Int32,System.Boolean}[])
   name: ForAny(Int32, Func<Int32, Boolean>[])
   href: api/Testura.Android.Util.Helpers.UiWait.html#Testura_Android_Util_Helpers_UiWait_ForAny_System_Int32_System_Func_System_Int32_System_Boolean____
@@ -2545,528 +2575,528 @@ references:
   commentId: Overload:Testura.Android.Util.Helpers.UiWait.ForAny
   fullName: Testura.Android.Util.Helpers.UiWait.ForAny
   nameWithType: UiWait.ForAny
-- uid: Testura.Android.Util.Keyevents
-  name: Keyevents
+- uid: Testura.Android.Util.KeyEvents
+  name: KeyEvents
   href: api/Testura.Android.Util.Keyevents.html
-  commentId: T:Testura.Android.Util.Keyevents
-  fullName: Testura.Android.Util.Keyevents
-  nameWithType: Keyevents
-- uid: Testura.Android.Util.Keyevents.A
+  commentId: T:Testura.Android.Util.KeyEvents
+  fullName: Testura.Android.Util.KeyEvents
+  nameWithType: KeyEvents
+- uid: Testura.Android.Util.KeyEvents.A
   name: A
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_A
-  commentId: F:Testura.Android.Util.Keyevents.A
-  fullName: Testura.Android.Util.Keyevents.A
-  nameWithType: Keyevents.A
-- uid: Testura.Android.Util.Keyevents.AltLeft
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_A
+  commentId: F:Testura.Android.Util.KeyEvents.A
+  fullName: Testura.Android.Util.KeyEvents.A
+  nameWithType: KeyEvents.A
+- uid: Testura.Android.Util.KeyEvents.AltLeft
   name: AltLeft
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_AltLeft
-  commentId: F:Testura.Android.Util.Keyevents.AltLeft
-  fullName: Testura.Android.Util.Keyevents.AltLeft
-  nameWithType: Keyevents.AltLeft
-- uid: Testura.Android.Util.Keyevents.AltRight
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_AltLeft
+  commentId: F:Testura.Android.Util.KeyEvents.AltLeft
+  fullName: Testura.Android.Util.KeyEvents.AltLeft
+  nameWithType: KeyEvents.AltLeft
+- uid: Testura.Android.Util.KeyEvents.AltRight
   name: AltRight
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_AltRight
-  commentId: F:Testura.Android.Util.Keyevents.AltRight
-  fullName: Testura.Android.Util.Keyevents.AltRight
-  nameWithType: Keyevents.AltRight
-- uid: Testura.Android.Util.Keyevents.Apostrophe
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_AltRight
+  commentId: F:Testura.Android.Util.KeyEvents.AltRight
+  fullName: Testura.Android.Util.KeyEvents.AltRight
+  nameWithType: KeyEvents.AltRight
+- uid: Testura.Android.Util.KeyEvents.Apostrophe
   name: Apostrophe
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Apostrophe
-  commentId: F:Testura.Android.Util.Keyevents.Apostrophe
-  fullName: Testura.Android.Util.Keyevents.Apostrophe
-  nameWithType: Keyevents.Apostrophe
-- uid: Testura.Android.Util.Keyevents.At
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Apostrophe
+  commentId: F:Testura.Android.Util.KeyEvents.Apostrophe
+  fullName: Testura.Android.Util.KeyEvents.Apostrophe
+  nameWithType: KeyEvents.Apostrophe
+- uid: Testura.Android.Util.KeyEvents.At
   name: At
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_At
-  commentId: F:Testura.Android.Util.Keyevents.At
-  fullName: Testura.Android.Util.Keyevents.At
-  nameWithType: Keyevents.At
-- uid: Testura.Android.Util.Keyevents.B
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_At
+  commentId: F:Testura.Android.Util.KeyEvents.At
+  fullName: Testura.Android.Util.KeyEvents.At
+  nameWithType: KeyEvents.At
+- uid: Testura.Android.Util.KeyEvents.B
   name: B
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_B
-  commentId: F:Testura.Android.Util.Keyevents.B
-  fullName: Testura.Android.Util.Keyevents.B
-  nameWithType: Keyevents.B
-- uid: Testura.Android.Util.Keyevents.Back
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_B
+  commentId: F:Testura.Android.Util.KeyEvents.B
+  fullName: Testura.Android.Util.KeyEvents.B
+  nameWithType: KeyEvents.B
+- uid: Testura.Android.Util.KeyEvents.Back
   name: Back
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Back
-  commentId: F:Testura.Android.Util.Keyevents.Back
-  fullName: Testura.Android.Util.Keyevents.Back
-  nameWithType: Keyevents.Back
-- uid: Testura.Android.Util.Keyevents.Backslash
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Back
+  commentId: F:Testura.Android.Util.KeyEvents.Back
+  fullName: Testura.Android.Util.KeyEvents.Back
+  nameWithType: KeyEvents.Back
+- uid: Testura.Android.Util.KeyEvents.Backslash
   name: Backslash
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Backslash
-  commentId: F:Testura.Android.Util.Keyevents.Backslash
-  fullName: Testura.Android.Util.Keyevents.Backslash
-  nameWithType: Keyevents.Backslash
-- uid: Testura.Android.Util.Keyevents.C
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Backslash
+  commentId: F:Testura.Android.Util.KeyEvents.Backslash
+  fullName: Testura.Android.Util.KeyEvents.Backslash
+  nameWithType: KeyEvents.Backslash
+- uid: Testura.Android.Util.KeyEvents.C
   name: C
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_C
-  commentId: F:Testura.Android.Util.Keyevents.C
-  fullName: Testura.Android.Util.Keyevents.C
-  nameWithType: Keyevents.C
-- uid: Testura.Android.Util.Keyevents.Call
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_C
+  commentId: F:Testura.Android.Util.KeyEvents.C
+  fullName: Testura.Android.Util.KeyEvents.C
+  nameWithType: KeyEvents.C
+- uid: Testura.Android.Util.KeyEvents.Call
   name: Call
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Call
-  commentId: F:Testura.Android.Util.Keyevents.Call
-  fullName: Testura.Android.Util.Keyevents.Call
-  nameWithType: Keyevents.Call
-- uid: Testura.Android.Util.Keyevents.Camera
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Call
+  commentId: F:Testura.Android.Util.KeyEvents.Call
+  fullName: Testura.Android.Util.KeyEvents.Call
+  nameWithType: KeyEvents.Call
+- uid: Testura.Android.Util.KeyEvents.Camera
   name: Camera
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Camera
-  commentId: F:Testura.Android.Util.Keyevents.Camera
-  fullName: Testura.Android.Util.Keyevents.Camera
-  nameWithType: Keyevents.Camera
-- uid: Testura.Android.Util.Keyevents.Clear
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Camera
+  commentId: F:Testura.Android.Util.KeyEvents.Camera
+  fullName: Testura.Android.Util.KeyEvents.Camera
+  nameWithType: KeyEvents.Camera
+- uid: Testura.Android.Util.KeyEvents.Clear
   name: Clear
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Clear
-  commentId: F:Testura.Android.Util.Keyevents.Clear
-  fullName: Testura.Android.Util.Keyevents.Clear
-  nameWithType: Keyevents.Clear
-- uid: Testura.Android.Util.Keyevents.Comma
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Clear
+  commentId: F:Testura.Android.Util.KeyEvents.Clear
+  fullName: Testura.Android.Util.KeyEvents.Clear
+  nameWithType: KeyEvents.Clear
+- uid: Testura.Android.Util.KeyEvents.Comma
   name: Comma
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Comma
-  commentId: F:Testura.Android.Util.Keyevents.Comma
-  fullName: Testura.Android.Util.Keyevents.Comma
-  nameWithType: Keyevents.Comma
-- uid: Testura.Android.Util.Keyevents.D
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Comma
+  commentId: F:Testura.Android.Util.KeyEvents.Comma
+  fullName: Testura.Android.Util.KeyEvents.Comma
+  nameWithType: KeyEvents.Comma
+- uid: Testura.Android.Util.KeyEvents.D
   name: D
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_D
-  commentId: F:Testura.Android.Util.Keyevents.D
-  fullName: Testura.Android.Util.Keyevents.D
-  nameWithType: Keyevents.D
-- uid: Testura.Android.Util.Keyevents.Del
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_D
+  commentId: F:Testura.Android.Util.KeyEvents.D
+  fullName: Testura.Android.Util.KeyEvents.D
+  nameWithType: KeyEvents.D
+- uid: Testura.Android.Util.KeyEvents.Del
   name: Del
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Del
-  commentId: F:Testura.Android.Util.Keyevents.Del
-  fullName: Testura.Android.Util.Keyevents.Del
-  nameWithType: Keyevents.Del
-- uid: Testura.Android.Util.Keyevents.DpadCenter
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Del
+  commentId: F:Testura.Android.Util.KeyEvents.Del
+  fullName: Testura.Android.Util.KeyEvents.Del
+  nameWithType: KeyEvents.Del
+- uid: Testura.Android.Util.KeyEvents.DpadCenter
   name: DpadCenter
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_DpadCenter
-  commentId: F:Testura.Android.Util.Keyevents.DpadCenter
-  fullName: Testura.Android.Util.Keyevents.DpadCenter
-  nameWithType: Keyevents.DpadCenter
-- uid: Testura.Android.Util.Keyevents.DpadDown
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_DpadCenter
+  commentId: F:Testura.Android.Util.KeyEvents.DpadCenter
+  fullName: Testura.Android.Util.KeyEvents.DpadCenter
+  nameWithType: KeyEvents.DpadCenter
+- uid: Testura.Android.Util.KeyEvents.DpadDown
   name: DpadDown
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_DpadDown
-  commentId: F:Testura.Android.Util.Keyevents.DpadDown
-  fullName: Testura.Android.Util.Keyevents.DpadDown
-  nameWithType: Keyevents.DpadDown
-- uid: Testura.Android.Util.Keyevents.DpadLeft
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_DpadDown
+  commentId: F:Testura.Android.Util.KeyEvents.DpadDown
+  fullName: Testura.Android.Util.KeyEvents.DpadDown
+  nameWithType: KeyEvents.DpadDown
+- uid: Testura.Android.Util.KeyEvents.DpadLeft
   name: DpadLeft
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_DpadLeft
-  commentId: F:Testura.Android.Util.Keyevents.DpadLeft
-  fullName: Testura.Android.Util.Keyevents.DpadLeft
-  nameWithType: Keyevents.DpadLeft
-- uid: Testura.Android.Util.Keyevents.DpadRight
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_DpadLeft
+  commentId: F:Testura.Android.Util.KeyEvents.DpadLeft
+  fullName: Testura.Android.Util.KeyEvents.DpadLeft
+  nameWithType: KeyEvents.DpadLeft
+- uid: Testura.Android.Util.KeyEvents.DpadRight
   name: DpadRight
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_DpadRight
-  commentId: F:Testura.Android.Util.Keyevents.DpadRight
-  fullName: Testura.Android.Util.Keyevents.DpadRight
-  nameWithType: Keyevents.DpadRight
-- uid: Testura.Android.Util.Keyevents.DpadUp
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_DpadRight
+  commentId: F:Testura.Android.Util.KeyEvents.DpadRight
+  fullName: Testura.Android.Util.KeyEvents.DpadRight
+  nameWithType: KeyEvents.DpadRight
+- uid: Testura.Android.Util.KeyEvents.DpadUp
   name: DpadUp
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_DpadUp
-  commentId: F:Testura.Android.Util.Keyevents.DpadUp
-  fullName: Testura.Android.Util.Keyevents.DpadUp
-  nameWithType: Keyevents.DpadUp
-- uid: Testura.Android.Util.Keyevents.E
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_DpadUp
+  commentId: F:Testura.Android.Util.KeyEvents.DpadUp
+  fullName: Testura.Android.Util.KeyEvents.DpadUp
+  nameWithType: KeyEvents.DpadUp
+- uid: Testura.Android.Util.KeyEvents.E
   name: E
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_E
-  commentId: F:Testura.Android.Util.Keyevents.E
-  fullName: Testura.Android.Util.Keyevents.E
-  nameWithType: Keyevents.E
-- uid: Testura.Android.Util.Keyevents.Endcall
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_E
+  commentId: F:Testura.Android.Util.KeyEvents.E
+  fullName: Testura.Android.Util.KeyEvents.E
+  nameWithType: KeyEvents.E
+- uid: Testura.Android.Util.KeyEvents.Endcall
   name: Endcall
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Endcall
-  commentId: F:Testura.Android.Util.Keyevents.Endcall
-  fullName: Testura.Android.Util.Keyevents.Endcall
-  nameWithType: Keyevents.Endcall
-- uid: Testura.Android.Util.Keyevents.Enter
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Endcall
+  commentId: F:Testura.Android.Util.KeyEvents.Endcall
+  fullName: Testura.Android.Util.KeyEvents.Endcall
+  nameWithType: KeyEvents.Endcall
+- uid: Testura.Android.Util.KeyEvents.Enter
   name: Enter
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Enter
-  commentId: F:Testura.Android.Util.Keyevents.Enter
-  fullName: Testura.Android.Util.Keyevents.Enter
-  nameWithType: Keyevents.Enter
-- uid: Testura.Android.Util.Keyevents.Envelope
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Enter
+  commentId: F:Testura.Android.Util.KeyEvents.Enter
+  fullName: Testura.Android.Util.KeyEvents.Enter
+  nameWithType: KeyEvents.Enter
+- uid: Testura.Android.Util.KeyEvents.Envelope
   name: Envelope
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Envelope
-  commentId: F:Testura.Android.Util.Keyevents.Envelope
-  fullName: Testura.Android.Util.Keyevents.Envelope
-  nameWithType: Keyevents.Envelope
-- uid: Testura.Android.Util.Keyevents.Equals
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Envelope
+  commentId: F:Testura.Android.Util.KeyEvents.Envelope
+  fullName: Testura.Android.Util.KeyEvents.Envelope
+  nameWithType: KeyEvents.Envelope
+- uid: Testura.Android.Util.KeyEvents.Equals
   name: Equals
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Equals
-  commentId: F:Testura.Android.Util.Keyevents.Equals
-  fullName: Testura.Android.Util.Keyevents.Equals
-  nameWithType: Keyevents.Equals
-- uid: Testura.Android.Util.Keyevents.Explorer
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Equals
+  commentId: F:Testura.Android.Util.KeyEvents.Equals
+  fullName: Testura.Android.Util.KeyEvents.Equals
+  nameWithType: KeyEvents.Equals
+- uid: Testura.Android.Util.KeyEvents.Explorer
   name: Explorer
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Explorer
-  commentId: F:Testura.Android.Util.Keyevents.Explorer
-  fullName: Testura.Android.Util.Keyevents.Explorer
-  nameWithType: Keyevents.Explorer
-- uid: Testura.Android.Util.Keyevents.F
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Explorer
+  commentId: F:Testura.Android.Util.KeyEvents.Explorer
+  fullName: Testura.Android.Util.KeyEvents.Explorer
+  nameWithType: KeyEvents.Explorer
+- uid: Testura.Android.Util.KeyEvents.F
   name: F
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_F
-  commentId: F:Testura.Android.Util.Keyevents.F
-  fullName: Testura.Android.Util.Keyevents.F
-  nameWithType: Keyevents.F
-- uid: Testura.Android.Util.Keyevents.Focus
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_F
+  commentId: F:Testura.Android.Util.KeyEvents.F
+  fullName: Testura.Android.Util.KeyEvents.F
+  nameWithType: KeyEvents.F
+- uid: Testura.Android.Util.KeyEvents.Focus
   name: Focus
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Focus
-  commentId: F:Testura.Android.Util.Keyevents.Focus
-  fullName: Testura.Android.Util.Keyevents.Focus
-  nameWithType: Keyevents.Focus
-- uid: Testura.Android.Util.Keyevents.G
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Focus
+  commentId: F:Testura.Android.Util.KeyEvents.Focus
+  fullName: Testura.Android.Util.KeyEvents.Focus
+  nameWithType: KeyEvents.Focus
+- uid: Testura.Android.Util.KeyEvents.G
   name: G
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_G
-  commentId: F:Testura.Android.Util.Keyevents.G
-  fullName: Testura.Android.Util.Keyevents.G
-  nameWithType: Keyevents.G
-- uid: Testura.Android.Util.Keyevents.Grave
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_G
+  commentId: F:Testura.Android.Util.KeyEvents.G
+  fullName: Testura.Android.Util.KeyEvents.G
+  nameWithType: KeyEvents.G
+- uid: Testura.Android.Util.KeyEvents.Grave
   name: Grave
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Grave
-  commentId: F:Testura.Android.Util.Keyevents.Grave
-  fullName: Testura.Android.Util.Keyevents.Grave
-  nameWithType: Keyevents.Grave
-- uid: Testura.Android.Util.Keyevents.H
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Grave
+  commentId: F:Testura.Android.Util.KeyEvents.Grave
+  fullName: Testura.Android.Util.KeyEvents.Grave
+  nameWithType: KeyEvents.Grave
+- uid: Testura.Android.Util.KeyEvents.H
   name: H
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_H
-  commentId: F:Testura.Android.Util.Keyevents.H
-  fullName: Testura.Android.Util.Keyevents.H
-  nameWithType: Keyevents.H
-- uid: Testura.Android.Util.Keyevents.Headsethook
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_H
+  commentId: F:Testura.Android.Util.KeyEvents.H
+  fullName: Testura.Android.Util.KeyEvents.H
+  nameWithType: KeyEvents.H
+- uid: Testura.Android.Util.KeyEvents.Headsethook
   name: Headsethook
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Headsethook
-  commentId: F:Testura.Android.Util.Keyevents.Headsethook
-  fullName: Testura.Android.Util.Keyevents.Headsethook
-  nameWithType: Keyevents.Headsethook
-- uid: Testura.Android.Util.Keyevents.Home
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Headsethook
+  commentId: F:Testura.Android.Util.KeyEvents.Headsethook
+  fullName: Testura.Android.Util.KeyEvents.Headsethook
+  nameWithType: KeyEvents.Headsethook
+- uid: Testura.Android.Util.KeyEvents.Home
   name: Home
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Home
-  commentId: F:Testura.Android.Util.Keyevents.Home
-  fullName: Testura.Android.Util.Keyevents.Home
-  nameWithType: Keyevents.Home
-- uid: Testura.Android.Util.Keyevents.I
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Home
+  commentId: F:Testura.Android.Util.KeyEvents.Home
+  fullName: Testura.Android.Util.KeyEvents.Home
+  nameWithType: KeyEvents.Home
+- uid: Testura.Android.Util.KeyEvents.I
   name: I
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_I
-  commentId: F:Testura.Android.Util.Keyevents.I
-  fullName: Testura.Android.Util.Keyevents.I
-  nameWithType: Keyevents.I
-- uid: Testura.Android.Util.Keyevents.J
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_I
+  commentId: F:Testura.Android.Util.KeyEvents.I
+  fullName: Testura.Android.Util.KeyEvents.I
+  nameWithType: KeyEvents.I
+- uid: Testura.Android.Util.KeyEvents.J
   name: J
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_J
-  commentId: F:Testura.Android.Util.Keyevents.J
-  fullName: Testura.Android.Util.Keyevents.J
-  nameWithType: Keyevents.J
-- uid: Testura.Android.Util.Keyevents.K
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_J
+  commentId: F:Testura.Android.Util.KeyEvents.J
+  fullName: Testura.Android.Util.KeyEvents.J
+  nameWithType: KeyEvents.J
+- uid: Testura.Android.Util.KeyEvents.K
   name: K
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_K
-  commentId: F:Testura.Android.Util.Keyevents.K
-  fullName: Testura.Android.Util.Keyevents.K
-  nameWithType: Keyevents.K
-- uid: Testura.Android.Util.Keyevents.L
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_K
+  commentId: F:Testura.Android.Util.KeyEvents.K
+  fullName: Testura.Android.Util.KeyEvents.K
+  nameWithType: KeyEvents.K
+- uid: Testura.Android.Util.KeyEvents.L
   name: L
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_L
-  commentId: F:Testura.Android.Util.Keyevents.L
-  fullName: Testura.Android.Util.Keyevents.L
-  nameWithType: Keyevents.L
-- uid: Testura.Android.Util.Keyevents.LeftBracket
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_L
+  commentId: F:Testura.Android.Util.KeyEvents.L
+  fullName: Testura.Android.Util.KeyEvents.L
+  nameWithType: KeyEvents.L
+- uid: Testura.Android.Util.KeyEvents.LeftBracket
   name: LeftBracket
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_LeftBracket
-  commentId: F:Testura.Android.Util.Keyevents.LeftBracket
-  fullName: Testura.Android.Util.Keyevents.LeftBracket
-  nameWithType: Keyevents.LeftBracket
-- uid: Testura.Android.Util.Keyevents.M
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_LeftBracket
+  commentId: F:Testura.Android.Util.KeyEvents.LeftBracket
+  fullName: Testura.Android.Util.KeyEvents.LeftBracket
+  nameWithType: KeyEvents.LeftBracket
+- uid: Testura.Android.Util.KeyEvents.M
   name: M
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_M
-  commentId: F:Testura.Android.Util.Keyevents.M
-  fullName: Testura.Android.Util.Keyevents.M
-  nameWithType: Keyevents.M
-- uid: Testura.Android.Util.Keyevents.Menu
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_M
+  commentId: F:Testura.Android.Util.KeyEvents.M
+  fullName: Testura.Android.Util.KeyEvents.M
+  nameWithType: KeyEvents.M
+- uid: Testura.Android.Util.KeyEvents.Menu
   name: Menu
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Menu
-  commentId: F:Testura.Android.Util.Keyevents.Menu
-  fullName: Testura.Android.Util.Keyevents.Menu
-  nameWithType: Keyevents.Menu
-- uid: Testura.Android.Util.Keyevents.Menu2
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Menu
+  commentId: F:Testura.Android.Util.KeyEvents.Menu
+  fullName: Testura.Android.Util.KeyEvents.Menu
+  nameWithType: KeyEvents.Menu
+- uid: Testura.Android.Util.KeyEvents.Menu2
   name: Menu2
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Menu2
-  commentId: F:Testura.Android.Util.Keyevents.Menu2
-  fullName: Testura.Android.Util.Keyevents.Menu2
-  nameWithType: Keyevents.Menu2
-- uid: Testura.Android.Util.Keyevents.Minus
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Menu2
+  commentId: F:Testura.Android.Util.KeyEvents.Menu2
+  fullName: Testura.Android.Util.KeyEvents.Menu2
+  nameWithType: KeyEvents.Menu2
+- uid: Testura.Android.Util.KeyEvents.Minus
   name: Minus
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Minus
-  commentId: F:Testura.Android.Util.Keyevents.Minus
-  fullName: Testura.Android.Util.Keyevents.Minus
-  nameWithType: Keyevents.Minus
-- uid: Testura.Android.Util.Keyevents.N
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Minus
+  commentId: F:Testura.Android.Util.KeyEvents.Minus
+  fullName: Testura.Android.Util.KeyEvents.Minus
+  nameWithType: KeyEvents.Minus
+- uid: Testura.Android.Util.KeyEvents.N
   name: N
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_N
-  commentId: F:Testura.Android.Util.Keyevents.N
-  fullName: Testura.Android.Util.Keyevents.N
-  nameWithType: Keyevents.N
-- uid: Testura.Android.Util.Keyevents.Notification
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_N
+  commentId: F:Testura.Android.Util.KeyEvents.N
+  fullName: Testura.Android.Util.KeyEvents.N
+  nameWithType: KeyEvents.N
+- uid: Testura.Android.Util.KeyEvents.Notification
   name: Notification
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Notification
-  commentId: F:Testura.Android.Util.Keyevents.Notification
-  fullName: Testura.Android.Util.Keyevents.Notification
-  nameWithType: Keyevents.Notification
-- uid: Testura.Android.Util.Keyevents.Num
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Notification
+  commentId: F:Testura.Android.Util.KeyEvents.Notification
+  fullName: Testura.Android.Util.KeyEvents.Notification
+  nameWithType: KeyEvents.Notification
+- uid: Testura.Android.Util.KeyEvents.Num
   name: Num
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Num
-  commentId: F:Testura.Android.Util.Keyevents.Num
-  fullName: Testura.Android.Util.Keyevents.Num
-  nameWithType: Keyevents.Num
-- uid: Testura.Android.Util.Keyevents.Number0
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Num
+  commentId: F:Testura.Android.Util.KeyEvents.Num
+  fullName: Testura.Android.Util.KeyEvents.Num
+  nameWithType: KeyEvents.Num
+- uid: Testura.Android.Util.KeyEvents.Number0
   name: Number0
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number0
-  commentId: F:Testura.Android.Util.Keyevents.Number0
-  fullName: Testura.Android.Util.Keyevents.Number0
-  nameWithType: Keyevents.Number0
-- uid: Testura.Android.Util.Keyevents.Number1
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number0
+  commentId: F:Testura.Android.Util.KeyEvents.Number0
+  fullName: Testura.Android.Util.KeyEvents.Number0
+  nameWithType: KeyEvents.Number0
+- uid: Testura.Android.Util.KeyEvents.Number1
   name: Number1
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number1
-  commentId: F:Testura.Android.Util.Keyevents.Number1
-  fullName: Testura.Android.Util.Keyevents.Number1
-  nameWithType: Keyevents.Number1
-- uid: Testura.Android.Util.Keyevents.Number2
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number1
+  commentId: F:Testura.Android.Util.KeyEvents.Number1
+  fullName: Testura.Android.Util.KeyEvents.Number1
+  nameWithType: KeyEvents.Number1
+- uid: Testura.Android.Util.KeyEvents.Number2
   name: Number2
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number2
-  commentId: F:Testura.Android.Util.Keyevents.Number2
-  fullName: Testura.Android.Util.Keyevents.Number2
-  nameWithType: Keyevents.Number2
-- uid: Testura.Android.Util.Keyevents.Number3
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number2
+  commentId: F:Testura.Android.Util.KeyEvents.Number2
+  fullName: Testura.Android.Util.KeyEvents.Number2
+  nameWithType: KeyEvents.Number2
+- uid: Testura.Android.Util.KeyEvents.Number3
   name: Number3
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number3
-  commentId: F:Testura.Android.Util.Keyevents.Number3
-  fullName: Testura.Android.Util.Keyevents.Number3
-  nameWithType: Keyevents.Number3
-- uid: Testura.Android.Util.Keyevents.Number4
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number3
+  commentId: F:Testura.Android.Util.KeyEvents.Number3
+  fullName: Testura.Android.Util.KeyEvents.Number3
+  nameWithType: KeyEvents.Number3
+- uid: Testura.Android.Util.KeyEvents.Number4
   name: Number4
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number4
-  commentId: F:Testura.Android.Util.Keyevents.Number4
-  fullName: Testura.Android.Util.Keyevents.Number4
-  nameWithType: Keyevents.Number4
-- uid: Testura.Android.Util.Keyevents.Number5
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number4
+  commentId: F:Testura.Android.Util.KeyEvents.Number4
+  fullName: Testura.Android.Util.KeyEvents.Number4
+  nameWithType: KeyEvents.Number4
+- uid: Testura.Android.Util.KeyEvents.Number5
   name: Number5
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number5
-  commentId: F:Testura.Android.Util.Keyevents.Number5
-  fullName: Testura.Android.Util.Keyevents.Number5
-  nameWithType: Keyevents.Number5
-- uid: Testura.Android.Util.Keyevents.Number6
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number5
+  commentId: F:Testura.Android.Util.KeyEvents.Number5
+  fullName: Testura.Android.Util.KeyEvents.Number5
+  nameWithType: KeyEvents.Number5
+- uid: Testura.Android.Util.KeyEvents.Number6
   name: Number6
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number6
-  commentId: F:Testura.Android.Util.Keyevents.Number6
-  fullName: Testura.Android.Util.Keyevents.Number6
-  nameWithType: Keyevents.Number6
-- uid: Testura.Android.Util.Keyevents.Number7
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number6
+  commentId: F:Testura.Android.Util.KeyEvents.Number6
+  fullName: Testura.Android.Util.KeyEvents.Number6
+  nameWithType: KeyEvents.Number6
+- uid: Testura.Android.Util.KeyEvents.Number7
   name: Number7
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number7
-  commentId: F:Testura.Android.Util.Keyevents.Number7
-  fullName: Testura.Android.Util.Keyevents.Number7
-  nameWithType: Keyevents.Number7
-- uid: Testura.Android.Util.Keyevents.Number8
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number7
+  commentId: F:Testura.Android.Util.KeyEvents.Number7
+  fullName: Testura.Android.Util.KeyEvents.Number7
+  nameWithType: KeyEvents.Number7
+- uid: Testura.Android.Util.KeyEvents.Number8
   name: Number8
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number8
-  commentId: F:Testura.Android.Util.Keyevents.Number8
-  fullName: Testura.Android.Util.Keyevents.Number8
-  nameWithType: Keyevents.Number8
-- uid: Testura.Android.Util.Keyevents.Number9
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number8
+  commentId: F:Testura.Android.Util.KeyEvents.Number8
+  fullName: Testura.Android.Util.KeyEvents.Number8
+  nameWithType: KeyEvents.Number8
+- uid: Testura.Android.Util.KeyEvents.Number9
   name: Number9
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Number9
-  commentId: F:Testura.Android.Util.Keyevents.Number9
-  fullName: Testura.Android.Util.Keyevents.Number9
-  nameWithType: Keyevents.Number9
-- uid: Testura.Android.Util.Keyevents.O
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Number9
+  commentId: F:Testura.Android.Util.KeyEvents.Number9
+  fullName: Testura.Android.Util.KeyEvents.Number9
+  nameWithType: KeyEvents.Number9
+- uid: Testura.Android.Util.KeyEvents.O
   name: O
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_O
-  commentId: F:Testura.Android.Util.Keyevents.O
-  fullName: Testura.Android.Util.Keyevents.O
-  nameWithType: Keyevents.O
-- uid: Testura.Android.Util.Keyevents.P
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_O
+  commentId: F:Testura.Android.Util.KeyEvents.O
+  fullName: Testura.Android.Util.KeyEvents.O
+  nameWithType: KeyEvents.O
+- uid: Testura.Android.Util.KeyEvents.P
   name: P
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_P
-  commentId: F:Testura.Android.Util.Keyevents.P
-  fullName: Testura.Android.Util.Keyevents.P
-  nameWithType: Keyevents.P
-- uid: Testura.Android.Util.Keyevents.Period
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_P
+  commentId: F:Testura.Android.Util.KeyEvents.P
+  fullName: Testura.Android.Util.KeyEvents.P
+  nameWithType: KeyEvents.P
+- uid: Testura.Android.Util.KeyEvents.Period
   name: Period
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Period
-  commentId: F:Testura.Android.Util.Keyevents.Period
-  fullName: Testura.Android.Util.Keyevents.Period
-  nameWithType: Keyevents.Period
-- uid: Testura.Android.Util.Keyevents.Plus
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Period
+  commentId: F:Testura.Android.Util.KeyEvents.Period
+  fullName: Testura.Android.Util.KeyEvents.Period
+  nameWithType: KeyEvents.Period
+- uid: Testura.Android.Util.KeyEvents.Plus
   name: Plus
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Plus
-  commentId: F:Testura.Android.Util.Keyevents.Plus
-  fullName: Testura.Android.Util.Keyevents.Plus
-  nameWithType: Keyevents.Plus
-- uid: Testura.Android.Util.Keyevents.Pound
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Plus
+  commentId: F:Testura.Android.Util.KeyEvents.Plus
+  fullName: Testura.Android.Util.KeyEvents.Plus
+  nameWithType: KeyEvents.Plus
+- uid: Testura.Android.Util.KeyEvents.Pound
   name: Pound
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Pound
-  commentId: F:Testura.Android.Util.Keyevents.Pound
-  fullName: Testura.Android.Util.Keyevents.Pound
-  nameWithType: Keyevents.Pound
-- uid: Testura.Android.Util.Keyevents.Power
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Pound
+  commentId: F:Testura.Android.Util.KeyEvents.Pound
+  fullName: Testura.Android.Util.KeyEvents.Pound
+  nameWithType: KeyEvents.Pound
+- uid: Testura.Android.Util.KeyEvents.Power
   name: Power
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Power
-  commentId: F:Testura.Android.Util.Keyevents.Power
-  fullName: Testura.Android.Util.Keyevents.Power
-  nameWithType: Keyevents.Power
-- uid: Testura.Android.Util.Keyevents.Q
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Power
+  commentId: F:Testura.Android.Util.KeyEvents.Power
+  fullName: Testura.Android.Util.KeyEvents.Power
+  nameWithType: KeyEvents.Power
+- uid: Testura.Android.Util.KeyEvents.Q
   name: Q
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Q
-  commentId: F:Testura.Android.Util.Keyevents.Q
-  fullName: Testura.Android.Util.Keyevents.Q
-  nameWithType: Keyevents.Q
-- uid: Testura.Android.Util.Keyevents.R
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Q
+  commentId: F:Testura.Android.Util.KeyEvents.Q
+  fullName: Testura.Android.Util.KeyEvents.Q
+  nameWithType: KeyEvents.Q
+- uid: Testura.Android.Util.KeyEvents.R
   name: R
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_R
-  commentId: F:Testura.Android.Util.Keyevents.R
-  fullName: Testura.Android.Util.Keyevents.R
-  nameWithType: Keyevents.R
-- uid: Testura.Android.Util.Keyevents.RightBracket
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_R
+  commentId: F:Testura.Android.Util.KeyEvents.R
+  fullName: Testura.Android.Util.KeyEvents.R
+  nameWithType: KeyEvents.R
+- uid: Testura.Android.Util.KeyEvents.RightBracket
   name: RightBracket
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_RightBracket
-  commentId: F:Testura.Android.Util.Keyevents.RightBracket
-  fullName: Testura.Android.Util.Keyevents.RightBracket
-  nameWithType: Keyevents.RightBracket
-- uid: Testura.Android.Util.Keyevents.S
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_RightBracket
+  commentId: F:Testura.Android.Util.KeyEvents.RightBracket
+  fullName: Testura.Android.Util.KeyEvents.RightBracket
+  nameWithType: KeyEvents.RightBracket
+- uid: Testura.Android.Util.KeyEvents.S
   name: S
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_S
-  commentId: F:Testura.Android.Util.Keyevents.S
-  fullName: Testura.Android.Util.Keyevents.S
-  nameWithType: Keyevents.S
-- uid: Testura.Android.Util.Keyevents.Search
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_S
+  commentId: F:Testura.Android.Util.KeyEvents.S
+  fullName: Testura.Android.Util.KeyEvents.S
+  nameWithType: KeyEvents.S
+- uid: Testura.Android.Util.KeyEvents.Search
   name: Search
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Search
-  commentId: F:Testura.Android.Util.Keyevents.Search
-  fullName: Testura.Android.Util.Keyevents.Search
-  nameWithType: Keyevents.Search
-- uid: Testura.Android.Util.Keyevents.Semicolon
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Search
+  commentId: F:Testura.Android.Util.KeyEvents.Search
+  fullName: Testura.Android.Util.KeyEvents.Search
+  nameWithType: KeyEvents.Search
+- uid: Testura.Android.Util.KeyEvents.Semicolon
   name: Semicolon
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Semicolon
-  commentId: F:Testura.Android.Util.Keyevents.Semicolon
-  fullName: Testura.Android.Util.Keyevents.Semicolon
-  nameWithType: Keyevents.Semicolon
-- uid: Testura.Android.Util.Keyevents.ShiftLeft
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Semicolon
+  commentId: F:Testura.Android.Util.KeyEvents.Semicolon
+  fullName: Testura.Android.Util.KeyEvents.Semicolon
+  nameWithType: KeyEvents.Semicolon
+- uid: Testura.Android.Util.KeyEvents.ShiftLeft
   name: ShiftLeft
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_ShiftLeft
-  commentId: F:Testura.Android.Util.Keyevents.ShiftLeft
-  fullName: Testura.Android.Util.Keyevents.ShiftLeft
-  nameWithType: Keyevents.ShiftLeft
-- uid: Testura.Android.Util.Keyevents.ShiftRight
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_ShiftLeft
+  commentId: F:Testura.Android.Util.KeyEvents.ShiftLeft
+  fullName: Testura.Android.Util.KeyEvents.ShiftLeft
+  nameWithType: KeyEvents.ShiftLeft
+- uid: Testura.Android.Util.KeyEvents.ShiftRight
   name: ShiftRight
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_ShiftRight
-  commentId: F:Testura.Android.Util.Keyevents.ShiftRight
-  fullName: Testura.Android.Util.Keyevents.ShiftRight
-  nameWithType: Keyevents.ShiftRight
-- uid: Testura.Android.Util.Keyevents.Slash
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_ShiftRight
+  commentId: F:Testura.Android.Util.KeyEvents.ShiftRight
+  fullName: Testura.Android.Util.KeyEvents.ShiftRight
+  nameWithType: KeyEvents.ShiftRight
+- uid: Testura.Android.Util.KeyEvents.Slash
   name: Slash
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Slash
-  commentId: F:Testura.Android.Util.Keyevents.Slash
-  fullName: Testura.Android.Util.Keyevents.Slash
-  nameWithType: Keyevents.Slash
-- uid: Testura.Android.Util.Keyevents.SoftRight
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Slash
+  commentId: F:Testura.Android.Util.KeyEvents.Slash
+  fullName: Testura.Android.Util.KeyEvents.Slash
+  nameWithType: KeyEvents.Slash
+- uid: Testura.Android.Util.KeyEvents.SoftRight
   name: SoftRight
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_SoftRight
-  commentId: F:Testura.Android.Util.Keyevents.SoftRight
-  fullName: Testura.Android.Util.Keyevents.SoftRight
-  nameWithType: Keyevents.SoftRight
-- uid: Testura.Android.Util.Keyevents.Space
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_SoftRight
+  commentId: F:Testura.Android.Util.KeyEvents.SoftRight
+  fullName: Testura.Android.Util.KeyEvents.SoftRight
+  nameWithType: KeyEvents.SoftRight
+- uid: Testura.Android.Util.KeyEvents.Space
   name: Space
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Space
-  commentId: F:Testura.Android.Util.Keyevents.Space
-  fullName: Testura.Android.Util.Keyevents.Space
-  nameWithType: Keyevents.Space
-- uid: Testura.Android.Util.Keyevents.Star
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Space
+  commentId: F:Testura.Android.Util.KeyEvents.Space
+  fullName: Testura.Android.Util.KeyEvents.Space
+  nameWithType: KeyEvents.Space
+- uid: Testura.Android.Util.KeyEvents.Star
   name: Star
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Star
-  commentId: F:Testura.Android.Util.Keyevents.Star
-  fullName: Testura.Android.Util.Keyevents.Star
-  nameWithType: Keyevents.Star
-- uid: Testura.Android.Util.Keyevents.Sym
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Star
+  commentId: F:Testura.Android.Util.KeyEvents.Star
+  fullName: Testura.Android.Util.KeyEvents.Star
+  nameWithType: KeyEvents.Star
+- uid: Testura.Android.Util.KeyEvents.Sym
   name: Sym
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Sym
-  commentId: F:Testura.Android.Util.Keyevents.Sym
-  fullName: Testura.Android.Util.Keyevents.Sym
-  nameWithType: Keyevents.Sym
-- uid: Testura.Android.Util.Keyevents.T
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Sym
+  commentId: F:Testura.Android.Util.KeyEvents.Sym
+  fullName: Testura.Android.Util.KeyEvents.Sym
+  nameWithType: KeyEvents.Sym
+- uid: Testura.Android.Util.KeyEvents.T
   name: T
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_T
-  commentId: F:Testura.Android.Util.Keyevents.T
-  fullName: Testura.Android.Util.Keyevents.T
-  nameWithType: Keyevents.T
-- uid: Testura.Android.Util.Keyevents.Tab
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_T
+  commentId: F:Testura.Android.Util.KeyEvents.T
+  fullName: Testura.Android.Util.KeyEvents.T
+  nameWithType: KeyEvents.T
+- uid: Testura.Android.Util.KeyEvents.Tab
   name: Tab
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Tab
-  commentId: F:Testura.Android.Util.Keyevents.Tab
-  fullName: Testura.Android.Util.Keyevents.Tab
-  nameWithType: Keyevents.Tab
-- uid: Testura.Android.Util.Keyevents.TagLastKeycode
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Tab
+  commentId: F:Testura.Android.Util.KeyEvents.Tab
+  fullName: Testura.Android.Util.KeyEvents.Tab
+  nameWithType: KeyEvents.Tab
+- uid: Testura.Android.Util.KeyEvents.TagLastKeycode
   name: TagLastKeycode
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_TagLastKeycode
-  commentId: F:Testura.Android.Util.Keyevents.TagLastKeycode
-  fullName: Testura.Android.Util.Keyevents.TagLastKeycode
-  nameWithType: Keyevents.TagLastKeycode
-- uid: Testura.Android.Util.Keyevents.U
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_TagLastKeycode
+  commentId: F:Testura.Android.Util.KeyEvents.TagLastKeycode
+  fullName: Testura.Android.Util.KeyEvents.TagLastKeycode
+  nameWithType: KeyEvents.TagLastKeycode
+- uid: Testura.Android.Util.KeyEvents.U
   name: U
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_U
-  commentId: F:Testura.Android.Util.Keyevents.U
-  fullName: Testura.Android.Util.Keyevents.U
-  nameWithType: Keyevents.U
-- uid: Testura.Android.Util.Keyevents.Unknown
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_U
+  commentId: F:Testura.Android.Util.KeyEvents.U
+  fullName: Testura.Android.Util.KeyEvents.U
+  nameWithType: KeyEvents.U
+- uid: Testura.Android.Util.KeyEvents.Unknown
   name: Unknown
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Unknown
-  commentId: F:Testura.Android.Util.Keyevents.Unknown
-  fullName: Testura.Android.Util.Keyevents.Unknown
-  nameWithType: Keyevents.Unknown
-- uid: Testura.Android.Util.Keyevents.V
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Unknown
+  commentId: F:Testura.Android.Util.KeyEvents.Unknown
+  fullName: Testura.Android.Util.KeyEvents.Unknown
+  nameWithType: KeyEvents.Unknown
+- uid: Testura.Android.Util.KeyEvents.V
   name: V
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_V
-  commentId: F:Testura.Android.Util.Keyevents.V
-  fullName: Testura.Android.Util.Keyevents.V
-  nameWithType: Keyevents.V
-- uid: Testura.Android.Util.Keyevents.W
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_V
+  commentId: F:Testura.Android.Util.KeyEvents.V
+  fullName: Testura.Android.Util.KeyEvents.V
+  nameWithType: KeyEvents.V
+- uid: Testura.Android.Util.KeyEvents.W
   name: W
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_W
-  commentId: F:Testura.Android.Util.Keyevents.W
-  fullName: Testura.Android.Util.Keyevents.W
-  nameWithType: Keyevents.W
-- uid: Testura.Android.Util.Keyevents.VolumeDown
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_W
+  commentId: F:Testura.Android.Util.KeyEvents.W
+  fullName: Testura.Android.Util.KeyEvents.W
+  nameWithType: KeyEvents.W
+- uid: Testura.Android.Util.KeyEvents.VolumeDown
   name: VolumeDown
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_VolumeDown
-  commentId: F:Testura.Android.Util.Keyevents.VolumeDown
-  fullName: Testura.Android.Util.Keyevents.VolumeDown
-  nameWithType: Keyevents.VolumeDown
-- uid: Testura.Android.Util.Keyevents.VolumeUp
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_VolumeDown
+  commentId: F:Testura.Android.Util.KeyEvents.VolumeDown
+  fullName: Testura.Android.Util.KeyEvents.VolumeDown
+  nameWithType: KeyEvents.VolumeDown
+- uid: Testura.Android.Util.KeyEvents.VolumeUp
   name: VolumeUp
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_VolumeUp
-  commentId: F:Testura.Android.Util.Keyevents.VolumeUp
-  fullName: Testura.Android.Util.Keyevents.VolumeUp
-  nameWithType: Keyevents.VolumeUp
-- uid: Testura.Android.Util.Keyevents.X
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_VolumeUp
+  commentId: F:Testura.Android.Util.KeyEvents.VolumeUp
+  fullName: Testura.Android.Util.KeyEvents.VolumeUp
+  nameWithType: KeyEvents.VolumeUp
+- uid: Testura.Android.Util.KeyEvents.X
   name: X
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_X
-  commentId: F:Testura.Android.Util.Keyevents.X
-  fullName: Testura.Android.Util.Keyevents.X
-  nameWithType: Keyevents.X
-- uid: Testura.Android.Util.Keyevents.Y
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_X
+  commentId: F:Testura.Android.Util.KeyEvents.X
+  fullName: Testura.Android.Util.KeyEvents.X
+  nameWithType: KeyEvents.X
+- uid: Testura.Android.Util.KeyEvents.Y
   name: Y
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Y
-  commentId: F:Testura.Android.Util.Keyevents.Y
-  fullName: Testura.Android.Util.Keyevents.Y
-  nameWithType: Keyevents.Y
-- uid: Testura.Android.Util.Keyevents.Z
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Y
+  commentId: F:Testura.Android.Util.KeyEvents.Y
+  fullName: Testura.Android.Util.KeyEvents.Y
+  nameWithType: KeyEvents.Y
+- uid: Testura.Android.Util.KeyEvents.Z
   name: Z
-  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_Keyevents_Z
-  commentId: F:Testura.Android.Util.Keyevents.Z
-  fullName: Testura.Android.Util.Keyevents.Z
-  nameWithType: Keyevents.Z
+  href: api/Testura.Android.Util.Keyevents.html#Testura_Android_Util_KeyEvents_Z
+  commentId: F:Testura.Android.Util.KeyEvents.Z
+  fullName: Testura.Android.Util.KeyEvents.Z
+  nameWithType: KeyEvents.Z
 - uid: Testura.Android.Util.LogcatWatchers
   name: Testura.Android.Util.LogcatWatchers
   href: api/Testura.Android.Util.LogcatWatchers.html

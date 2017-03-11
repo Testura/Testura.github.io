@@ -83,14 +83,14 @@
               </h3>
               
               
-              <a id="Testura_Android_Device_Services_IInteractionService_Click_" data-uid="Testura.Android.Device.Services.IInteractionService.Click*"></a>
-              <h4 id="Testura_Android_Device_Services_IInteractionService_Click_System_Int32_System_Int32_" data-uid="Testura.Android.Device.Services.IInteractionService.Click(System.Int32,System.Int32)">Click(Int32, Int32)</h4>
-              <div class="markdown level1 summary"><p>Click on an x and y position of the screen.</p>
+              <a id="Testura_Android_Device_Services_IInteractionService_InputKeyEvent_" data-uid="Testura.Android.Device.Services.IInteractionService.InputKeyEvent*"></a>
+              <h4 id="Testura_Android_Device_Services_IInteractionService_InputKeyEvent_Testura_Android_Util_KeyEvents_" data-uid="Testura.Android.Device.Services.IInteractionService.InputKeyEvent(Testura.Android.Util.KeyEvents)">InputKeyEvent(KeyEvents)</h4>
+              <div class="markdown level1 summary"><p>Input key event to the device</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">void Click(int x, int y)</code></pre>
+                <pre><code class="lang-csharp hljs">void InputKeyEvent(KeyEvents keyEvent)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -103,72 +103,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><span class="parametername">x</span></td>
-                    <td><p>The x position</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><span class="parametername">y</span></td>
-                    <td><p>The y position</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="Testura_Android_Device_Services_IInteractionService_Click_" data-uid="Testura.Android.Device.Services.IInteractionService.Click*"></a>
-              <h4 id="Testura_Android_Device_Services_IInteractionService_Click_Testura_Android_Device_Ui_Nodes_Data_Node_" data-uid="Testura.Android.Device.Services.IInteractionService.Click(Testura.Android.Device.Ui.Nodes.Data.Node)">Click(Node)</h4>
-              <div class="markdown level1 summary"><p>Click in the center of a node.</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">void Click(Node node)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
-                    <td><span class="parametername">node</span></td>
-                    <td><p>Node to click on</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="Testura_Android_Device_Services_IInteractionService_SendInputKeyEvent_" data-uid="Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent*"></a>
-              <h4 id="Testura_Android_Device_Services_IInteractionService_SendInputKeyEvent_Testura_Android_Util_Keyevents_" data-uid="Testura.Android.Device.Services.IInteractionService.SendInputKeyEvent(Testura.Android.Util.Keyevents)">SendInputKeyEvent(Keyevents)</h4>
-              <div class="markdown level1 summary"><p>Send a key event to the device.</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">void SendInputKeyEvent(Keyevents keyevent)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Util.Keyevents.html">Keyevents</a></td>
-                    <td><span class="parametername">keyevent</span></td>
+                    <td><a class="xref" href="Testura.Android.Util.Keyevents.html">KeyEvents</a></td>
+                    <td><span class="parametername">keyEvent</span></td>
                     <td><p>Selected key event to send to the device</p>
 </td>
                   </tr>
@@ -176,14 +112,14 @@
               </table>
               
               
-              <a id="Testura_Android_Device_Services_IInteractionService_SendKeys_" data-uid="Testura.Android.Device.Services.IInteractionService.SendKeys*"></a>
-              <h4 id="Testura_Android_Device_Services_IInteractionService_SendKeys_System_String_" data-uid="Testura.Android.Device.Services.IInteractionService.SendKeys(System.String)">SendKeys(String)</h4>
-              <div class="markdown level1 summary"><p>Send keys to a input (text) field.</p>
+              <a id="Testura_Android_Device_Services_IInteractionService_InputText_" data-uid="Testura.Android.Device.Services.IInteractionService.InputText*"></a>
+              <h4 id="Testura_Android_Device_Services_IInteractionService_InputText_System_String_" data-uid="Testura.Android.Device.Services.IInteractionService.InputText(System.String)">InputText(String)</h4>
+              <div class="markdown level1 summary"><p>Input text into the selected node</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">void SendKeys(string text)</code></pre>
+                <pre><code class="lang-csharp hljs">void InputText(string text)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -198,7 +134,7 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">text</span></td>
-                    <td><p>Input to field</p>
+                    <td><p>The text to input into the selected node</p>
 </td>
                   </tr>
                 </tbody>
@@ -287,6 +223,70 @@
                     <td><span class="xref">System.Int32</span></td>
                     <td><span class="parametername">duration</span></td>
                     <td><p>Duration of the swipe in milliseconds</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_IInteractionService_Tap_" data-uid="Testura.Android.Device.Services.IInteractionService.Tap*"></a>
+              <h4 id="Testura_Android_Device_Services_IInteractionService_Tap_System_Int32_System_Int32_" data-uid="Testura.Android.Device.Services.IInteractionService.Tap(System.Int32,System.Int32)">Tap(Int32, Int32)</h4>
+              <div class="markdown level1 summary"><p>Tap on an x and y position of the screen.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void Tap(int x, int y)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="parametername">x</span></td>
+                    <td><p>The x position</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="parametername">y</span></td>
+                    <td><p>The y position</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_IInteractionService_Tap_" data-uid="Testura.Android.Device.Services.IInteractionService.Tap*"></a>
+              <h4 id="Testura_Android_Device_Services_IInteractionService_Tap_Testura_Android_Device_Ui_Nodes_Data_Node_" data-uid="Testura.Android.Device.Services.IInteractionService.Tap(Testura.Android.Device.Ui.Nodes.Data.Node)">Tap(Node)</h4>
+              <div class="markdown level1 summary"><p>Tap in the center of a node.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void Tap(Node node)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
+                    <td><span class="parametername">node</span></td>
+                    <td><p>Node to click on</p>
 </td>
                   </tr>
                 </tbody>

@@ -112,13 +112,38 @@
               </h3>
               
               
-              <a id="Testura_Android_Device_Ui_Search_With_NodeSearche_" data-uid="Testura.Android.Device.Ui.Search.With.NodeSearche*"></a>
-              <h4 id="Testura_Android_Device_Ui_Search_With_NodeSearche" data-uid="Testura.Android.Device.Ui.Search.With.NodeSearche">NodeSearche</h4>
+              <a id="Testura_Android_Device_Ui_Search_With_ErrorMessage_" data-uid="Testura.Android.Device.Ui.Search.With.ErrorMessage*"></a>
+              <h4 id="Testura_Android_Device_Ui_Search_With_ErrorMessage" data-uid="Testura.Android.Device.Ui.Search.With.ErrorMessage">ErrorMessage</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Func&lt;Node, bool&gt; NodeSearche { get; }</code></pre>
+                <pre><code class="lang-csharp hljs">public string ErrorMessage { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Search_With_NodeSearch_" data-uid="Testura.Android.Device.Ui.Search.With.NodeSearch*"></a>
+              <h4 id="Testura_Android_Device_Ui_Search_With_NodeSearch" data-uid="Testura.Android.Device.Ui.Search.With.NodeSearch">NodeSearch</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Func&lt;Node, bool&gt; NodeSearch { get; }</code></pre>
               </div>
               <h5 class="propertyValue">Property Value</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -320,13 +345,13 @@
               
               
               <a id="Testura_Android_Device_Ui_Search_With_Lambda_" data-uid="Testura.Android.Device.Ui.Search.With.Lambda*"></a>
-              <h4 id="Testura_Android_Device_Ui_Search_With_Lambda_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__" data-uid="Testura.Android.Device.Ui.Search.With.Lambda(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean})">Lambda(Func&lt;Node, Boolean&gt;)</h4>
+              <h4 id="Testura_Android_Device_Ui_Search_With_Lambda_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__System_String_" data-uid="Testura.Android.Device.Ui.Search.With.Lambda(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.String)">Lambda(Func&lt;Node, Boolean&gt;, String)</h4>
               <div class="markdown level1 summary"><p>Find node that match the lambda expression</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static With Lambda(Func&lt;Node, bool&gt; predicate)</code></pre>
+                <pre><code class="lang-csharp hljs">public static With Lambda(Func&lt;Node, bool&gt; predicate, string customErrorMessage = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -342,6 +367,12 @@
                     <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><span class="parametername">predicate</span></td>
                     <td><p>The lambda expression</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">customErrorMessage</span></td>
+                    <td><p>Error message if we can&#39;t find node</p>
 </td>
                   </tr>
                 </tbody>
