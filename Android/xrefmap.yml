@@ -3451,3 +3451,552 @@ references:
   commentId: Overload:Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell
   fullName: Testura.Android.Util.Terminal.Terminal.StartAdbProcessWithoutShell
   nameWithType: Terminal.StartAdbProcessWithoutShell
+- uid: Testura.Android.Util.Walker
+  name: Testura.Android.Util.Walker
+  href: api/Testura.Android.Util.Walker.html
+  commentId: N:Testura.Android.Util.Walker
+  fullName: Testura.Android.Util.Walker
+  nameWithType: Testura.Android.Util.Walker
+- uid: Testura.Android.Util.Walker.AppWalker
+  name: AppWalker
+  href: api/Testura.Android.Util.Walker.AppWalker.html
+  commentId: T:Testura.Android.Util.Walker.AppWalker
+  fullName: Testura.Android.Util.Walker.AppWalker
+  nameWithType: AppWalker
+- uid: Testura.Android.Util.Walker.AppWalker.#ctor(Testura.Android.Util.Walker.AppWalkerConfiguration)
+  name: AppWalker(AppWalkerConfiguration)
+  href: api/Testura.Android.Util.Walker.AppWalker.html#Testura_Android_Util_Walker_AppWalker__ctor_Testura_Android_Util_Walker_AppWalkerConfiguration_
+  commentId: M:Testura.Android.Util.Walker.AppWalker.#ctor(Testura.Android.Util.Walker.AppWalkerConfiguration)
+  fullName: Testura.Android.Util.Walker.AppWalker.AppWalker(Testura.Android.Util.Walker.AppWalkerConfiguration)
+  nameWithType: AppWalker.AppWalker(AppWalkerConfiguration)
+- uid: Testura.Android.Util.Walker.AppWalker.#ctor(Testura.Android.Util.Walker.AppWalkerConfiguration,System.Collections.Generic.IList{Testura.Android.Util.Walker.Input.IAppWalkerInput})
+  name: AppWalker(AppWalkerConfiguration, IList<IAppWalkerInput>)
+  href: api/Testura.Android.Util.Walker.AppWalker.html#Testura_Android_Util_Walker_AppWalker__ctor_Testura_Android_Util_Walker_AppWalkerConfiguration_System_Collections_Generic_IList_Testura_Android_Util_Walker_Input_IAppWalkerInput__
+  commentId: M:Testura.Android.Util.Walker.AppWalker.#ctor(Testura.Android.Util.Walker.AppWalkerConfiguration,System.Collections.Generic.IList{Testura.Android.Util.Walker.Input.IAppWalkerInput})
+  name.vb: AppWalker(AppWalkerConfiguration, IList(Of IAppWalkerInput))
+  fullName: Testura.Android.Util.Walker.AppWalker.AppWalker(Testura.Android.Util.Walker.AppWalkerConfiguration, System.Collections.Generic.IList<Testura.Android.Util.Walker.Input.IAppWalkerInput>)
+  fullName.vb: Testura.Android.Util.Walker.AppWalker.AppWalker(Testura.Android.Util.Walker.AppWalkerConfiguration, System.Collections.Generic.IList(Of Testura.Android.Util.Walker.Input.IAppWalkerInput))
+  nameWithType: AppWalker.AppWalker(AppWalkerConfiguration, IList<IAppWalkerInput>)
+  nameWithType.vb: AppWalker(AppWalkerConfiguration, IList(Of IAppWalkerInput))
+- uid: Testura.Android.Util.Walker.AppWalker.#ctor*
+  name: AppWalker
+  href: api/Testura.Android.Util.Walker.AppWalker.html#Testura_Android_Util_Walker_AppWalker__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalker.#ctor
+  fullName: Testura.Android.Util.Walker.AppWalker.AppWalker
+  nameWithType: AppWalker.AppWalker
+- uid: Testura.Android.Util.Walker.AppWalker.Start(Testura.Android.Device.IAndroidDevice,System.String,System.String)
+  name: Start(IAndroidDevice, String, String)
+  href: api/Testura.Android.Util.Walker.AppWalker.html#Testura_Android_Util_Walker_AppWalker_Start_Testura_Android_Device_IAndroidDevice_System_String_System_String_
+  commentId: M:Testura.Android.Util.Walker.AppWalker.Start(Testura.Android.Device.IAndroidDevice,System.String,System.String)
+  fullName: Testura.Android.Util.Walker.AppWalker.Start(Testura.Android.Device.IAndroidDevice, System.String, System.String)
+  nameWithType: AppWalker.Start(IAndroidDevice, String, String)
+- uid: Testura.Android.Util.Walker.AppWalker.Start(Testura.Android.Device.IAndroidDevice,System.String,System.String,System.Collections.Generic.IEnumerable{Testura.Android.Util.Walker.Cases.Time.TimeCase},System.Collections.Generic.IEnumerable{Testura.Android.Util.Walker.Cases.Stop.StopCase})
+  name: Start(IAndroidDevice, String, String, IEnumerable<TimeCase>, IEnumerable<StopCase>)
+  href: api/Testura.Android.Util.Walker.AppWalker.html#Testura_Android_Util_Walker_AppWalker_Start_Testura_Android_Device_IAndroidDevice_System_String_System_String_System_Collections_Generic_IEnumerable_Testura_Android_Util_Walker_Cases_Time_TimeCase__System_Collections_Generic_IEnumerable_Testura_Android_Util_Walker_Cases_Stop_StopCase__
+  commentId: M:Testura.Android.Util.Walker.AppWalker.Start(Testura.Android.Device.IAndroidDevice,System.String,System.String,System.Collections.Generic.IEnumerable{Testura.Android.Util.Walker.Cases.Time.TimeCase},System.Collections.Generic.IEnumerable{Testura.Android.Util.Walker.Cases.Stop.StopCase})
+  name.vb: Start(IAndroidDevice, String, String, IEnumerable(Of TimeCase), IEnumerable(Of StopCase))
+  fullName: Testura.Android.Util.Walker.AppWalker.Start(Testura.Android.Device.IAndroidDevice, System.String, System.String, System.Collections.Generic.IEnumerable<Testura.Android.Util.Walker.Cases.Time.TimeCase>, System.Collections.Generic.IEnumerable<Testura.Android.Util.Walker.Cases.Stop.StopCase>)
+  fullName.vb: Testura.Android.Util.Walker.AppWalker.Start(Testura.Android.Device.IAndroidDevice, System.String, System.String, System.Collections.Generic.IEnumerable(Of Testura.Android.Util.Walker.Cases.Time.TimeCase), System.Collections.Generic.IEnumerable(Of Testura.Android.Util.Walker.Cases.Stop.StopCase))
+  nameWithType: AppWalker.Start(IAndroidDevice, String, String, IEnumerable<TimeCase>, IEnumerable<StopCase>)
+  nameWithType.vb: Start(IAndroidDevice, String, String, IEnumerable(Of TimeCase), IEnumerable(Of StopCase))
+- uid: Testura.Android.Util.Walker.AppWalker.Start*
+  name: Start
+  href: api/Testura.Android.Util.Walker.AppWalker.html#Testura_Android_Util_Walker_AppWalker_Start_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalker.Start
+  fullName: Testura.Android.Util.Walker.AppWalker.Start
+  nameWithType: AppWalker.Start
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration
+  name: AppWalkerConfiguration
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html
+  commentId: T:Testura.Android.Util.Walker.AppWalkerConfiguration
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration
+  nameWithType: AppWalkerConfiguration
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.#ctor
+  name: AppWalkerConfiguration()
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration__ctor
+  commentId: M:Testura.Android.Util.Walker.AppWalkerConfiguration.#ctor
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.AppWalkerConfiguration()
+  nameWithType: AppWalkerConfiguration.AppWalkerConfiguration()
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.#ctor*
+  name: AppWalkerConfiguration
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalkerConfiguration.#ctor
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.AppWalkerConfiguration
+  nameWithType: AppWalkerConfiguration.AppWalkerConfiguration
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.InputCooldown
+  name: InputCooldown
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_InputCooldown
+  commentId: P:Testura.Android.Util.Walker.AppWalkerConfiguration.InputCooldown
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.InputCooldown
+  nameWithType: AppWalkerConfiguration.InputCooldown
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.InputCooldown*
+  name: InputCooldown
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_InputCooldown_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalkerConfiguration.InputCooldown
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.InputCooldown
+  nameWithType: AppWalkerConfiguration.InputCooldown
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.MaxInputBeforeGoingBack
+  name: MaxInputBeforeGoingBack
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_MaxInputBeforeGoingBack
+  commentId: P:Testura.Android.Util.Walker.AppWalkerConfiguration.MaxInputBeforeGoingBack
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.MaxInputBeforeGoingBack
+  nameWithType: AppWalkerConfiguration.MaxInputBeforeGoingBack
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.MaxInputBeforeGoingBack*
+  name: MaxInputBeforeGoingBack
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_MaxInputBeforeGoingBack_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalkerConfiguration.MaxInputBeforeGoingBack
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.MaxInputBeforeGoingBack
+  nameWithType: AppWalkerConfiguration.MaxInputBeforeGoingBack
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldGoBackToActivity
+  name: ShouldGoBackToActivity
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_ShouldGoBackToActivity
+  commentId: P:Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldGoBackToActivity
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldGoBackToActivity
+  nameWithType: AppWalkerConfiguration.ShouldGoBackToActivity
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldGoBackToActivity*
+  name: ShouldGoBackToActivity
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_ShouldGoBackToActivity_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldGoBackToActivity
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldGoBackToActivity
+  nameWithType: AppWalkerConfiguration.ShouldGoBackToActivity
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldStartActivity
+  name: ShouldStartActivity
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_ShouldStartActivity
+  commentId: P:Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldStartActivity
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldStartActivity
+  nameWithType: AppWalkerConfiguration.ShouldStartActivity
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldStartActivity*
+  name: ShouldStartActivity
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_ShouldStartActivity_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldStartActivity
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.ShouldStartActivity
+  nameWithType: AppWalkerConfiguration.ShouldStartActivity
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.WalkDuration
+  name: WalkDuration
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_WalkDuration
+  commentId: P:Testura.Android.Util.Walker.AppWalkerConfiguration.WalkDuration
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.WalkDuration
+  nameWithType: AppWalkerConfiguration.WalkDuration
+- uid: Testura.Android.Util.Walker.AppWalkerConfiguration.WalkDuration*
+  name: WalkDuration
+  href: api/Testura.Android.Util.Walker.AppWalkerConfiguration.html#Testura_Android_Util_Walker_AppWalkerConfiguration_WalkDuration_
+  commentId: Overload:Testura.Android.Util.Walker.AppWalkerConfiguration.WalkDuration
+  fullName: Testura.Android.Util.Walker.AppWalkerConfiguration.WalkDuration
+  nameWithType: AppWalkerConfiguration.WalkDuration
+- uid: Testura.Android.Util.Walker.Cases.Stop
+  name: Testura.Android.Util.Walker.Cases.Stop
+  href: api/Testura.Android.Util.Walker.Cases.Stop.html
+  commentId: N:Testura.Android.Util.Walker.Cases.Stop
+  fullName: Testura.Android.Util.Walker.Cases.Stop
+  nameWithType: Testura.Android.Util.Walker.Cases.Stop
+- uid: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase
+  name: FuncStopCase
+  href: api/Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.html
+  commentId: T:Testura.Android.Util.Walker.Cases.Stop.FuncStopCase
+  fullName: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase
+  nameWithType: FuncStopCase
+- uid: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With},System.Func{Testura.Android.Device.IAndroidDevice,System.Boolean})
+  name: FuncStopCase(IList<With>, Func<IAndroidDevice, Boolean>)
+  href: api/Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.html#Testura_Android_Util_Walker_Cases_Stop_FuncStopCase__ctor_System_Collections_Generic_IList_Testura_Android_Device_Ui_Search_With__System_Func_Testura_Android_Device_IAndroidDevice_System_Boolean__
+  commentId: M:Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With},System.Func{Testura.Android.Device.IAndroidDevice,System.Boolean})
+  name.vb: FuncStopCase(IList(Of With), Func(Of IAndroidDevice, Boolean))
+  fullName: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.FuncStopCase(System.Collections.Generic.IList<Testura.Android.Device.Ui.Search.With>, System.Func<Testura.Android.Device.IAndroidDevice, System.Boolean>)
+  fullName.vb: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.FuncStopCase(System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Search.With), System.Func(Of Testura.Android.Device.IAndroidDevice, System.Boolean))
+  nameWithType: FuncStopCase.FuncStopCase(IList<With>, Func<IAndroidDevice, Boolean>)
+  nameWithType.vb: FuncStopCase(IList(Of With), Func(Of IAndroidDevice, Boolean))
+- uid: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.#ctor*
+  name: FuncStopCase
+  href: api/Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.html#Testura_Android_Util_Walker_Cases_Stop_FuncStopCase__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.#ctor
+  fullName: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.FuncStopCase
+  nameWithType: FuncStopCase.FuncStopCase
+- uid: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.Execute(Testura.Android.Device.IAndroidDevice)
+  name: Execute(IAndroidDevice)
+  href: api/Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.html#Testura_Android_Util_Walker_Cases_Stop_FuncStopCase_Execute_Testura_Android_Device_IAndroidDevice_
+  commentId: M:Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.Execute(Testura.Android.Device.IAndroidDevice)
+  fullName: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.Execute(Testura.Android.Device.IAndroidDevice)
+  nameWithType: FuncStopCase.Execute(IAndroidDevice)
+- uid: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.Execute*
+  name: Execute
+  href: api/Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.html#Testura_Android_Util_Walker_Cases_Stop_FuncStopCase_Execute_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Stop.FuncStopCase.Execute
+  nameWithType: FuncStopCase.Execute
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase
+  name: StopCase
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html
+  commentId: T:Testura.Android.Util.Walker.Cases.Stop.StopCase
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase
+  nameWithType: StopCase
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With})
+  name: StopCase(IList<With>)
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase__ctor_System_Collections_Generic_IList_Testura_Android_Device_Ui_Search_With__
+  commentId: M:Testura.Android.Util.Walker.Cases.Stop.StopCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With})
+  name.vb: StopCase(IList(Of With))
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.StopCase(System.Collections.Generic.IList<Testura.Android.Device.Ui.Search.With>)
+  fullName.vb: Testura.Android.Util.Walker.Cases.Stop.StopCase.StopCase(System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Search.With))
+  nameWithType: StopCase.StopCase(IList<With>)
+  nameWithType.vb: StopCase(IList(Of With))
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.#ctor*
+  name: StopCase
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Stop.StopCase.#ctor
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.StopCase
+  nameWithType: StopCase.StopCase
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.Execute(Testura.Android.Device.IAndroidDevice)
+  name: Execute(IAndroidDevice)
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase_Execute_Testura_Android_Device_IAndroidDevice_
+  commentId: M:Testura.Android.Util.Walker.Cases.Stop.StopCase.Execute(Testura.Android.Device.IAndroidDevice)
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.Execute(Testura.Android.Device.IAndroidDevice)
+  nameWithType: StopCase.Execute(IAndroidDevice)
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.Execute*
+  name: Execute
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase_Execute_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Stop.StopCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.Execute
+  nameWithType: StopCase.Execute
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.IsMatching(System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name: IsMatching(IList<Node>)
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase_IsMatching_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__
+  commentId: M:Testura.Android.Util.Walker.Cases.Stop.StopCase.IsMatching(System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name.vb: IsMatching(IList(Of Node))
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.IsMatching(System.Collections.Generic.IList<Testura.Android.Device.Ui.Nodes.Data.Node>)
+  fullName.vb: Testura.Android.Util.Walker.Cases.Stop.StopCase.IsMatching(System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Nodes.Data.Node))
+  nameWithType: StopCase.IsMatching(IList<Node>)
+  nameWithType.vb: IsMatching(IList(Of Node))
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.IsMatching*
+  name: IsMatching
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase_IsMatching_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Stop.StopCase.IsMatching
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.IsMatching
+  nameWithType: StopCase.IsMatching
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.Withs
+  name: Withs
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase_Withs
+  commentId: P:Testura.Android.Util.Walker.Cases.Stop.StopCase.Withs
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.Withs
+  nameWithType: StopCase.Withs
+- uid: Testura.Android.Util.Walker.Cases.Stop.StopCase.Withs*
+  name: Withs
+  href: api/Testura.Android.Util.Walker.Cases.Stop.StopCase.html#Testura_Android_Util_Walker_Cases_Stop_StopCase_Withs_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Stop.StopCase.Withs
+  fullName: Testura.Android.Util.Walker.Cases.Stop.StopCase.Withs
+  nameWithType: StopCase.Withs
+- uid: Testura.Android.Util.Walker.Cases.Tap
+  name: Testura.Android.Util.Walker.Cases.Tap
+  href: api/Testura.Android.Util.Walker.Cases.Tap.html
+  commentId: N:Testura.Android.Util.Walker.Cases.Tap
+  fullName: Testura.Android.Util.Walker.Cases.Tap
+  nameWithType: Testura.Android.Util.Walker.Cases.Tap
+- uid: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase
+  name: FuncTapCase
+  href: api/Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.html
+  commentId: T:Testura.Android.Util.Walker.Cases.Tap.FuncTapCase
+  fullName: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase
+  nameWithType: FuncTapCase
+- uid: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With},System.Func{Testura.Android.Device.IAndroidDevice,Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean})
+  name: FuncTapCase(IList<With>, Func<IAndroidDevice, Node, Boolean>)
+  href: api/Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.html#Testura_Android_Util_Walker_Cases_Tap_FuncTapCase__ctor_System_Collections_Generic_IList_Testura_Android_Device_Ui_Search_With__System_Func_Testura_Android_Device_IAndroidDevice_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__
+  commentId: M:Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With},System.Func{Testura.Android.Device.IAndroidDevice,Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean})
+  name.vb: FuncTapCase(IList(Of With), Func(Of IAndroidDevice, Node, Boolean))
+  fullName: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.FuncTapCase(System.Collections.Generic.IList<Testura.Android.Device.Ui.Search.With>, System.Func<Testura.Android.Device.IAndroidDevice, Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean>)
+  fullName.vb: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.FuncTapCase(System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Search.With), System.Func(Of Testura.Android.Device.IAndroidDevice, Testura.Android.Device.Ui.Nodes.Data.Node, System.Boolean))
+  nameWithType: FuncTapCase.FuncTapCase(IList<With>, Func<IAndroidDevice, Node, Boolean>)
+  nameWithType.vb: FuncTapCase(IList(Of With), Func(Of IAndroidDevice, Node, Boolean))
+- uid: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.#ctor*
+  name: FuncTapCase
+  href: api/Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.html#Testura_Android_Util_Walker_Cases_Tap_FuncTapCase__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.#ctor
+  fullName: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.FuncTapCase
+  nameWithType: FuncTapCase.FuncTapCase
+- uid: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.Execute(Testura.Android.Device.IAndroidDevice,Testura.Android.Device.Ui.Nodes.Data.Node)
+  name: Execute(IAndroidDevice, Node)
+  href: api/Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.html#Testura_Android_Util_Walker_Cases_Tap_FuncTapCase_Execute_Testura_Android_Device_IAndroidDevice_Testura_Android_Device_Ui_Nodes_Data_Node_
+  commentId: M:Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.Execute(Testura.Android.Device.IAndroidDevice,Testura.Android.Device.Ui.Nodes.Data.Node)
+  fullName: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.Execute(Testura.Android.Device.IAndroidDevice, Testura.Android.Device.Ui.Nodes.Data.Node)
+  nameWithType: FuncTapCase.Execute(IAndroidDevice, Node)
+- uid: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.Execute*
+  name: Execute
+  href: api/Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.html#Testura_Android_Util_Walker_Cases_Tap_FuncTapCase_Execute_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Tap.FuncTapCase.Execute
+  nameWithType: FuncTapCase.Execute
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase
+  name: TapCase
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html
+  commentId: T:Testura.Android.Util.Walker.Cases.Tap.TapCase
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase
+  nameWithType: TapCase
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With})
+  name: TapCase(IList<With>)
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase__ctor_System_Collections_Generic_IList_Testura_Android_Device_Ui_Search_With__
+  commentId: M:Testura.Android.Util.Walker.Cases.Tap.TapCase.#ctor(System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.With})
+  name.vb: TapCase(IList(Of With))
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.TapCase(System.Collections.Generic.IList<Testura.Android.Device.Ui.Search.With>)
+  fullName.vb: Testura.Android.Util.Walker.Cases.Tap.TapCase.TapCase(System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Search.With))
+  nameWithType: TapCase.TapCase(IList<With>)
+  nameWithType.vb: TapCase(IList(Of With))
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.#ctor*
+  name: TapCase
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Tap.TapCase.#ctor
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.TapCase
+  nameWithType: TapCase.TapCase
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.Execute(Testura.Android.Device.IAndroidDevice,Testura.Android.Device.Ui.Nodes.Data.Node)
+  name: Execute(IAndroidDevice, Node)
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase_Execute_Testura_Android_Device_IAndroidDevice_Testura_Android_Device_Ui_Nodes_Data_Node_
+  commentId: M:Testura.Android.Util.Walker.Cases.Tap.TapCase.Execute(Testura.Android.Device.IAndroidDevice,Testura.Android.Device.Ui.Nodes.Data.Node)
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.Execute(Testura.Android.Device.IAndroidDevice, Testura.Android.Device.Ui.Nodes.Data.Node)
+  nameWithType: TapCase.Execute(IAndroidDevice, Node)
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.Execute*
+  name: Execute
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase_Execute_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Tap.TapCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.Execute
+  nameWithType: TapCase.Execute
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.IsMatching(Testura.Android.Device.Ui.Nodes.Data.Node)
+  name: IsMatching(Node)
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase_IsMatching_Testura_Android_Device_Ui_Nodes_Data_Node_
+  commentId: M:Testura.Android.Util.Walker.Cases.Tap.TapCase.IsMatching(Testura.Android.Device.Ui.Nodes.Data.Node)
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.IsMatching(Testura.Android.Device.Ui.Nodes.Data.Node)
+  nameWithType: TapCase.IsMatching(Node)
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.IsMatching*
+  name: IsMatching
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase_IsMatching_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Tap.TapCase.IsMatching
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.IsMatching
+  nameWithType: TapCase.IsMatching
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.Withs
+  name: Withs
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase_Withs
+  commentId: P:Testura.Android.Util.Walker.Cases.Tap.TapCase.Withs
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.Withs
+  nameWithType: TapCase.Withs
+- uid: Testura.Android.Util.Walker.Cases.Tap.TapCase.Withs*
+  name: Withs
+  href: api/Testura.Android.Util.Walker.Cases.Tap.TapCase.html#Testura_Android_Util_Walker_Cases_Tap_TapCase_Withs_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Tap.TapCase.Withs
+  fullName: Testura.Android.Util.Walker.Cases.Tap.TapCase.Withs
+  nameWithType: TapCase.Withs
+- uid: Testura.Android.Util.Walker.Cases.Time
+  name: Testura.Android.Util.Walker.Cases.Time
+  href: api/Testura.Android.Util.Walker.Cases.Time.html
+  commentId: N:Testura.Android.Util.Walker.Cases.Time
+  fullName: Testura.Android.Util.Walker.Cases.Time
+  nameWithType: Testura.Android.Util.Walker.Cases.Time
+- uid: Testura.Android.Util.Walker.Cases.Time.FunTimeCase
+  name: FunTimeCase
+  href: api/Testura.Android.Util.Walker.Cases.Time.FunTimeCase.html
+  commentId: T:Testura.Android.Util.Walker.Cases.Time.FunTimeCase
+  fullName: Testura.Android.Util.Walker.Cases.Time.FunTimeCase
+  nameWithType: FunTimeCase
+- uid: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.#ctor(System.Double,System.Action{Testura.Android.Device.IAndroidDevice})
+  name: FunTimeCase(Double, Action<IAndroidDevice>)
+  href: api/Testura.Android.Util.Walker.Cases.Time.FunTimeCase.html#Testura_Android_Util_Walker_Cases_Time_FunTimeCase__ctor_System_Double_System_Action_Testura_Android_Device_IAndroidDevice__
+  commentId: M:Testura.Android.Util.Walker.Cases.Time.FunTimeCase.#ctor(System.Double,System.Action{Testura.Android.Device.IAndroidDevice})
+  name.vb: FunTimeCase(Double, Action(Of IAndroidDevice))
+  fullName: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.FunTimeCase(System.Double, System.Action<Testura.Android.Device.IAndroidDevice>)
+  fullName.vb: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.FunTimeCase(System.Double, System.Action(Of Testura.Android.Device.IAndroidDevice))
+  nameWithType: FunTimeCase.FunTimeCase(Double, Action<IAndroidDevice>)
+  nameWithType.vb: FunTimeCase(Double, Action(Of IAndroidDevice))
+- uid: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.#ctor*
+  name: FunTimeCase
+  href: api/Testura.Android.Util.Walker.Cases.Time.FunTimeCase.html#Testura_Android_Util_Walker_Cases_Time_FunTimeCase__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.FunTimeCase.#ctor
+  fullName: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.FunTimeCase
+  nameWithType: FunTimeCase.FunTimeCase
+- uid: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.Execute
+  name: Execute()
+  href: api/Testura.Android.Util.Walker.Cases.Time.FunTimeCase.html#Testura_Android_Util_Walker_Cases_Time_FunTimeCase_Execute
+  commentId: M:Testura.Android.Util.Walker.Cases.Time.FunTimeCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.Execute()
+  nameWithType: FunTimeCase.Execute()
+- uid: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.Execute*
+  name: Execute
+  href: api/Testura.Android.Util.Walker.Cases.Time.FunTimeCase.html#Testura_Android_Util_Walker_Cases_Time_FunTimeCase_Execute_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.FunTimeCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Time.FunTimeCase.Execute
+  nameWithType: FunTimeCase.Execute
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase
+  name: TimeCase
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html
+  commentId: T:Testura.Android.Util.Walker.Cases.Time.TimeCase
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase
+  nameWithType: TimeCase
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.#ctor(System.Double)
+  name: TimeCase(Double)
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase__ctor_System_Double_
+  commentId: M:Testura.Android.Util.Walker.Cases.Time.TimeCase.#ctor(System.Double)
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.TimeCase(System.Double)
+  nameWithType: TimeCase.TimeCase(Double)
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.#ctor*
+  name: TimeCase
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.TimeCase.#ctor
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.TimeCase
+  nameWithType: TimeCase.TimeCase
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.Device
+  name: Device
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase_Device
+  commentId: P:Testura.Android.Util.Walker.Cases.Time.TimeCase.Device
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.Device
+  nameWithType: TimeCase.Device
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.Device*
+  name: Device
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase_Device_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.TimeCase.Device
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.Device
+  nameWithType: TimeCase.Device
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.Execute
+  name: Execute()
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase_Execute
+  commentId: M:Testura.Android.Util.Walker.Cases.Time.TimeCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.Execute()
+  nameWithType: TimeCase.Execute()
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.Execute*
+  name: Execute
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase_Execute_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.TimeCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.Execute
+  nameWithType: TimeCase.Execute
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.StartTimer(Testura.Android.Device.IAndroidDevice)
+  name: StartTimer(IAndroidDevice)
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase_StartTimer_Testura_Android_Device_IAndroidDevice_
+  commentId: M:Testura.Android.Util.Walker.Cases.Time.TimeCase.StartTimer(Testura.Android.Device.IAndroidDevice)
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.StartTimer(Testura.Android.Device.IAndroidDevice)
+  nameWithType: TimeCase.StartTimer(IAndroidDevice)
+- uid: Testura.Android.Util.Walker.Cases.Time.TimeCase.StartTimer*
+  name: StartTimer
+  href: api/Testura.Android.Util.Walker.Cases.Time.TimeCase.html#Testura_Android_Util_Walker_Cases_Time_TimeCase_StartTimer_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.TimeCase.StartTimer
+  fullName: Testura.Android.Util.Walker.Cases.Time.TimeCase.StartTimer
+  nameWithType: TimeCase.StartTimer
+- uid: Testura.Android.Util.Walker.Input
+  name: Testura.Android.Util.Walker.Input
+  href: api/Testura.Android.Util.Walker.Input.html
+  commentId: N:Testura.Android.Util.Walker.Input
+  fullName: Testura.Android.Util.Walker.Input
+  nameWithType: Testura.Android.Util.Walker.Input
+- uid: Testura.Android.Util.Walker.Input.IAppWalkerInput
+  name: IAppWalkerInput
+  href: api/Testura.Android.Util.Walker.Input.IAppWalkerInput.html
+  commentId: T:Testura.Android.Util.Walker.Input.IAppWalkerInput
+  fullName: Testura.Android.Util.Walker.Input.IAppWalkerInput
+  nameWithType: IAppWalkerInput
+- uid: Testura.Android.Util.Walker.Input.IAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice,System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name: PerformInput(IAndroidDevice, IList<Node>)
+  href: api/Testura.Android.Util.Walker.Input.IAppWalkerInput.html#Testura_Android_Util_Walker_Input_IAppWalkerInput_PerformInput_Testura_Android_Device_IAndroidDevice_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__
+  commentId: M:Testura.Android.Util.Walker.Input.IAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice,System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name.vb: PerformInput(IAndroidDevice, IList(Of Node))
+  fullName: Testura.Android.Util.Walker.Input.IAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice, System.Collections.Generic.IList<Testura.Android.Device.Ui.Nodes.Data.Node>)
+  fullName.vb: Testura.Android.Util.Walker.Input.IAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice, System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Nodes.Data.Node))
+  nameWithType: IAppWalkerInput.PerformInput(IAndroidDevice, IList<Node>)
+  nameWithType.vb: PerformInput(IAndroidDevice, IList(Of Node))
+- uid: Testura.Android.Util.Walker.Input.IAppWalkerInput.PerformInput*
+  name: PerformInput
+  href: api/Testura.Android.Util.Walker.Input.IAppWalkerInput.html#Testura_Android_Util_Walker_Input_IAppWalkerInput_PerformInput_
+  commentId: Overload:Testura.Android.Util.Walker.Input.IAppWalkerInput.PerformInput
+  fullName: Testura.Android.Util.Walker.Input.IAppWalkerInput.PerformInput
+  nameWithType: IAppWalkerInput.PerformInput
+- uid: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput
+  name: SwipeAppWalkerInput
+  href: api/Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.html
+  commentId: T:Testura.Android.Util.Walker.Input.SwipeAppWalkerInput
+  fullName: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput
+  nameWithType: SwipeAppWalkerInput
+- uid: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.#ctor(System.Collections.Generic.IList{Testura.Android.Util.SwipeDirections},System.Int32)
+  name: SwipeAppWalkerInput(IList<SwipeDirections>, Int32)
+  href: api/Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.html#Testura_Android_Util_Walker_Input_SwipeAppWalkerInput__ctor_System_Collections_Generic_IList_Testura_Android_Util_SwipeDirections__System_Int32_
+  commentId: M:Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.#ctor(System.Collections.Generic.IList{Testura.Android.Util.SwipeDirections},System.Int32)
+  name.vb: SwipeAppWalkerInput(IList(Of SwipeDirections), Int32)
+  fullName: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.SwipeAppWalkerInput(System.Collections.Generic.IList<Testura.Android.Util.SwipeDirections>, System.Int32)
+  fullName.vb: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.SwipeAppWalkerInput(System.Collections.Generic.IList(Of Testura.Android.Util.SwipeDirections), System.Int32)
+  nameWithType: SwipeAppWalkerInput.SwipeAppWalkerInput(IList<SwipeDirections>, Int32)
+  nameWithType.vb: SwipeAppWalkerInput(IList(Of SwipeDirections), Int32)
+- uid: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.#ctor(System.Int32)
+  name: SwipeAppWalkerInput(Int32)
+  href: api/Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.html#Testura_Android_Util_Walker_Input_SwipeAppWalkerInput__ctor_System_Int32_
+  commentId: M:Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.#ctor(System.Int32)
+  fullName: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.SwipeAppWalkerInput(System.Int32)
+  nameWithType: SwipeAppWalkerInput.SwipeAppWalkerInput(Int32)
+- uid: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.#ctor*
+  name: SwipeAppWalkerInput
+  href: api/Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.html#Testura_Android_Util_Walker_Input_SwipeAppWalkerInput__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.#ctor
+  fullName: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.SwipeAppWalkerInput
+  nameWithType: SwipeAppWalkerInput.SwipeAppWalkerInput
+- uid: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice,System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name: PerformInput(IAndroidDevice, IList<Node>)
+  href: api/Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.html#Testura_Android_Util_Walker_Input_SwipeAppWalkerInput_PerformInput_Testura_Android_Device_IAndroidDevice_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__
+  commentId: M:Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice,System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name.vb: PerformInput(IAndroidDevice, IList(Of Node))
+  fullName: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice, System.Collections.Generic.IList<Testura.Android.Device.Ui.Nodes.Data.Node>)
+  fullName.vb: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice, System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Nodes.Data.Node))
+  nameWithType: SwipeAppWalkerInput.PerformInput(IAndroidDevice, IList<Node>)
+  nameWithType.vb: PerformInput(IAndroidDevice, IList(Of Node))
+- uid: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.PerformInput*
+  name: PerformInput
+  href: api/Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.html#Testura_Android_Util_Walker_Input_SwipeAppWalkerInput_PerformInput_
+  commentId: Overload:Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.PerformInput
+  fullName: Testura.Android.Util.Walker.Input.SwipeAppWalkerInput.PerformInput
+  nameWithType: SwipeAppWalkerInput.PerformInput
+- uid: Testura.Android.Util.Walker.Input.TapAppWalkerInput
+  name: TapAppWalkerInput
+  href: api/Testura.Android.Util.Walker.Input.TapAppWalkerInput.html
+  commentId: T:Testura.Android.Util.Walker.Input.TapAppWalkerInput
+  fullName: Testura.Android.Util.Walker.Input.TapAppWalkerInput
+  nameWithType: TapAppWalkerInput
+- uid: Testura.Android.Util.Walker.Input.TapAppWalkerInput.#ctor(System.Boolean)
+  name: TapAppWalkerInput(Boolean)
+  href: api/Testura.Android.Util.Walker.Input.TapAppWalkerInput.html#Testura_Android_Util_Walker_Input_TapAppWalkerInput__ctor_System_Boolean_
+  commentId: M:Testura.Android.Util.Walker.Input.TapAppWalkerInput.#ctor(System.Boolean)
+  fullName: Testura.Android.Util.Walker.Input.TapAppWalkerInput.TapAppWalkerInput(System.Boolean)
+  nameWithType: TapAppWalkerInput.TapAppWalkerInput(Boolean)
+- uid: Testura.Android.Util.Walker.Input.TapAppWalkerInput.#ctor(System.Boolean,System.Collections.Generic.IEnumerable{Testura.Android.Util.Walker.Cases.Tap.TapCase})
+  name: TapAppWalkerInput(Boolean, IEnumerable<TapCase>)
+  href: api/Testura.Android.Util.Walker.Input.TapAppWalkerInput.html#Testura_Android_Util_Walker_Input_TapAppWalkerInput__ctor_System_Boolean_System_Collections_Generic_IEnumerable_Testura_Android_Util_Walker_Cases_Tap_TapCase__
+  commentId: M:Testura.Android.Util.Walker.Input.TapAppWalkerInput.#ctor(System.Boolean,System.Collections.Generic.IEnumerable{Testura.Android.Util.Walker.Cases.Tap.TapCase})
+  name.vb: TapAppWalkerInput(Boolean, IEnumerable(Of TapCase))
+  fullName: Testura.Android.Util.Walker.Input.TapAppWalkerInput.TapAppWalkerInput(System.Boolean, System.Collections.Generic.IEnumerable<Testura.Android.Util.Walker.Cases.Tap.TapCase>)
+  fullName.vb: Testura.Android.Util.Walker.Input.TapAppWalkerInput.TapAppWalkerInput(System.Boolean, System.Collections.Generic.IEnumerable(Of Testura.Android.Util.Walker.Cases.Tap.TapCase))
+  nameWithType: TapAppWalkerInput.TapAppWalkerInput(Boolean, IEnumerable<TapCase>)
+  nameWithType.vb: TapAppWalkerInput(Boolean, IEnumerable(Of TapCase))
+- uid: Testura.Android.Util.Walker.Input.TapAppWalkerInput.#ctor*
+  name: TapAppWalkerInput
+  href: api/Testura.Android.Util.Walker.Input.TapAppWalkerInput.html#Testura_Android_Util_Walker_Input_TapAppWalkerInput__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Input.TapAppWalkerInput.#ctor
+  fullName: Testura.Android.Util.Walker.Input.TapAppWalkerInput.TapAppWalkerInput
+  nameWithType: TapAppWalkerInput.TapAppWalkerInput
+- uid: Testura.Android.Util.Walker.Input.TapAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice,System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name: PerformInput(IAndroidDevice, IList<Node>)
+  href: api/Testura.Android.Util.Walker.Input.TapAppWalkerInput.html#Testura_Android_Util_Walker_Input_TapAppWalkerInput_PerformInput_Testura_Android_Device_IAndroidDevice_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__
+  commentId: M:Testura.Android.Util.Walker.Input.TapAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice,System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node})
+  name.vb: PerformInput(IAndroidDevice, IList(Of Node))
+  fullName: Testura.Android.Util.Walker.Input.TapAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice, System.Collections.Generic.IList<Testura.Android.Device.Ui.Nodes.Data.Node>)
+  fullName.vb: Testura.Android.Util.Walker.Input.TapAppWalkerInput.PerformInput(Testura.Android.Device.IAndroidDevice, System.Collections.Generic.IList(Of Testura.Android.Device.Ui.Nodes.Data.Node))
+  nameWithType: TapAppWalkerInput.PerformInput(IAndroidDevice, IList<Node>)
+  nameWithType.vb: PerformInput(IAndroidDevice, IList(Of Node))
+- uid: Testura.Android.Util.Walker.Input.TapAppWalkerInput.PerformInput*
+  name: PerformInput
+  href: api/Testura.Android.Util.Walker.Input.TapAppWalkerInput.html#Testura_Android_Util_Walker_Input_TapAppWalkerInput_PerformInput_
+  commentId: Overload:Testura.Android.Util.Walker.Input.TapAppWalkerInput.PerformInput
+  fullName: Testura.Android.Util.Walker.Input.TapAppWalkerInput.PerformInput
+  nameWithType: TapAppWalkerInput.PerformInput
+- uid: Testura.Android.Util.WalkerInputs
+  name: WalkerInputs
+  href: api/Testura.Android.Util.WalkerInputs.html
+  commentId: T:Testura.Android.Util.WalkerInputs
+  fullName: Testura.Android.Util.WalkerInputs
+  nameWithType: WalkerInputs
+- uid: Testura.Android.Util.WalkerInputs.Swipe
+  name: Swipe
+  href: api/Testura.Android.Util.WalkerInputs.html#Testura_Android_Util_WalkerInputs_Swipe
+  commentId: F:Testura.Android.Util.WalkerInputs.Swipe
+  fullName: Testura.Android.Util.WalkerInputs.Swipe
+  nameWithType: WalkerInputs.Swipe
+- uid: Testura.Android.Util.WalkerInputs.Tap
+  name: Tap
+  href: api/Testura.Android.Util.WalkerInputs.html#Testura_Android_Util_WalkerInputs_Tap
+  commentId: F:Testura.Android.Util.WalkerInputs.Tap
+  fullName: Testura.Android.Util.WalkerInputs.Tap
+  nameWithType: WalkerInputs.Tap
