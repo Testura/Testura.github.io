@@ -76,10 +76,14 @@
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">BinaryExpressionArgument</span></div>
+                  <div class="level1"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.html">Argument</a></div>
+                  <div class="level2"><span class="xref">BinaryExpressionArgument</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_GetArgumentSyntax">Argument.GetArgumentSyntax()</a>
+                </div>
                 <div>
                   <span class="xref">System.Object.ToString()</span>
                 </div>
@@ -106,19 +110,19 @@
               <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
               <h5 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class BinaryExpressionArgument : IArgument</code></pre>
+                <pre><code class="lang-csharp hljs">public class BinaryExpressionArgument : Argument, IArgument</code></pre>
               </div>
               <h3 id="constructors">Constructors
               </h3>
               
               
               <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument__ctor_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.#ctor*"></a>
-              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument__ctor_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression)">BinaryExpressionArgument(IBinaryExpression)</h4>
+              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument__ctor_Testura_Code_Generators_Common_BinaryExpressions_IBinaryExpression_System_String_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.#ctor(Testura.Code.Generators.Common.BinaryExpressions.IBinaryExpression,System.String)">BinaryExpressionArgument(IBinaryExpression, String)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public BinaryExpressionArgument(IBinaryExpression binaryExpression)</code></pre>
+                <pre><code class="lang-csharp hljs">public BinaryExpressionArgument(IBinaryExpression binaryExpression, string namedArgument = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -135,19 +139,24 @@
                     <td><span class="parametername">binaryExpression</span></td>
                     <td></td>
                   </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">namedArgument</span></td>
+                    <td></td>
+                  </tr>
                 </tbody>
               </table>
               <h3 id="methods">Methods
               </h3>
               
               
-              <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument_GetArgumentSyntax_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax*"></a>
-              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument_GetArgumentSyntax" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.GetArgumentSyntax">GetArgumentSyntax()</h4>
+              <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument_CreateArgumentSyntax_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.CreateArgumentSyntax*"></a>
+              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_BinaryExpressionArgument_CreateArgumentSyntax" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.CreateArgumentSyntax">CreateArgumentSyntax()</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public ArgumentSyntax GetArgumentSyntax()</code></pre>
+                <pre><code class="lang-csharp hljs">protected override ArgumentSyntax CreateArgumentSyntax()</code></pre>
               </div>
               <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -164,8 +173,8 @@
                   </tr>
                 </tbody>
               </table>
-              <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_GetArgumentSyntax">IArgument.GetArgumentSyntax()</a></div>
+              <h5 class="overrides">Overrides</h5>
+              <div><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_CreateArgumentSyntax">Argument.CreateArgumentSyntax()</a></div>
               <h3 id="extensionmethods">Extension Methods</h3>
               <div>
                   <a class="xref" href="Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_">ObjectExtensions.IsNumeric(Object)</a>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ArrayInitializationArgument
+    <title>Class Argument
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ArrayInitializationArgument
+    <meta name="title" content="Class Argument
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,21 +69,28 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument">Class ArrayInitializationArgument
+              <h1 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument">Class Argument
               </h1>
               <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.html">Argument</a></div>
-                  <div class="level2"><span class="xref">ArrayInitializationArgument</span></div>
+                  <div class="level1"><span class="xref">Argument</span></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.html">ArrayInitializationArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.BinaryExpressionArgument.html">BinaryExpressionArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.html">ClassInitializationArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html">DictionaryInitializationArgument&lt;T, T2&gt;</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.InvocationArgument.html">InvocationArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.LambdaArgument.html">LambdaArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ParenthesizedLambdaArgument.html">ParenthesizedLambdaArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ReferenceArgument.html">ReferenceArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.TypeOfArgument.html">TypeOfArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html">ValueArgument</a></div>
+                  <div class="level2"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.VariableArgument.html">VariableArgument</a></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
-                <div>
-                  <a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_GetArgumentSyntax">Argument.GetArgumentSyntax()</a>
-                </div>
                 <div>
                   <span class="xref">System.Object.ToString()</span>
                 </div>
@@ -108,21 +115,21 @@
               </div>
               <h6><strong>Namespace</strong>:Testura.Code.Generators.Common.Arguments.ArgumentTypes</h6>
               <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
-              <h5 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument_syntax">Syntax</h5>
+              <h5 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class ArrayInitializationArgument : Argument, IArgument</code></pre>
+                <pre><code class="lang-csharp hljs">public abstract class Argument : IArgument</code></pre>
               </div>
               <h3 id="constructors">Constructors
               </h3>
               
               
-              <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument__ctor_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.#ctor*"></a>
-              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument__ctor_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_String_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.#ctor(System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.String)">ArrayInitializationArgument(Type, IEnumerable&lt;IArgument&gt;, String)</h4>
+              <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument__ctor_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.#ctor*"></a>
+              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument__ctor_System_String_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.#ctor(System.String)">Argument(String)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public ArrayInitializationArgument(Type type, IEnumerable&lt;IArgument&gt; arguments, string namedArgument = null)</code></pre>
+                <pre><code class="lang-csharp hljs">protected Argument(string namedArgument = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -135,16 +142,6 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Type</span></td>
-                    <td><span class="parametername">type</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html">IArgument</a>&gt;</td>
-                    <td><span class="parametername">arguments</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">namedArgument</span></td>
                     <td></td>
@@ -155,13 +152,13 @@
               </h3>
               
               
-              <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument_CreateArgumentSyntax_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.CreateArgumentSyntax*"></a>
-              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_ArrayInitializationArgument_CreateArgumentSyntax" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.ArrayInitializationArgument.CreateArgumentSyntax">CreateArgumentSyntax()</h4>
+              <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_CreateArgumentSyntax_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.CreateArgumentSyntax*"></a>
+              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_CreateArgumentSyntax" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.CreateArgumentSyntax">CreateArgumentSyntax()</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected override ArgumentSyntax CreateArgumentSyntax()</code></pre>
+                <pre><code class="lang-csharp hljs">protected abstract ArgumentSyntax CreateArgumentSyntax()</code></pre>
               </div>
               <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -178,8 +175,33 @@
                   </tr>
                 </tbody>
               </table>
-              <h5 class="overrides">Overrides</h5>
-              <div><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_CreateArgumentSyntax">Argument.CreateArgumentSyntax()</a></div>
+              
+              
+              <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_GetArgumentSyntax_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.GetArgumentSyntax*"></a>
+              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_Argument_GetArgumentSyntax" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.GetArgumentSyntax">GetArgumentSyntax()</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ArgumentSyntax GetArgumentSyntax()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ArgumentSyntax</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument_GetArgumentSyntax">IArgument.GetArgumentSyntax()</a></div>
               <h3 id="extensionmethods">Extension Methods</h3>
               <div>
                   <a class="xref" href="Testura.Code.Extensions.ObjectExtensions.html#Testura_Code_Extensions_ObjectExtensions_IsNumeric_System_Object_">ObjectExtensions.IsNumeric(Object)</a>
