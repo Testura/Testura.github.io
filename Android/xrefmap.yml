@@ -25,12 +25,12 @@ references:
   commentId: M:Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration)
   fullName: Testura.Android.Device.AndroidDevice.AndroidDevice(Testura.Android.Device.Configurations.DeviceConfiguration)
   nameWithType: AndroidDevice.AndroidDevice(DeviceConfiguration)
-- uid: Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,Testura.Android.Device.ServiceLoader.IServiceLoader)
-  name: AndroidDevice(DeviceConfiguration, IServiceLoader)
-  href: api/Testura.Android.Device.AndroidDevice.html#Testura_Android_Device_AndroidDevice__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_Testura_Android_Device_ServiceLoader_IServiceLoader_
-  commentId: M:Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,Testura.Android.Device.ServiceLoader.IServiceLoader)
-  fullName: Testura.Android.Device.AndroidDevice.AndroidDevice(Testura.Android.Device.Configurations.DeviceConfiguration, Testura.Android.Device.ServiceLoader.IServiceLoader)
-  nameWithType: AndroidDevice.AndroidDevice(DeviceConfiguration, IServiceLoader)
+- uid: Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,Testura.Android.Device.Services.IAdbService,Testura.Android.Device.Services.IUiService,Testura.Android.Device.Services.ISettingsService,Testura.Android.Device.Services.IActivityService,Testura.Android.Device.Services.IInteractionService)
+  name: AndroidDevice(DeviceConfiguration, IAdbService, IUiService, ISettingsService, IActivityService, IInteractionService)
+  href: api/Testura.Android.Device.AndroidDevice.html#Testura_Android_Device_AndroidDevice__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_Testura_Android_Device_Services_IAdbService_Testura_Android_Device_Services_IUiService_Testura_Android_Device_Services_ISettingsService_Testura_Android_Device_Services_IActivityService_Testura_Android_Device_Services_IInteractionService_
+  commentId: M:Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,Testura.Android.Device.Services.IAdbService,Testura.Android.Device.Services.IUiService,Testura.Android.Device.Services.ISettingsService,Testura.Android.Device.Services.IActivityService,Testura.Android.Device.Services.IInteractionService)
+  fullName: Testura.Android.Device.AndroidDevice.AndroidDevice(Testura.Android.Device.Configurations.DeviceConfiguration, Testura.Android.Device.Services.IAdbService, Testura.Android.Device.Services.IUiService, Testura.Android.Device.Services.ISettingsService, Testura.Android.Device.Services.IActivityService, Testura.Android.Device.Services.IInteractionService)
+  nameWithType: AndroidDevice.AndroidDevice(DeviceConfiguration, IAdbService, IUiService, ISettingsService, IActivityService, IInteractionService)
 - uid: Testura.Android.Device.AndroidDevice.#ctor*
   name: AndroidDevice
   href: api/Testura.Android.Device.AndroidDevice.html#Testura_Android_Device_AndroidDevice__ctor_
@@ -631,6 +631,18 @@ references:
   commentId: Overload:Testura.Android.Device.Services.Default.AdbService.Push
   fullName: Testura.Android.Device.Services.Default.AdbService.Push
   nameWithType: AdbService.Push
+- uid: Testura.Android.Device.Services.Default.AdbService.Screencap(System.String)
+  name: Screencap(String)
+  href: api/Testura.Android.Device.Services.Default.AdbService.html#Testura_Android_Device_Services_Default_AdbService_Screencap_System_String_
+  commentId: M:Testura.Android.Device.Services.Default.AdbService.Screencap(System.String)
+  fullName: Testura.Android.Device.Services.Default.AdbService.Screencap(System.String)
+  nameWithType: AdbService.Screencap(String)
+- uid: Testura.Android.Device.Services.Default.AdbService.Screencap*
+  name: Screencap
+  href: api/Testura.Android.Device.Services.Default.AdbService.html#Testura_Android_Device_Services_Default_AdbService_Screencap_
+  commentId: Overload:Testura.Android.Device.Services.Default.AdbService.Screencap
+  fullName: Testura.Android.Device.Services.Default.AdbService.Screencap
+  nameWithType: AdbService.Screencap
 - uid: Testura.Android.Device.Services.Default.AdbService.Shell(System.String)
   name: Shell(String)
   href: api/Testura.Android.Device.Services.Default.AdbService.html#Testura_Android_Device_Services_Default_AdbService_Shell_System_String_
@@ -973,6 +985,18 @@ references:
   commentId: Overload:Testura.Android.Device.Services.IAdbService.Push
   fullName: Testura.Android.Device.Services.IAdbService.Push
   nameWithType: IAdbService.Push
+- uid: Testura.Android.Device.Services.IAdbService.Screencap(System.String)
+  name: Screencap(String)
+  href: api/Testura.Android.Device.Services.IAdbService.html#Testura_Android_Device_Services_IAdbService_Screencap_System_String_
+  commentId: M:Testura.Android.Device.Services.IAdbService.Screencap(System.String)
+  fullName: Testura.Android.Device.Services.IAdbService.Screencap(System.String)
+  nameWithType: IAdbService.Screencap(String)
+- uid: Testura.Android.Device.Services.IAdbService.Screencap*
+  name: Screencap
+  href: api/Testura.Android.Device.Services.IAdbService.html#Testura_Android_Device_Services_IAdbService_Screencap_
+  commentId: Overload:Testura.Android.Device.Services.IAdbService.Screencap
+  fullName: Testura.Android.Device.Services.IAdbService.Screencap
+  nameWithType: IAdbService.Screencap
 - uid: Testura.Android.Device.Services.IAdbService.Shell(System.String)
   name: Shell(String)
   href: api/Testura.Android.Device.Services.IAdbService.html#Testura_Android_Device_Services_IAdbService_Shell_System_String_
@@ -3784,6 +3808,39 @@ references:
   commentId: N:Testura.Android.Util.Walker.Cases.Time
   fullName: Testura.Android.Util.Walker.Cases.Time
   nameWithType: Testura.Android.Util.Walker.Cases.Time
+- uid: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase
+  name: ActionTimeCase
+  href: api/Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.html
+  commentId: T:Testura.Android.Util.Walker.Cases.Time.ActionTimeCase
+  fullName: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase
+  nameWithType: ActionTimeCase
+- uid: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.#ctor(System.Double,System.Action{Testura.Android.Device.IAndroidDevice})
+  name: ActionTimeCase(Double, Action<IAndroidDevice>)
+  href: api/Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.html#Testura_Android_Util_Walker_Cases_Time_ActionTimeCase__ctor_System_Double_System_Action_Testura_Android_Device_IAndroidDevice__
+  commentId: M:Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.#ctor(System.Double,System.Action{Testura.Android.Device.IAndroidDevice})
+  name.vb: ActionTimeCase(Double, Action(Of IAndroidDevice))
+  fullName: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.ActionTimeCase(System.Double, System.Action<Testura.Android.Device.IAndroidDevice>)
+  fullName.vb: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.ActionTimeCase(System.Double, System.Action(Of Testura.Android.Device.IAndroidDevice))
+  nameWithType: ActionTimeCase.ActionTimeCase(Double, Action<IAndroidDevice>)
+  nameWithType.vb: ActionTimeCase(Double, Action(Of IAndroidDevice))
+- uid: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.#ctor*
+  name: ActionTimeCase
+  href: api/Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.html#Testura_Android_Util_Walker_Cases_Time_ActionTimeCase__ctor_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.#ctor
+  fullName: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.ActionTimeCase
+  nameWithType: ActionTimeCase.ActionTimeCase
+- uid: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.Execute
+  name: Execute()
+  href: api/Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.html#Testura_Android_Util_Walker_Cases_Time_ActionTimeCase_Execute
+  commentId: M:Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.Execute()
+  nameWithType: ActionTimeCase.Execute()
+- uid: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.Execute*
+  name: Execute
+  href: api/Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.html#Testura_Android_Util_Walker_Cases_Time_ActionTimeCase_Execute_
+  commentId: Overload:Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.Execute
+  fullName: Testura.Android.Util.Walker.Cases.Time.ActionTimeCase.Execute
+  nameWithType: ActionTimeCase.Execute
 - uid: Testura.Android.Util.Walker.Cases.Time.FunTimeCase
   name: FunTimeCase
   href: api/Testura.Android.Util.Walker.Cases.Time.FunTimeCase.html

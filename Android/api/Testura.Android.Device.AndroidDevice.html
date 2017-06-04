@@ -153,13 +153,13 @@
               
               
               <a id="Testura_Android_Device_AndroidDevice__ctor_" data-uid="Testura.Android.Device.AndroidDevice.#ctor*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_Testura_Android_Device_ServiceLoader_IServiceLoader_" data-uid="Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,Testura.Android.Device.ServiceLoader.IServiceLoader)">AndroidDevice(DeviceConfiguration, IServiceLoader)</h4>
+              <h4 id="Testura_Android_Device_AndroidDevice__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_Testura_Android_Device_Services_IAdbService_Testura_Android_Device_Services_IUiService_Testura_Android_Device_Services_ISettingsService_Testura_Android_Device_Services_IActivityService_Testura_Android_Device_Services_IInteractionService_" data-uid="Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,Testura.Android.Device.Services.IAdbService,Testura.Android.Device.Services.IUiService,Testura.Android.Device.Services.ISettingsService,Testura.Android.Device.Services.IActivityService,Testura.Android.Device.Services.IInteractionService)">AndroidDevice(DeviceConfiguration, IAdbService, IUiService, ISettingsService, IActivityService, IInteractionService)</h4>
               <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Android.Device.AndroidDevice.html">AndroidDevice</a> class.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public AndroidDevice(DeviceConfiguration configuration, IServiceLoader serviceLoader)</code></pre>
+                <pre><code class="lang-csharp hljs">public AndroidDevice(DeviceConfiguration configuration, IAdbService adbService, IUiService uiService, ISettingsService settingsService, IActivityService activityService, IInteractionService interactionService)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -178,9 +178,33 @@
 </td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.ServiceLoader.IServiceLoader.html">IServiceLoader</a></td>
-                    <td><span class="parametername">serviceLoader</span></td>
-                    <td><p>A custom service loader</p>
+                    <td><a class="xref" href="Testura.Android.Device.Services.IAdbService.html">IAdbService</a></td>
+                    <td><span class="parametername">adbService</span></td>
+                    <td><p>Service to handle communication with adb</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.IUiService.html">IUiService</a></td>
+                    <td><span class="parametername">uiService</span></td>
+                    <td><p>Service to handle UI</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.ISettingsService.html">ISettingsService</a></td>
+                    <td><span class="parametername">settingsService</span></td>
+                    <td><p>Service to handle settings</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.IActivityService.html">IActivityService</a></td>
+                    <td><span class="parametername">activityService</span></td>
+                    <td><p>Service to handle activities</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.IInteractionService.html">IInteractionService</a></td>
+                    <td><span class="parametername">interactionService</span></td>
+                    <td><p>Service to handle interaction with the device</p>
 </td>
                   </tr>
                 </tbody>
