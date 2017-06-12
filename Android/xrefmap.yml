@@ -2278,6 +2278,42 @@ references:
   commentId: Overload:Testura.Android.PageObject.Application.SolveViewDependencies
   fullName: Testura.Android.PageObject.Application.SolveViewDependencies
   nameWithType: Application.SolveViewDependencies
+- uid: Testura.Android.PageObject.Attributes
+  name: Testura.Android.PageObject.Attributes
+  href: api/Testura.Android.PageObject.Attributes.html
+  commentId: N:Testura.Android.PageObject.Attributes
+  fullName: Testura.Android.PageObject.Attributes
+  nameWithType: Testura.Android.PageObject.Attributes
+- uid: Testura.Android.PageObject.Attributes.CreateAttribute
+  name: CreateAttribute
+  href: api/Testura.Android.PageObject.Attributes.CreateAttribute.html
+  commentId: T:Testura.Android.PageObject.Attributes.CreateAttribute
+  fullName: Testura.Android.PageObject.Attributes.CreateAttribute
+  nameWithType: CreateAttribute
+- uid: Testura.Android.PageObject.Attributes.CreateAttribute.#ctor(AttributeTags,System.String)
+  name: CreateAttribute(AttributeTags, String)
+  href: api/Testura.Android.PageObject.Attributes.CreateAttribute.html#Testura_Android_PageObject_Attributes_CreateAttribute__ctor_AttributeTags_System_String_
+  commentId: M:Testura.Android.PageObject.Attributes.CreateAttribute.#ctor(AttributeTags,System.String)
+  fullName: Testura.Android.PageObject.Attributes.CreateAttribute.CreateAttribute(AttributeTags, System.String)
+  nameWithType: CreateAttribute.CreateAttribute(AttributeTags, String)
+- uid: Testura.Android.PageObject.Attributes.CreateAttribute.#ctor*
+  name: CreateAttribute
+  href: api/Testura.Android.PageObject.Attributes.CreateAttribute.html#Testura_Android_PageObject_Attributes_CreateAttribute__ctor_
+  commentId: Overload:Testura.Android.PageObject.Attributes.CreateAttribute.#ctor
+  fullName: Testura.Android.PageObject.Attributes.CreateAttribute.CreateAttribute
+  nameWithType: CreateAttribute.CreateAttribute
+- uid: Testura.Android.PageObject.Attributes.CreateAttribute.With
+  name: With
+  href: api/Testura.Android.PageObject.Attributes.CreateAttribute.html#Testura_Android_PageObject_Attributes_CreateAttribute_With
+  commentId: P:Testura.Android.PageObject.Attributes.CreateAttribute.With
+  fullName: Testura.Android.PageObject.Attributes.CreateAttribute.With
+  nameWithType: CreateAttribute.With
+- uid: Testura.Android.PageObject.Attributes.CreateAttribute.With*
+  name: With
+  href: api/Testura.Android.PageObject.Attributes.CreateAttribute.html#Testura_Android_PageObject_Attributes_CreateAttribute_With_
+  commentId: Overload:Testura.Android.PageObject.Attributes.CreateAttribute.With
+  fullName: Testura.Android.PageObject.Attributes.CreateAttribute.With
+  nameWithType: CreateAttribute.With
 - uid: Testura.Android.PageObject.View
   name: View
   href: api/Testura.Android.PageObject.View.html
