@@ -1964,21 +1964,33 @@ references:
   commentId: T:Testura.Code.Models.Field
   fullName: Testura.Code.Models.Field
   nameWithType: Field
-- uid: Testura.Code.Models.Field.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers})
-  name: Field(String, Type, IEnumerable<Modifiers>)
-  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field__ctor_System_String_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__
-  commentId: M:Testura.Code.Models.Field.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers})
-  name.vb: Field(String, Type, IEnumerable(Of Modifiers))
-  fullName: Testura.Code.Models.Field.Field(System.String, System.Type, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>)
-  fullName.vb: Testura.Code.Models.Field.Field(System.String, System.Type, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers))
-  nameWithType: Field.Field(String, Type, IEnumerable<Modifiers>)
-  nameWithType.vb: Field(String, Type, IEnumerable(Of Modifiers))
+- uid: Testura.Code.Models.Field.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name: Field(String, Type, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field__ctor_System_String_System_Type_System_Collections_Generic_IEnumerable_Testura_Code_Modifiers__System_Collections_Generic_IEnumerable_Testura_Code_Models_Attribute__
+  commentId: M:Testura.Code.Models.Field.#ctor(System.String,System.Type,System.Collections.Generic.IEnumerable{Testura.Code.Modifiers},System.Collections.Generic.IEnumerable{Testura.Code.Models.Attribute})
+  name.vb: Field(String, Type, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
+  fullName: Testura.Code.Models.Field.Field(System.String, System.Type, System.Collections.Generic.IEnumerable<Testura.Code.Modifiers>, System.Collections.Generic.IEnumerable<Testura.Code.Models.Attribute>)
+  fullName.vb: Testura.Code.Models.Field.Field(System.String, System.Type, System.Collections.Generic.IEnumerable(Of Testura.Code.Modifiers), System.Collections.Generic.IEnumerable(Of Testura.Code.Models.Attribute))
+  nameWithType: Field.Field(String, Type, IEnumerable<Modifiers>, IEnumerable<Attribute>)
+  nameWithType.vb: Field(String, Type, IEnumerable(Of Modifiers), IEnumerable(Of Attribute))
 - uid: Testura.Code.Models.Field.#ctor*
   name: Field
   href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field__ctor_
   commentId: Overload:Testura.Code.Models.Field.#ctor
   fullName: Testura.Code.Models.Field.Field
   nameWithType: Field.Field
+- uid: Testura.Code.Models.Field.Attributes
+  name: Attributes
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Attributes
+  commentId: P:Testura.Code.Models.Field.Attributes
+  fullName: Testura.Code.Models.Field.Attributes
+  nameWithType: Field.Attributes
+- uid: Testura.Code.Models.Field.Attributes*
+  name: Attributes
+  href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Attributes_
+  commentId: Overload:Testura.Code.Models.Field.Attributes
+  fullName: Testura.Code.Models.Field.Attributes
+  nameWithType: Field.Attributes
 - uid: Testura.Code.Models.Field.Modifiers
   name: Modifiers
   href: api/Testura.Code.Models.Field.html#Testura_Code_Models_Field_Modifiers
