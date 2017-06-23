@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DictionaryInitializationArgument&lt;T, T2&gt;
+    <title>Class DictionaryInitializationArgument&lt;TKey, TValue&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DictionaryInitializationArgument&lt;T, T2&gt;
+    <meta name="title" content="Class DictionaryInitializationArgument&lt;TKey, TValue&gt;
    ">
     <meta name="generator" content="docfx 2.10.2.0">
     
@@ -69,15 +69,16 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2">Class DictionaryInitializationArgument&lt;T, T2&gt;
+              <h1 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2">Class DictionaryInitializationArgument&lt;TKey, TValue&gt;
               </h1>
-              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 summary"><p>Provides the functionality to generate dictionary initialization argument. Example of generated code: <code>new Dictionary&lt;int,int&gt;{ [1] = 2}</code></p>
+</div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
                   <div class="level1"><a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.Argument.html">Argument</a></div>
-                  <div class="level2"><span class="xref">DictionaryInitializationArgument&lt;T, T2&gt;</span></div>
+                  <div class="level2"><span class="xref">DictionaryInitializationArgument&lt;TKey, TValue&gt;</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
@@ -110,7 +111,7 @@
               <h6><strong>Assembly</strong>:Testura.Code.dll</h6>
               <h5 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class DictionaryInitializationArgument&lt;T, T2&gt; : Argument, IArgument</code></pre>
+                <pre><code class="lang-csharp hljs">public class DictionaryInitializationArgument&lt;TKey, TValue&gt; : Argument, IArgument</code></pre>
               </div>
               <h5 class="typeParameters">Type Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -122,12 +123,12 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="parametername">T</span></td>
-                    <td></td>
+                    <td><span class="parametername">TKey</span></td>
+                    <td>The dictionary key type</td>
                   </tr>
                   <tr>
-                    <td><span class="parametername">T2</span></td>
-                    <td></td>
+                    <td><span class="parametername">TValue</span></td>
+                    <td>The dictionary value type</td>
                   </tr>
                 </tbody>
               </table>
@@ -136,12 +137,13 @@
               
               
               <a id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2__ctor_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor*"></a>
-              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2__ctor_System_Collections_Generic_IDictionary__0_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_String_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor(System.Collections.Generic.IDictionary{`0,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.String)">DictionaryInitializationArgument(IDictionary&lt;T, IArgument&gt;, String)</h4>
-              <div class="markdown level1 summary"></div>
+              <h4 id="Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2__ctor_System_Collections_Generic_IDictionary__0_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_String_" data-uid="Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor(System.Collections.Generic.IDictionary{`0,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.String)">DictionaryInitializationArgument(IDictionary&lt;TKey, IArgument&gt;, String)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html">DictionaryInitializationArgument&lt;TKey, TValue&gt;</a> class.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public DictionaryInitializationArgument(IDictionary&lt;T, IArgument&gt; dictionary, string namedArgument = null)</code></pre>
+                <pre><code class="lang-csharp hljs">public DictionaryInitializationArgument(IDictionary&lt;TKey, IArgument&gt; dictionary, string namedArgument = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -154,14 +156,16 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;T, <a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html">IArgument</a>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;TKey, <a class="xref" href="Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument.html">IArgument</a>&gt;</td>
                     <td><span class="parametername">dictionary</span></td>
-                    <td></td>
+                    <td><p>The dictionary to generate.</p>
+</td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">namedArgument</span></td>
-                    <td></td>
+                    <td><p>Specificy the argument for a partical parameter.</p>
+</td>
                   </tr>
                 </tbody>
               </table>

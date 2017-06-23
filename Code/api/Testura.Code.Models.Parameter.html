@@ -71,7 +71,8 @@
               
               <h1 id="Testura_Code_Models_Parameter" data-uid="Testura.Code.Models.Parameter">Class Parameter
               </h1>
-              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 summary"><p>Represent a parameter.</p>
+</div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
                 <h5>Inheritance</h5>
@@ -113,12 +114,13 @@
               
               
               <a id="Testura_Code_Models_Parameter__ctor_" data-uid="Testura.Code.Models.Parameter.#ctor*"></a>
-              <h4 id="Testura_Code_Models_Parameter__ctor_System_String_System_Type_" data-uid="Testura.Code.Models.Parameter.#ctor(System.String,System.Type)">Parameter(String, Type)</h4>
-              <div class="markdown level1 summary"></div>
+              <h4 id="Testura_Code_Models_Parameter__ctor_System_String_System_Type_Testura_Code_ParameterModifiers_" data-uid="Testura.Code.Models.Parameter.#ctor(System.String,System.Type,Testura.Code.ParameterModifiers)">Parameter(String, Type, ParameterModifiers)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Code.Models.Parameter.html">Parameter</a> class.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Parameter(string name, Type type)</code></pre>
+                <pre><code class="lang-csharp hljs">public Parameter(string name, Type type, ParameterModifiers modifier = ParameterModifiers.None)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -133,12 +135,20 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">name</span></td>
-                    <td></td>
+                    <td><p>Name of the paramter.</p>
+</td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Type</span></td>
                     <td><span class="parametername">type</span></td>
-                    <td></td>
+                    <td><p>Type of the paramter.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.ParameterModifiers.html">ParameterModifiers</a></td>
+                    <td><span class="parametername">modifier</span></td>
+                    <td><p>The paramter modifiers.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -146,9 +156,35 @@
               </h3>
               
               
+              <a id="Testura_Code_Models_Parameter_Modifier_" data-uid="Testura.Code.Models.Parameter.Modifier*"></a>
+              <h4 id="Testura_Code_Models_Parameter_Modifier" data-uid="Testura.Code.Models.Parameter.Modifier">Modifier</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the parameter modifier.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ParameterModifiers Modifier { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Code.ParameterModifiers.html">ParameterModifiers</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
               <a id="Testura_Code_Models_Parameter_Name_" data-uid="Testura.Code.Models.Parameter.Name*"></a>
               <h4 id="Testura_Code_Models_Parameter_Name" data-uid="Testura.Code.Models.Parameter.Name">Name</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the name of the parameter</p>
+              <div class="markdown level1 summary"><p>Gets or sets the name of the parameter.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -174,7 +210,7 @@
               
               <a id="Testura_Code_Models_Parameter_Type_" data-uid="Testura.Code.Models.Parameter.Type*"></a>
               <h4 id="Testura_Code_Models_Parameter_Type" data-uid="Testura.Code.Models.Parameter.Type">Type</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the type of the parameters</p>
+              <div class="markdown level1 summary"><p>Gets or sets the type of the parameters.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>

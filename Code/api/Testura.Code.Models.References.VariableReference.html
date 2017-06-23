@@ -72,10 +72,14 @@
               <h1 id="Testura_Code_Models_References_VariableReference" data-uid="Testura.Code.Models.References.VariableReference">Class VariableReference
               </h1>
               <div class="markdown level0 summary"><p>The reference classes are used to simplify call to methods, fields, properties etc.</p>
-<p>An example of this could be this:</p>
-<p>myVariable.MyMethod().AProperty;</p>
-<p>This could be represented like this:
-new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod&quot;,new MemberReference(&quot;AProperty&quot;);</p>
+<example>
+An example of this could be this:
+
+<code>myVariable.MyMethod().AProperty;</code>
+
+This could be represented like this:
+<code>new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod&quot;,new MemberReference(&quot;AProperty&quot;);</code>
+</example>
 </div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
@@ -123,7 +127,8 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
               
               <a id="Testura_Code_Models_References_VariableReference__ctor_" data-uid="Testura.Code.Models.References.VariableReference.#ctor*"></a>
               <h4 id="Testura_Code_Models_References_VariableReference__ctor_System_String_" data-uid="Testura.Code.Models.References.VariableReference.#ctor(System.String)">VariableReference(String)</h4>
-              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Code.Models.References.VariableReference.html">VariableReference</a> class.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -142,7 +147,8 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">variableName</span></td>
-                    <td></td>
+                    <td><p>Name of the variable,</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -150,7 +156,8 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
               
               <a id="Testura_Code_Models_References_VariableReference__ctor_" data-uid="Testura.Code.Models.References.VariableReference.#ctor*"></a>
               <h4 id="Testura_Code_Models_References_VariableReference__ctor_System_String_Testura_Code_Models_References_MemberReference_" data-uid="Testura.Code.Models.References.VariableReference.#ctor(System.String,Testura.Code.Models.References.MemberReference)">VariableReference(String, MemberReference)</h4>
-              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Code.Models.References.VariableReference.html">VariableReference</a> class.</p>
+</div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
@@ -169,12 +176,14 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><span class="parametername">variableName</span></td>
-                    <td></td>
+                    <td><p>Name of the variable</p>
+</td>
                   </tr>
                   <tr>
                     <td><a class="xref" href="Testura.Code.Models.References.MemberReference.html">MemberReference</a></td>
                     <td><span class="parametername">member</span></td>
-                    <td></td>
+                    <td><p>Member to reference on the variable</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -184,7 +193,7 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
               
               <a id="Testura_Code_Models_References_VariableReference_Member_" data-uid="Testura.Code.Models.References.VariableReference.Member*"></a>
               <h4 id="Testura_Code_Models_References_VariableReference_Member" data-uid="Testura.Code.Models.References.VariableReference.Member">Member</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the member references</p>
+              <div class="markdown level1 summary"><p>Gets or sets the member references.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -210,7 +219,7 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
               
               <a id="Testura_Code_Models_References_VariableReference_Name_" data-uid="Testura.Code.Models.References.VariableReference.Name*"></a>
               <h4 id="Testura_Code_Models_References_VariableReference_Name" data-uid="Testura.Code.Models.References.VariableReference.Name">Name</h4>
-              <div class="markdown level1 summary"><p>Gets or sets the name of the reference</p>
+              <div class="markdown level1 summary"><p>Gets or sets the name of the reference.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -256,7 +265,7 @@ new VariableReference(&quot;myVariable&quot;, new MethodReference(&quot;MyMethod
                 <tbody>
                   <tr>
                     <td><a class="xref" href="Testura.Code.Models.References.VariableReference.html">VariableReference</a></td>
-                    <td><p>Returns last member in the reference chain</p>
+                    <td><p>Returns last member in the reference chain.</p>
 </td>
                   </tr>
                 </tbody>

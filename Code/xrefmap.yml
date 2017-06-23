@@ -1073,23 +1073,23 @@ references:
   fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ClassInitializationArgument.CreateArgumentSyntax
   nameWithType: ClassInitializationArgument.CreateArgumentSyntax
 - uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2
-  name: DictionaryInitializationArgument<T, T2>
+  name: DictionaryInitializationArgument<TKey, TValue>
   href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html
   commentId: T:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2
-  name.vb: DictionaryInitializationArgument(Of T, T2)
-  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<T, T2>
-  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of T, T2)
-  nameWithType: DictionaryInitializationArgument<T, T2>
-  nameWithType.vb: DictionaryInitializationArgument(Of T, T2)
+  name.vb: DictionaryInitializationArgument(Of TKey, TValue)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<TKey, TValue>
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of TKey, TValue)
+  nameWithType: DictionaryInitializationArgument<TKey, TValue>
+  nameWithType.vb: DictionaryInitializationArgument(Of TKey, TValue)
 - uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor(System.Collections.Generic.IDictionary{`0,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.String)
-  name: DictionaryInitializationArgument(IDictionary<T, IArgument>, String)
+  name: DictionaryInitializationArgument(IDictionary<TKey, IArgument>, String)
   href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2__ctor_System_Collections_Generic_IDictionary__0_Testura_Code_Generators_Common_Arguments_ArgumentTypes_IArgument__System_String_
   commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor(System.Collections.Generic.IDictionary{`0,Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument},System.String)
-  name.vb: DictionaryInitializationArgument(IDictionary(Of T, IArgument), String)
-  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<T, T2>.DictionaryInitializationArgument(System.Collections.Generic.IDictionary<T, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>, System.String)
-  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of T, T2).DictionaryInitializationArgument(System.Collections.Generic.IDictionary(Of T, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument), System.String)
-  nameWithType: DictionaryInitializationArgument<T, T2>.DictionaryInitializationArgument(IDictionary<T, IArgument>, String)
-  nameWithType.vb: DictionaryInitializationArgument(IDictionary(Of T, IArgument), String)
+  name.vb: DictionaryInitializationArgument(IDictionary(Of TKey, IArgument), String)
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<TKey, TValue>.DictionaryInitializationArgument(System.Collections.Generic.IDictionary<TKey, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument>, System.String)
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of TKey, TValue).DictionaryInitializationArgument(System.Collections.Generic.IDictionary(Of TKey, Testura.Code.Generators.Common.Arguments.ArgumentTypes.IArgument), System.String)
+  nameWithType: DictionaryInitializationArgument<TKey, TValue>.DictionaryInitializationArgument(IDictionary<TKey, IArgument>, String)
+  nameWithType.vb: DictionaryInitializationArgument(IDictionary(Of TKey, IArgument), String)
 - uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.#ctor*
   name: DictionaryInitializationArgument
   href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2__ctor_
@@ -1100,9 +1100,9 @@ references:
   name: CreateArgumentSyntax()
   href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2_CreateArgumentSyntax
   commentId: M:Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.CreateArgumentSyntax
-  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<T, T2>.CreateArgumentSyntax()
-  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of T, T2).CreateArgumentSyntax()
-  nameWithType: DictionaryInitializationArgument<T, T2>.CreateArgumentSyntax()
+  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument<TKey, TValue>.CreateArgumentSyntax()
+  fullName.vb: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument(Of TKey, TValue).CreateArgumentSyntax()
+  nameWithType: DictionaryInitializationArgument<TKey, TValue>.CreateArgumentSyntax()
 - uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument`2.CreateArgumentSyntax*
   name: CreateArgumentSyntax
   href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.DictionaryInitializationArgument-2.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_DictionaryInitializationArgument_2_CreateArgumentSyntax_
@@ -1337,18 +1337,6 @@ references:
   commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.CreateArgumentSyntax
   fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.CreateArgumentSyntax
   nameWithType: ValueArgument.CreateArgumentSyntax
-- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
-  name: StringType
-  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_StringType
-  commentId: P:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
-  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
-  nameWithType: ValueArgument.StringType
-- uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType*
-  name: StringType
-  href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_StringType_
-  commentId: Overload:Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
-  fullName: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.StringType
-  nameWithType: ValueArgument.StringType
 - uid: Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.Value
   name: Value
   href: api/Testura.Code.Generators.Common.Arguments.ArgumentTypes.ValueArgument.html#Testura_Code_Generators_Common_Arguments_ArgumentTypes_ValueArgument_Value
@@ -2126,18 +2114,30 @@ references:
   commentId: T:Testura.Code.Models.Parameter
   fullName: Testura.Code.Models.Parameter
   nameWithType: Parameter
-- uid: Testura.Code.Models.Parameter.#ctor(System.String,System.Type)
-  name: Parameter(String, Type)
-  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter__ctor_System_String_System_Type_
-  commentId: M:Testura.Code.Models.Parameter.#ctor(System.String,System.Type)
-  fullName: Testura.Code.Models.Parameter.Parameter(System.String, System.Type)
-  nameWithType: Parameter.Parameter(String, Type)
+- uid: Testura.Code.Models.Parameter.#ctor(System.String,System.Type,Testura.Code.ParameterModifiers)
+  name: Parameter(String, Type, ParameterModifiers)
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter__ctor_System_String_System_Type_Testura_Code_ParameterModifiers_
+  commentId: M:Testura.Code.Models.Parameter.#ctor(System.String,System.Type,Testura.Code.ParameterModifiers)
+  fullName: Testura.Code.Models.Parameter.Parameter(System.String, System.Type, Testura.Code.ParameterModifiers)
+  nameWithType: Parameter.Parameter(String, Type, ParameterModifiers)
 - uid: Testura.Code.Models.Parameter.#ctor*
   name: Parameter
   href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter__ctor_
   commentId: Overload:Testura.Code.Models.Parameter.#ctor
   fullName: Testura.Code.Models.Parameter.Parameter
   nameWithType: Parameter.Parameter
+- uid: Testura.Code.Models.Parameter.Modifier
+  name: Modifier
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter_Modifier
+  commentId: P:Testura.Code.Models.Parameter.Modifier
+  fullName: Testura.Code.Models.Parameter.Modifier
+  nameWithType: Parameter.Modifier
+- uid: Testura.Code.Models.Parameter.Modifier*
+  name: Modifier
+  href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter_Modifier_
+  commentId: Overload:Testura.Code.Models.Parameter.Modifier
+  fullName: Testura.Code.Models.Parameter.Modifier
+  nameWithType: Parameter.Modifier
 - uid: Testura.Code.Models.Parameter.Name
   name: Name
   href: api/Testura.Code.Models.Parameter.html#Testura_Code_Models_Parameter_Name
@@ -2687,6 +2687,36 @@ references:
   commentId: F:Testura.Code.Modifiers.Virtual
   fullName: Testura.Code.Modifiers.Virtual
   nameWithType: Modifiers.Virtual
+- uid: Testura.Code.ParameterModifiers
+  name: ParameterModifiers
+  href: api/Testura.Code.ParameterModifiers.html
+  commentId: T:Testura.Code.ParameterModifiers
+  fullName: Testura.Code.ParameterModifiers
+  nameWithType: ParameterModifiers
+- uid: Testura.Code.ParameterModifiers.None
+  name: None
+  href: api/Testura.Code.ParameterModifiers.html#Testura_Code_ParameterModifiers_None
+  commentId: F:Testura.Code.ParameterModifiers.None
+  fullName: Testura.Code.ParameterModifiers.None
+  nameWithType: ParameterModifiers.None
+- uid: Testura.Code.ParameterModifiers.Out
+  name: Out
+  href: api/Testura.Code.ParameterModifiers.html#Testura_Code_ParameterModifiers_Out
+  commentId: F:Testura.Code.ParameterModifiers.Out
+  fullName: Testura.Code.ParameterModifiers.Out
+  nameWithType: ParameterModifiers.Out
+- uid: Testura.Code.ParameterModifiers.Ref
+  name: Ref
+  href: api/Testura.Code.ParameterModifiers.html#Testura_Code_ParameterModifiers_Ref
+  commentId: F:Testura.Code.ParameterModifiers.Ref
+  fullName: Testura.Code.ParameterModifiers.Ref
+  nameWithType: ParameterModifiers.Ref
+- uid: Testura.Code.ParameterModifiers.This
+  name: This
+  href: api/Testura.Code.ParameterModifiers.html#Testura_Code_ParameterModifiers_This
+  commentId: F:Testura.Code.ParameterModifiers.This
+  fullName: Testura.Code.ParameterModifiers.This
+  nameWithType: ParameterModifiers.This
 - uid: Testura.Code.PropertyTypes
   name: PropertyTypes
   href: api/Testura.Code.PropertyTypes.html
