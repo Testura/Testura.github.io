@@ -112,6 +112,17 @@
               </h3>
               
               
+              <a id="Testura_Android_Device_Services_IUiService_ClearCache_" data-uid="Testura.Android.Device.Services.IUiService.ClearCache*"></a>
+              <h4 id="Testura_Android_Device_Services_IUiService_ClearCache" data-uid="Testura.Android.Device.Services.IUiService.ClearCache">ClearCache()</h4>
+              <div class="markdown level1 summary"><p>Clear the UI cache</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void ClearCache()</code></pre>
+              </div>
+              
+              
               <a id="Testura_Android_Device_Services_IUiService_CreateUiObject_" data-uid="Testura.Android.Device.Services.IUiService.CreateUiObject*"></a>
               <h4 id="Testura_Android_Device_Services_IUiService_CreateUiObject_Testura_Android_Device_Ui_Search_With___" data-uid="Testura.Android.Device.Services.IUiService.CreateUiObject(Testura.Android.Device.Ui.Search.With[])">CreateUiObject(With[])</h4>
               <div class="markdown level1 summary"><p>Create a new ui object that wraps around a node that match a specific search criteria</p>
@@ -269,6 +280,67 @@
               </table>
               
               
+              <a id="Testura_Android_Device_Services_IUiService_FindNodeFromCache_" data-uid="Testura.Android.Device.Services.IUiService.FindNodeFromCache*"></a>
+              <h4 id="Testura_Android_Device_Services_IUiService_FindNodeFromCache_Testura_Android_Device_Ui_Search_With___" data-uid="Testura.Android.Device.Services.IUiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With[])">FindNodeFromCache(With[])</h4>
+              <div class="markdown level1 summary"><p>Find a node on the screen by using the latest dump.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Node FindNodeFromCache(params With[] with)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.With.html">With</a>[]</td>
+                    <td><span class="parametername">with</span></td>
+                    <td><p>Find node with</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
+                    <td><p>Returns found node.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Exceptions.UiNodeNotFoundException.html">UiNodeNotFoundException</a></td>
+                    <td><p>The exception that is thrown when we can&#39;t find any node in the cached dump.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
               <a id="Testura_Android_Device_Services_IUiService_FindNodes_" data-uid="Testura.Android.Device.Services.IUiService.FindNodes*"></a>
               <h4 id="Testura_Android_Device_Services_IUiService_FindNodes_System_Int32_Testura_Android_Device_Ui_Search_With___" data-uid="Testura.Android.Device.Services.IUiService.FindNodes(System.Int32,Testura.Android.Device.Ui.Search.With[])">FindNodes(Int32, With[])</h4>
               <div class="markdown level1 summary"><p>Find multiple nodes on the screen</p>
@@ -313,7 +385,7 @@
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>&gt;</td>
-                    <td><p>Returns found node.</p>
+                    <td><p>Returns found nodes.</p>
 </td>
                   </tr>
                 </tbody>
@@ -330,6 +402,67 @@
                   <tr>
                     <td><a class="xref" href="Testura.Android.Util.Exceptions.UiNodeNotFoundException.html">UiNodeNotFoundException</a></td>
                     <td><p>The exception that is thrown when we timeout and can&#39;t find any nodes</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_IUiService_FindNodesFromCache_" data-uid="Testura.Android.Device.Services.IUiService.FindNodesFromCache*"></a>
+              <h4 id="Testura_Android_Device_Services_IUiService_FindNodesFromCache_Testura_Android_Device_Ui_Search_With___" data-uid="Testura.Android.Device.Services.IUiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With[])">FindNodesFromCache(With[])</h4>
+              <div class="markdown level1 summary"><p>Find multiple nodes on the screen by using the latest dump.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">IList&lt;Node&gt; FindNodesFromCache(params With[] with)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.With.html">With</a>[]</td>
+                    <td><span class="parametername">with</span></td>
+                    <td><p>Find node with</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>&gt;</td>
+                    <td><p>Returns found nodes.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Exceptions.UiNodeNotFoundException.html">UiNodeNotFoundException</a></td>
+                    <td><p>The exception that is thrown when we can&#39;t find any node in the cached dump.</p>
 </td>
                   </tr>
                 </tbody>

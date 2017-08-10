@@ -181,12 +181,6 @@ references:
   commentId: Overload:Testura.Android.Device.Configurations.DeviceConfiguration.DumpTries
   fullName: Testura.Android.Device.Configurations.DeviceConfiguration.DumpTries
   nameWithType: DeviceConfiguration.DumpTries
-- uid: Testura.Android.Device.Configurations.DeviceConfiguration.HelperApkName
-  name: HelperApkName
-  href: api/Testura.Android.Device.Configurations.DeviceConfiguration.html#Testura_Android_Device_Configurations_DeviceConfiguration_HelperApkName
-  commentId: F:Testura.Android.Device.Configurations.DeviceConfiguration.HelperApkName
-  fullName: Testura.Android.Device.Configurations.DeviceConfiguration.HelperApkName
-  nameWithType: DeviceConfiguration.HelperApkName
 - uid: Testura.Android.Device.Configurations.DeviceConfiguration.Port
   name: Port
   href: api/Testura.Android.Device.Configurations.DeviceConfiguration.html#Testura_Android_Device_Configurations_DeviceConfiguration_Port
@@ -211,18 +205,18 @@ references:
   commentId: Overload:Testura.Android.Device.Configurations.DeviceConfiguration.Serial
   fullName: Testura.Android.Device.Configurations.DeviceConfiguration.Serial
   nameWithType: DeviceConfiguration.Serial
-- uid: Testura.Android.Device.Configurations.DeviceConfiguration.UiAutomatorStub
-  name: UiAutomatorStub
-  href: api/Testura.Android.Device.Configurations.DeviceConfiguration.html#Testura_Android_Device_Configurations_DeviceConfiguration_UiAutomatorStub
-  commentId: F:Testura.Android.Device.Configurations.DeviceConfiguration.UiAutomatorStub
-  fullName: Testura.Android.Device.Configurations.DeviceConfiguration.UiAutomatorStub
-  nameWithType: DeviceConfiguration.UiAutomatorStub
-- uid: Testura.Android.Device.Configurations.DeviceConfiguration.UiAutomatorStubBundle
-  name: UiAutomatorStubBundle
-  href: api/Testura.Android.Device.Configurations.DeviceConfiguration.html#Testura_Android_Device_Configurations_DeviceConfiguration_UiAutomatorStubBundle
-  commentId: F:Testura.Android.Device.Configurations.DeviceConfiguration.UiAutomatorStubBundle
-  fullName: Testura.Android.Device.Configurations.DeviceConfiguration.UiAutomatorStubBundle
-  nameWithType: DeviceConfiguration.UiAutomatorStubBundle
+- uid: Testura.Android.Device.Configurations.DeviceConfiguration.ServerApkName
+  name: ServerApkName
+  href: api/Testura.Android.Device.Configurations.DeviceConfiguration.html#Testura_Android_Device_Configurations_DeviceConfiguration_ServerApkName
+  commentId: F:Testura.Android.Device.Configurations.DeviceConfiguration.ServerApkName
+  fullName: Testura.Android.Device.Configurations.DeviceConfiguration.ServerApkName
+  nameWithType: DeviceConfiguration.ServerApkName
+- uid: Testura.Android.Device.Configurations.DeviceConfiguration.ServerUiAutomatorApkName
+  name: ServerUiAutomatorApkName
+  href: api/Testura.Android.Device.Configurations.DeviceConfiguration.html#Testura_Android_Device_Configurations_DeviceConfiguration_ServerUiAutomatorApkName
+  commentId: F:Testura.Android.Device.Configurations.DeviceConfiguration.ServerUiAutomatorApkName
+  fullName: Testura.Android.Device.Configurations.DeviceConfiguration.ServerUiAutomatorApkName
+  nameWithType: DeviceConfiguration.ServerUiAutomatorApkName
 - uid: Testura.Android.Device.Extensions
   name: Testura.Android.Device.Extensions
   href: api/Testura.Android.Device.Extensions.html
@@ -739,6 +733,18 @@ references:
   commentId: Overload:Testura.Android.Device.Services.Default.SettingsService.AirplaneMode
   fullName: Testura.Android.Device.Services.Default.SettingsService.AirplaneMode
   nameWithType: SettingsService.AirplaneMode
+- uid: Testura.Android.Device.Services.Default.SettingsService.Bluetooth(Testura.Android.Util.State)
+  name: Bluetooth(State)
+  href: api/Testura.Android.Device.Services.Default.SettingsService.html#Testura_Android_Device_Services_Default_SettingsService_Bluetooth_Testura_Android_Util_State_
+  commentId: M:Testura.Android.Device.Services.Default.SettingsService.Bluetooth(Testura.Android.Util.State)
+  fullName: Testura.Android.Device.Services.Default.SettingsService.Bluetooth(Testura.Android.Util.State)
+  nameWithType: SettingsService.Bluetooth(State)
+- uid: Testura.Android.Device.Services.Default.SettingsService.Bluetooth*
+  name: Bluetooth
+  href: api/Testura.Android.Device.Services.Default.SettingsService.html#Testura_Android_Device_Services_Default_SettingsService_Bluetooth_
+  commentId: Overload:Testura.Android.Device.Services.Default.SettingsService.Bluetooth
+  fullName: Testura.Android.Device.Services.Default.SettingsService.Bluetooth
+  nameWithType: SettingsService.Bluetooth
 - uid: Testura.Android.Device.Services.Default.SettingsService.Gps(Testura.Android.Util.State)
   name: Gps(State)
   href: api/Testura.Android.Device.Services.Default.SettingsService.html#Testura_Android_Device_Services_Default_SettingsService_Gps_Testura_Android_Util_State_
@@ -781,6 +787,18 @@ references:
   commentId: Overload:Testura.Android.Device.Services.Default.UiService.#ctor
   fullName: Testura.Android.Device.Services.Default.UiService.UiService
   nameWithType: UiService.UiService
+- uid: Testura.Android.Device.Services.Default.UiService.ClearCache
+  name: ClearCache()
+  href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_ClearCache
+  commentId: M:Testura.Android.Device.Services.Default.UiService.ClearCache
+  fullName: Testura.Android.Device.Services.Default.UiService.ClearCache()
+  nameWithType: UiService.ClearCache()
+- uid: Testura.Android.Device.Services.Default.UiService.ClearCache*
+  name: ClearCache
+  href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_ClearCache_
+  commentId: Overload:Testura.Android.Device.Services.Default.UiService.ClearCache
+  fullName: Testura.Android.Device.Services.Default.UiService.ClearCache
+  nameWithType: UiService.ClearCache
 - uid: Testura.Android.Device.Services.Default.UiService.CreateUiObject(Testura.Android.Device.Ui.Search.With[])
   name: CreateUiObject(With[])
   href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_CreateUiObject_Testura_Android_Device_Ui_Search_With___
@@ -838,6 +856,21 @@ references:
   commentId: Overload:Testura.Android.Device.Services.Default.UiService.FindNode
   fullName: Testura.Android.Device.Services.Default.UiService.FindNode
   nameWithType: UiService.FindNode
+- uid: Testura.Android.Device.Services.Default.UiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With[])
+  name: FindNodeFromCache(With[])
+  href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_FindNodeFromCache_Testura_Android_Device_Ui_Search_With___
+  commentId: M:Testura.Android.Device.Services.Default.UiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With[])
+  name.vb: FindNodeFromCache(With())
+  fullName: Testura.Android.Device.Services.Default.UiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With[])
+  fullName.vb: Testura.Android.Device.Services.Default.UiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With())
+  nameWithType: UiService.FindNodeFromCache(With[])
+  nameWithType.vb: FindNodeFromCache(With())
+- uid: Testura.Android.Device.Services.Default.UiService.FindNodeFromCache*
+  name: FindNodeFromCache
+  href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_FindNodeFromCache_
+  commentId: Overload:Testura.Android.Device.Services.Default.UiService.FindNodeFromCache
+  fullName: Testura.Android.Device.Services.Default.UiService.FindNodeFromCache
+  nameWithType: UiService.FindNodeFromCache
 - uid: Testura.Android.Device.Services.Default.UiService.FindNodes(System.Int32,Testura.Android.Device.Ui.Search.With[])
   name: FindNodes(Int32, With[])
   href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_FindNodes_System_Int32_Testura_Android_Device_Ui_Search_With___
@@ -853,6 +886,21 @@ references:
   commentId: Overload:Testura.Android.Device.Services.Default.UiService.FindNodes
   fullName: Testura.Android.Device.Services.Default.UiService.FindNodes
   nameWithType: UiService.FindNodes
+- uid: Testura.Android.Device.Services.Default.UiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With[])
+  name: FindNodesFromCache(With[])
+  href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_FindNodesFromCache_Testura_Android_Device_Ui_Search_With___
+  commentId: M:Testura.Android.Device.Services.Default.UiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With[])
+  name.vb: FindNodesFromCache(With())
+  fullName: Testura.Android.Device.Services.Default.UiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With[])
+  fullName.vb: Testura.Android.Device.Services.Default.UiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With())
+  nameWithType: UiService.FindNodesFromCache(With[])
+  nameWithType.vb: FindNodesFromCache(With())
+- uid: Testura.Android.Device.Services.Default.UiService.FindNodesFromCache*
+  name: FindNodesFromCache
+  href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_FindNodesFromCache_
+  commentId: Overload:Testura.Android.Device.Services.Default.UiService.FindNodesFromCache
+  fullName: Testura.Android.Device.Services.Default.UiService.FindNodesFromCache
+  nameWithType: UiService.FindNodesFromCache
 - uid: Testura.Android.Device.Services.Default.UiService.StartUiServer
   name: StartUiServer()
   href: api/Testura.Android.Device.Services.Default.UiService.html#Testura_Android_Device_Services_Default_UiService_StartUiServer
@@ -1093,6 +1141,18 @@ references:
   commentId: Overload:Testura.Android.Device.Services.ISettingsService.AirplaneMode
   fullName: Testura.Android.Device.Services.ISettingsService.AirplaneMode
   nameWithType: ISettingsService.AirplaneMode
+- uid: Testura.Android.Device.Services.ISettingsService.Bluetooth(Testura.Android.Util.State)
+  name: Bluetooth(State)
+  href: api/Testura.Android.Device.Services.ISettingsService.html#Testura_Android_Device_Services_ISettingsService_Bluetooth_Testura_Android_Util_State_
+  commentId: M:Testura.Android.Device.Services.ISettingsService.Bluetooth(Testura.Android.Util.State)
+  fullName: Testura.Android.Device.Services.ISettingsService.Bluetooth(Testura.Android.Util.State)
+  nameWithType: ISettingsService.Bluetooth(State)
+- uid: Testura.Android.Device.Services.ISettingsService.Bluetooth*
+  name: Bluetooth
+  href: api/Testura.Android.Device.Services.ISettingsService.html#Testura_Android_Device_Services_ISettingsService_Bluetooth_
+  commentId: Overload:Testura.Android.Device.Services.ISettingsService.Bluetooth
+  fullName: Testura.Android.Device.Services.ISettingsService.Bluetooth
+  nameWithType: ISettingsService.Bluetooth
 - uid: Testura.Android.Device.Services.ISettingsService.Gps(Testura.Android.Util.State)
   name: Gps(State)
   href: api/Testura.Android.Device.Services.ISettingsService.html#Testura_Android_Device_Services_ISettingsService_Gps_Testura_Android_Util_State_
@@ -1123,6 +1183,18 @@ references:
   commentId: T:Testura.Android.Device.Services.IUiService
   fullName: Testura.Android.Device.Services.IUiService
   nameWithType: IUiService
+- uid: Testura.Android.Device.Services.IUiService.ClearCache
+  name: ClearCache()
+  href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_ClearCache
+  commentId: M:Testura.Android.Device.Services.IUiService.ClearCache
+  fullName: Testura.Android.Device.Services.IUiService.ClearCache()
+  nameWithType: IUiService.ClearCache()
+- uid: Testura.Android.Device.Services.IUiService.ClearCache*
+  name: ClearCache
+  href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_ClearCache_
+  commentId: Overload:Testura.Android.Device.Services.IUiService.ClearCache
+  fullName: Testura.Android.Device.Services.IUiService.ClearCache
+  nameWithType: IUiService.ClearCache
 - uid: Testura.Android.Device.Services.IUiService.CreateUiObject(Testura.Android.Device.Ui.Search.With[])
   name: CreateUiObject(With[])
   href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_CreateUiObject_Testura_Android_Device_Ui_Search_With___
@@ -1180,6 +1252,21 @@ references:
   commentId: Overload:Testura.Android.Device.Services.IUiService.FindNode
   fullName: Testura.Android.Device.Services.IUiService.FindNode
   nameWithType: IUiService.FindNode
+- uid: Testura.Android.Device.Services.IUiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With[])
+  name: FindNodeFromCache(With[])
+  href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_FindNodeFromCache_Testura_Android_Device_Ui_Search_With___
+  commentId: M:Testura.Android.Device.Services.IUiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With[])
+  name.vb: FindNodeFromCache(With())
+  fullName: Testura.Android.Device.Services.IUiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With[])
+  fullName.vb: Testura.Android.Device.Services.IUiService.FindNodeFromCache(Testura.Android.Device.Ui.Search.With())
+  nameWithType: IUiService.FindNodeFromCache(With[])
+  nameWithType.vb: FindNodeFromCache(With())
+- uid: Testura.Android.Device.Services.IUiService.FindNodeFromCache*
+  name: FindNodeFromCache
+  href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_FindNodeFromCache_
+  commentId: Overload:Testura.Android.Device.Services.IUiService.FindNodeFromCache
+  fullName: Testura.Android.Device.Services.IUiService.FindNodeFromCache
+  nameWithType: IUiService.FindNodeFromCache
 - uid: Testura.Android.Device.Services.IUiService.FindNodes(System.Int32,Testura.Android.Device.Ui.Search.With[])
   name: FindNodes(Int32, With[])
   href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_FindNodes_System_Int32_Testura_Android_Device_Ui_Search_With___
@@ -1195,6 +1282,21 @@ references:
   commentId: Overload:Testura.Android.Device.Services.IUiService.FindNodes
   fullName: Testura.Android.Device.Services.IUiService.FindNodes
   nameWithType: IUiService.FindNodes
+- uid: Testura.Android.Device.Services.IUiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With[])
+  name: FindNodesFromCache(With[])
+  href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_FindNodesFromCache_Testura_Android_Device_Ui_Search_With___
+  commentId: M:Testura.Android.Device.Services.IUiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With[])
+  name.vb: FindNodesFromCache(With())
+  fullName: Testura.Android.Device.Services.IUiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With[])
+  fullName.vb: Testura.Android.Device.Services.IUiService.FindNodesFromCache(Testura.Android.Device.Ui.Search.With())
+  nameWithType: IUiService.FindNodesFromCache(With[])
+  nameWithType.vb: FindNodesFromCache(With())
+- uid: Testura.Android.Device.Services.IUiService.FindNodesFromCache*
+  name: FindNodesFromCache
+  href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_FindNodesFromCache_
+  commentId: Overload:Testura.Android.Device.Services.IUiService.FindNodesFromCache
+  fullName: Testura.Android.Device.Services.IUiService.FindNodesFromCache
+  nameWithType: IUiService.FindNodesFromCache
 - uid: Testura.Android.Device.Services.IUiService.StartUiServer
   name: StartUiServer()
   href: api/Testura.Android.Device.Services.IUiService.html#Testura_Android_Device_Services_IUiService_StartUiServer
@@ -1828,6 +1930,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Objects.BaseUiObject.IsHidden
   fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.IsHidden
   nameWithType: BaseUiObject.IsHidden
+- uid: Testura.Android.Device.Ui.Objects.BaseUiObject.IsHiddenInCache
+  name: IsHiddenInCache()
+  href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsHiddenInCache
+  commentId: M:Testura.Android.Device.Ui.Objects.BaseUiObject.IsHiddenInCache
+  fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.IsHiddenInCache()
+  nameWithType: BaseUiObject.IsHiddenInCache()
+- uid: Testura.Android.Device.Ui.Objects.BaseUiObject.IsHiddenInCache*
+  name: IsHiddenInCache
+  href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsHiddenInCache_
+  commentId: Overload:Testura.Android.Device.Ui.Objects.BaseUiObject.IsHiddenInCache
+  fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.IsHiddenInCache
+  nameWithType: BaseUiObject.IsHiddenInCache
 - uid: Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisible(System.Int32)
   name: IsVisible(Int32)
   href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsVisible_System_Int32_
@@ -1840,6 +1954,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisible
   fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisible
   nameWithType: BaseUiObject.IsVisible
+- uid: Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisibleInCache
+  name: IsVisibleInCache()
+  href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsVisibleInCache
+  commentId: M:Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisibleInCache
+  fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisibleInCache()
+  nameWithType: BaseUiObject.IsVisibleInCache()
+- uid: Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisibleInCache*
+  name: IsVisibleInCache
+  href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsVisibleInCache_
+  commentId: Overload:Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisibleInCache
+  fullName: Testura.Android.Device.Ui.Objects.BaseUiObject.IsVisibleInCache
+  nameWithType: BaseUiObject.IsVisibleInCache
 - uid: Testura.Android.Device.Ui.Objects.BaseUiObject.TryFindNode(System.Int32)
   name: TryFindNode(Int32)
   href: api/Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_TryFindNode_System_Int32_
@@ -1921,6 +2047,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.Values
   fullName: Testura.Android.Device.Ui.Objects.UiObject.Values
   nameWithType: UiObject.Values
+- uid: Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache
+  name: ValuesFromCache()
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_ValuesFromCache
+  commentId: M:Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache()
+  nameWithType: UiObject.ValuesFromCache()
+- uid: Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache*
+  name: ValuesFromCache
+  href: api/Testura.Android.Device.Ui.Objects.UiObject.html#Testura_Android_Device_Ui_Objects_UiObject_ValuesFromCache_
+  commentId: Overload:Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache
+  fullName: Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache
+  nameWithType: UiObject.ValuesFromCache
 - uid: Testura.Android.Device.Ui.Objects.UiObjects
   name: UiObjects
   href: api/Testura.Android.Device.Ui.Objects.UiObjects.html
@@ -1951,6 +2089,18 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Objects.UiObjects.Values
   fullName: Testura.Android.Device.Ui.Objects.UiObjects.Values
   nameWithType: UiObjects.Values
+- uid: Testura.Android.Device.Ui.Objects.UiObjects.ValuesFromCache
+  name: ValuesFromCache()
+  href: api/Testura.Android.Device.Ui.Objects.UiObjects.html#Testura_Android_Device_Ui_Objects_UiObjects_ValuesFromCache
+  commentId: M:Testura.Android.Device.Ui.Objects.UiObjects.ValuesFromCache
+  fullName: Testura.Android.Device.Ui.Objects.UiObjects.ValuesFromCache()
+  nameWithType: UiObjects.ValuesFromCache()
+- uid: Testura.Android.Device.Ui.Objects.UiObjects.ValuesFromCache*
+  name: ValuesFromCache
+  href: api/Testura.Android.Device.Ui.Objects.UiObjects.html#Testura_Android_Device_Ui_Objects_UiObjects_ValuesFromCache_
+  commentId: Overload:Testura.Android.Device.Ui.Objects.UiObjects.ValuesFromCache
+  fullName: Testura.Android.Device.Ui.Objects.UiObjects.ValuesFromCache
+  nameWithType: UiObjects.ValuesFromCache
 - uid: Testura.Android.Device.Ui.Search
   name: Testura.Android.Device.Ui.Search
   href: api/Testura.Android.Device.Ui.Search.html
@@ -2176,12 +2326,6 @@ references:
   commentId: Overload:Testura.Android.Device.Ui.Server.UiAutomatorServer.Alive
   fullName: Testura.Android.Device.Ui.Server.UiAutomatorServer.Alive
   nameWithType: UiAutomatorServer.Alive
-- uid: Testura.Android.Device.Ui.Server.UiAutomatorServer.DevicePort
-  name: DevicePort
-  href: api/Testura.Android.Device.Ui.Server.UiAutomatorServer.html#Testura_Android_Device_Ui_Server_UiAutomatorServer_DevicePort
-  commentId: F:Testura.Android.Device.Ui.Server.UiAutomatorServer.DevicePort
-  fullName: Testura.Android.Device.Ui.Server.UiAutomatorServer.DevicePort
-  nameWithType: UiAutomatorServer.DevicePort
 - uid: Testura.Android.Device.Ui.Server.UiAutomatorServer.DumpUi
   name: DumpUi()
   href: api/Testura.Android.Device.Ui.Server.UiAutomatorServer.html#Testura_Android_Device_Ui_Server_UiAutomatorServer_DumpUi
@@ -2599,6 +2743,24 @@ references:
   commentId: N:Testura.Android.Util.Helpers
   fullName: Testura.Android.Util.Helpers
   nameWithType: Testura.Android.Util.Helpers
+- uid: Testura.Android.Util.Helpers.UiFind
+  name: UiFind
+  href: api/Testura.Android.Util.Helpers.UiFind.html
+  commentId: T:Testura.Android.Util.Helpers.UiFind
+  fullName: Testura.Android.Util.Helpers.UiFind
+  nameWithType: UiFind
+- uid: Testura.Android.Util.Helpers.UiFind.ClosestNode(Testura.Android.Device.Ui.Search.With,Testura.Android.Device.Ui.Nodes.Data.Node)
+  name: ClosestNode(With, Node)
+  href: api/Testura.Android.Util.Helpers.UiFind.html#Testura_Android_Util_Helpers_UiFind_ClosestNode_Testura_Android_Device_Ui_Search_With_Testura_Android_Device_Ui_Nodes_Data_Node_
+  commentId: M:Testura.Android.Util.Helpers.UiFind.ClosestNode(Testura.Android.Device.Ui.Search.With,Testura.Android.Device.Ui.Nodes.Data.Node)
+  fullName: Testura.Android.Util.Helpers.UiFind.ClosestNode(Testura.Android.Device.Ui.Search.With, Testura.Android.Device.Ui.Nodes.Data.Node)
+  nameWithType: UiFind.ClosestNode(With, Node)
+- uid: Testura.Android.Util.Helpers.UiFind.ClosestNode*
+  name: ClosestNode
+  href: api/Testura.Android.Util.Helpers.UiFind.html#Testura_Android_Util_Helpers_UiFind_ClosestNode_
+  commentId: Overload:Testura.Android.Util.Helpers.UiFind.ClosestNode
+  fullName: Testura.Android.Util.Helpers.UiFind.ClosestNode
+  nameWithType: UiFind.ClosestNode
 - uid: Testura.Android.Util.Helpers.UiWait
   name: UiWait
   href: api/Testura.Android.Util.Helpers.UiWait.html
