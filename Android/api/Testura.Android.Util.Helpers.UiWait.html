@@ -114,13 +114,13 @@
               
               
               <a id="Testura_Android_Util_Helpers_UiWait_ForAll_" data-uid="Testura.Android.Util.Helpers.UiWait.ForAll*"></a>
-              <h4 id="Testura_Android_Util_Helpers_UiWait_ForAll_System_Int32_System_Func_System_Int32_System_Boolean____" data-uid="Testura.Android.Util.Helpers.UiWait.ForAll(System.Int32,System.Func{System.Int32,System.Boolean}[])">ForAll(Int32, Func&lt;Int32, Boolean&gt;[])</h4>
+              <h4 id="Testura_Android_Util_Helpers_UiWait_ForAll_System_Func_System_TimeSpan_System_Boolean____System_TimeSpan_" data-uid="Testura.Android.Util.Helpers.UiWait.ForAll(System.Func{System.TimeSpan,System.Boolean}[],System.TimeSpan)">ForAll(Func&lt;TimeSpan, Boolean&gt;[], TimeSpan)</h4>
               <div class="markdown level1 summary"><p>Wait for all ui object to be visible or hidden.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static void ForAll(int timeout, params Func&lt;int, bool&gt;[] invokeMethods)</code></pre>
+                <pre><code class="lang-csharp hljs">public static void ForAll(Func&lt;TimeSpan, bool&gt;[] invokeMethods, TimeSpan timeout)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -133,20 +133,20 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><span class="parametername">timeout</span></td>
-                    <td><p>Timeout in seconds</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+                    <td><span class="xref">System.Func</span>&lt;<span class="xref">System.TimeSpan</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
                     <td><span class="parametername">invokeMethods</span></td>
                     <td><p>Methods on different uiObjects to invoke (for example Visible or Hidden)</p>
 </td>
                   </tr>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td><span class="parametername">timeout</span></td>
+                    <td><p>Timeout</p>
+</td>
+                  </tr>
                 </tbody>
               </table>
-              <h5 id="Testura_Android_Util_Helpers_UiWait_ForAll_System_Int32_System_Func_System_Int32_System_Boolean_____examples">Examples</h5>
+              <h5 id="Testura_Android_Util_Helpers_UiWait_ForAll_System_Func_System_TimeSpan_System_Boolean____System_TimeSpan__examples">Examples</h5>
               This example show how to call the method with two uiObjects and wait for the
 first one to be visible or the second one to be hidden.
 
@@ -169,13 +169,13 @@ first one to be visible or the second one to be hidden.
               
               
               <a id="Testura_Android_Util_Helpers_UiWait_ForAny_" data-uid="Testura.Android.Util.Helpers.UiWait.ForAny*"></a>
-              <h4 id="Testura_Android_Util_Helpers_UiWait_ForAny_System_Int32_System_Func_System_Int32_System_Boolean____" data-uid="Testura.Android.Util.Helpers.UiWait.ForAny(System.Int32,System.Func{System.Int32,System.Boolean}[])">ForAny(Int32, Func&lt;Int32, Boolean&gt;[])</h4>
+              <h4 id="Testura_Android_Util_Helpers_UiWait_ForAny_System_Func_System_TimeSpan_System_Boolean____System_TimeSpan_" data-uid="Testura.Android.Util.Helpers.UiWait.ForAny(System.Func{System.TimeSpan,System.Boolean}[],System.TimeSpan)">ForAny(Func&lt;TimeSpan, Boolean&gt;[], TimeSpan)</h4>
               <div class="markdown level1 summary"><p>Wait for any ui object to be visible or hidden.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static UiObject ForAny(int timeout, params Func&lt;int, bool&gt;[] invokeMethods)</code></pre>
+                <pre><code class="lang-csharp hljs">public static UiObject ForAny(Func&lt;TimeSpan, bool&gt;[] invokeMethods, TimeSpan timeout)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -188,15 +188,15 @@ first one to be visible or the second one to be hidden.
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><span class="parametername">timeout</span></td>
-                    <td><p>Timeout in seconds</p>
+                    <td><span class="xref">System.Func</span>&lt;<span class="xref">System.TimeSpan</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
+                    <td><span class="parametername">invokeMethods</span></td>
+                    <td><p>Methods on different uiObjects to invoke (for example Visible or Hidden)</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Boolean</span>&gt;[]</td>
-                    <td><span class="parametername">invokeMethods</span></td>
-                    <td><p>Methods on different uiObjects to invoke (for example Visible or Hidden)</p>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td><span class="parametername">timeout</span></td>
+                    <td><p>Timeout</p>
 </td>
                   </tr>
                 </tbody>
@@ -217,7 +217,7 @@ first one to be visible or the second one to be hidden.
                   </tr>
                 </tbody>
               </table>
-              <h5 id="Testura_Android_Util_Helpers_UiWait_ForAny_System_Int32_System_Func_System_Int32_System_Boolean_____examples">Examples</h5>
+              <h5 id="Testura_Android_Util_Helpers_UiWait_ForAny_System_Func_System_TimeSpan_System_Boolean____System_TimeSpan__examples">Examples</h5>
               This example show how to call the method with two uiObjects and wait for the
 first one to be visible or the second one to be hidden.
 

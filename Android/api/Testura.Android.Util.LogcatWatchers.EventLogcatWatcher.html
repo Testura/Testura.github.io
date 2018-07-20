@@ -121,13 +121,13 @@
               
               
               <a id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor*"></a>
-              <h4 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_System_String___System_Boolean_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,System.String[],System.Boolean)">EventLogcatWatcher(DeviceConfiguration, String[], Boolean)</h4>
+              <h4 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_Testura_Android_Device_IAdbCommandExecutorProvider_System_Collections_Generic_IEnumerable_System_String__System_Boolean_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor(Testura.Android.Device.IAdbCommandExecutorProvider,System.Collections.Generic.IEnumerable{System.String},System.Boolean)">EventLogcatWatcher(IAdbCommandExecutorProvider, IEnumerable&lt;String&gt;, Boolean)</h4>
               <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html">EventLogcatWatcher</a> class.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public EventLogcatWatcher(DeviceConfiguration deviceConfiguration, string[] tags, bool flushLogcat = false)</code></pre>
+                <pre><code class="lang-csharp hljs">public EventLogcatWatcher(IAdbCommandExecutorProvider adbCommandExecutorProvider, IEnumerable&lt;string&gt; tags, bool flushLogcat = false)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -140,13 +140,54 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Configurations.DeviceConfiguration.html">DeviceConfiguration</a></td>
-                    <td><span class="parametername">deviceConfiguration</span></td>
-                    <td><p>Current device configuration.</p>
+                    <td><a class="xref" href="Testura.Android.Device.IAdbCommandExecutorProvider.html">IAdbCommandExecutorProvider</a></td>
+                    <td><span class="parametername">adbCommandExecutorProvider</span></td>
+                    <td><p>An adb terminal provider</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.String</span>[]</td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><span class="parametername">tags</span></td>
+                    <td><p>A set of logcat tags.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">flushLogcat</span></td>
+                    <td><p>If we should flush logcat before starting.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor*"></a>
+              <h4 id="Testura_Android_Util_LogcatWatchers_EventLogcatWatcher__ctor_Testura_Android_Util_AdbCommandExecutor_System_Collections_Generic_IEnumerable_System_String__System_Boolean_" data-uid="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.#ctor(Testura.Android.Util.AdbCommandExecutor,System.Collections.Generic.IEnumerable{System.String},System.Boolean)">EventLogcatWatcher(AdbCommandExecutor, IEnumerable&lt;String&gt;, Boolean)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Android.Util.LogcatWatchers.EventLogcatWatcher.html">EventLogcatWatcher</a> class.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public EventLogcatWatcher(AdbCommandExecutor adbCommandExecutor, IEnumerable&lt;string&gt; tags, bool flushLogcat = false)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.AdbCommandExecutor.html">AdbCommandExecutor</a></td>
+                    <td><span class="parametername">adbCommandExecutor</span></td>
+                    <td><p>The adb terminal used to send adb commands</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
                     <td><span class="parametername">tags</span></td>
                     <td><p>A set of logcat tags.</p>
 </td>

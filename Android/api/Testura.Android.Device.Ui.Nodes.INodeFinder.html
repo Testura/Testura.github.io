@@ -85,13 +85,13 @@
               
               
               <a id="Testura_Android_Device_Ui_Nodes_INodeFinder_FindNode_" data-uid="Testura.Android.Device.Ui.Nodes.INodeFinder.FindNode*"></a>
-              <h4 id="Testura_Android_Device_Ui_Nodes_INodeFinder_FindNode_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__Testura_Android_Device_Ui_Search_With___" data-uid="Testura.Android.Device.Ui.Nodes.INodeFinder.FindNode(System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node},Testura.Android.Device.Ui.Search.With[])">FindNode(IList&lt;Node&gt;, With[])</h4>
+              <h4 id="Testura_Android_Device_Ui_Nodes_INodeFinder_FindNode_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__System_Collections_Generic_IList_Testura_Android_Device_Ui_Search_Where__System_String_" data-uid="Testura.Android.Device.Ui.Nodes.INodeFinder.FindNode(System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node},System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.Where},System.String)">FindNode(IList&lt;Node&gt;, IList&lt;Where&gt;, String)</h4>
               <div class="markdown level1 summary"><p>Search through a list of nodes and return the first node that match the search criteria.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">Node FindNode(IList&lt;Node&gt; nodes, params With[] with)</code></pre>
+                <pre><code class="lang-csharp hljs">Node FindNode(IList&lt;Node&gt; nodes, IList&lt;Where&gt; wheres, string wildcard = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -110,9 +110,15 @@
 </td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.With.html">With</a>[]</td>
-                    <td><span class="parametername">with</span></td>
-                    <td><p>One ore many search criteria.</p>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Search.Where.html">Where</a>&gt;</td>
+                    <td><span class="parametername">wheres</span></td>
+                    <td><p>One ore many search criterias.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">wildcard</span></td>
+                    <td><p>Wildcard value</p>
 </td>
                   </tr>
                 </tbody>
@@ -136,13 +142,13 @@
               
               
               <a id="Testura_Android_Device_Ui_Nodes_INodeFinder_FindNodes_" data-uid="Testura.Android.Device.Ui.Nodes.INodeFinder.FindNodes*"></a>
-              <h4 id="Testura_Android_Device_Ui_Nodes_INodeFinder_FindNodes_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__Testura_Android_Device_Ui_Search_With___" data-uid="Testura.Android.Device.Ui.Nodes.INodeFinder.FindNodes(System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node},Testura.Android.Device.Ui.Search.With[])">FindNodes(IList&lt;Node&gt;, With[])</h4>
+              <h4 id="Testura_Android_Device_Ui_Nodes_INodeFinder_FindNodes_System_Collections_Generic_IList_Testura_Android_Device_Ui_Nodes_Data_Node__System_Collections_Generic_IList_Testura_Android_Device_Ui_Search_Where__System_String_" data-uid="Testura.Android.Device.Ui.Nodes.INodeFinder.FindNodes(System.Collections.Generic.IList{Testura.Android.Device.Ui.Nodes.Data.Node},System.Collections.Generic.IList{Testura.Android.Device.Ui.Search.Where},System.String)">FindNodes(IList&lt;Node&gt;, IList&lt;Where&gt;, String)</h4>
               <div class="markdown level1 summary"><p>Search through a list of nodes and return all nodes that match the search criteria.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">IList&lt;Node&gt; FindNodes(IList&lt;Node&gt; nodes, params With[] withs)</code></pre>
+                <pre><code class="lang-csharp hljs">IList&lt;Node&gt; FindNodes(IList&lt;Node&gt; nodes, IList&lt;Where&gt; wheres, string wildcard = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -161,9 +167,15 @@
 </td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.With.html">With</a>[]</td>
-                    <td><span class="parametername">withs</span></td>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Search.Where.html">Where</a>&gt;</td>
+                    <td><span class="parametername">wheres</span></td>
                     <td><p>One ore many search criteria.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">wildcard</span></td>
+                    <td><p>wildcard value</p>
 </td>
                   </tr>
                 </tbody>

@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Install </title>
+    <title>Why should I use Testura? </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Install ">
+    <meta name="title" content="Why should I use Testura? ">
     <meta name="generator" content="docfx 2.10.2.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -61,20 +61,24 @@
               
               <p><img src="http://testura.net/Content/Images/logo2.png" alt="Testura Logo"></p>
 <p>Testura.Android is a lightweight test automation framework for Android built in C#. It contains tools and help classes to test, validate and interact with your Android device or emulator.</p>
+<h2 id="why-should-i-use-testura">Why should I use Testura?</h2>
+<ul>
+<li>Quick and easy to set up</li>
+<li>Designed to be used with the page object pattern</li>
+<li>Interact with multiple objects at the same time</li>
+<li>Makes it easy to run tests with multiple devices</li>
+<li>Add custom extensions to handle pop-ups, error dialogs, loading bars, etc without any overhead.</li>
+<li>Help tools to create your page objects (<a href="https://github.com/Testura/Testura.Android.PageObjectCreator">seperate project</a>)</li>
+</ul>
 <h1 id="install">Install</h1>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li><a href="https://developer.android.com/studio/index.html">Android SDK</a> (also recommended to add adb to environment variables)</li>
+<li><a href="https://developer.android.com/studio/releases/platform-tools.html">Android adb.exe (download SDK platform-tools)</a> (also recommended to add adb to environment variables)</li>
 </ul>
 <h2 id="nuget-nuget-statushttpsimgshieldsionugetvtesturaandroidsvgstyleflathttpswwwnugetorgpackagestesturaandroid">NuGet <a href="https://www.nuget.org/packages/Testura.Android"><img src="https://img.shields.io/nuget/v/Testura.Android.svg?style=flat" alt="NuGet Status"></a></h2>
 <p><a href="https://www.nuget.org/packages/Testura.Android"><a href="https://www.nuget.org/packages/Testura.Android">https://www.nuget.org/packages/Testura.Android</a></a></p>
 <pre><code>PM&gt; Install-Package Testura.Android
-</code></pre><h2 id="nuget-with-page-object-helpers-optional-nuget-statushttpsimgshieldsionugetvtesturaandroidpageobjectsvgstyleflathttpswwwnugetorgpackagestesturaandroidpageobject">Nuget with page object helpers (optional) <a href="https://www.nuget.org/packages/Testura.Android.PageObject"><img src="https://img.shields.io/nuget/v/Testura.Android.PageObject.svg?style=flat" alt="NuGet Status"></a></h2>
-<p><a href="https://www.nuget.org/packages/Testura.Android.PageObject"><a href="https://www.nuget.org/packages/Testura.Android.PageObject">https://www.nuget.org/packages/Testura.Android.PageObject</a></a></p>
-<pre><code>PM&gt; Install-Package Testura.Android.PageObject
 </code></pre><h2 id="usage">Usage</h2>
-<p><a href="https://www.youtube.com/watch?v=x-U2F6mzcyc">Short introduction - Youtube</a></p>
-<p><a href="https://www.youtube.com/watch?v=0QhAcGdx65E">How to create a test automation project with testura - Youtube</a></p>
 <p>Testura.Android has been designed for the page object pattern. Here is a short example of a login view:</p>
 <pre><code class="lang-c#">using Testura.Android.Device;
 using Testura.Android.Device.Configurations;
@@ -83,23 +87,22 @@ using Testura.Android.Device.Ui.Search;
 
 namespace Testura.Android.Tests.Device
 {
-    public class ExampleView
+    public class ExampleView : View
     {
-        private IAndroidDevice _androidDevice;
-
+    // All UiObjects with the &quot;MapUiObject&quot; attribute will be automatically initialized as long as your class 
+    // inherit from the &quot;View&quot; class or if you call on &quot;ViewFactory.MapUiNodes(..)&quot;
+    [MapUiObject(ResourceId = &quot;usernameTextbox&quot;)]
         private readonly UiObject _usernameTextbox;
+
+    [MapUiObject(ContentDesc = &quot;passwordTextbox&quot;]
         private readonly UiObject _passwordTextbox;
+
         private readonly UiObject _logInButton;
 
-        public ExampleView()
+        public ExampleView(IAndroidDevice device) : base(device)
         {
-            _androidDevice = new AndroidDevice(new DeviceConfiguration());
-
-            // The device won&#39;t look for the node/UI object before we interact with it,
-            // so it&#39;s perfectly safe to set up everything inside the constructor.
-            _usernameTextbox = _androidDevice.Ui.CreateUiObject(With.ResourceId(&quot;usernameTextbox&quot;));
-            _passwordTextbox = _androidDevice.Ui.CreateUiObject(With.ContentDesc(&quot;passwordTextbox&quot;));
-            _logInButton = _androidDevice.Ui.CreateUiObject(With.Lambda(n =&gt; n.Text == &quot;Login&quot;));
+        // It is also possible to skip the attribute and initialize the object from the constructor (this is also required for the &quot;lambda&quot; mapping)
+            _logInButton = device.MapUiObject(Where.Lambda(node =&gt; node.Text == &quot;Login&quot;));
         }
 
         public void Login(string username, string password)
@@ -110,48 +113,117 @@ namespace Testura.Android.Tests.Device
         }
     }
 }
-</code></pre><p>In the example we can see how we map different nodes on the screen to &quot;UI objects&quot;. We can then interact with the nodes through the mapped UI object.</p>
-<h2 id="selecting-nodes-with-with">Selecting nodes with <code>With</code></h2>
-<p>If you have used Selenium, Appium or any other big test automation framework I&#39;m sure you are familiar with the <code>By</code> keyword. Testura.Android has something similiar called <code>With</code>.</p>
-<p>When mapping up a new UI object, you first have to decide how to find it, using one or more <code>With</code>:</p>
+</code></pre><p>In the example we can see how we map different nodes on the screen to &quot;UI objects&quot;.</p>
+<h2 id="map-uiobject-with-where">Map <code>UiObject</code> with <code>Where</code></h2>
+<p>If you have used Selenium, Appium or any other big test automation framework I&#39;m sure you are familiar with the <code>By</code> keyword. Testura.Android has something similiar called <code>Where</code>.</p>
+<p>When mapping up a new UI object, you first have to decide how to find it, using one or more <code>Where</code>:</p>
 <ul>
-<li><code>With.Text</code> - Find nodes that match the exact text</li>
-<li><code>With.ContainsText</code> - Find nodes that contain just a part of the text</li>
-<li><code>With.ResourceId</code> - Find nodes that contains the exact resource ID</li>
-<li><code>With.ContentDesc</code> - Find nodes that contains the exact content description</li>
-<li><code>With.Class</code> - Find nodes that contains the exact class</li>
-<li><code>With.Index</code> - Find nodes that have this index</li>
-<li><code>With.Package</code> - Find nodes that contains the exact package</li>
-<li><code>With.Lamba</code> - Find nodes with a lamba expression</li>
+<li><code>Where.Text</code> - Find nodes that match the exact text</li>
+<li><code>Where.ContainsText</code> - Find nodes that contain just a part of the text</li>
+<li><code>Where.ResourceId</code> - Find nodes that contains the exact resource ID</li>
+<li><code>Where.ContentDesc</code> - Find nodes that contains the exact content description</li>
+<li><code>Where.Class</code> - Find nodes that contains the exact class</li>
+<li><code>Where.Index</code> - Find nodes that have this index</li>
+<li><code>Where.Package</code> - Find nodes that contains the exact package</li>
+<li><code>Where.Lamba</code> - Find nodes with a lamba expression</li>
 </ul>
-<p><code>With.Lamba</code> is a powerful method to find nodes and you can access both the node&#39;s parent and children:</p>
-<pre><code class="lang-c#">With.Lambda(n =&gt;
+<p><code>Where.Lamba</code> is a powerful method to find nodes and you can access both the node&#39;s parent and children:</p>
+<pre><code class="lang-c#">Where.Lambda(n =&gt;
     n.Text == &quot;Some text&quot;
     &amp;&amp; n.Parent != null
     &amp;&amp; n.Children.First().ContentDesc == &quot;My child&quot;);
+</code></pre><h3 id="advanced-mapping-with-wildcards">Advanced mapping with wildcards</h3>
+<p>In some cases we don&#39;t know the whole value when mapping so to get passed this Testura.Android provide &quot;wildcards&quot;: </p>
+<pre><code class="lang-c#">[MapUiObject(Class = &quot;textbox&quot;, ResourceId = Where.Wildcard)]
+private readonly UiObject _usernameTextbox;
+</code></pre><p>and later on we provide the wildcard value: </p>
+<pre><code class="lang-c#">// This will input text into textbox where class = &quot;textbox&quot; and resourceId = &quot;user&quot;
+_usernameTextbox[&quot;user&quot;].InputText(&quot;..&quot;);
 </code></pre><h2 id="services">Services</h2>
 <p>The Android device class consists of multiple &quot;services&quot; that handle different parts of the device:</p>
 <ul>
 <li>ADB service - Send shell commands, push and pull files, install APKs etc.</li>
-<li>UI service - Look for nodes or map UI objects (handles screen dumping)</li>
 <li>Settings service - Enable/disable different settings, for example wifi and airplane mode</li>
 <li>Activity service - Start activity or get the name of the current one</li>
 <li>Interaction service - Handle interaction with the device, for example swipe and click</li>
 </ul>
 <p>All services are accessible from the device class like this:</p>
-<pre><code class="lang-c#">var device = new AndroidDevice(new DeviceConfiguration());
+<pre><code class="lang-c#">var device = new AndroidDevice();
 device.Adb.Shell(&quot;my shell commando&quot;);
 device.Settings.Wifi(State.Enable);
 </code></pre><h2 id="uiobject"><code>UiObject</code></h2>
 <p><code>UiObject</code> is one of the core components of Testura.Android. It wraps a node with all the necessary functions:</p>
-<pre><code class="lang-c#">var device = new AndroidDevice(new DeviceConfiguration());
-var uiObject = device.Ui.CreateUiObject(With.ContentDesc(&quot;..&quot;));
+<pre><code class="lang-c#">var device = new AndroidDevice();
+var uiObject = device.MapUiObject(Where.ContentDesc(&quot;..&quot;));
 uiObject.Tap();
 uiObject.IsVisible();
 uiObject.IsHidden();
 uiObject.InputText(&quot;..&quot;);
-uiObject.WaitForValue(n =&gt; n.Enabled);
-var node = uiObject.Values();
+uiObject.WaitUntil(node =&gt; node.Enabled);
+var node = uiObject.First();
+</code></pre><h2 id="run-tests-in-parallel-with-multiple-devices">Run tests in parallel with multiple devices</h2>
+<p>In many cases you want to run your tests on multiple devices in parallel to save time and Testura.Android can help you with that. Simply use the <code>AndroidDeviceFactory</code> class. </p>
+<p>In your setup: </p>
+<pre><code class="lang-c#">var deviceFactory = new AndroidDeviceFactory();
+var device = deviceFactory.GetDevice(new DeviceConfiguration { Serial = &quot;..&quot; }, new DeviceConfiguration { Serial = &quot;..&quot; });
+</code></pre><p>After your test: </p>
+<pre><code class="lang-c#">deviceFactory.DisposeDevice(device);
+</code></pre><p>Here we simply provide all possible devices to the <code>GetDevice</code> method and let Testura.Android keep track of the queue. When we finished our test we call on <code>DisposeDevice</code> so next test in the queue can run.</p>
+<h2 id="other-features">Other features</h2>
+<h3 id="logcat-watcher">Logcat watcher</h3>
+<p>Testura.Android provides functionally to watch the logcat for different tags. To use it you simply have to extend the <code>LogcatWatcher</code> class or use the <code>EventLogcatWatcher</code>.</p>
+<h4 id="eventlogcatwatcher"><code>EventLogcatWatcher</code></h4>
+<p><code>EventLogcatWatcher</code> will fire an event every time it find something that matches the provided tag(s). </p>
+<pre><code class="lang-c#">public void StartLogcatWatcher(IAndroidDevice device)
+{
+    var eventLogcatWatcher = new EventLogcatWatcher(device, new[] {&quot;myTag &quot;}, flushLogcat: true);
+    eventLogcatWatcher.NewOutputEvent += EventLogcatWatcherOnNewOutputEvent;
+}
+
+private void EventLogcatWatcherOnNewOutputEvent(object sender, string line)
+{
+    // Found a new line with the tag, handle it.
+}
+</code></pre><h3 id="ui-extensions">UI Extensions</h3>
+<p>Ui extensions is a way to hijack the UIService so <em>before</em> we look for element x we do y. An example of this could be looking for dialogs, error message or loading bars.</p>
+<h4 id="example-when-we-wait-for-a-loading-bar-to-disappear">Example when we wait for a loading bar to disappear</h4>
+<pre><code class="lang-c#">    public class UiLoadingExtension : IUiExtension
+    {
+        // A flag to temporary disable this extension 
+        private bool _isWaiting;
+        private readonly UiObject _loadingBar;
+
+        private UiLoadingExtension(IAndroidUiMapper device)
+        {
+            _loadingBar = device.MapUiObject(With.ResourceId(&quot;loadingId&quot;));
+        }
+
+        public bool CheckNodes(IList&lt;Node&gt; nodes)
+        {
+            if (nodes.Any(n =&gt; With.ResourceId(&quot;loadingId&quot;).NodeMatch(n, null)) &amp;&amp; !_isWaiting)
+            {
+                WaitForLoading();
+                // Reset the wait timer for the actual object we&#39;re looking for. 
+                return true;
+            }
+            return false; 
+        }
+
+        private void WaitForLoading()
+        {
+            _isWaiting = true;
+            _loadingBar.IsHidden(180);
+            _isWaiting = false;
+        }
+    }
+</code></pre><p>And then you add this to your device ui service</p>
+<pre><code class="lang-c#">var device = new AndroidDevice();
+device.Ui.Extensions.Add(new UiLoadingExtension());
+</code></pre><h3 id="record-screen">Record screen</h3>
+<pre><code class="lang-c#">
+var screenRecording = device.Adb.RecordScreen();
+.. Perform actions ...
+screenRecording.StopRecording(&quot;path/to/save&quot;);
 </code></pre><h2 id="page-object-helpers">Page object helpers</h2>
 <p>For more information about page object helpers, visit the wiki: <a href="https://github.com/Testura/Testura.Android/wiki/Page-Object">https://github.com/Testura/Testura.Android/wiki/Page-Object</a></p>
 <p>We also have a help tool to generate page objects: <a href="https://github.com/Testura/Testura.Android.PageObjectCreator">https://github.com/Testura/Testura.Android.PageObjectCreator</a></p>
@@ -163,7 +235,7 @@ var node = uiObject.Values();
 <h2 id="license">License</h2>
 <p>This project is licensed under the MIT License. See the <a href="LICENSE.md">LICENSE.md</a> file for details.</p>
 <h2 id="contact">Contact</h2>
-<p>Visit <a href="http://www.testura.net">www.testura.net</a>, twitter at @testuranet or email at mille.bostrom@testura.net</p>
+<p>Visit <a href="http://www.testura.net">www.testura.net</a>, twitter at @GameSpeedCoding</p>
 
             </article>
           </div>

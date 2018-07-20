@@ -110,18 +110,49 @@ to the console.</p>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public class ConsoleLogListener : ILogListener</code></pre>
               </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              
+              
+              <a id="Testura_Android_Util_Logging_ConsoleLogListener__ctor_" data-uid="Testura.Android.Util.Logging.ConsoleLogListener.#ctor*"></a>
+              <h4 id="Testura_Android_Util_Logging_ConsoleLogListener__ctor_Testura_Android_Util_Logging_DeviceLogger_LogLevel_" data-uid="Testura.Android.Util.Logging.ConsoleLogListener.#ctor(Testura.Android.Util.Logging.DeviceLogger.LogLevel)">ConsoleLogListener(DeviceLogger.LogLevel)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Android.Util.Logging.ConsoleLogListener.html">ConsoleLogListener</a> class.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ConsoleLogListener(DeviceLogger.LogLevel minLogLevel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Logging.DeviceLogger.LogLevel.html">DeviceLogger.LogLevel</a></td>
+                    <td><span class="parametername">minLogLevel</span></td>
+                    <td><p>Minimum log level</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
               <h3 id="methods">Methods
               </h3>
               
               
               <a id="Testura_Android_Util_Logging_ConsoleLogListener_Log_" data-uid="Testura.Android.Util.Logging.ConsoleLogListener.Log*"></a>
-              <h4 id="Testura_Android_Util_Logging_ConsoleLogListener_Log_System_String_System_String_System_String_" data-uid="Testura.Android.Util.Logging.ConsoleLogListener.Log(System.String,System.String,System.String)">Log(String, String, String)</h4>
+              <h4 id="Testura_Android_Util_Logging_ConsoleLogListener_Log_System_String_System_String_System_String_Testura_Android_Util_Logging_DeviceLogger_LogLevel_" data-uid="Testura.Android.Util.Logging.ConsoleLogListener.Log(System.String,System.String,System.String,Testura.Android.Util.Logging.DeviceLogger.LogLevel)">Log(String, String, String, DeviceLogger.LogLevel)</h4>
               <div class="markdown level1 summary"><p>Write log message to the console</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Log(string className, string memberName, string message)</code></pre>
+                <pre><code class="lang-csharp hljs">public void Log(string className, string memberName, string message, DeviceLogger.LogLevel logLevel)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -151,10 +182,16 @@ to the console.</p>
                     <td><p>Message from the calling class</p>
 </td>
                   </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Logging.DeviceLogger.LogLevel.html">DeviceLogger.LogLevel</a></td>
+                    <td><span class="parametername">logLevel</span></td>
+                    <td><p>The message log level</p>
+</td>
+                  </tr>
                 </tbody>
               </table>
               <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Android.Util.Logging.ILogListener.html#Testura_Android_Util_Logging_ILogListener_Log_System_String_System_String_System_String_">ILogListener.Log(String, String, String)</a></div>
+                  <div><a class="xref" href="Testura.Android.Util.Logging.ILogListener.html#Testura_Android_Util_Logging_ILogListener_Log_System_String_System_String_System_String_Testura_Android_Util_Logging_DeviceLogger_LogLevel_">ILogListener.Log(String, String, String, DeviceLogger.LogLevel)</a></div>
             </article>
           </div>
           

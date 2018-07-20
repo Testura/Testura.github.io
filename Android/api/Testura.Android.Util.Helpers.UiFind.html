@@ -114,13 +114,13 @@
               
               
               <a id="Testura_Android_Util_Helpers_UiFind_ClosestNode_" data-uid="Testura.Android.Util.Helpers.UiFind.ClosestNode*"></a>
-              <h4 id="Testura_Android_Util_Helpers_UiFind_ClosestNode_Testura_Android_Device_Ui_Search_With_Testura_Android_Device_Ui_Nodes_Data_Node_" data-uid="Testura.Android.Util.Helpers.UiFind.ClosestNode(Testura.Android.Device.Ui.Search.With,Testura.Android.Device.Ui.Nodes.Data.Node)">ClosestNode(With, Node)</h4>
-              <div class="markdown level1 summary"><p>Find the closest node(based on another node) that matches a specific with</p>
+              <h4 id="Testura_Android_Util_Helpers_UiFind_ClosestNode_Testura_Android_Device_Ui_Nodes_Data_Node_Testura_Android_Device_Ui_Search_Where___" data-uid="Testura.Android.Util.Helpers.UiFind.ClosestNode(Testura.Android.Device.Ui.Nodes.Data.Node,Testura.Android.Device.Ui.Search.Where[])">ClosestNode(Node, Where[])</h4>
+              <div class="markdown level1 summary"><p>Find the closest node(based on another node) that matches specific where(s)</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static Node ClosestNode(With with, Node startNode)</code></pre>
+                <pre><code class="lang-csharp hljs">public static Node ClosestNode(Node startNode, params Where[] wheres)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -133,15 +133,15 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.With.html">With</a></td>
-                    <td><span class="parametername">with</span></td>
-                    <td><p>With that the close node should match</p>
-</td>
-                  </tr>
-                  <tr>
                     <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
                     <td><span class="parametername">startNode</span></td>
                     <td><p>The start node and position where we should start to search</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.Where.html">Where</a>[]</td>
+                    <td><span class="parametername">wheres</span></td>
+                    <td><p>&quot;Where(s)&quot; that the close node should match</p>
 </td>
                   </tr>
                 </tbody>
@@ -162,7 +162,7 @@
                   </tr>
                 </tbody>
               </table>
-              <h5 id="Testura_Android_Util_Helpers_UiFind_ClosestNode_Testura_Android_Device_Ui_Search_With_Testura_Android_Device_Ui_Nodes_Data_Node__examples">Examples</h5>
+              <h5 id="Testura_Android_Util_Helpers_UiFind_ClosestNode_Testura_Android_Device_Ui_Nodes_Data_Node_Testura_Android_Device_Ui_Search_Where____examples">Examples</h5>
               This example show how to call the method with another node 
             </article>
           </div>

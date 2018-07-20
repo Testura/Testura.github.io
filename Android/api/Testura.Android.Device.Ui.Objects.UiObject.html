@@ -77,26 +77,10 @@
               <div class="inheritance">
                 <h5>Inheritance</h5>
                   <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><a class="xref" href="Testura.Android.Device.Ui.Objects.BaseUiObject.html">BaseUiObject</a></div>
-                  <div class="level2"><span class="xref">UiObject</span></div>
+                  <div class="level1"><span class="xref">UiObject</span></div>
               </div>
               <div class="inheritedMembers">
                 <h5>Inherited Members</h5>
-                <div>
-                  <a class="xref" href="Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_Device">BaseUiObject.Device</a>
-                </div>
-                <div>
-                  <a class="xref" href="Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsVisible_System_Int32_">BaseUiObject.IsVisible(Int32)</a>
-                </div>
-                <div>
-                  <a class="xref" href="Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsVisibleInCache">BaseUiObject.IsVisibleInCache()</a>
-                </div>
-                <div>
-                  <a class="xref" href="Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsHidden_System_Int32_">BaseUiObject.IsHidden(Int32)</a>
-                </div>
-                <div>
-                  <a class="xref" href="Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_IsHiddenInCache">BaseUiObject.IsHiddenInCache()</a>
-                </div>
                 <div>
                   <span class="xref">System.Object.ToString()</span>
                 </div>
@@ -123,20 +107,290 @@
               <h6><strong>Assembly</strong>:Testura.Android.dll</h6>
               <h5 id="Testura_Android_Device_Ui_Objects_UiObject_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class UiObject : BaseUiObject</code></pre>
+                <pre><code class="lang-csharp hljs">public class UiObject</code></pre>
               </div>
-              <h3 id="methods">Methods
+              <h3 id="properties">Properties
               </h3>
               
               
-              <a id="Testura_Android_Device_Ui_Objects_UiObject_InputText_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.InputText*"></a>
-              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_InputText_System_String_System_Int32_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.InputText(System.String,System.Int32)">InputText(String, Int32)</h4>
-              <div class="markdown level1 summary"><p>Input text into the node.</p>
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_Item_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Item*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_Item_System_String_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Item(System.String)">Item[String]</h4>
+              <div class="markdown level1 summary"><p>Get a new ui object but replace all wild cards with the provided wildcard value</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void InputText(string text, int timeout = 20)</code></pre>
+                <pre><code class="lang-csharp hljs">public UiObject this[string wildcard] { get; }</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">wildcard</span></td>
+                    <td><p>Wild card value</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Objects.UiObject.html">UiObject</a></td>
+                    <td><p>A new ui object but with the provided wildcard value</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="Testura_Android_Device_Ui_Objects_UiObject_Item_System_String__examples">Examples</h5>
+              
+<pre><code>var someObject = device.MapUiObject(Where.Text($"A value with {Where.Wildcard}"));
+var someObjectWithWildcardValue = someObject["MyWildcardValue"]; //Will now have a Where.text with "A value with MyWildcardValue"</code></pre>
+
+              <h3 id="methods">Methods
+              </h3>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_All_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.All*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_All" data-uid="Testura.Android.Device.Ui.Objects.UiObject.All">All()</h4>
+              <div class="markdown level1 summary"><p>Get all nodes that match the provided mapping.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public List&lt;Node&gt; All()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>&gt;</td>
+                    <td><p>All nodes that match the provided mapping.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_All_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.All*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_All_System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.All(System.TimeSpan)">All(TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Get all nodes that match the provided mapping.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public List&lt;Node&gt; All(TimeSpan timeout)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td><span class="parametername">timeout</span></td>
+                    <td><p>How long we should wait before we stop looking for a node</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>&gt;</td>
+                    <td><p>A node object with all values of this node.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_FindClosestNode_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.FindClosestNode*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_FindClosestNode_Testura_Android_Device_Ui_Search_Where___" data-uid="Testura.Android.Device.Ui.Objects.UiObject.FindClosestNode(Testura.Android.Device.Ui.Search.Where[])">FindClosestNode(Where[])</h4>
+              <div class="markdown level1 summary"><p>Find the closest node(based on the first node that match the provided mapping) that matches specific where(s)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Node FindClosestNode(params Where[] wheres)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.Where.html">Where</a>[]</td>
+                    <td><span class="parametername">wheres</span></td>
+                    <td><p>&quot;Where(s)&quot; that the close node should match</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
+                    <td><p>The closest node, null if we can&#39;t find a matching node</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_First_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.First*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_First" data-uid="Testura.Android.Device.Ui.Objects.UiObject.First">First()</h4>
+              <div class="markdown level1 summary"><p>Get first node that match the provided mapping.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Node First()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
+                    <td><p>The first node that match the provided mapping</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_First_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.First*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_First_System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.First(System.TimeSpan)">First(TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Get first node that match the provided mapping.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Node First(TimeSpan timeout)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td><span class="parametername">timeout</span></td>
+                    <td><p>How long we should wait before we stop looking for a node</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
+                    <td><p>The first node that match the provided mapping</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_InputText_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.InputText*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_InputText_System_String_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.InputText(System.String)">InputText(String)</h4>
+              <div class="markdown level1 summary"><p>Input text into the node that match the provided mapping.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void InputText(string text)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">text</span></td>
+                    <td><p>The text to input into the nod.e</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_InputText_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.InputText*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_InputText_System_String_System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.InputText(System.String,System.TimeSpan)">InputText(String, TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Input text into the the first node that match the provided mapping.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void InputText(string text, TimeSpan timeout)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -155,9 +409,153 @@
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="xref">System.TimeSpan</span></td>
                     <td><span class="parametername">timeout</span></td>
-                    <td><p>Timeout in second.</p>
+                    <td><p>Timeout</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_IsHidden_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsHidden*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_IsHidden" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsHidden">IsHidden()</h4>
+              <div class="markdown level1 summary"><p>Wait for the node(s) to be hidden.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsHidden()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><code>true</code> if object is hidden, otherwise <code>false</code></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_IsHidden_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsHidden*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_IsHidden_System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsHidden(System.TimeSpan)">IsHidden(TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Wait for the node(s) to be hidden.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsHidden(TimeSpan timeout)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td><span class="parametername">timeout</span></td>
+                    <td><p>Timeout</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><code>true</code> if object is hidden, otherwise <code>false</code></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_IsVisible_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsVisible*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_IsVisible" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsVisible">IsVisible()</h4>
+              <div class="markdown level1 summary"><p>Wait for the node(s) to be visible.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsVisible()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><code>true</code> if object is visible, otherwise <code>false</code>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_IsVisible_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsVisible*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_IsVisible_System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.IsVisible(System.TimeSpan)">IsVisible(TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Wait for the node(s) to be visible.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsVisible(TimeSpan timeout)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td><span class="parametername">timeout</span></td>
+                    <td><p>Timeout</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><code>true</code> if object is visible, otherwise <code>false</code>.</p>
 </td>
                   </tr>
                 </tbody>
@@ -165,13 +563,24 @@
               
               
               <a id="Testura_Android_Device_Ui_Objects_UiObject_Tap_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Tap*"></a>
-              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_Tap_System_Int32_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Tap(System.Int32)">Tap(Int32)</h4>
-              <div class="markdown level1 summary"><p>Tap in the center of a node.</p>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_Tap" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Tap">Tap()</h4>
+              <div class="markdown level1 summary"><p>Tap in the center of the first node that match the provided mapping.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Tap(int timeout = 20)</code></pre>
+                <pre><code class="lang-csharp hljs">public void Tap()</code></pre>
+              </div>
+              
+              
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_Tap_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Tap*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_Tap_System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Tap(System.TimeSpan)">Tap(TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Tap in the center of the first node that match the provided mapping.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Tap(TimeSpan timeout)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -184,9 +593,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="xref">System.TimeSpan</span></td>
                     <td><span class="parametername">timeout</span></td>
-                    <td><p>Timeout in seconds.</p>
+                    <td><p>Timeout</p>
 </td>
                   </tr>
                 </tbody>
@@ -194,13 +603,13 @@
               
               
               <a id="Testura_Android_Device_Ui_Objects_UiObject_TryFindNode_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.TryFindNode*"></a>
-              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_TryFindNode_System_Int32_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.TryFindNode(System.Int32)">TryFindNode(Int32)</h4>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_TryFindNode_System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.TryFindNode(System.TimeSpan)">TryFindNode(TimeSpan)</h4>
               <div class="markdown level1 summary"><p>Find node(s) on the screen.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected override IList&lt;Node&gt; TryFindNode(int timeout)</code></pre>
+                <pre><code class="lang-csharp hljs">protected IList&lt;Node&gt; TryFindNode(TimeSpan timeout)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -213,7 +622,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="xref">System.TimeSpan</span></td>
                     <td><span class="parametername">timeout</span></td>
                     <td><p>Timeout in seconds</p>
 </td>
@@ -236,18 +645,16 @@
                   </tr>
                 </tbody>
               </table>
-              <h5 class="overrides">Overrides</h5>
-              <div><a class="xref" href="Testura.Android.Device.Ui.Objects.BaseUiObject.html#Testura_Android_Device_Ui_Objects_BaseUiObject_TryFindNode_System_Int32_">BaseUiObject.TryFindNode(Int32)</a></div>
               
               
-              <a id="Testura_Android_Device_Ui_Objects_UiObject_WaitForValue_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.WaitForValue*"></a>
-              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_WaitForValue_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__System_Int32_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.WaitForValue(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.Int32)">WaitForValue(Func&lt;Node, Boolean&gt;, Int32)</h4>
-              <div class="markdown level1 summary"><p>Wait for node values to match.</p>
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_WaitUntil_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.WaitUntil*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_WaitUntil_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__" data-uid="Testura.Android.Device.Ui.Objects.UiObject.WaitUntil(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean})">WaitUntil(Func&lt;Node, Boolean&gt;)</h4>
+              <div class="markdown level1 summary"><p>Get the first node that match the provided mapping and wait until it match all expected values.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool WaitForValue(Func&lt;Node, bool&gt; expectedValues, int timeout = 20)</code></pre>
+                <pre><code class="lang-csharp hljs">public bool WaitUntil(Func&lt;Node, bool&gt; expectedValues)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -263,12 +670,6 @@
                     <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>, <span class="xref">System.Boolean</span>&gt;</td>
                     <td><span class="parametername">expectedValues</span></td>
                     <td><p>Expected values on the node.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><span class="parametername">timeout</span></td>
-                    <td><p>Timeout in seconds.</p>
 </td>
                   </tr>
                 </tbody>
@@ -291,14 +692,14 @@
               </table>
               
               
-              <a id="Testura_Android_Device_Ui_Objects_UiObject_Values_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Values*"></a>
-              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_Values_System_Int32_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.Values(System.Int32)">Values(Int32)</h4>
-              <div class="markdown level1 summary"><p>Get the node values.</p>
+              <a id="Testura_Android_Device_Ui_Objects_UiObject_WaitUntil_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.WaitUntil*"></a>
+              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_WaitUntil_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__System_TimeSpan_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.WaitUntil(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.TimeSpan)">WaitUntil(Func&lt;Node, Boolean&gt;, TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Get the first node that match the provided mapping and wait until it match all expected values.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Node Values(int timeout = 2)</code></pre>
+                <pre><code class="lang-csharp hljs">public bool WaitUntil(Func&lt;Node, bool&gt; expectedValues, TimeSpan timeout)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -311,9 +712,15 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="parametername">expectedValues</span></td>
+                    <td><p>Expected values on the node.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
                     <td><span class="parametername">timeout</span></td>
-                    <td><p>Timeout in seconds.</p>
+                    <td><p>Timeout</p>
 </td>
                   </tr>
                 </tbody>
@@ -328,35 +735,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
-                    <td><p>A node object with all values of this node.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="Testura_Android_Device_Ui_Objects_UiObject_ValuesFromCache_" data-uid="Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache*"></a>
-              <h4 id="Testura_Android_Device_Ui_Objects_UiObject_ValuesFromCache" data-uid="Testura.Android.Device.Ui.Objects.UiObject.ValuesFromCache">ValuesFromCache()</h4>
-              <div class="markdown level1 summary"><p>Get the node values from the latest cached dump.</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Node ValuesFromCache()</code></pre>
-              </div>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a></td>
-                    <td><p>A node object with all values of this node.</p>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True if node values match before timeout, otherwise false.</p>
 </td>
                   </tr>
                 </tbody>

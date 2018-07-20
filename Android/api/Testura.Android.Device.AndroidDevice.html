@@ -107,7 +107,7 @@
               <h6><strong>Assembly</strong>:Testura.Android.dll</h6>
               <h5 id="Testura_Android_Device_AndroidDevice_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class AndroidDevice : IAndroidDevice</code></pre>
+                <pre><code class="lang-csharp hljs">public class AndroidDevice : IAndroidDevice, IAdbCommandExecutorProvider, IAndroidServiceProvider, IAndroidUiMapper</code></pre>
               </div>
               <h3 id="constructors">Constructors
               </h3>
@@ -151,16 +151,208 @@
                   </tr>
                 </tbody>
               </table>
+              <h3 id="properties">Properties
+              </h3>
               
               
-              <a id="Testura_Android_Device_AndroidDevice__ctor_" data-uid="Testura.Android.Device.AndroidDevice.#ctor*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice__ctor_Testura_Android_Device_Configurations_DeviceConfiguration_Testura_Android_Device_Services_IAdbService_Testura_Android_Device_Services_IUiService_Testura_Android_Device_Services_ISettingsService_Testura_Android_Device_Services_IActivityService_Testura_Android_Device_Services_IInteractionService_" data-uid="Testura.Android.Device.AndroidDevice.#ctor(Testura.Android.Device.Configurations.DeviceConfiguration,Testura.Android.Device.Services.IAdbService,Testura.Android.Device.Services.IUiService,Testura.Android.Device.Services.ISettingsService,Testura.Android.Device.Services.IActivityService,Testura.Android.Device.Services.IInteractionService)">AndroidDevice(DeviceConfiguration, IAdbService, IUiService, ISettingsService, IActivityService, IInteractionService)</h4>
-              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Android.Device.AndroidDevice.html">AndroidDevice</a> class.</p>
-</div>
+              <a id="Testura_Android_Device_AndroidDevice_Activity_" data-uid="Testura.Android.Device.AndroidDevice.Activity*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_Activity" data-uid="Testura.Android.Device.AndroidDevice.Activity">Activity</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public AndroidDevice(DeviceConfiguration configuration, IAdbService adbService, IUiService uiService, ISettingsService settingsService, IActivityService activityService, IInteractionService interactionService)</code></pre>
+                <pre><code class="lang-csharp hljs">public ActivityService Activity { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.Activity.ActivityService.html">ActivityService</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidServiceProvider.html#Testura_Android_Device_IAndroidServiceProvider_Activity">IAndroidServiceProvider.Activity</a></div>
+              
+              
+              <a id="Testura_Android_Device_AndroidDevice_Adb_" data-uid="Testura.Android.Device.AndroidDevice.Adb*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_Adb" data-uid="Testura.Android.Device.AndroidDevice.Adb">Adb</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public AdbService Adb { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.Adb.AdbService.html">AdbService</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidServiceProvider.html#Testura_Android_Device_IAndroidServiceProvider_Adb">IAndroidServiceProvider.Adb</a></div>
+              
+              
+              <a id="Testura_Android_Device_AndroidDevice_Interaction_" data-uid="Testura.Android.Device.AndroidDevice.Interaction*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_Interaction" data-uid="Testura.Android.Device.AndroidDevice.Interaction">Interaction</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public InteractionService Interaction { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.InteractionService.html">InteractionService</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidServiceProvider.html#Testura_Android_Device_IAndroidServiceProvider_Interaction">IAndroidServiceProvider.Interaction</a></div>
+              
+              
+              <a id="Testura_Android_Device_AndroidDevice_Serial_" data-uid="Testura.Android.Device.AndroidDevice.Serial*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_Serial" data-uid="Testura.Android.Device.AndroidDevice.Serial">Serial</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Serial { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_Serial">IAndroidDevice.Serial</a></div>
+              
+              
+              <a id="Testura_Android_Device_AndroidDevice_Settings_" data-uid="Testura.Android.Device.AndroidDevice.Settings*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_Settings" data-uid="Testura.Android.Device.AndroidDevice.Settings">Settings</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public SettingsService Settings { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.SettingsService.html">SettingsService</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidServiceProvider.html#Testura_Android_Device_IAndroidServiceProvider_Settings">IAndroidServiceProvider.Settings</a></div>
+              
+              
+              <a id="Testura_Android_Device_AndroidDevice_Ui_" data-uid="Testura.Android.Device.AndroidDevice.Ui*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_Ui" data-uid="Testura.Android.Device.AndroidDevice.Ui">Ui</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public UiService Ui { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Services.Ui.UiService.html">UiService</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidServiceProvider.html#Testura_Android_Device_IAndroidServiceProvider_Ui">IAndroidServiceProvider.Ui</a></div>
+              <h3 id="methods">Methods
+              </h3>
+              
+              
+              <a id="Testura_Android_Device_AndroidDevice_GetAdbCommandExecutor_" data-uid="Testura.Android.Device.AndroidDevice.GetAdbCommandExecutor*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_GetAdbCommandExecutor" data-uid="Testura.Android.Device.AndroidDevice.GetAdbCommandExecutor">GetAdbCommandExecutor()</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public AdbCommandExecutor GetAdbCommandExecutor()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.AdbCommandExecutor.html">AdbCommandExecutor</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.IAdbCommandExecutorProvider.html#Testura_Android_Device_IAdbCommandExecutorProvider_GetAdbCommandExecutor">IAdbCommandExecutorProvider.GetAdbCommandExecutor()</a></div>
+              
+              
+              <a id="Testura_Android_Device_AndroidDevice_MapUiObject_" data-uid="Testura.Android.Device.AndroidDevice.MapUiObject*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_MapUiObject_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__System_String_" data-uid="Testura.Android.Device.AndroidDevice.MapUiObject(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.Boolean},System.String)">MapUiObject(Func&lt;Node, Boolean&gt;, String)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public virtual UiObject MapUiObject(Func&lt;Node, bool&gt; expression, string customErrorMessage = null)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -173,57 +365,18 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Configurations.DeviceConfiguration.html">DeviceConfiguration</a></td>
-                    <td><span class="parametername">configuration</span></td>
-                    <td><p>Device Configuration</p>
-</td>
+                    <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="parametername">expression</span></td>
+                    <td></td>
                   </tr>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IAdbService.html">IAdbService</a></td>
-                    <td><span class="parametername">adbService</span></td>
-                    <td><p>Service to handle communication with adb</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IUiService.html">IUiService</a></td>
-                    <td><span class="parametername">uiService</span></td>
-                    <td><p>Service to handle UI</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.ISettingsService.html">ISettingsService</a></td>
-                    <td><span class="parametername">settingsService</span></td>
-                    <td><p>Service to handle settings</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IActivityService.html">IActivityService</a></td>
-                    <td><span class="parametername">activityService</span></td>
-                    <td><p>Service to handle activities</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IInteractionService.html">IInteractionService</a></td>
-                    <td><span class="parametername">interactionService</span></td>
-                    <td><p>Service to handle interaction with the device</p>
-</td>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">customErrorMessage</span></td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
-              <h3 id="properties">Properties
-              </h3>
-              
-              
-              <a id="Testura_Android_Device_AndroidDevice_Activity_" data-uid="Testura.Android.Device.AndroidDevice.Activity*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice_Activity" data-uid="Testura.Android.Device.AndroidDevice.Activity">Activity</h4>
-              <div class="markdown level1 summary"><p>Gets the activity service of an android device.</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public IActivityService Activity { get; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -233,25 +386,46 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IActivityService.html">IActivityService</a></td>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Objects.UiObject.html">UiObject</a></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_Activity">IAndroidDevice.Activity</a></div>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidUiMapper.html#Testura_Android_Device_IAndroidUiMapper_MapUiObject_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_Boolean__System_String_">IAndroidUiMapper.MapUiObject(Func&lt;Node, Boolean&gt;, String)</a></div>
               
               
-              <a id="Testura_Android_Device_AndroidDevice_Adb_" data-uid="Testura.Android.Device.AndroidDevice.Adb*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice_Adb" data-uid="Testura.Android.Device.AndroidDevice.Adb">Adb</h4>
-              <div class="markdown level1 summary"><p>Gets the adb service of an android device.</p>
-</div>
+              <a id="Testura_Android_Device_AndroidDevice_MapUiObject_" data-uid="Testura.Android.Device.AndroidDevice.MapUiObject*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_MapUiObject_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_String_System_Boolean__System_String_" data-uid="Testura.Android.Device.AndroidDevice.MapUiObject(System.Func{Testura.Android.Device.Ui.Nodes.Data.Node,System.String,System.Boolean},System.String)">MapUiObject(Func&lt;Node, String, Boolean&gt;, String)</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public IAdbService Adb { get; }</code></pre>
+                <pre><code class="lang-csharp hljs">public virtual UiObject MapUiObject(Func&lt;Node, string, bool&gt; expression, string customErrorMessage = null)</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Testura.Android.Device.Ui.Nodes.Data.Node.html">Node</a>, <span class="xref">System.String</span>, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="parametername">expression</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">customErrorMessage</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -261,25 +435,41 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IAdbService.html">IAdbService</a></td>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Objects.UiObject.html">UiObject</a></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_Adb">IAndroidDevice.Adb</a></div>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidUiMapper.html#Testura_Android_Device_IAndroidUiMapper_MapUiObject_System_Func_Testura_Android_Device_Ui_Nodes_Data_Node_System_String_System_Boolean__System_String_">IAndroidUiMapper.MapUiObject(Func&lt;Node, String, Boolean&gt;, String)</a></div>
               
               
-              <a id="Testura_Android_Device_AndroidDevice_Configuration_" data-uid="Testura.Android.Device.AndroidDevice.Configuration*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice_Configuration" data-uid="Testura.Android.Device.AndroidDevice.Configuration">Configuration</h4>
-              <div class="markdown level1 summary"><p>Gets the current device Configuration.</p>
-</div>
+              <a id="Testura_Android_Device_AndroidDevice_MapUiObject_" data-uid="Testura.Android.Device.AndroidDevice.MapUiObject*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_MapUiObject_Testura_Android_Device_Ui_Search_Where___" data-uid="Testura.Android.Device.AndroidDevice.MapUiObject(Testura.Android.Device.Ui.Search.Where[])">MapUiObject(Where[])</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public DeviceConfiguration Configuration { get; }</code></pre>
+                <pre><code class="lang-csharp hljs">public UiObject MapUiObject(params Where[] wheres)</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Search.Where.html">Where</a>[]</td>
+                    <td><span class="parametername">wheres</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -289,97 +479,37 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Configurations.DeviceConfiguration.html">DeviceConfiguration</a></td>
+                    <td><a class="xref" href="Testura.Android.Device.Ui.Objects.UiObject.html">UiObject</a></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_Configuration">IAndroidDevice.Configuration</a></div>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidUiMapper.html#Testura_Android_Device_IAndroidUiMapper_MapUiObject_Testura_Android_Device_Ui_Search_Where___">IAndroidUiMapper.MapUiObject(Where[])</a></div>
               
               
-              <a id="Testura_Android_Device_AndroidDevice_Interaction_" data-uid="Testura.Android.Device.AndroidDevice.Interaction*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice_Interaction" data-uid="Testura.Android.Device.AndroidDevice.Interaction">Interaction</h4>
-              <div class="markdown level1 summary"><p>Gets the interaction service of an android device.</p>
-</div>
+              <a id="Testura_Android_Device_AndroidDevice_StartServer_" data-uid="Testura.Android.Device.AndroidDevice.StartServer*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_StartServer" data-uid="Testura.Android.Device.AndroidDevice.StartServer">StartServer()</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public IInteractionService Interaction { get; }</code></pre>
+                <pre><code class="lang-csharp hljs">public void StartServer()</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IInteractionService.html">IInteractionService</a></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
               <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_Interaction">IAndroidDevice.Interaction</a></div>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_StartServer">IAndroidDevice.StartServer()</a></div>
               
               
-              <a id="Testura_Android_Device_AndroidDevice_Settings_" data-uid="Testura.Android.Device.AndroidDevice.Settings*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice_Settings" data-uid="Testura.Android.Device.AndroidDevice.Settings">Settings</h4>
-              <div class="markdown level1 summary"><p>Gets the settings service of an android device.</p>
-</div>
+              <a id="Testura_Android_Device_AndroidDevice_StopServer_" data-uid="Testura.Android.Device.AndroidDevice.StopServer*"></a>
+              <h4 id="Testura_Android_Device_AndroidDevice_StopServer" data-uid="Testura.Android.Device.AndroidDevice.StopServer">StopServer()</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public ISettingsService Settings { get; }</code></pre>
+                <pre><code class="lang-csharp hljs">public void StopServer()</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.ISettingsService.html">ISettingsService</a></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
               <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_Settings">IAndroidDevice.Settings</a></div>
-              
-              
-              <a id="Testura_Android_Device_AndroidDevice_Ui_" data-uid="Testura.Android.Device.AndroidDevice.Ui*"></a>
-              <h4 id="Testura_Android_Device_AndroidDevice_Ui" data-uid="Testura.Android.Device.AndroidDevice.Ui">Ui</h4>
-              <div class="markdown level1 summary"><p>Gets the ui service of an android device.</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public IUiService Ui { get; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Testura.Android.Device.Services.IUiService.html">IUiService</a></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_Ui">IAndroidDevice.Ui</a></div>
+                  <div><a class="xref" href="Testura.Android.Device.IAndroidDevice.html#Testura_Android_Device_IAndroidDevice_StopServer">IAndroidDevice.StopServer()</a></div>
             </article>
           </div>
           

@@ -1,0 +1,618 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AdbService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AdbService
+   ">
+    <meta name="generator" content="docfx 2.10.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Testura_Android_Device_Services_Adb_AdbService" data-uid="Testura.Android.Device.Services.Adb.AdbService">Class AdbService
+              </h1>
+              <div class="markdown level0 summary"><p>Provides functionality to interact with adb on an android device.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">AdbService</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Testura.Android.Device.Services.Adb</h6>
+              <h6><strong>Assembly</strong>:Testura.Android.dll</h6>
+              <h5 id="Testura_Android_Device_Services_Adb_AdbService_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class AdbService : IAdbShellService, IAdbInstallService</code></pre>
+              </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService__ctor_" data-uid="Testura.Android.Device.Services.Adb.AdbService.#ctor*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService__ctor_Testura_Android_Util_AdbCommandExecutor_" data-uid="Testura.Android.Device.Services.Adb.AdbService.#ctor(Testura.Android.Util.AdbCommandExecutor)">AdbService(AdbCommandExecutor)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Testura.Android.Device.Services.Adb.AdbService.html">AdbService</a> class.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public AdbService(AdbCommandExecutor adbCommandExecutor)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.AdbCommandExecutor.html">AdbCommandExecutor</a></td>
+                    <td><span class="parametername">adbCommandExecutor</span></td>
+                    <td><p>Object to interact with terminal</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_DumpLogcat_" data-uid="Testura.Android.Device.Services.Adb.AdbService.DumpLogcat*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_DumpLogcat_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.DumpLogcat(System.String)">DumpLogcat(String)</h4>
+              <div class="markdown level1 summary"><p>Dump logcat to a local file</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void DumpLogcat(string localPath)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">localPath</span></td>
+                    <td><p>Path to destination on local computer</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_Execute_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Execute*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_Execute_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Execute(System.String)">Execute(String)</h4>
+              <div class="markdown level1 summary"><p>Issue an adb command in the target emulator/device instance</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Execute(string command)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">command</span></td>
+                    <td><p>Command to execute</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>The result from executing the command</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_Execute_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Execute*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_Execute_System_String___" data-uid="Testura.Android.Device.Services.Adb.AdbService.Execute(System.String[])">Execute(String[])</h4>
+              <div class="markdown level1 summary"><p>Issue an adb command in the target emulator/device instance</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Execute(string[] commands)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td><span class="parametername">commands</span></td>
+                    <td><p>Commands to execute</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>The result from executing the command</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_InstallApp_" data-uid="Testura.Android.Device.Services.Adb.AdbService.InstallApp*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_InstallApp_System_String_System_Boolean_System_Boolean_" data-uid="Testura.Android.Device.Services.Adb.AdbService.InstallApp(System.String,System.Boolean,System.Boolean)">InstallApp(String, Boolean, Boolean)</h4>
+              <div class="markdown level1 summary"><p>Pushes an Android application (specified as a full path to an APK file) to an emulator/device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void InstallApp(string path, bool shouldReinstall = true, bool shouldUsePm = false)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">path</span></td>
+                    <td><p>Full path to apk</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">shouldReinstall</span></td>
+                    <td><p>True if we should use the reinstall flag </p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">shouldUsePm</span></td>
+                    <td><p>True if we should use the package manager flag</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.Services.Adb.IAdbInstallService.html#Testura_Android_Device_Services_Adb_IAdbInstallService_InstallApp_System_String_System_Boolean_System_Boolean_">IAdbInstallService.InstallApp(String, Boolean, Boolean)</a></div>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_Pull_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Pull*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_Pull_System_String_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Pull(System.String,System.String)">Pull(String, String)</h4>
+              <div class="markdown level1 summary"><p>Copies a specified file from an emulator/device instance to your development computer.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Pull(string remotePath, string localPath)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">remotePath</span></td>
+                    <td><p>Path to file on device/emulator</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">localPath</span></td>
+                    <td><p>Path to destination on local computer</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Exceptions.AdbException.html">AdbException</a></td>
+                    <td><p>Thrown when fail to pull file</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_Push_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Push*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_Push_System_String_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Push(System.String,System.String)">Push(String, String)</h4>
+              <div class="markdown level1 summary"><p>Copies a specified file from your development computer to an emulator/device instance.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Push(string localPath, string remotePath)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">localPath</span></td>
+                    <td><p>Path to local file</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">remotePath</span></td>
+                    <td><p>Path to destination on device/emulator</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Exceptions.AdbException.html">AdbException</a></td>
+                    <td><p>Thrown when fail to push file</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_RecordScreen_" data-uid="Testura.Android.Device.Services.Adb.AdbService.RecordScreen*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_RecordScreen_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.RecordScreen(System.String)">RecordScreen(String)</h4>
+              <div class="markdown level1 summary"><p>Recording the display of device with 3 min time limit.</p>
+<p>Will terminate any ongoing recordings.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ScreenRecorderTask RecordScreen(string temporaryDeviceDirectory = &quot;/sdcard/&quot;)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">temporaryDeviceDirectory</span></td>
+                    <td><p>Path to directory on device to temporary store the recording file before pulling.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Recording.ScreenRecorderTask.html">ScreenRecorderTask</a></td>
+                    <td><p>The created screen recorder task (later used to stop the recording)</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_RecordScreen_" data-uid="Testura.Android.Device.Services.Adb.AdbService.RecordScreen*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_RecordScreen_Testura_Android_Util_Recording_ScreenRecordConfiguration_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.RecordScreen(Testura.Android.Util.Recording.ScreenRecordConfiguration,System.String)">RecordScreen(ScreenRecordConfiguration, String)</h4>
+              <div class="markdown level1 summary"><p>Recording the display of device
+Will terminate any ongoing recordings.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ScreenRecorderTask RecordScreen(ScreenRecordConfiguration configuration, string temporaryDeviceDirectory = &quot;/sdcard/&quot;)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Recording.ScreenRecordConfiguration.html">ScreenRecordConfiguration</a></td>
+                    <td><span class="parametername">configuration</span></td>
+                    <td><p>Screen recording configuration (time limit, bit rate and size)</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">temporaryDeviceDirectory</span></td>
+                    <td><p>Path to directory on device to temporary store the recording file before pulling.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Testura.Android.Util.Recording.ScreenRecorderTask.html">ScreenRecorderTask</a></td>
+                    <td><p>The created screen recorder task (later used to stop the recording)</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_Screencap_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Screencap*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_Screencap_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Screencap(System.String)">Screencap(String)</h4>
+              <div class="markdown level1 summary"><p>Take a screenshot of device display</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Screencap(string localPath)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">localPath</span></td>
+                    <td><p>Save path for file</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="Testura_Android_Device_Services_Adb_AdbService_Shell_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Shell*"></a>
+              <h4 id="Testura_Android_Device_Services_Adb_AdbService_Shell_System_String_" data-uid="Testura.Android.Device.Services.Adb.AdbService.Shell(System.String)">Shell(String)</h4>
+              <div class="markdown level1 summary"><p>Issues a shell command in the target emulator/device instance and then exits the remote shell</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Shell(string command)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">command</span></td>
+                    <td><p>Command to execute</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>The result from executing the command</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Testura.Android.Device.Services.Adb.IAdbShellService.html#Testura_Android_Device_Services_Adb_IAdbShellService_Shell_System_String_">IAdbShellService.Shell(String)</a></div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
